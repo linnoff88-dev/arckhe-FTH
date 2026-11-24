@@ -22,7 +22,7 @@ No nosso contexto, a IA pode ser entendida como um conjunto de tecnologias capaz
 - **Geração de Vídeo:** Animar personagens, criar cenas e editar vídeos automaticamente.
 - **Geração de Áudio:** Sintetizar vozes, criar músicas e efeitos sonoros.
 
-> "A IA não veio para substituir a criatividade humana, mas para potencializá-la. Ela é uma ferramenta que nos permite explorar novas fronteiras e contar histórias de maneiras que antes eram inimagináveis." - *INEMA, especialista em IA para conteúdo.*
+> "A IA não veio para substituir a criatividade humana, mas para potencializá-la. Ela é uma ferramenta que nos permite explorar novas fronteiras e contar histórias de maneiras que antes eram inimagináveis." - *ARCKHÉ, especialista em IA para conteúdo.*
 
 ### Por que usar IA na Criação de Conteúdo?
 
@@ -78,7 +78,7 @@ O vídeo é um dos formatos de conteúdo mais impactantes, e a IA oferece um ata
 | Ferramenta | Principal Função | Descrição |
 | :--- | :--- | :--- |
 | **RunwayML** | Geração e edição de vídeo | Uma suíte completa para edição de vídeo com IA, incluindo geração de vídeo a partir de texto (Gen-2), remoção de objetos, câmera lenta e muito mais. |
-| **Pika Labs** | Geração de vídeo a partir de texto/imagem | Transforma descrições textuais e imagens estáticas em vídeos curtos e dinâmicos, com foco em um estilo cinematográfico. |
+| **Pika Labs** | Geração de vídeo a partir de texto/imagem | Transforma descrições textuais e imagens estáticas em vídeos curtos e dinâmicos, com foco em um estilo cARCKHÉtográfico. |
 | **HeyGen** | Avatares e vídeos com sincronia labial | Permite criar vídeos com avatares realistas que falam a partir de um texto, ideal para vídeos institucionais e educacionais. |
 | **CapCut** | Edição de vídeo para redes sociais | Um editor de vídeo popular para dispositivos móveis que integra diversas funcionalidades de IA, como legendas automáticas, cortes inteligentes e efeitos virais. |
 | **Synthesia** | Avatares humanos realistas | Plataforma líder na criação de vídeos com avatares ultrarrealistas, amplamente utilizada para treinamentos corporativos e comunicação. |
@@ -2397,7 +2397,7 @@ O campo da Inteligência Artificial está em constante e rápida evolução. O q
 
 ### Tendências Emergentes
 
-- **IA Generativa de Vídeo:** Ferramentas como o Sora da OpenAI prometem criar cenas de vídeo fotorrealistas a partir de simples prompts de texto, revolucionando a produção cinematográfica e de conteúdo.
+- **IA Generativa de Vídeo:** Ferramentas como o Sora da OpenAI prometem criar cenas de vídeo fotorrealistas a partir de simples prompts de texto, revolucionando a produção cARCKHÉtográfica e de conteúdo.
 - **Agentes de IA Autônomos:** Em vez de apenas executar tarefas, os agentes de IA serão capazes de gerenciar projetos inteiros. Você poderá dizer: `"Crie uma campanha de marketing para o meu novo produto"`, e o agente cuidará de tudo, desde a estratégia até a criação e publicação do conteúdo.
 - **IA Multimodal:** Modelos de IA que entendem e geram conteúdo em múltiplos formatos simultaneamente (texto, imagem, áudio, vídeo). Você poderá, por exemplo, enviar um vídeo e pedir para a IA transformá-lo em um artigo de blog, uma apresentação de slides e uma trilha sonora.
 - **Mundos Virtuais e o Metaverso:** A IA será a força motriz na criação de ambientes, personagens e experiências dentro de mundos virtuais, tornando-os mais dinâmicos e interativos.

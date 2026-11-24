@@ -1180,6 +1180,6 @@ Ao concluir todos os módulos e o projeto final, você receberá:
 
 ---
 
-**Dúvidas?** Participe da [comunidade FTH no Discord](https://discord.gg/fth-brasil) ou abra uma issue no [GitHub](https://github.com/inematds/FTH/issues).
+**Dúvidas?** Participe da [comunidade FTH no Discord](https://discord.gg/fth-brasil) ou abra uma issue no [GitHub](https://github.com/linnoff88-dev/FTH/issues).
 
 **Última atualização:** 2025-10-29

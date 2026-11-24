@@ -1,4 +1,4 @@
-﻿# FTH - FormaÃ§Ã£o TecnolÃ³gica em Humanoides
+# FTH - FormaÃ§Ã£o TecnolÃ³gica em Humanoides
 
 <div align="center">
   <img src="capa/logo.svg" alt="Arckhé AI" height="48" />
@@ -18,10 +18,10 @@ O **FTH** democratiza o acesso ao conhecimento em robÃ³tica humanoide e IA atr
 
 ### Links Importantes
 
-- ðŸŒ **Site:** [https://inematds.github.io/FTH](https://inematds.github.io/FTH)
+- ðŸŒ **Site:** [https://linnoff88-dev.github.io/
 - ðŸ“– **DocumentaÃ§Ã£o Completa:** [PRD](docs/prd.md)
 - ðŸ’¬ **Comunidade:** [Discord FTH](https://discord.gg/fth-brasil)
-- ðŸ“§ **Contato:** inematds@gmail.com
+- ðŸ“§ **Contato:** linnoff88-dev@gmail.com
 
 ---
 
@@ -77,7 +77,7 @@ AlÃ©m dos nÃ­veis tÃ©cnicos, escolha sua trilha de aplicaÃ§Ã£o:
 
 ## ðŸš€ Como ComeÃ§ar
 
-1. Acesse o site: [https://inematds.github.io/FTH](https://inematds.github.io/FTH)
+1. Acesse o site: [https://linnoff88-dev.github.io/
 2. Navegue atÃ© "NÃ­veis"
 3. Comece pelo **NÃ­vel 1 - Gratuito**
 4. Junte-se ao [Discord](https://discord.gg/fth-brasil) para tirar dÃºvidas
@@ -96,7 +96,7 @@ AlÃ©m dos nÃ­veis tÃ©cnicos, escolha sua trilha de aplicaÃ§Ã£o:
 
 ```bash
 # Clone o repositÃ³rio
-git clone https://github.com/inematds/FTH.git
+git clone https://github.com/linnoff88-dev/FTH.git
 cd FTH
 
 # Instale as dependÃªncias
@@ -176,8 +176,8 @@ Este projeto Ã© licenciado sob a [Creative Commons BY-NC-SA 4.0](LICENSE).
 
 ## ðŸ‘¥ Equipe
 
-**Fundador:** Dr. Inematds
-**Contato:** inematds@gmail.com
+**Fundador:** Dr. linnoff88-dev
+**Contato:** linnoff88-dev@gmail.com
 
 ---
 
@@ -192,10 +192,10 @@ Este projeto Ã© licenciado sob a [Creative Commons BY-NC-SA 4.0](LICENSE).
 
 ## ðŸ“ž Contato e Suporte
 
-- ðŸ“§ Email: inematds@gmail.com
+- ðŸ“§ Email: linnoff88-dev@gmail.com
 - ðŸ’¬ Discord: [Comunidade FTH](https://discord.gg/fth-brasil)
-- ðŸ› Issues: [GitHub Issues](https://github.com/inematds/FTH/issues)
-- ðŸŒ Site: [https://inematds.github.io/FTH](https://inematds.github.io/FTH)
+- ðŸ› Issues: [GitHub Issues](https://github.com/linnoff88-dev/FTH/issues)
+- ðŸŒ Site: [https://linnoff88-dev.github.io/
 
 ---
 

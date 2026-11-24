@@ -5,21 +5,21 @@
 title: "FTH - Formação Tecnológica em Humanoides"
 description: "Do Zero ao Robô Autônomo: Aprenda robótica humanoide e IA de forma acessível e progressiva"
 baseurl: "/FTH"
-url: "https://inematds.github.io"
+url: "https://linnoff88-dev.github.io"
 
 # Autor e Contato
 author: "Noetix Education"
-email: "inematds@gmail.com"
+email: "linnoff88-dev@gmail.com"
 
 # GitHub
-github_username: inematds
-repository: inematds/FTH
+github_username: linnoff88-dev
+repository: linnoff88-dev/FTH
 
 # Social Links
 social:
   discord: "https://discord.gg/fth-brasil"
-  github: "https://github.com/inematds/FTH"
-  email: "inematds@gmail.com"
+  github: "https://github.com/linnoff88-dev/FTH"
+  email: "linnoff88-dev@gmail.com"
 
 # Tema
 theme: minima

@@ -1040,7 +1040,7 @@ class VideoLearningPipeline:
         for pose in human_poses:
             # Mapeamento de keypoints humanos para juntas do robô
             # Simplificado - usar IK completo em produção
-            robot_joint_angles = self.inverse_kinematics(pose)
+            robot_joint_angles = self.inverse_kARCKHÉtics(pose)
             robot_trajectory.append(robot_joint_angles)
         
         return np.array(robot_trajectory)

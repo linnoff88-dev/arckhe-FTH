@@ -331,7 +331,7 @@ FTH - Formação Tecnológica em Humanoides
 - **Git** - Controle de versão
 
 ### Tema/Design
-- Baseado no estilo FEP (https://inematds.github.io/FEP/)
+- Baseado no estilo FEP (https://linnoff88-dev.github.io/
 - Sistema de cards para módulos
 - Emojis como ícones visuais
 - Paleta de cores moderna e acessível
@@ -665,7 +665,7 @@ FTH - Formação Tecnológica em Humanoides
 ## 16. Anexos
 
 ### A. Referências
-- Site FEP: https://inematds.github.io/FEP/
+- Site FEP: https://linnoff88-dev.github.io/
 - Documento Base: Doc/Sugestao-Plano.txt
 - NVIDIA Isaac Sim: https://developer.nvidia.com/isaac-sim
 - ROS 2: https://docs.ros.org/

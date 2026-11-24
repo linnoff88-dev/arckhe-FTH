@@ -329,7 +329,7 @@ pip install ultralytics
 ## 🎁 Recursos Exclusivos FTH
 
 ### Templates de Código
-- 🐍 [Repositório GitHub FTH](https://github.com/inematds/FTH)
+- 🐍 [Repositório GitHub FTH](https://github.com/linnoff88-dev/FTH)
   - Código dos projetos de cada nível
   - Ambientes de RL personalizados
   - Scripts de setup automatizado

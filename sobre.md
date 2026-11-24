@@ -99,7 +99,7 @@ Cada aluno escolhe como quer **aplicar** o conhecimento:
 
 ### Equipe Fundadora
 
-**Dr. Inematds** - Fundador e Lead Instructor
+**Dr. linnoff88-dev** - Fundador e Lead Instructor
 - PhD em Robótica pela USP
 - Ex-pesquisador em Boston Dynamics
 - Criador do robô Noetix Bumi
@@ -226,8 +226,8 @@ Após ver o lançamento do Tesla Optimus e Figure 01, percebemos: **robôs human
 ## 📞 Contato
 
 ### Geral
-- 📧 Email: **inematds@gmail.com**
-- 🌐 Site: **inematds.github.io/FTH**
+- 📧 Email: **linnoff88-dev@gmail.com**
+- 🌐 Site: **linnoff88-dev.github.io/
 - 💬 Discord: [Comunidade FTH](https://discord.gg/fth-brasil)
 
 ### Imprensa

@@ -833,9 +833,9 @@ A manipulação de objetos é a segunda capacidade fundamental de um robô human
 
 #### 17.1 Controle de braços e garras
 
-O primeiro passo na manipulação é o controle preciso do braço e da mão do robô. Isso é geralmente resolvido usando **Cinemática Inversa (Inverse Kinematics - IK)**.
+O primeiro passo na manipulação é o controle preciso do braço e da mão do robô. Isso é geralmente resolvido usando **Cinemática Inversa (Inverse KARCKHÉtics - IK)**.
 
--   **Cinemática Inversa**: Dado uma pose desejada para a mão do robô no espaço (posição e orientação), o IK é um algoritmo que calcula os ângulos de junta necessários para os motores do braço alcançarem essa pose. Bibliotecas como o `omni.isaac.core.articulations.KinematicsSolver` no Isaac Sim fornecem soluções de IK eficientes que podem ser usadas para controlar o robô.
+-   **Cinemática Inversa**: Dado uma pose desejada para a mão do robô no espaço (posição e orientação), o IK é um algoritmo que calcula os ângulos de junta necessários para os motores do braço alcançarem essa pose. Bibliotecas como o `omni.isaac.core.articulations.KARCKHÉticsSolver` no Isaac Sim fornecem soluções de IK eficientes que podem ser usadas para controlar o robô.
 
 #### 17.2 Preensão de objetos (Grasping)
 
