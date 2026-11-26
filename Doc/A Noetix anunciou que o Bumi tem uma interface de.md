@@ -1,14 +1,14 @@
 <img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" style="height:64px;margin-right:32px"/>
 
-# A Noetix anunciou que o Bumi tem uma interface de programação gráfica “drag-and-drop”
+# A Noetix anunciou que o Bumi tem uma interface de programaçêo gráfica “drag-and-drop”
 
-Sim, a Noetix anunciou que o robô Bumi possui uma interface de programação gráfica baseada em “drag-and-drop”, tornando mais fácil para usuários programar, personalizar ou ensinar novas funções ao robô sem a necessidade de escrever código tradicional. Essa interface está voltada especialmente para contextos educacionais, criatividade e aprendizagem, permitindo que iniciantes e entusiastas criem rotinas ou projetos interativos com comandos visuais.[^1][^2][^3]
+Sim, a Noetix anunciou que o robô Bumi possui uma interface de programaçêo gráfica baseada em “drag-and-drop”, tornando mais fácil para usuários programar, personalizar ou ensinar novas funções ao robô sem a necessidade de escrever código tradicional. Essa interface está voltada especialmente para contextos educacionais, criatividade e aprendizagem, permitindo que iniciantes e entusiastas criem rotinas ou projetos interativos com comandos visuais.[^1][^2][^3]
 
 ### Detalhes Importantes
 
-- O Bumi é promovido como uma solução acessível para educação em robótica, destinada tanto ao público consumidor quanto a escolas.[^2][^1]
-- A interface “drag-and-drop” abre portas para programação sem barreiras técnicas, permitindo projetos criativos como sequências de dança, tarefas educacionais e interações personalizadas.[^3][^2]
-- Noetix planeja liberar pré-venda do produto ainda este ano, incluindo recursos de programação visual voltados para ensino e automação simples.[^1][^2]
+- O Bumi é promovido como uma soluçêo acessível para educaçêo em robótica, destinada tanto ao público consumidor quanto a escolas.[^2][^1]
+- A interface “drag-and-drop” abre portas para programaçêo sem barreiras técnicas, permitindo projetos criativos como sequências de dança, tarefas educacionais e interações personalizadas.[^3][^2]
+- Noetix planeja liberar pré-venda do produto ainda este ano, incluindo recursos de programaçêo visual voltados para ensino e automaçêo simples.[^1][^2]
 
 Portanto, a interface “drag-and-drop” é um dos principais atrativos do Bumi, destacando-se pela usabilidade para iniciantes, estudantes e professores que desejam explorar robótica sem complexidade.[^2][^3][^1]
 <span style="display:none">[^10][^11][^12][^13][^14][^15][^4][^5][^6][^7][^8][^9]</span>

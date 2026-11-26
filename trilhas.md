@@ -6,11 +6,11 @@ permalink: /trilhas/
 
 # 🎯 Trilhas Temáticas do FTH
 
-Além dos **4 níveis técnicos progressivos**, você pode seguir uma **trilha temática** de acordo com seus objetivos e interesses. As trilhas são caminhos de aplicação do conhecimento adquirido.
+Além dos **4 níveis técnicos progressivos**, você pode seguir uma **trilha temática** de acordo com seus objetivos e interesses. As trilhas sêo caminhos de aplicaçêo do conhecimento adquirido.
 
 ---
 
-## 🎓 Trilha Educação
+## 🎓 Trilha Educaçêo
 
 **Para:** Professores, pedagogos, coordenadores educacionais
 
@@ -21,15 +21,15 @@ Usar robôs humanoides como **ferramenta pedagógica** para tornar o ensino de c
 - Metodologias ativas com robótica
 - STEAM education (Science, Technology, Engineering, Arts, Math)
 - Como integrar robôs ao currículo escolar
-- Criação de planos de aula com robótica
-- Avaliação de aprendizado com projetos práticos
+- Criaçêo de planos de aula com robótica
+- Avaliaçêo de aprendizado com projetos práticos
 
 ### Projeto Final
 **"Robô Tutor para Sala de Aula"**
 - Robô que ensina conceitos de matemática básica
 - Atividades interativas com alunos
 - Material didático completo para professores
-- Plano de implementação na escola
+- Plano de implementaçêo na escola
 
 ### Conteúdo Extra
 - 📚 Biblioteca de planos de aula prontos
@@ -37,7 +37,7 @@ Usar robôs humanoides como **ferramenta pedagógica** para tornar o ensino de c
 - 📊 Métricas de engajamento de alunos
 - 🤝 Rede com outros professores makers
 
-[→ Explorar Trilha Educação]({{ '/trilhas/educacao' | relative_url }}){: .btn .btn-trilha}
+[→ Explorar Trilha Educaçêo]({{ '/trilhas/educacao' | relative_url }}){: .btn .btn-trilha}
 
 ---
 
@@ -46,26 +46,26 @@ Usar robôs humanoides como **ferramenta pedagógica** para tornar o ensino de c
 **Para:** Líderes comunitários, ONGs, educadores sociais
 
 ### Objetivo
-Democratizar o acesso ao conhecimento em robótica e IA, levando **formação tecnológica a comunidades carentes**.
+Democratizar o acesso ao conhecimento em robótica e IA, levando **formaçêo tecnológica a comunidades carentes**.
 
 ### O Que Você Vai Aprender
 - Metodologias de ensino para públicos diversos
-- Inclusão digital e acessibilidade
+- Inclusêo digital e acessibilidade
 - Como montar oficinas comunitárias
-- Captação de recursos e parcerias
-- Medição de impacto social
+- Captaçêo de recursos e parcerias
+- Mediçêo de impacto social
 
 ### Projeto Final
 **"Oficina Comunitária de Robótica"**
 - Currículo adaptado para jovens de baixa renda
 - Kit de materiais com baixo custo
-- Documentação completa para replicação
+- Documentaçêo completa para replicaçêo
 - Plano de sustentabilidade da oficina
 
 ### Conteúdo Extra
 - 🌍 Rede de projetos sociais com robótica
 - 💰 Guia de editais e financiamentos
-- 📈 Cases de transformação social
+- 📈 Cases de transformaçêo social
 - 🛠️ Hardware alternativo de baixo custo
 
 [→ Explorar Trilha Social]({{ '/trilhas/social' | relative_url }}){: .btn .btn-trilha}
@@ -82,7 +82,7 @@ Criar **negócios e serviços inovadores** usando robôs humanoides, desde start
 ### O Que Você Vai Aprender
 - Business Model Canvas para robótica
 - Análise de mercado e concorrência
-- Precificação de serviços com robôs
+- Precificaçêo de serviços com robôs
 - Marketing e vendas de soluções inovadoras
 - Escalabilidade e crescimento
 
@@ -95,13 +95,13 @@ Escolha um dos modelos:
    - Robôs guias para eventos
    - Atendimento automatizado
 
-2. **Educação Tecnológica**
+2. **Educaçêo Tecnológica**
    - Franquia de cursos de robótica
    - Kits educacionais personalizados
    - Plataforma online de treinamento
 
-3. **Consultoria e Implementação**
-   - Automação para pequenas empresas
+3. **Consultoria e Implementaçêo**
+   - Automaçêo para pequenas empresas
    - Soluções customizadas
    - Treinamento corporativo
 
@@ -124,40 +124,40 @@ Dominar o **estado da arte** em robótica humanoide e IA, preparando-se para pes
 
 ### O Que Você Vai Aprender
 - Papers fundamentais em robótica e RL
-- Benchmarking e comparação de algoritmos
-- Contribuição para projetos open-source
-- Publicação científica
-- Colaboração com labs de pesquisa
+- Benchmarking e comparaçêo de algoritmos
+- Contribuiçêo para projetos open-source
+- Publicaçêo científica
+- Colaboraçêo com labs de pesquisa
 
 ### Projeto Final
 **"Sistema Autônomo Avançado"**
 
 Escolha uma das linhas:
-1. **Locomoção Complexa**
+1. **Locomoçêo Complexa**
    - Terrenos irregulares
    - Equilíbrio dinâmico
    - Movimentos acrobáticos
 
-2. **Manipulação Dextrosa**
+2. **Manipulaçêo Dextrosa**
    - Pega e manuseio de objetos complexos
-   - Coordenação bimanual
+   - Coordenaçêo bimanual
    - Uso de ferramentas
 
-3. **Interação Natural**
-   - Conversação multimodal
+3. **Interaçêo Natural**
+   - Conversaçêo multimodal
    - Gestos e expressões
    - Teoria da mente (ToM)
 
 4. **Large Behavior Models**
    - Treinamento de LBMs
    - Few-shot learning comportamental
-   - Generalização para novas tarefas
+   - Generalizaçêo para novas tarefas
 
 ### Conteúdo Extra
 - 📚 Reading list de papers importantes
 - 🧪 Acesso a datasets e benchmarks
 - 👥 Mentoria com pesquisadores
-- 🏆 Preparação para competições (RoboCup, etc)
+- 🏆 Preparaçêo para competições (RoboCup, etc)
 
 [→ Explorar Trilha Tecnologia]({{ '/trilhas/tecnologia' | relative_url }}){: .btn .btn-trilha}
 
@@ -176,7 +176,7 @@ As trilhas têm **conteúdo adicional** que complementa os níveis técnicos:
 - Mentorias específicas
 
 ### 3. Comunidade Segmentada
-Acesso a grupos exclusivos com pessoas da mesma trilha para networking e colaboração.
+Acesso a grupos exclusivos com pessoas da mesma trilha para networking e colaboraçêo.
 
 ### 4. Projeto Final Direcionado
 Seu projeto final do Nível 4 será adaptado à trilha escolhida.
@@ -185,18 +185,18 @@ Seu projeto final do Nível 4 será adaptado à trilha escolhida.
 
 ## 🔄 Posso Mudar de Trilha?
 
-**Sim!** As trilhas são flexíveis. Você pode:
+**Sim!** As trilhas sêo flexíveis. Você pode:
 - Seguir múltiplas trilhas simultaneamente
 - Mudar de trilha a qualquer momento
 - Combinar elementos de diferentes trilhas
 
-O conhecimento técnico (níveis 1-4) é o mesmo para todos. As trilhas só mudam o **contexto de aplicação**.
+O conhecimento técnico (níveis 1-4) é o mesmo para todos. As trilhas só mudam o **contexto de aplicaçêo**.
 
 ---
 
-## 📊 Comparação das Trilhas
+## 📊 Comparaçêo das Trilhas
 
-| Aspecto | Educação | Social | Empreendedorismo | Tecnologia |
+| Aspecto | Educaçêo | Social | Empreendedorismo | Tecnologia |
 |---------|----------|--------|------------------|------------|
 | **Foco** | Pedagogia | Impacto | Negócios | Pesquisa |
 | **Perfil** | Professor | Líder social | Empreendedor | Engenheiro |
@@ -214,19 +214,19 @@ O conhecimento técnico (níveis 1-4) é o mesmo para todos. As trilhas só muda
 ### Faça Nosso Quiz!
 
 **1. Qual é seu objetivo principal com robótica?**
-- A) Melhorar minhas aulas e engajar alunos → **Educação**
+- A) Melhorar minhas aulas e engajar alunos → **Educaçêo**
 - B) Transformar vidas em comunidades → **Social**
 - C) Criar um negócio lucrativo → **Empreendedorismo**
 - D) Avançar tecnicamente e pesquisar → **Tecnologia**
 
 **2. Como você se vê daqui a 1 ano?**
-- A) Ensinando robótica em escolas → **Educação**
+- A) Ensinando robótica em escolas → **Educaçêo**
 - B) Liderando projeto social com tecnologia → **Social**
 - C) Fundador(a) de uma startup → **Empreendedorismo**
 - D) Publicando papers ou trabalhando em big tech → **Tecnologia**
 
 **3. O que mais te motiva?**
-- A) Ver alunos aprenderem de forma divertida → **Educação**
+- A) Ver alunos aprenderem de forma divertida → **Educaçêo**
 - B) Gerar impacto social positivo → **Social**
 - C) Criar algo novo e escalar → **Empreendedorismo**
 - D) Resolver problemas técnicos complexos → **Tecnologia**
@@ -237,7 +237,7 @@ O conhecimento técnico (níveis 1-4) é o mesmo para todos. As trilhas só muda
 
 ## 🚀 Comece Agora
 
-Não precisa escolher trilha imediatamente! Comece pelo **Nível 1** e ao longo do caminho você descobrirá qual trilha faz mais sentido para você.
+Nêo precisa escolher trilha imediatamente! Comece pelo **Nível 1** e ao longo do caminho você descobrirá qual trilha faz mais sentido para você.
 
 <div class="cta-section">
   <a href="{{ '/niveis/nivel-1' | relative_url }}" class="btn btn-large btn-primary">Começar Nível 1 →</a>
@@ -248,7 +248,7 @@ Não precisa escolher trilha imediatamente! Comece pelo **Nível 1** e ao longo 
 
 ## 💬 Objetivos das Trilhas para 2026
 
-### 🎓 Educação
+### 🎓 Educaçêo
 > **Meta:** Professores implementando robôs em salas de aula e multiplicando engajamento dos alunos com tecnologia prática.
 
 ### 🤝 Social
@@ -260,7 +260,7 @@ Não precisa escolher trilha imediatamente! Comece pelo **Nível 1** e ao longo 
 ### 🔬 Tecnologia
 > **Meta:** Pesquisadores aplicando conhecimento de ponta e contribuindo com o avanço científico brasileiro.
 
-**📢 Esses depoimentos serão reais em 2026 - seja você um dos primeiros a contar sua história!**
+**📢 Esses depoimentos serêo reais em 2026 - seja você um dos primeiros a contar sua história!**
 
 ---
 

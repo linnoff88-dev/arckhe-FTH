@@ -6,7 +6,7 @@ permalink: /niveis/nivel-2/modulo-2/
 
 # Módulo 2.2: Sensores e Controle
 
-**Duração estimada:** 10-12 horas
+**Duraçêo estimada:** 10-12 horas
 **Nível:** Intermediário
 **Pré-requisito:** Módulo 2.1 concluído
 
@@ -18,7 +18,7 @@ Ao final deste módulo, você será capaz de:
 
 - [ ] Compreender diferentes tipos de sensores robóticos
 - [ ] Ler e processar dados de câmera, LIDAR e IMU
-- [ ] Usar OpenCV para visão computacional básica
+- [ ] Usar OpenCV para visêo computacional básica
 - [ ] Implementar controle PID
 - [ ] Controlar motores (position vs velocity control)
 - [ ] Criar comportamentos reativos complexos
@@ -28,7 +28,7 @@ Ao final deste módulo, você será capaz de:
 
 ## Parte 1: Tipos de Sensores (2-3h)
 
-### 1.1 Visão Geral de Sensores
+### 1.1 Visêo Geral de Sensores
 
 Robôs humanoides usam diversos sensores para perceber o ambiente:
 
@@ -43,13 +43,13 @@ SENSORES DO ROBÔ HUMANOIDE
 │
 ├── PROPRIOCEPTIVOS (estado interno)
 │   ├── IMU (Inertial Measurement Unit)
-│   ├── Encoders (posição das juntas)
+│   ├── Encoders (posiçêo das juntas)
 │   ├── Force/Torque sensors
 │   └── Temperatura
 │
 └── PROCESSADOS
-    ├── Odometria (posição estimada)
-    ├── SLAM (mapa + localização)
+    ├── Odometria (posiçêo estimada)
+    ├── SLAM (mapa + localizaçêo)
     └── Pose estimation
 ```
 
@@ -126,7 +126,7 @@ if __name__ == '__main__':
     main()
 ```
 
-**Instalação cv_bridge:**
+**Instalaçêo cv_bridge:**
 
 ```bash
 sudo apt install ros-humble-cv-bridge python3-opencv
@@ -214,12 +214,12 @@ if __name__ == '__main__':
 
 ### 1.4 IMU (Inertial Measurement Unit)
 
-**Como funciona:** Combina acelerômetro, giroscópio e magnetômetro para medir orientação e movimento.
+**Como funciona:** Combina acelerômetro, giroscópio e magnetômetro para medir orientaçêo e movimento.
 
 **Dados retornados:**
-- Orientação (quaternion ou ângulos de Euler)
+- Orientaçêo (quaternion ou ângulos de Euler)
 - Velocidade angular
-- Aceleração linear
+- Aceleraçêo linear
 
 **ROS 2 Message Type:** `sensor_msgs/Imu`
 
@@ -255,19 +255,19 @@ class DetectorQueda(Node):
         Returns:
             (roll, pitch, yaw) em graus
         """
-        # Roll (rotação em X)
+        # Roll (rotaçêo em X)
         sinr_cosp = 2 * (w * x + y * z)
         cosr_cosp = 1 - 2 * (x * x + y * y)
         roll = np.arctan2(sinr_cosp, cosr_cosp)
 
-        # Pitch (rotação em Y)
+        # Pitch (rotaçêo em Y)
         sinp = 2 * (w * y - z * x)
         if abs(sinp) >= 1:
             pitch = np.copysign(np.pi / 2, sinp)
         else:
             pitch = np.arcsin(sinp)
 
-        # Yaw (rotação em Z)
+        # Yaw (rotaçêo em Z)
         siny_cosp = 2 * (w * z + x * y)
         cosy_cosp = 1 - 2 * (y * y + z * z)
         yaw = np.arctan2(siny_cosp, cosy_cosp)
@@ -306,11 +306,11 @@ if __name__ == '__main__':
     main()
 ```
 
-### 1.5 Encoders (Posição das Juntas)
+### 1.5 Encoders (Posiçêo das Juntas)
 
-**Como funciona:** Medem rotação/posição de cada junta do robô.
+**Como funciona:** Medem rotaçêo/posiçêo de cada junta do robô.
 
-**Dados retornados:** Ângulo ou posição linear de cada motor/junta.
+**Dados retornados:** Ângulo ou posiçêo linear de cada motor/junta.
 
 **ROS 2 Message Type:** `sensor_msgs/JointState`
 
@@ -367,9 +367,9 @@ if __name__ == '__main__':
 
 ---
 
-## Parte 2: Visão Computacional com OpenCV (3-4h)
+## Parte 2: Visêo Computacional com OpenCV (3-4h)
 
-### 2.1 Detecção de Cores
+### 2.1 Detecçêo de Cores
 
 Use OpenCV para detectar objetos por cor:
 
@@ -404,7 +404,7 @@ class DetectorCor(Node):
         # Converte para OpenCV
         cv_image = self.bridge.imgmsg_to_cv2(msg, desired_encoding='bgr8')
 
-        # Converte BGR para HSV (melhor para detecção de cor)
+        # Converte BGR para HSV (melhor para detecçêo de cor)
         hsv = cv2.cvtColor(cv_image, cv2.COLOR_BGR2HSV)
 
         # Define range de vermelho em HSV
@@ -463,7 +463,7 @@ if __name__ == '__main__':
     main()
 ```
 
-### 2.2 Detecção de Faces
+### 2.2 Detecçêo de Faces
 
 ```python
 #!/usr/bin/env python3
@@ -538,7 +538,7 @@ if __name__ == '__main__':
 
 ### 2.3 Linha Follower (Seguidor de Linha)
 
-Aplicação prática: robô que segue uma linha no chão.
+Aplicaçêo prática: robô que segue uma linha no chêo.
 
 ```python
 #!/usr/bin/env python3
@@ -551,7 +551,7 @@ import cv2
 import numpy as np
 
 class SeguidorLinha(Node):
-    """Robô que segue linha preta no chão"""
+    """Robô que segue linha preta no chêo"""
 
     def __init__(self):
         super().__init__('seguidor_linha')
@@ -573,7 +573,7 @@ class SeguidorLinha(Node):
         """Processa imagem e controla robô"""
         cv_image = self.bridge.imgmsg_to_cv2(msg, desired_encoding='bgr8')
 
-        # Pega apenas região inferior da imagem (chão)
+        # Pega apenas regiêo inferior da imagem (chêo)
         height, width = cv_image.shape[:2]
         roi = cv_image[int(height*0.7):height, 0:width]
 
@@ -602,17 +602,17 @@ class SeguidorLinha(Node):
 
             msg_vel = Twist()
             msg_vel.linear.x = 0.2  # Velocidade constante
-            msg_vel.angular.z = -kp * erro  # Corrige direção
+            msg_vel.angular.z = -kp * erro  # Corrige direçêo
 
             self.cmd_vel_pub.publish(msg_vel)
 
             self.get_logger().info(f'Centro linha: {cx}, Erro: {erro}, Angular: {msg_vel.angular.z:.3f}')
 
         else:
-            # Linha não detectada - para
+            # Linha nêo detectada - para
             msg_vel = Twist()
             self.cmd_vel_pub.publish(msg_vel)
-            self.get_logger().warn('Linha não detectada!')
+            self.get_logger().warn('Linha nêo detectada!')
 
         # Exibe
         cv2.imshow('ROI', roi)
@@ -668,7 +668,7 @@ PID (Proportional-Integral-Derivative) é um algoritmo de controle que minimiza 
    - `Kd * (erro_atual - erro_anterior)`
    - Reduz overshoot e oscilações
 
-### 3.2 Implementação PID em Python
+### 3.2 Implementaçêo PID em Python
 
 ```python
 import time
@@ -699,7 +699,7 @@ class ControladorPID:
         Calcula saída do controlador PID
 
         Args:
-            valor_atual: Medição atual do sensor
+            valor_atual: Mediçêo atual do sensor
 
         Returns:
             Saída de controle
@@ -712,7 +712,7 @@ class ControladorPID:
         dt = tempo_atual - self.tempo_anterior
 
         if dt <= 0:
-            dt = 0.01  # Evita divisão por zero
+            dt = 0.01  # Evita divisêo por zero
 
         # Termo Proporcional
         P = self.kp * erro
@@ -728,7 +728,7 @@ class ControladorPID:
         # Saída total
         output = P + I + D
 
-        # Atualiza variáveis para próxima iteração
+        # Atualiza variáveis para próxima iteraçêo
         self.erro_anterior = erro
         self.tempo_anterior = tempo_atual
 
@@ -753,9 +753,9 @@ if __name__ == '__main__':
         time.sleep(0.1)
 ```
 
-### 3.3 PID para Controle de Posição
+### 3.3 PID para Controle de Posiçêo
 
-Aplicação: controlar posição de uma junta do robô.
+Aplicaçêo: controlar posiçêo de uma junta do robô.
 
 ```python
 #!/usr/bin/env python3
@@ -797,7 +797,7 @@ class ControladorPID:
         return output
 
 class ControlePosicaoJunta(Node):
-    """Controla posição de junta usando PID"""
+    """Controla posiçêo de junta usando PID"""
 
     def __init__(self):
         super().__init__('controle_posicao_junta')
@@ -819,7 +819,7 @@ class ControlePosicaoJunta(Node):
         self.get_logger().info('Controlador PID iniciado! Setpoint: 1.57 rad (90°)')
 
     def callback_joint_state(self, msg):
-        """Lê posição atual e aplica controle PID"""
+        """Lê posiçêo atual e aplica controle PID"""
         # Assume primeira junta (índice 0)
         if len(msg.position) > 0:
             posicao_atual = msg.position[0]
@@ -860,7 +860,7 @@ if __name__ == '__main__':
 
 1. **Comece com Ki=0 e Kd=0**
 2. **Aumente Kp até o sistema oscilar constantemente**
-3. **Anote Kp crítico (Ku) e período de oscilação (Tu)**
+3. **Anote Kp crítico (Ku) e período de oscilaçêo (Tu)**
 4. **Calcule:**
    - `Kp = 0.6 * Ku`
    - `Ki = 2 * Kp / Tu`
@@ -875,11 +875,11 @@ if __name__ == '__main__':
 
 ---
 
-## Parte 4: Integração Multi-Sensorial (2h)
+## Parte 4: Integraçêo Multi-Sensorial (2h)
 
-### 4.1 Fusão de Sensores
+### 4.1 Fusêo de Sensores
 
-Combine múltiplos sensores para navegação robusta:
+Combine múltiplos sensores para navegaçêo robusta:
 
 ```python
 #!/usr/bin/env python3
@@ -891,7 +891,7 @@ from cv_bridge import CvBridge
 import numpy as np
 
 class NavegacaoIntegrada(Node):
-    """Navegação usando LIDAR + IMU + Câmera"""
+    """Navegaçêo usando LIDAR + IMU + Câmera"""
 
     def __init__(self):
         super().__init__('navegacao_integrada')
@@ -916,7 +916,7 @@ class NavegacaoIntegrada(Node):
         self.objeto_vermelho_detectado = False
         self.objeto_vermelho_cx = 0
 
-        self.get_logger().info('Navegação integrada iniciada!')
+        self.get_logger().info('Navegaçêo integrada iniciada!')
 
     def callback_lidar(self, msg):
         """Processa LIDAR"""
@@ -937,7 +937,7 @@ class NavegacaoIntegrada(Node):
         roll_graus = np.degrees(roll)
         pitch_graus = np.degrees(pitch)
 
-        # Detecta inclinação perigosa
+        # Detecta inclinaçêo perigosa
         self.inclinacao_perigosa = abs(roll_graus) > 30 or abs(pitch_graus) > 30
 
     def callback_camera(self, msg):
@@ -977,7 +977,7 @@ class NavegacaoIntegrada(Node):
         if self.inclinacao_perigosa:
             msg.linear.x = 0.0
             msg.angular.z = 0.0
-            self.get_logger().error('INCLINAÇÃO PERIGOSA - PARANDO!')
+            self.get_logger().error('INCLINAÇêO PERIGOSA - PARANDO!')
 
         # PRIORIDADE 2: Evitar obstáculo
         elif self.obstaculo_proximo:
@@ -993,11 +993,11 @@ class NavegacaoIntegrada(Node):
             msg.angular.z = -0.003 * erro  # Controle proporcional
             self.get_logger().info(f'Seguindo objeto vermelho, erro={erro}')
 
-        # PRIORIDADE 4: Navegação livre
+        # PRIORIDADE 4: Navegaçêo livre
         else:
             msg.linear.x = 0.4
             msg.angular.z = 0.0
-            self.get_logger().info('Navegação livre')
+            self.get_logger().info('Navegaçêo livre')
 
         self.cmd_vel_pub.publish(msg)
 
@@ -1026,17 +1026,17 @@ if __name__ == '__main__':
 4. Usa PID para suavizar movimentos
 
 **Checklist:**
-- [ ] Implementar fusão LIDAR + câmera + IMU
+- [ ] Implementar fusêo LIDAR + câmera + IMU
 - [ ] Controle PID para velocidade
 - [ ] Sistema de prioridades de comportamento
-- [ ] Logging e visualização
+- [ ] Logging e visualizaçêo
 - [ ] Testar em simulador Webots
 
 ---
 
 ## Recursos Adicionais
 
-### Documentação
+### Documentaçêo
 - [OpenCV Python Docs](https://docs.opencv.org/4.x/d6/d00/tutorial_py_root.html)
 - [ROS 2 Sensors](https://docs.ros.org/en/humble/p/sensor_msgs/)
 - [PID Control Theory](https://en.wikipedia.org/wiki/PID_controller)
@@ -1049,13 +1049,13 @@ if __name__ == '__main__':
 
 ## Troubleshooting
 
-### Erro: cv_bridge não encontrado
+### Erro: cv_bridge nêo encontrado
 
 ```bash
 sudo apt install ros-humble-cv-bridge
 ```
 
-### Câmera não mostra imagem
+### Câmera nêo mostra imagem
 
 Verifique se topic está publicando:
 ```bash
@@ -1071,13 +1071,13 @@ ros2 topic echo /camera/image_raw
 
 ---
 
-## Checklist de Conclusão
+## Checklist de Conclusêo
 
 - [ ] Ler dados de câmera RGB
 - [ ] Processar dados LIDAR
-- [ ] Usar IMU para orientação
-- [ ] Implementar detecção de cor
-- [ ] Implementar detecção de faces
+- [ ] Usar IMU para orientaçêo
+- [ ] Implementar detecçêo de cor
+- [ ] Implementar detecçêo de faces
 - [ ] Criar seguidor de linha
 - [ ] Implementar controlador PID
 - [ ] Fazer tunning PID
@@ -1088,7 +1088,7 @@ ros2 topic echo /camera/image_raw
 
 ## Próximo Módulo
 
-No **Módulo 2.3: Introdução a Aprendizado por Reforço**, você vai:
+No **Módulo 2.3: Introduçêo a Aprendizado por Reforço**, você vai:
 - Entender conceitos de RL
 - Usar Stable-Baselines3
 - Treinar robô com PPO
@@ -1098,4 +1098,4 @@ No **Módulo 2.3: Introdução a Aprendizado por Reforço**, você vai:
 
 ---
 
-**Última atualização:** 2025-10-29
+**Última atualizaçêo:** 2025-10-29

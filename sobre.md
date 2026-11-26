@@ -4,50 +4,50 @@ title: Sobre o FTH
 permalink: /sobre/
 ---
 
-# 🤖 Sobre o FTH - Formação Tecnológica em Humanoides
+# 🤖 Sobre o FTH - Formaçêo Tecnológica em Humanoides
 
-## Nossa Missão
+## Nossa Missêo
 
-**Democratizar o acesso ao conhecimento em robótica humanoide e inteligência artificial**, formando pessoas de diferentes níveis socioeconômicos para dominar o uso, programação e desenvolvimento de robôs humanoides.
+**Democratizar o acesso ao conhecimento em robótica humanoide e inteligência artificial**, formando pessoas de diferentes níveis socioeconômicos para dominar o uso, programaçêo e desenvolvimento de robôs humanoides.
 
 ---
 
 ## 🎯 Por Que Existimos?
 
-A robótica humanoide e a IA estão transformando o mundo, mas o acesso a esse conhecimento ainda é **restrito a universidades de elite e grandes empresas**.
+A robótica humanoide e a IA estêo transformando o mundo, mas o acesso a esse conhecimento ainda é **restrito a universidades de elite e grandes empresas**.
 
 ### O Problema
 
-- 📚 Cursos de robótica são caros e técnicos demais
-- 🎓 Universidades exigem formação prévia extensa
+- 📚 Cursos de robótica sêo caros e técnicos demais
+- 🎓 Universidades exigem formaçêo prévia extensa
 - 💰 Hardware de robôs é inacessível para maioria
 - 🌍 Falta de material em português e contextualizado
 
-### Nossa Solução
+### Nossa Soluçêo
 
 - ✅ **Programa progressivo:** Do zero ao profissional
 - ✅ **Gratuito para começar:** Níveis 1 e 2 sem custo
-- ✅ **Simulação primeiro:** Sem necessidade de hardware caro
+- ✅ **Simulaçêo primeiro:** Sem necessidade de hardware caro
 - ✅ **Em português:** Feito para brasileiros, por brasileiros
 - ✅ **Comunidade ativa:** Aprenda junto com outros
 
 ---
 
-## 🌟 Nossa Visão
+## 🌟 Nossa Visêo
 
 Criar um **ecossistema educacional sustentável** onde:
 
 1. **Qualquer pessoa** pode aprender robótica, independente de background
 2. **Escolas públicas e privadas** usam robôs como ferramenta pedagógica
-3. **Empresas locais** inovam com automação e IA acessível
+3. **Empresas locais** inovam com automaçêo e IA acessível
 4. **Startups brasileiras** competem globalmente em robótica
-5. **Comunidades carentes** têm acesso a formação tecnológica de ponta
+5. **Comunidades carentes** têm acesso a formaçêo tecnológica de ponta
 
 ---
 
 ## 📊 Metas de Impacto
 
-| Objetivo | Meta 2026 | Visão 2027 |
+| Objetivo | Meta 2026 | Visêo 2027 |
 |----------|-----------|-----------|
 | Alunos a formar | 1.000+ | 5.000+ |
 | Escolas parceiras | 20+ | 100+ |
@@ -64,24 +64,24 @@ Criar um **ecossistema educacional sustentável** onde:
 Enquanto outros cursos ensinam robótica genérica, nós focamos especificamente em **robôs humanoides** - a fronteira mais avançada e empolgante da robótica.
 
 **Por quê humanoides?**
-- São inspiradores e motivadores (look & feel humano)
-- Desafios técnicos complexos (equilíbrio, locomoção bípede)
+- Sêo inspiradores e motivadores (look & feel humano)
+- Desafios técnicos complexos (equilíbrio, locomoçêo bípede)
 - Mercado em crescimento explosivo (Atlas, Optimus, Figure 01)
-- Aplicações ilimitadas (educação, serviços, pesquisa)
+- Aplicações ilimitadas (educaçêo, serviços, pesquisa)
 
 ### 2. IA desde o Início
 
-Não ensinamos apenas mecânica - **IA e aprendizado de máquina** são centrais desde o Nível 1.
+Nêo ensinamos apenas mecânica - **IA e aprendizado de máquina** sêo centrais desde o Nível 1.
 
 - Aprendizado por Reforço (RL)
 - Large Behavior Models (LBMs)
-- Visão Computacional
+- Visêo Computacional
 - Sim-to-Real Transfer
 
 ### 3. Trilhas Aplicadas
 
 Cada aluno escolhe como quer **aplicar** o conhecimento:
-- 🎓 Educação
+- 🎓 Educaçêo
 - 🤝 Impacto Social
 - 💼 Empreendedorismo
 - 🔬 Pesquisa Avançada
@@ -103,12 +103,12 @@ Cada aluno escolhe como quer **aplicar** o conhecimento:
 - PhD em Robótica pela USP
 - Ex-pesquisador em Boston Dynamics
 - Criador do robô Noetix Bumi
-- Apaixonado por educação acessível
+- Apaixonado por educaçêo acessível
 
 **Equipe de Instrutores**
-- Especialistas em RL, Visão Computacional, ROS 2
+- Especialistas em RL, Visêo Computacional, ROS 2
 - Experiência em indústria e academia
-- Formação pedagógica em metodologias ativas
+- Formaçêo pedagógica em metodologias ativas
 
 ### Parceiros
 
@@ -116,7 +116,7 @@ Cada aluno escolhe como quer **aplicar** o conhecimento:
 - **Unitree** - Robôs profissionais
 - **NVIDIA** - Isaac Sim e GPUs para pesquisa
 - **20+ Escolas** - Piloto educacional
-- **ONGs** - Inclusão digital
+- **ONGs** - Inclusêo digital
 
 ---
 
@@ -124,16 +124,16 @@ Cada aluno escolhe como quer **aplicar** o conhecimento:
 
 ### Aprender Fazendo
 
-Cada módulo termina com um **projeto prático tangível**. Não há provas teóricas - apenas criações reais.
+Cada módulo termina com um **projeto prático tangível**. Nêo há provas teóricas - apenas criações reais.
 
-### Gamificação
+### Gamificaçêo
 
 - Badges de conquista
 - Sistema de níveis progressivos
 - Desafios semanais
 - Leaderboard comunitário (opcional)
 
-### Educação Adaptativa
+### Educaçêo Adaptativa
 
 O sistema ajusta a dificuldade baseado no seu progresso e feedback.
 
@@ -141,7 +141,7 @@ O sistema ajusta a dificuldade baseado no seu progresso e feedback.
 
 Alunos avançados ajudam iniciantes, reforçando conhecimento e criando rede.
 
-### Educação Aberta
+### Educaçêo Aberta
 
 - Conteúdo open-source no GitHub
 - Aulas híbridas (presencial + online)
@@ -153,38 +153,38 @@ Alunos avançados ajudam iniciantes, reforçando conhecimento e criando rede.
 
 ### 1. Acessibilidade
 
-Conhecimento não é privilégio. **Meta: 30% das vagas** reservadas para comunidades de baixa renda, com bolsas integrais.
+Conhecimento nêo é privilégio. **Meta: 30% das vagas** reservadas para comunidades de baixa renda, com bolsas integrais.
 
 ### 2. Excelência
 
-Acessível não significa superficial. Nosso currículo compete com **programas de universidades top**.
+Acessível nêo significa superficial. Nosso currículo compete com **programas de universidades top**.
 
 ### 3. Comunidade
 
 Aprendizado é colaborativo. Celebramos sucessos juntos e apoiamos nos desafios.
 
-### 4. Inovação
+### 4. Inovaçêo
 
 Estamos sempre atualizando com as **técnicas mais recentes** (LBMs, foundation models, etc).
 
 ### 5. Impacto
 
-Medimos sucesso não apenas por alunos formados, mas por **vidas transformadas** e **soluções criadas**.
+Medimos sucesso nêo apenas por alunos formados, mas por **vidas transformadas** e **soluções criadas**.
 
 ---
 
 ## 📈 Nossa História
 
-### 2024 - Concepção
+### 2024 - Concepçêo
 
-Após ver o lançamento do Tesla Optimus e Figure 01, percebemos: **robôs humanoides serão mainstream em 5 anos**. Mas quem vai programá-los?
+Após ver o lançamento do Tesla Optimus e Figure 01, percebemos: **robôs humanoides serêo mainstream em 5 anos**. Mas quem vai programá-los?
 
-### 2025 - Preparação
+### 2025 - Preparaçêo
 
-- Concepção do programa FTH
+- Concepçêo do programa FTH
 - Desenvolvimento da plataforma e conteúdo
-- Formação de parcerias estratégicas
-- Preparação da infraestrutura
+- Formaçêo de parcerias estratégicas
+- Preparaçêo da infraestrutura
 
 ### 2026 - Lançamento e Crescimento (Planejado)
 
@@ -193,33 +193,33 @@ Após ver o lançamento do Tesla Optimus e Figure 01, percebemos: **robôs human
 - **Q3:** Primeira turma completa de alunos
 - **Q4:** Meta de 1.000+ alunos e parcerias ativas
 
-### 2027+ - Expansão (Visão)
+### 2027+ - Expansêo (Visêo)
 
 - Programa corporativo
-- Certificação internacional
-- Expansão América Latina
+- Certificaçêo internacional
+- Expansêo América Latina
 - Hardware próprio em escala
 
 ---
 
-## 🤝 Parcerias e Colaborações (Em Formação)
+## 🤝 Parcerias e Colaborações (Em Formaçêo)
 
 ### Empresas (Planejadas)
 
-- **Noetix** - Negociação para descontos em hardware para alunos FTH
-- **NVIDIA** - Solicitação de créditos cloud para treinamento
+- **Noetix** - Negociaçêo para descontos em hardware para alunos FTH
+- **NVIDIA** - Solicitaçêo de créditos cloud para treinamento
 - **Microsoft** - Proposta de Azure para projetos avançados
 
-### Educação (Meta)
+### Educaçêo (Meta)
 
 - **20+ Escolas** - Objetivo de programa piloto em escolas públicas e privadas
 - **USP, Unicamp, UFMG** - Projetos de pesquisa conjuntos
-- **SENAI** - Formação técnica integrada
+- **SENAI** - Formaçêo técnica integrada
 
 ### Social
 
 - **ONGs** - Levando robótica a comunidades
-- **Governo SP** - Programa de inclusão digital
+- **Governo SP** - Programa de inclusêo digital
 
 ---
 
@@ -242,14 +242,14 @@ Após ver o lançamento do Tesla Optimus e Figure 01, percebemos: **robôs human
 
 ---
 
-## 🎓 Certificação
+## 🎓 Certificaçêo
 
 ### Reconhecimento
 
-Nossos certificados são reconhecidos por:
+Nossos certificados sêo reconhecidos por:
 - ✅ Empresas parceiras (vagas exclusivas)
-- ✅ Universidades (créditos optativos - em negociação)
-- ✅ Governo (programas de qualificação)
+- ✅ Universidades (créditos optativos - em negociaçêo)
+- ✅ Governo (programas de qualificaçêo)
 
 ### Como Funciona
 
@@ -264,15 +264,15 @@ Nossos certificados são reconhecidos por:
 
 ### Programa de Bolsas
 
-**30% das vagas** são reservadas para alunos de baixa renda, com:
-- Isenção total de mensalidades
+**30% das vagas** sêo reservadas para alunos de baixa renda, com:
+- Isençêo total de mensalidades
 - Acesso a computadores em labs parceiros
 - Mentoria dedicada
 - Prioridade para hardware subsidiado
 
 ### Clubes Comunitários
 
-Apoiamos criação de **Clubes de Robótica Comunitários** com:
+Apoiamos criaçêo de **Clubes de Robótica Comunitários** com:
 - Currículo adaptado
 - Treinamento de líderes locais
 - Equipamento compartilhado
@@ -298,15 +298,15 @@ Apoiamos criação de **Clubes de Robótica Comunitários** com:
 
 ### 2026
 
-- 🎯 Internacionalização (América Latina)
+- 🎯 Internacionalizaçêo (América Latina)
 - 🎯 Programa corporativo B2B
 - 🎯 Hardware FTH próprio (robô educacional)
-- 🎯 Certificação internacional
+- 🎯 Certificaçêo internacional
 
 ### 2027
 
 - 🎯 100.000 alunos formados
-- 🎯 FTH University (graduação completa)
+- 🎯 FTH University (graduaçêo completa)
 - 🎯 Competições internacionais
 
 ---
@@ -316,12 +316,12 @@ Apoiamos criação de **Clubes de Robótica Comunitários** com:
 **Nossos objetivos para os alunos:**
 
 > **Professores** transformando suas aulas com robótica, engajando alunos de forma inovadora
-> — 🎓 Trilha Educação
+> — 🎓 Trilha Educaçêo
 
 > **Empreendedores** criando startups sustentáveis de robótica e gerando empregos
 > — 💼 Trilha Empreendedorismo
 
-> **Pessoas sem background técnico** descobrindo que podem dominar programação e IA
+> **Pessoas sem background técnico** descobrindo que podem dominar programaçêo e IA
 > — 🚀 Todos os Níveis
 
 > **Profissionais** alcançando nível internacional e contribuindo com pesquisa de ponta
@@ -333,8 +333,8 @@ Apoiamos criação de **Clubes de Robótica Comunitários** com:
 
 ## 📜 FAQ
 
-**Q: FTH é uma empresa ou organização sem fins lucrativos?**
-A: Somos uma empresa social. Geramos receita para sustentabilidade, mas 30% das vagas são bolsas e conteúdo básico é gratuito.
+**Q: FTH é uma empresa ou organizaçêo sem fins lucrativos?**
+A: Somos uma empresa social. Geramos receita para sustentabilidade, mas 30% das vagas sêo bolsas e conteúdo básico é gratuito.
 
 **Q: Posso contribuir como instrutor voluntário?**
 A: Sim! Entre em contato via parcerias@fth.edu.br
@@ -342,18 +342,18 @@ A: Sim! Entre em contato via parcerias@fth.edu.br
 **Q: Empresas podem patrocinar bolsas?**
 A: Absolutamente! Temos programas de ESG para empresas.
 
-**Q: O código e conteúdo são open-source?**
+**Q: O código e conteúdo sêo open-source?**
 A: Sim, no GitHub sob licença Creative Commons BY-NC-SA.
 
 ---
 
 <div class="cta-section">
-  <h2>Faça Parte Dessa Revolução!</h2>
+  <h2>Faça Parte Dessa Revoluçêo!</h2>
   <p>Junte-se a <strong>1.000+ pessoas</strong> já transformando suas vidas com robótica e IA</p>
   <a href="{{ '/niveis/nivel-1' | relative_url }}" class="btn btn-large btn-primary">Começar Agora - Gratuito →</a>
 </div>
 
 ---
 
-**Última atualização:** 2025-10-29
-**Versão do site:** 1.0
+**Última atualizaçêo:** 2025-10-29
+**Versêo do site:** 1.0

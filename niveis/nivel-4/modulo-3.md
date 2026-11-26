@@ -14,10 +14,10 @@ permalink: /niveis/nivel-4/modulo-3/
 
 | Atributo | Detalhes |
 |----------|----------|
-| **Duração estimada** | 10-13 horas |
+| **Duraçêo estimada** | 10-13 horas |
 | **Nível** | Profissional |
 | **Pré-requisitos** | Módulo 4.1 + 4.2 |
-| **Tipo** | Projeto + Integração |
+| **Tipo** | Projeto + Integraçêo |
 
 ---
 
@@ -29,7 +29,7 @@ Ao completar este módulo, você será capaz de:
 - ✅ Integrar hardware, software e IA em sistema coeso
 - ✅ Conduzir testes de campo estruturados
 - ✅ Iterar baseado em feedback de usuários reais
-- ✅ Criar documentação técnica profissional
+- ✅ Criar documentaçêo técnica profissional
 - ✅ Apresentar resultados para stakeholders
 - ✅ Planejar próximos passos (MVP → Produto)
 
@@ -43,7 +43,7 @@ Ao completar este módulo, você será capaz de:
 
 **Abordagem tradicional (Waterfall) ❌**
 ```
-Requisitos (3 meses) → Design (2 meses) → Implementação (6 meses)
+Requisitos (3 meses) → Design (2 meses) → Implementaçêo (6 meses)
 → Testes (2 meses) → Lançamento
 = 13 meses para descobrir se funciona
 ```
@@ -61,48 +61,48 @@ Semana 8: Refinar e preparar lançamento
 
 ---
 
-#### 1.2 Framework de Prototipação Rápida
+#### 1.2 Framework de Prototipaçêo Rápida
 
-**FASE 1: Definição (1-2 dias)**
+**FASE 1: Definiçêo (1-2 dias)**
 
-Responda com precisão:
+Responda com precisêo:
 
 ```markdown
 ## Problem Statement
 Em uma frase: qual problema você resolve?
-Exemplo: "Recepção de hotéis é cara e inconsistente"
+Exemplo: "Recepçêo de hotéis é cara e inconsistente"
 
 ## Target User
 Quem exatamente?
-Exemplo: "Hotéis 3-4 estrelas de 50-200 quartos em São Paulo"
+Exemplo: "Hotéis 3-4 estrelas de 50-200 quartos em Sêo Paulo"
 
 ## Success Metrics
 Como medir sucesso?
 Exemplo:
 - 80% hóspedes preferem robô vs humano
-- Reduz custo recepção em 40%
+- Reduz custo recepçêo em 40%
 - NPS > 8.0
 ```
 
 ---
 
-**FASE 2: Especificação Mínima (2-3 dias)**
+**FASE 2: Especificaçêo Mínima (2-3 dias)**
 
 Liste funcionalidades ESSENCIAIS:
 
 ```markdown
-## Must-Have (Protótipo não funciona sem)
+## Must-Have (Protótipo nêo funciona sem)
 - [ ] Andar 50m sem cair
 - [ ] Reconhecer pessoa a 2m de distância
 - [ ] Responder 10 perguntas comuns
-- [ ] Duração bateria: 4 horas
+- [ ] Duraçêo bateria: 4 horas
 
-## Should-Have (Importante, mas não bloqueante)
+## Should-Have (Importante, mas nêo bloqueante)
 - [ ] Expressões faciais
 - [ ] Múltiplos idiomas
-- [ ] Integração com sistema do hotel
+- [ ] Integraçêo com sistema do hotel
 
-## Nice-to-Have (Para versão futura)
+## Nice-to-Have (Para versêo futura)
 - [ ] Carregar bagagens
 - [ ] Dançar
 - [ ] Selfies com hóspedes
@@ -112,7 +112,7 @@ Liste funcionalidades ESSENCIAIS:
 
 ---
 
-**FASE 3: Prototipação Rápida (1-2 semanas)**
+**FASE 3: Prototipaçêo Rápida (1-2 semanas)**
 
 **Exemplo: Robô Recepcionista**
 
@@ -161,7 +161,7 @@ class ReceptionistRobot:
                 return
 
     def greet_guest(self):
-        """Saudação inicial"""
+        """Saudaçêo inicial"""
         # Linguagem corporal
         self.robot.wave_hand()
 
@@ -180,7 +180,7 @@ class ReceptionistRobot:
         # 2. Transcreve
         text = self.speech_recognition.transcribe(audio)
 
-        # 3. Detecta intenção
+        # 3. Detecta intençêo
         intent = self.classify_intent(text)
 
         # 4. Responde
@@ -198,7 +198,7 @@ class ReceptionistRobot:
         self.speak(response)
 
     def classify_intent(self, text):
-        """Classifica intenção da pergunta"""
+        """Classifica intençêo da pergunta"""
         # Simples keyword matching para protótipo
         text_lower = text.lower()
 
@@ -224,7 +224,7 @@ robot.run()
 **Tempo de desenvolvimento:**
 - Hardware setup: 2 dias
 - Software core: 3 dias
-- Integração: 2 dias
+- Integraçêo: 2 dias
 - Testes iniciais: 1 dia
 - **Total: 8 dias** para protótipo funcional!
 
@@ -232,12 +232,12 @@ robot.run()
 
 **FASE 4: Teste Piloto (1 semana)**
 
-Testar com usuários REAIS, não colegas de trabalho!
+Testar com usuários REAIS, nêo colegas de trabalho!
 
 **Protocolo de Teste:**
 
 ```markdown
-## Preparação
+## Preparaçêo
 - Local: Lobby de hotel parceiro
 - Horário: 14h-18h (check-in peak)
 - Equipe: 1 operador técnico + 1 observador UX
@@ -245,47 +245,47 @@ Testar com usuários REAIS, não colegas de trabalho!
 
 ## Cenários de Teste
 1. Hóspede pergunta onde fica o quarto 305
-2. Hóspede pergunta sobre café da manhã
-3. Hóspede pede recomendação de restaurante
+2. Hóspede pergunta sobre café da manhê
+3. Hóspede pede recomendaçêo de restaurante
 4. Hóspede fala em inglês
 5. Duas pessoas chegam ao mesmo tempo (edge case)
 
 ## Dados a Coletar
-- Taxa de conclusão (pergunta foi respondida?)
-- Tempo médio de interação
-- Necessidade de intervenção humana
-- Satisfação (NPS 0-10)
+- Taxa de conclusêo (pergunta foi respondida?)
+- Tempo médio de interaçêo
+- Necessidade de intervençêo humana
+- Satisfaçêo (NPS 0-10)
 - Problemas técnicos (log detalhado)
 ```
 
 ---
 
-**FASE 5: Iteração (1-2 semanas)**
+**FASE 5: Iteraçêo (1-2 semanas)**
 
 Baseado nos testes, priorize melhorias:
 
 **Exemplo de Feedback Real:**
-- "Robô não entendeu meu sotaque nordestino" (5 ocorrências)
+- "Robô nêo entendeu meu sotaque nordestino" (5 ocorrências)
 - "Voz dele é robótica demais" (8 ocorrências)
-- "Não sabia que podia tocar nele, achei que ia quebrar" (3 ocorrências)
+- "Nêo sabia que podia tocar nele, achei que ia quebrar" (3 ocorrências)
 - "Demorou 15 segundos pra responder" (10 ocorrências)
 
 **Ações:**
 1. 🔥 **CRÍTICO:** Reduzir latência (15s → 3s)
-   - Usar modelo LLM local (não cloud)
+   - Usar modelo LLM local (nêo cloud)
    - Otimizar pipeline STT → LLM → TTS
 2. 🔥 **CRÍTICO:** Melhorar reconhecimento de voz
    - Fine-tunar Whisper com sotaques brasileiros
-   - Adicionar confirmação visual (mostra transcrição em tela)
+   - Adicionar confirmaçêo visual (mostra transcriçêo em tela)
 3. 🟡 **IMPORTANTE:** Voz mais natural
    - Trocar TTS para ElevenLabs ou similar
-4. 🟢 **NICE TO HAVE:** Indicações visuais de interação
+4. 🟢 **NICE TO HAVE:** Indicações visuais de interaçêo
    - LED piscando quando escutando
    - Tela: "Pode tocar em mim!"
 
 ---
 
-### 2. Integração de Sistemas Complexos
+### 2. Integraçêo de Sistemas Complexos
 
 #### 2.1 Arquitetura de Software Profissional
 
@@ -323,11 +323,11 @@ Baseado nos testes, priorize melhorias:
 
 ---
 
-#### 2.2 Padrões de Integração
+#### 2.2 Padrões de Integraçêo
 
-**Padrão 1: Event-Driven Architecture**
+**Padrêo 1: Event-Driven Architecture**
 
-Componentes reagem a eventos, não polling constante.
+Componentes reagem a eventos, nêo polling constante.
 
 ```python
 from enum import Enum
@@ -358,7 +358,7 @@ class EventBus:
 # Uso
 event_bus = EventBus()
 
-# Componente de Visão publica evento
+# Componente de Visêo publica evento
 def on_person_detected(person_data):
     event_bus.publish(Event.PERSON_DETECTED, person_data)
 
@@ -381,7 +381,7 @@ event_bus.subscribe(Event.BATTERY_LOW, lambda d: send_alert_to_ops_team(d))
 
 ---
 
-**Padrão 2: State Machine (Máquina de Estados)**
+**Padrêo 2: State Machine (Máquina de Estados)**
 
 Robô está sempre em um estado específico.
 
@@ -413,7 +413,7 @@ class StateMachine:
         }
 
     def transition_to(self, new_state: RobotState):
-        """Transição segura de estados"""
+        """Transiçêo segura de estados"""
         if new_state not in self.transitions[self.state]:
             raise ValueError(f"Invalid transition: {self.state} -> {new_state}")
 
@@ -443,7 +443,7 @@ event_bus.subscribe(Event.SPEECH_RECOGNIZED, lambda d: sm.transition_to(RobotSta
 
 ---
 
-**Padrão 3: Plugin Architecture**
+**Padrêo 3: Plugin Architecture**
 
 Facilita adicionar novas funcionalidades sem modificar core.
 
@@ -466,7 +466,7 @@ class SkillPlugin(ABC):
 # Implementações concretas
 class DirectionsSkill(SkillPlugin):
     def can_handle(self, user_input: str) -> bool:
-        keywords = ["onde fica", "como chegar", "direção"]
+        keywords = ["onde fica", "como chegar", "direçêo"]
         return any(kw in user_input.lower() for kw in keywords)
 
     def execute(self, user_input: str) -> str:
@@ -505,7 +505,7 @@ class SkillManager:
         for skill in self.skills:
             if skill.can_handle(user_input):
                 return skill.execute(user_input)
-        return "Desculpe, não entendi."
+        return "Desculpe, nêo entendi."
 
 # Setup
 manager = SkillManager()
@@ -529,50 +529,50 @@ response = manager.handle_input("Onde fica o restaurante?")
 - **Onde:** Laboratório controlado
 - **Quem:** Equipe de desenvolvimento
 - **Foco:** Funcionalidade básica, bugs críticos
-- **Duração:** 1 semana
+- **Duraçêo:** 1 semana
 
 **2. Teste Beta (Privado)**
 - **Onde:** Ambiente real, acesso limitado
 - **Quem:** Early adopters, parceiros selecionados
 - **Foco:** Usabilidade, edge cases, performance
-- **Duração:** 2-4 semanas
+- **Duraçêo:** 2-4 semanas
 
 **3. Teste Piloto (Semi-público)**
-- **Onde:** Operação real, mas supervisionada
+- **Onde:** Operaçêo real, mas supervisionada
 - **Quem:** Usuários reais + equipe de suporte presente
-- **Foco:** Escalabilidade, aceitação do mercado
-- **Duração:** 1-3 meses
+- **Foco:** Escalabilidade, aceitaçêo do mercado
+- **Duraçêo:** 1-3 meses
 
 ---
 
 #### 3.2 Framework de Teste Estruturado
 
-**Template de Sessão de Teste:**
+**Template de Sessêo de Teste:**
 
 ```markdown
-# Sessão de Teste #24
+# Sessêo de Teste #24
 
 ## Informações Gerais
 - Data: 2025-11-05
 - Local: Hotel Plaza (lobby)
 - Horário: 14:00 - 18:00
 - Condições: Dia ensolarado, lobby com movimento médio
-- Versão do Software: v1.2.3-beta
+- Versêo do Software: v1.2.3-beta
 
 ## Equipe
-- Operador Técnico: João
+- Operador Técnico: Joêo
 - Observador UX: Maria
 - Suporte: Pedro (remoto)
 
-## Objetivos da Sessão
+## Objetivos da Sessêo
 - [ ] Testar reconhecimento de voz com ruído de fundo
-- [ ] Validar navegação com múltiplas pessoas
-- [ ] Medir satisfação dos hóspedes (NPS)
+- [ ] Validar navegaçêo com múltiplas pessoas
+- [ ] Medir satisfaçêo dos hóspedes (NPS)
 
 ## Métricas Planejadas
 - Nº interações: Meta 30+
-- Taxa de conclusão: Meta > 80%
-- Tempo médio interação: Meta < 2 min
+- Taxa de conclusêo: Meta > 80%
+- Tempo médio interaçêo: Meta < 2 min
 - NPS: Meta > 7.0
 
 ## Resultados
@@ -582,20 +582,20 @@ response = manager.handle_input("Onde fica o restaurante?")
 |---|------|----------|----------|-------|-----|-------|
 | 1 | 14:05 | "Onde fica o quarto 302?" | ✅ | 1:20 | 9 | Perfeito |
 | 2 | 14:12 | "Tem piscina?" | ✅ | 0:45 | 8 | Rápido |
-| 3 | 14:18 | [sotaque forte] | ❌ | 2:30 | 4 | Não entendeu, frustrou usuário |
+| 3 | 14:18 | [sotaque forte] | ❌ | 2:30 | 4 | Nêo entendeu, frustrou usuário |
 | 4 | 14:25 | "Restaurante?" | ✅ | 1:05 | 9 | OK |
 | ... | ... | ... | ... | ... | ... | ... |
 
 ### Métricas Finais
 - Interações: 34 ✅
-- Taxa de conclusão: 82% (28/34) ✅
+- Taxa de conclusêo: 82% (28/34) ✅
 - Tempo médio: 1:40 ✅
 - NPS médio: 7.4 ✅
 
 ### Problemas Encontrados
 1. **[CRÍTICO]** Falha ao reconhecer sotaque nordestino (6 casos)
-2. **[ALTO]** Travou 1x após 2h operação (memory leak?)
-3. **[MÉDIO]** Bateria durou 3h20, não 4h como esperado
+2. **[ALTO]** Travou 1x após 2h operaçêo (memory leak?)
+3. **[MÉDIO]** Bateria durou 3h20, nêo 4h como esperado
 4. **[BAIXO]** LED de status pouco visível sob sol
 
 ### Ações
@@ -629,7 +629,7 @@ class InteractionLogger:
         )
 
     def log_interaction(self, interaction_data):
-        """Loga interação completa"""
+        """Loga interaçêo completa"""
         interaction = {
             'timestamp': datetime.now().isoformat(),
             'session_id': self.session_id,
@@ -666,7 +666,7 @@ class InteractionLogger:
         logging.error(json.dumps(error))
 
     def generate_report(self):
-        """Gera relatório da sessão"""
+        """Gera relatório da sessêo"""
         total = len(self.interactions)
         successful = sum(1 for i in self.interactions if i['success'])
         avg_duration = sum(i['duration_seconds'] for i in self.interactions) / total
@@ -688,7 +688,7 @@ class InteractionLogger:
 # Uso
 logger = InteractionLogger(session_id="test_2025_11_05_001")
 
-# Durante interação
+# Durante interaçêo
 interaction_data = {
     'user_input': '<audio_bytes>',
     'transcription': "onde fica o restaurante",
@@ -707,7 +707,7 @@ print(json.dumps(report, indent=2))
 
 ---
 
-### 4. Iteração Baseada em Feedback
+### 4. Iteraçêo Baseada em Feedback
 
 #### 4.1 Análise de Dados de Campo
 
@@ -725,8 +725,8 @@ print(json.dumps(report, indent=2))
 RICE Score = (Reach × Impact × Confidence) / Effort
 
 Reach: Quantas pessoas afeta?
-Impact: Quão grande o impacto? (3=alto, 2=médio, 1=baixo)
-Confidence: Quão certo você está? (100%=1.0, 50%=0.5)
+Impact: Quêo grande o impacto? (3=alto, 2=médio, 1=baixo)
+Confidence: Quêo certo você está? (100%=1.0, 50%=0.5)
 Effort: Quantas person-weeks?
 ```
 
@@ -738,9 +738,9 @@ Effort: Quantas person-weeks?
 | Fix memory leak | 500 | 3 | 0.8 | 1 | 1200 | 🔥🔥 0 |
 | Adicionar espanhol | 50 | 2 | 0.5 | 3 | 16.7 | 5 |
 | Expressões faciais | 500 | 1 | 0.8 | 4 | 100 | 3 |
-| Integração PMS | 100 | 3 | 1.0 | 8 | 37.5 | 4 |
+| Integraçêo PMS | 100 | 3 | 1.0 | 8 | 37.5 | 4 |
 
-**Resultado:** Prioridade = Fix memory leak > Melhorar ASR > Expressões > Integração > Espanhol
+**Resultado:** Prioridade = Fix memory leak > Melhorar ASR > Expressões > Integraçêo > Espanhol
 
 ---
 
@@ -805,7 +805,7 @@ ab_test.register_experiment(
     variant_b='casual_voice.wav'   # Tom casual
 )
 
-# Durante operação
+# Durante operaçêo
 user_id = "guest_12345"
 variant = ab_test.get_variant('voice_tone', user_id)
 
@@ -824,16 +824,16 @@ ab_test.analyze('voice_tone')
 
 ---
 
-### 5. Documentação Técnica Profissional
+### 5. Documentaçêo Técnica Profissional
 
-#### 5.1 Tipos de Documentação
+#### 5.1 Tipos de Documentaçêo
 
 **1. README.md (Para desenvolvedores)**
 
 ```markdown
-# RoboReceptionist - Sistema de Recepção Autônoma
+# RoboReceptionist - Sistema de Recepçêo Autônoma
 
-## Visão Geral
+## Visêo Geral
 Sistema completo de robô recepcionista para hotéis usando Bumi + ROS 2 + GPT-4.
 
 ## Quick Start
@@ -877,19 +877,19 @@ pytest tests/ --cov=src
 ## Setup Diário
 
 ### 1. Checklist Matinal (5 min)
-- [ ] Ligar o robô (botão azul lateral)
+- [ ] Ligar o robô (botêo azul lateral)
 - [ ] Verificar bateria (deve estar 100%)
 - [ ] Testar microfone: "Olá, teste"
 - [ ] Testar câmeras (ver dashboard)
 - [ ] Posicionar robô no local correto
 
-### 2. Operação Normal
+### 2. Operaçêo Normal
 
 **Dashboard:** Acessar `http://192.168.1.100:8080`
 
 **Estados do Robô:**
 - 🟢 Verde: Operando normalmente
-- 🟡 Amarelo: Aguardando interação
+- 🟡 Amarelo: Aguardando interaçêo
 - 🔴 Vermelho: Erro - chamar suporte
 
 **Quando Intervir:**
@@ -899,18 +899,18 @@ pytest tests/ --cov=src
 
 ### 3. Problemas Comuns
 
-**"Robô não responde"**
+**"Robô nêo responde"**
 1. Verificar se está ligado (óbvio, mas acontece!)
 2. Reiniciar: Menu > Restart System
 3. Se persiste: Ligar para suporte (11) 9999-9999
 
-**"Não entende o que falo"**
+**"Nêo entende o que falo"**
 1. Falar mais devagar e claramente
 2. Se erro persiste, usar tela touch como backup
 3. Reportar no fim do dia (form de feedback)
 
 ### 4. Checklist Noturno
-- [ ] Levar robô para estação de carga
+- [ ] Levar robô para estaçêo de carga
 - [ ] Fazer backup dos logs (automático)
 - [ ] Preencher relatório diário (5 min)
 ```
@@ -922,7 +922,7 @@ pytest tests/ --cov=src
 ```markdown
 # API Reference - RoboReceptionist
 
-## Autenticação
+## Autenticaçêo
 Todas requisições requerem token JWT:
 ```http
 POST /api/auth/login
@@ -1005,9 +1005,9 @@ Cria tarefa de guiar pessoa a um local.
 **Responsabilidade:** Processar sensores e extrair informações.
 
 **Tecnologias:**
-- OpenCV 4.8 (visão)
+- OpenCV 4.8 (visêo)
 - Whisper v3 (ASR)
-- YOLO v8 (detecção de pessoas)
+- YOLO v8 (detecçêo de pessoas)
 
 **Inputs:**
 - RGB camera (1920x1080 @ 30fps)
@@ -1033,13 +1033,13 @@ Cria tarefa de guiar pessoa a um local.
 ### ADR-001: Escolha de ROS 2 vs Custom Framework
 **Status:** Aceito
 **Contexto:** [...]
-**Decisão:** Usar ROS 2 Humble
+**Decisêo:** Usar ROS 2 Humble
 **Consequências:** [...]
 ```
 
 ---
 
-#### 5.2 Documentação de Casos de Uso
+#### 5.2 Documentaçêo de Casos de Uso
 
 **Template:**
 
@@ -1070,32 +1070,32 @@ Cria tarefa de guiar pessoa a um local.
 
 ## Fluxos Alternativos
 
-### 3a. Hóspede não sabe número do quarto
+### 3a. Hóspede nêo sabe número do quarto
 3a1. Hóspede: "Esqueci meu número de quarto"
 3a2. Robô: "Sem problemas! Qual seu nome?"
 3a3. Hóspede fornece nome
 3a4. Robô consulta PMS via API
 3a5. Se encontrado: "Você está no quarto 305"
 3a6. Continua no passo 5
-3a7. Se não encontrado: "Não encontrei reserva. Por favor, dirija-se à recepção."
+3a7. Se nêo encontrado: "Nêo encontrei reserva. Por favor, dirija-se à recepçêo."
 
 ### 8a. Caminho bloqueado
 8a1. Robô detecta obstáculo no caminho
 8a2. Robô recalcula rota
 8a3. Se rota alternativa existe: continua
-8a4. Se não: "Desculpe, o caminho está bloqueado. Por favor, siga as placas."
+8a4. Se nêo: "Desculpe, o caminho está bloqueado. Por favor, siga as placas."
 
 ## Exceções
-- E1: Quarto não existe no mapa → Direcionar para recepção
+- E1: Quarto nêo existe no mapa → Direcionar para recepçêo
 - E2: Bateria < 15% durante guiamento → Pedir para outra pessoa continuar
-- E3: Hóspede perdeu o robô → Robô espera 30s, então retorna
+- E3: Hóspede perdeu o robô → Robô espera 30s, entêo retorna
 
 ## Pós-condições
 - Hóspede sabe como chegar ao quarto
-- Robô retornou à posição inicial
-- Interação foi logada no sistema
+- Robô retornou à posiçêo inicial
+- Interaçêo foi logada no sistema
 
-## Requisitos Não-Funcionais
+## Requisitos Nêo-Funcionais
 - Tempo de resposta: < 3s
 - Taxa de sucesso: > 90%
 - NPS esperado: > 8.0
@@ -1103,9 +1103,9 @@ Cria tarefa de guiar pessoa a um local.
 
 ---
 
-### 6. Apresentação de Resultados
+### 6. Apresentaçêo de Resultados
 
-#### 6.1 Estrutura de Apresentação Executiva
+#### 6.1 Estrutura de Apresentaçêo Executiva
 
 **Para stakeholders (C-level, investidores):**
 
@@ -1121,13 +1121,13 @@ Resultados do Piloto - Hotel Plaza
 ```
 ✅ 500 interações em 30 dias
 ✅ NPS: 8.2 (meta: 8.0)
-✅ 85% taxa de conclusão (meta: 80%)
+✅ 85% taxa de conclusêo (meta: 80%)
 ✅ R$ 12.000/mês de economia para o hotel
 ✅ 95% uptime (disponibilidade)
 
 💡 Principais Aprendizados:
 - Hóspedes preferem robô para tarefas simples
-- Integração com PMS é essencial
+- Integraçêo com PMS é essencial
 - Bateria precisa durar turno completo (8h)
 ```
 
@@ -1136,11 +1136,11 @@ Resultados do Piloto - Hotel Plaza
 
 **Slide 4: Feedback Qualitativo**
 ```
-"Adorei! Mais rápido que ficar na fila da recepção" - ⭐⭐⭐⭐⭐
+"Adorei! Mais rápido que ficar na fila da recepçêo" - ⭐⭐⭐⭐⭐
 
-"Não entendeu meu sotaque, mas a tela touch salvou" - ⭐⭐⭐⭐
+"Nêo entendeu meu sotaque, mas a tela touch salvou" - ⭐⭐⭐⭐
 
-"Incrível! Meu filho não parava de conversar com ele" - ⭐⭐⭐⭐⭐
+"Incrível! Meu filho nêo parava de conversar com ele" - ⭐⭐⭐⭐⭐
 ```
 
 **Slide 5: ROI para o Cliente**
@@ -1163,20 +1163,20 @@ Benefícios intangíveis:
 ```
 Fase 2 (Próximos 3 meses):
 - Melhorias baseadas em feedback
-- Expansão para 3 hotéis adicionais
-- Integração com sistemas de reserva
+- Expansêo para 3 hotéis adicionais
+- Integraçêo com sistemas de reserva
 
 Fase 3 (6-12 meses):
 - Escalar para 20 hotéis
 - Novas funcionalidades (check-in automatizado)
-- Versão 2.0 do hardware
+- Versêo 2.0 do hardware
 ```
 
 ---
 
 #### 6.2 Demo ao Vivo - Checklist
 
-**Preparação (1 dia antes):**
+**Preparaçêo (1 dia antes):**
 - [ ] Testar setup completo 3x
 - [ ] Carregar bateria 100%
 - [ ] Limpar robô (aparência importa!)
@@ -1188,14 +1188,14 @@ Fase 3 (6-12 meses):
 - [ ] Testar rede Wi-Fi
 - [ ] Conectar projetor/TV
 - [ ] Testar áudio
-- [ ] Robô em posição inicial
+- [ ] Robô em posiçêo inicial
 - [ ] Dashboard aberto em laptop
 
 **Durante Demo (15 min):**
 1. **Intro (2 min):** Contexto e problema
 2. **Demo ao vivo (8 min):**
    - Cenário 1: Pergunta simples
-   - Cenário 2: Navegação
+   - Cenário 2: Navegaçêo
    - Cenário 3: Fallback (mostra como lida com erro)
 3. **Dashboard (3 min):** Mostrar métricas em tempo real
 4. **Q&A (tempo restante)**
@@ -1266,21 +1266,21 @@ D) Sua própria ideia
 - Checklist de equipamentos
 - Plano de contingência
 
-**Critério:** Plano deve ser executável por alguém que não seja você!
+**Critério:** Plano deve ser executável por alguém que nêo seja você!
 
 📤 [Upload: Exercício 2](../projetos/ex2-upload)
 
 ---
 
-### Exercício 3: Documentação Completa
+### Exercício 3: Documentaçêo Completa
 
 **Tempo:** 120 minutos
 
 **Tarefa:** Documentar um subsistema do seu projeto.
 
 **Escolha um:**
-- Sistema de detecção de pessoas
-- Sistema de navegação
+- Sistema de detecçêo de pessoas
+- Sistema de navegaçêo
 - Sistema de diálogo
 - Sistema de monitoramento
 
@@ -1303,7 +1303,7 @@ graph TD
 
 ---
 
-## 📊 Projeto Final do Nível 4: Aplicação Real Completa
+## 📊 Projeto Final do Nível 4: Aplicaçêo Real Completa
 
 **Objetivo:** Criar protótipo funcional, testar com usuários reais, documentar e apresentar.
 
@@ -1321,14 +1321,14 @@ graph TD
 - Relatório de teste (3-5 páginas)
 - Vídeo das interações (com consentimento)
 
-**Entrega 3: Documentação Completa**
+**Entrega 3: Documentaçêo Completa**
 - README.md
 - USER_MANUAL.md
 - API_REFERENCE.md (se aplicável)
 - ARCHITECTURE.md
 - Mínimo 3 diagramas
 
-**Entrega 4: Apresentação**
+**Entrega 4: Apresentaçêo**
 - Pitch de 10 minutos
 - Demo ao vivo (ou vídeo)
 - Slides profissionais
@@ -1337,17 +1337,17 @@ graph TD
 **Entrega 5: Plano de Próximos Passos**
 - O que você faria nos próximos 3 meses?
 - Como escalaria para 10x usuários?
-- Quanto custaria desenvolver versão 2.0?
+- Quanto custaria desenvolver versêo 2.0?
 
-### Critérios de Avaliação
+### Critérios de Avaliaçêo
 
-| Critério | Peso | Descrição |
+| Critério | Peso | Descriçêo |
 |----------|------|-----------|
 | Funcionalidade técnica | 25% | Robô funciona conforme especificado? |
 | Teste com usuários | 20% | Dados coletados, análise rigorosa? |
-| Documentação | 20% | Clara, completa, profissional? |
-| Apresentação | 20% | Pitch convincente, demo impressionante? |
-| Visão de futuro | 15% | Plano de evolução realista? |
+| Documentaçêo | 20% | Clara, completa, profissional? |
+| Apresentaçêo | 20% | Pitch convincente, demo impressionante? |
+| Visêo de futuro | 15% | Plano de evoluçêo realista? |
 
 ### Entrega
 
@@ -1356,9 +1356,9 @@ graph TD
 **Prazo:** 4 semanas após início do Módulo 4.3
 
 **Feedback:** Você receberá:
-- Avaliação escrita detalhada
+- Avaliaçêo escrita detalhada
 - 1h de mentoria 1:1
-- Carta de recomendação (se nota > 8.5)
+- Carta de recomendaçêo (se nota > 8.5)
 
 ---
 
@@ -1366,22 +1366,22 @@ graph TD
 
 ### Cases de Sucesso
 
-🏆 **Robôs Humanoides em Produção:**
+🏆 **Robôs Humanoides em Produçêo:**
 
 1. **Pepper (SoftBank Robotics)**
-   - Uso: Recepção, varejo, educação
+   - Uso: Recepçêo, varejo, educaçêo
    - Deploy: 10.000+ unidades globalmente
-   - Lição: Importância de ecosistema de apps
+   - Liçêo: Importância de ecosistema de apps
 
 2. **NAO (SoftBank Robotics)**
-   - Uso: Educação, pesquisa
+   - Uso: Educaçêo, pesquisa
    - Deploy: 5.000+ escolas
-   - Lição: Documentação e comunidade são chave
+   - Liçêo: Documentaçêo e comunidade sêo chave
 
 3. **Sophia (Hanson Robotics)**
    - Uso: Entretenimento, marketing
    - Deploy: Eventos globais
-   - Lição: Marketing/narrativa > tecnologia pura
+   - Liçêo: Marketing/narrativa > tecnologia pura
 
 ### Livros e Artigos
 
@@ -1397,24 +1397,24 @@ graph TD
 
 ### Ferramentas
 
-🛠️ **Prototipação:**
+🛠️ **Prototipaçêo:**
 - Figma (UI/UX)
 - Miro (Brainstorming)
-- Notion (Documentação)
+- Notion (Documentaçêo)
 
 🛠️ **Testes:**
 - UserTesting.com (Teste remoto)
 - Hotjar (Heatmaps)
 - Maze (Testes de usabilidade)
 
-🛠️ **Apresentação:**
+🛠️ **Apresentaçêo:**
 - Pitch.com (Slides modernos)
 - Loom (Gravar demos)
 - Canva (Design)
 
 ---
 
-## 🎯 Checklist de Conclusão
+## 🎯 Checklist de Conclusêo
 
 Antes de finalizar o Nível 4, certifique-se:
 
@@ -1429,7 +1429,7 @@ Antes de finalizar o Nível 4, certifique-se:
 
 ---
 
-## 🎓 Certificação
+## 🎓 Certificaçêo
 
 **Parabéns! Você completou o Nível 4!**
 
@@ -1440,12 +1440,12 @@ Ao finalizar todos os requisitos, você receberá:
 - 🤝 **6 meses de mentoria 1:1 (1h/mês)**
 - 💼 **Acesso à rede de investidores e parceiros**
 - 🌟 **Entrada no Hall da Fama FTH**
-- 📣 **Divulgação do seu projeto na comunidade**
-- 💌 **Carta de recomendação (se nota > 8.5)**
+- 📣 **Divulgaçêo do seu projeto na comunidade**
+- 💌 **Carta de recomendaçêo (se nota > 8.5)**
 
 ---
 
-## 💬 Discussão e Comunidade
+## 💬 Discussêo e Comunidade
 
 **Participe das discussões:**
 
@@ -1476,7 +1476,7 @@ Ao finalizar todos os requisitos, você receberá:
 
 1. **🚀 Empreender**
    - Use o que aprendeu para criar sua startup
-   - Aplique aos programas de aceleração parceiros
+   - Aplique aos programas de aceleraçêo parceiros
    - Busque investimento (anjos ou VCs)
 
 2. **💼 Trabalhar**
@@ -1500,15 +1500,15 @@ Ao finalizar todos os requisitos, você receberá:
 
 **Ajude-nos a melhorar!**
 
-Preencha a pesquisa de satisfação do Nível 4 (5 minutos):
+Preencha a pesquisa de satisfaçêo do Nível 4 (5 minutos):
 
 📋 [Pesquisa de Feedback](https://forms.gle/fth-n4-feedback)
 
-Sua opinião é fundamental para evolução do programa!
+Sua opiniêo é fundamental para evoluçêo do programa!
 
 ---
 
-**Última atualização:** 2025-10-29
+**Última atualizaçêo:** 2025-10-29
 **Autor:** Equipe FTH
 **Revisores:** 2 empreendedores de robótica + 1 product manager + 1 investidor
 

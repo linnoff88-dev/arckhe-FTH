@@ -1,6 +1,6 @@
 ---
 layout: trilha
-title: "Trilha Educação"
+title: "Trilha Educaçêo"
 subtitle: "Transforme robôs em ferramentas pedagógicas"
 icon: "🎓"
 permalink: /trilhas/educacao/
@@ -39,24 +39,24 @@ Um robô humanoide programado para:
 ### Metodologias Ativas
 - Aprendizagem baseada em projetos
 - Sala de aula invertida
-- Gamificação educacional
+- Gamificaçêo educacional
 
 ### STEAM Education
 - Integrar robótica ao currículo
 - Projetos interdisciplinares
-- Avaliação de aprendizado
+- Avaliaçêo de aprendizado
 
-### Tecnologia na Educação
+### Tecnologia na Educaçêo
 - Ferramentas digitais
-- Inclusão digital
+- Inclusêo digital
 - Acessibilidade
 
 ---
 
 ## 🎓 Certificado
 
-"Especialista em Educação com Robótica Humanoide"
+"Especialista em Educaçêo com Robótica Humanoide"
 
 ---
 
-[→ Começar Trilha Educação]({{ '/niveis/nivel-1/' | relative_url }}){: .btn .btn-primary}
+[→ Começar Trilha Educaçêo]({{ '/niveis/nivel-1/' | relative_url }}){: .btn .btn-primary}

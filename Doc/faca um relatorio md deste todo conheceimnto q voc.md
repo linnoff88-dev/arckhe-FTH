@@ -3,11 +3,11 @@
 # faca um relatorio md deste todo conheceimnto q voce buscou
 
 ```markdown
-# Relatório: Interface de Programação Gráfica “Drag-and-Drop” do Robô Bumi (Noetix Robotics)
+# Relatório: Interface de Programaçêo Gráfica “Drag-and-Drop” do Robô Bumi (Noetix Robotics)
 
-## Introdução
+## Introduçêo
 
-A Noetix Robotics lançou o robô Bumi em 2025, enfatizando sua proposta educacional, preço acessível e facilidade de uso por meio de uma interface de programação gráfica baseada em “drag-and-drop”. Este relatório compila os principais pontos apurados sobre o Bumi, suas características técnicas, finalidade da interface visual e recursos disponíveis, com base nas fontes mais atuais até outubro de 2025[web:47][web:56][web:53][web:21].
+A Noetix Robotics lançou o robô Bumi em 2025, enfatizando sua proposta educacional, preço acessível e facilidade de uso por meio de uma interface de programaçêo gráfica baseada em “drag-and-drop”. Este relatório compila os principais pontos apurados sobre o Bumi, suas características técnicas, finalidade da interface visual e recursos disponíveis, com base nas fontes mais atuais até outubro de 2025[web:47][web:56][web:53][web:21].
 
 ---
 
@@ -16,20 +16,20 @@ A Noetix Robotics lançou o robô Bumi em 2025, enfatizando sua proposta educaci
 - **Altura e Peso:** O Bumi possui 94 cm de altura e pesa 12 kg, permitindo fácil transporte por crianças ou adultos[web:56][web:57].
 - **Preço:** Cerca de US$ 1.400 (9.998 RMB), voltado ao público doméstico e educacional[web:57][web:56].
 - **Autonomia:** Opera entre 1 e 2 horas por carga[web:59][web:60].
-- **Movimentação:** Anda, dança, responde comandos de voz simples, com destaque para movimentos articulados e equilíbrio estável[web:47][web:56].
+- **Movimentaçêo:** Anda, dança, responde comandos de voz simples, com destaque para movimentos articulados e equilíbrio estável[web:47][web:56].
 - **Foco:** Uso em ambientes familiares e escolares; visa tornar a robótica educacional comum e acessível[web:56][web:53].
 
 ---
 
-## Interface de Programação Gráfica “Drag-and-Drop”
+## Interface de Programaçêo Gráfica “Drag-and-Drop”
 
-- **Funcionamento:** Usuários podem programar atividades (movimentação, respostas a comandos, loops, etc.) arrastando e soltando blocos visuais na tela, sem necessidade de codificação tradicional[web:47][web:59][web:53].
-- **Objetivo:** Democratizar o acesso à robótica e à programação, permitindo que crianças, educadores e iniciantes criem rotinas e projetos interativos de forma intuitiva[web:53][web:47].
+- **Funcionamento:** Usuários podem programar atividades (movimentaçêo, respostas a comandos, loops, etc.) arrastando e soltando blocos visuais na tela, sem necessidade de codificaçêo tradicional[web:47][web:59][web:53].
+- **Objetivo:** Democratizar o acesso à robótica e à programaçêo, permitindo que crianças, educadores e iniciantes criem rotinas e projetos interativos de forma intuitiva[web:53][web:47].
 - **Ambiente:** Previsto para ser acessado via ecossistema Joy Inside 2.0 da JD.com e site oficial da Noetix, acompanhando o lançamento comercial em 2025[web:42][web:48].
 - **Aplicações:** 
-  - Sequência de movimentos (dança, locomoção, tarefas educativas)
-  - Scripts de interação por voz e reconhecimento de objetos
-  - Programação de rotinas para casa e sala de aula
+  - Sequência de movimentos (dança, locomoçêo, tarefas educativas)
+  - Scripts de interaçêo por voz e reconhecimento de objetos
+  - Programaçêo de rotinas para casa e sala de aula
 - **Comparativo:** Noetix posiciona a interface como alternativa competitiva a soluções normalmente restritas a centros de pesquisa e protótipos caros, evidenciando simplicidade e baixo custo[web:47][web:56].
 
 ---
@@ -47,13 +47,13 @@ A Noetix Robotics lançou o robô Bumi em 2025, enfatizando sua proposta educaci
 ## Fontes Oficiais e Links
 
 - **Noetix Robotics:** [en.noetixrobotics.com](https://en.noetixrobotics.com) — Principal ponto de atualizações e futuras informações de acesso à interface visual[web:48].
-- **JD.com (Joy Inside 2.0):** O ambiente de programação drag-and-drop será distribuído para quem adquirir o robô via loja JD.com[web:42].
+- **JD.com (Joy Inside 2.0):** O ambiente de programaçêo drag-and-drop será distribuído para quem adquirir o robô via loja JD.com[web:42].
 
 ---
 
-## Conclusão
+## Conclusêo
 
-O Bumi representa um avanço significativo em robótica educacional, combinando acessibilidade financeira, recursos de engenharia robustos e programação simplificada via interface drag-and-drop. Suas principais aplicações envolvem ensino, automação doméstica básica e experimentação criativa, sendo indicado especialmente para escolas, famílias e entusiastas que buscam iniciação prática em robótica, sem barreiras de codificação tradicional[web:47][web:56][web:53][web:59].
+O Bumi representa um avanço significativo em robótica educacional, combinando acessibilidade financeira, recursos de engenharia robustos e programaçêo simplificada via interface drag-and-drop. Suas principais aplicações envolvem ensino, automaçêo doméstica básica e experimentaçêo criativa, sendo indicado especialmente para escolas, famílias e entusiastas que buscam iniciaçêo prática em robótica, sem barreiras de codificaçêo tradicional[web:47][web:56][web:53][web:59].
 
 ```
 

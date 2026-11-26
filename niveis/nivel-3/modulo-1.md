@@ -12,9 +12,9 @@ permalink: /niveis/nivel-3/modulo-1/
 
 ## 📋 Informações do Módulo
 
-| Informação | Detalhes |
+| Informaçêo | Detalhes |
 |------------|----------|
-| **Duração estimada** | 15-20 horas |
+| **Duraçêo estimada** | 15-20 horas |
 | **Nível** | Avançado |
 | **Pré-requisitos** | Nível 2 concluído, conhecimento de RL básico |
 | **Ferramentas** | Python, Stable-Baselines3, PyTorch, TensorBoard |
@@ -37,11 +37,11 @@ Ao completar este módulo, você será capaz de:
 
 ## 📚 Conteúdo Teórico
 
-### 1. Revisão: Fundamentos de Reinforcement Learning
+### 1. Revisêo: Fundamentos de Reinforcement Learning
 
 Antes de mergulharmos nos algoritmos avançados, vamos revisar conceitos essenciais:
 
-#### Estado, Ação e Recompensa
+#### Estado, Açêo e Recompensa
 
 ```python
 # Estrutura básica de um ambiente de RL
@@ -54,7 +54,7 @@ class RobotEnvironment:
         return initial_state
 
     def step(self, action):
-        """Executa ação e retorna (próximo_estado, recompensa, done, info)"""
+        """Executa açêo e retorna (próximo_estado, recompensa, done, info)"""
         next_state = self.transition(self.state, action)
         reward = self.compute_reward(next_state)
         done = self.is_terminal(next_state)
@@ -64,18 +64,18 @@ class RobotEnvironment:
 #### Política vs. Value Function
 
 - **Política (π)**: Mapeia estados para ações
-  - Estocástica: π(a|s) = probabilidade de ação a dado estado s
+  - Estocástica: π(a|s) = probabilidade de açêo a dado estado s
   - Determinística: a = π(s)
 
 - **Value Function (V)**: Valor esperado de um estado
   - V^π(s) = E[∑γ^t * r_t | s_0=s, π]
 
-- **Q-Function**: Valor esperado de ação em estado
+- **Q-Function**: Valor esperado de açêo em estado
   - Q^π(s,a) = E[∑γ^t * r_t | s_0=s, a_0=a, π]
 
 #### Exploration vs. Exploitation
 
-**Problema fundamental do RL**: balancear exploração (tentar coisas novas) vs. exploração (usar o que já funciona).
+**Problema fundamental do RL**: balancear exploraçêo (tentar coisas novas) vs. exploraçêo (usar o que já funciona).
 
 **Estratégias comuns:**
 - ε-greedy (usado em DQN)
@@ -89,14 +89,14 @@ Projetar boas funções de recompensa é **crítico** para o sucesso do RL.
 **Princípios:**
 - **Densas**: Feedback frequente
 - **Normalizadas**: Recompensas na mesma escala
-- **Sem contradições**: Não incentivar comportamentos opostos
+- **Sem contradições**: Nêo incentivar comportamentos opostos
 - **Alinhadas**: Refletir objetivo real
 
 **Exemplo prático - Robô andando:**
 
 ```python
 def compute_reward_walking(state):
-    """Função de recompensa bem projetada para caminhar"""
+    """Funçêo de recompensa bem projetada para caminhar"""
 
     # 1. Recompensa principal: velocidade para frente
     forward_velocity = state['base_velocity_x']
@@ -108,7 +108,7 @@ def compute_reward_walking(state):
         reward -= 10.0
 
     # 3. Incentivo por manter corpo reto
-    body_orientation = state['base_roll']  # Ângulo de inclinação
+    body_orientation = state['base_roll']  # Ângulo de inclinaçêo
     reward -= abs(body_orientation) * 0.5
 
     # 4. Penalidade leve por uso de energia
@@ -138,35 +138,35 @@ def compute_reward_walking(state):
 
 **Paper original:** [Proximal Policy Optimization Algorithms (Schulman et al., 2017)](https://arxiv.org/abs/1707.06347)
 
-#### Intuição: Por que PPO?
+#### Intuiçêo: Por que PPO?
 
 Imagine que você está treinando um robô para andar:
-- **Iteração 1**: Robô aprende a dar pequenos passos
-- **Iteração 2**: Você atualiza a política de forma agressiva
+- **Iteraçêo 1**: Robô aprende a dar pequenos passos
+- **Iteraçêo 2**: Você atualiza a política de forma agressiva
 - **Resultado**: Robô esquece tudo e volta a cair
 
 **Problema**: Policy Gradient tradicional pode fazer updates muito grandes, destruindo o que foi aprendido.
 
-**Solução do PPO**: Limitar o tamanho do update para garantir melhorias incrementais e estáveis.
+**Soluçêo do PPO**: Limitar o tamanho do update para garantir melhorias incrementais e estáveis.
 
 #### Matemática do PPO (Simplificada)
 
-O PPO otimiza uma função objetivo que **limita** quanto a nova política pode diferir da antiga:
+O PPO otimiza uma funçêo objetivo que **limita** quanto a nova política pode diferir da antiga:
 
 ```
 L^CLIP(θ) = E[min(r_t(θ) * A_t, clip(r_t(θ), 1-ε, 1+ε) * A_t)]
 
 Onde:
-- r_t(θ) = π_θ(a|s) / π_θ_old(a|s)  [razão entre política nova e antiga]
-- A_t = vantagem (quão melhor que média é tomar ação a)
+- r_t(θ) = π_θ(a|s) / π_θ_old(a|s)  [razêo entre política nova e antiga]
+- A_t = vantagem (quêo melhor que média é tomar açêo a)
 - ε = limite de clipping (tipicamente 0.2)
 ```
 
-**Interpretação:**
+**Interpretaçêo:**
 - Se `r_t` estiver entre `[1-ε, 1+ε]`, aceita o update
 - Se `r_t` tentar ir muito além, **clippa** (limita) o valor
 
-Isso garante que a nova política não se afasta muito da antiga.
+Isso garante que a nova política nêo se afasta muito da antiga.
 
 #### Componentes do PPO
 
@@ -188,7 +188,7 @@ class PPOActorCritic(nn.Module):
             nn.ReLU()
         )
 
-        # Actor: gera distribuição de ações
+        # Actor: gera distribuiçêo de ações
         self.actor_mean = nn.Linear(256, action_dim)
         self.actor_logstd = nn.Parameter(torch.zeros(action_dim))
 
@@ -208,13 +208,13 @@ class PPOActorCritic(nn.Module):
         return action_mean, action_std, value
 
     def get_action(self, obs, deterministic=False):
-        """Amostra ação da política"""
+        """Amostra açêo da política"""
         action_mean, action_std, value = self.forward(obs)
 
         if deterministic:
             return action_mean, value
 
-        # Amostra de distribuição Gaussian
+        # Amostra de distribuiçêo Gaussian
         dist = torch.distributions.Normal(action_mean, action_std)
         action = dist.sample()
         log_prob = dist.log_prob(action).sum(dim=-1)
@@ -280,7 +280,7 @@ def ppo_update(policy, optimizer, states, actions, old_log_probs,
         # Value function loss
         value_loss = F.mse_loss(values.squeeze(), returns)
 
-        # Entropy bonus (incentiva exploração)
+        # Entropy bonus (incentiva exploraçêo)
         entropy = dist.entropy().mean()
 
         # Loss total
@@ -293,7 +293,7 @@ def ppo_update(policy, optimizer, states, actions, old_log_probs,
         optimizer.step()
 ```
 
-#### Implementação Completa com Stable-Baselines3
+#### Implementaçêo Completa com Stable-Baselines3
 
 ```python
 from stable_baselines3 import PPO
@@ -329,7 +329,7 @@ model = PPO(
     clip_range=0.2,      # Epsilon de clipping
     clip_range_vf=None,  # Clipping no value function
 
-    # Regularização
+    # Regularizaçêo
     ent_coef=0.01,       # Entropy bonus
     vf_coef=0.5,         # Value function coef
     max_grad_norm=0.5,   # Gradient clipping
@@ -344,7 +344,7 @@ model = PPO(
     tensorboard_log="./ppo_humanoid_tensorboard/"
 )
 
-# 4. Callback para avaliação
+# 4. Callback para avaliaçêo
 eval_callback = EvalCallback(
     eval_env=gym.make('HumanoidStandup-v4'),
     best_model_save_path='./best_model/',
@@ -374,14 +374,14 @@ for _ in range(1000):
 #### Quando Usar PPO?
 
 **PPO é ideal para:**
-- ✅ Tarefas de locomoção (andar, correr, pular)
-- ✅ Manipulação robótica
+- ✅ Tarefas de locomoçêo (andar, correr, pular)
+- ✅ Manipulaçêo robótica
 - ✅ Controle contínuo multi-dimensional
 - ✅ Quando você precisa de estabilidade no treinamento
 - ✅ Quando você tem muitos cores (paraleliza bem)
 
-**PPO não é ideal para:**
-- ❌ Tarefas que exigem exploração agressiva
+**PPO nêo é ideal para:**
+- ❌ Tarefas que exigem exploraçêo agressiva
 - ❌ Ambientes muito esparsos
 - ❌ Quando você precisa de sample efficiency extrema
 
@@ -395,7 +395,7 @@ for _ in range(1000):
 
 **Paper original:** [Soft Actor-Critic: Off-Policy Maximum Entropy Deep RL (Haarnoja et al., 2018)](https://arxiv.org/abs/1801.01290)
 
-#### Intuição: Maximum Entropy RL
+#### Intuiçêo: Maximum Entropy RL
 
 SAC resolve um problema diferente do PPO:
 
@@ -412,7 +412,7 @@ Onde H(π) = entropia da política
 ```
 
 **Por que adicionar entropia?**
-1. **Exploração automática**: Política naturalmente explora
+1. **Exploraçêo automática**: Política naturalmente explora
 2. **Robustez**: Aprende múltiplas soluções
 3. **Transfer**: Generaliza melhor para novos ambientes
 
@@ -460,7 +460,7 @@ class SACActorCritic(nn.Module):
         )
 
     def get_action(self, obs, deterministic=False):
-        """Amostra ação usando reparameterization trick"""
+        """Amostra açêo usando reparameterization trick"""
         features = self.actor(obs)
         mean = self.mean(features)
         log_std = self.log_std(features)
@@ -475,7 +475,7 @@ class SACActorCritic(nn.Module):
             z = normal.rsample()  # Permite backprop
             action = torch.tanh(z)  # Squash para [-1, 1]
 
-        # Log probability (com correção para tanh)
+        # Log probability (com correçêo para tanh)
         log_prob = normal.log_prob(z) - torch.log(1 - action.pow(2) + 1e-6)
         log_prob = log_prob.sum(dim=-1, keepdim=True)
 
@@ -586,7 +586,7 @@ def sac_update(actor, critic, target_critic, replay_buffer,
 
     # --- Atualizar Critic ---
     with torch.no_grad():
-        # Amostra próxima ação da política atual
+        # Amostra próxima açêo da política atual
         next_actions, next_log_probs = actor.get_action(next_states)
 
         # Q-target usando min de duas redes (Clipped Double Q-learning)
@@ -625,7 +625,7 @@ def sac_update(actor, critic, target_critic, replay_buffer,
     return actor_loss.item(), critic_loss.item()
 ```
 
-#### Implementação Completa com Stable-Baselines3
+#### Implementaçêo Completa com Stable-Baselines3
 
 ```python
 from stable_baselines3 import SAC
@@ -685,39 +685,39 @@ for _ in range(1000):
 #### Quando Usar SAC?
 
 **SAC é ideal para:**
-- ✅ Tarefas que exigem **exploração intensa**
-- ✅ Manipulação de objetos complexa
+- ✅ Tarefas que exigem **exploraçêo intensa**
+- ✅ Manipulaçêo de objetos complexa
 - ✅ Ambientes contínuos com recompensas esparsas
 - ✅ Quando você precisa de **sample efficiency** (aprende rápido)
-- ✅ Quando você quer robustez e generalização
+- ✅ Quando você quer robustez e generalizaçêo
 
-**SAC não é ideal para:**
+**SAC nêo é ideal para:**
 - ❌ Ações discretas (use DQN ou PPO)
-- ❌ Quando você tem muitos cores ociosos (não paraleliza como PPO)
+- ❌ Quando você tem muitos cores ociosos (nêo paraleliza como PPO)
 - ❌ Ambientes muito simples (overhead de replay buffer)
 
 ---
 
-### 4. PPO vs SAC: Comparação Detalhada
+### 4. PPO vs SAC: Comparaçêo Detalhada
 
 | Aspecto | PPO | SAC |
 |---------|-----|-----|
 | **Tipo** | On-policy | Off-policy |
-| **Paralelização** | Excelente (8-32 envs) | Limitada (1 env) |
+| **Paralelizaçêo** | Excelente (8-32 envs) | Limitada (1 env) |
 | **Sample Efficiency** | Baixa-Média | Alta |
 | **Estabilidade** | Muito alta | Alta |
-| **Exploração** | ε-decay ou noise | Automatic (entropy) |
+| **Exploraçêo** | ε-decay ou noise | Automatic (entropy) |
 | **Memória** | Baixa | Alta (replay buffer) |
 | **Velocidade por step** | Rápida | Mais lenta |
 | **Hiperparâmetros** | Sensível | Mais robusto |
 | **Convergência** | Gradual | Rápida (se convergir) |
 
 **Regra de ouro:**
-- **Locomoção/Controle simples**: PPO
-- **Manipulação/Exploração**: SAC
+- **Locomoçêo/Controle simples**: PPO
+- **Manipulaçêo/Exploraçêo**: SAC
 - **Muitos cores disponíveis**: PPO
 - **Sample efficiency crítica**: SAC
-- **Não sabe qual usar**: Comece com PPO
+- **Nêo sabe qual usar**: Comece com PPO
 
 ---
 
@@ -727,7 +727,7 @@ for _ in range(1000):
 
 **Learning Rate (lr)**
 - Range: `1e-5` a `1e-3`
-- Padrão: `3e-4`
+- Padrêo: `3e-4`
 - **Como ajustar**: Se treinamento oscilar muito, diminua. Se muito lento, aumente.
 
 ```python
@@ -744,39 +744,39 @@ scheduler = LinearLR(
 
 **n_steps (Rollout Length)**
 - Range: `512` a `4096`
-- Padrão: `2048`
+- Padrêo: `2048`
 - **Trade-off**: Maior = mais estável, mas menos updates
 
 **Clip Range (ε)**
 - Range: `0.1` a `0.3`
-- Padrão: `0.2`
+- Padrêo: `0.2`
 - **Como ajustar**: Se updates muito conservadores, aumente. Se instável, diminua.
 
 **GAE Lambda (λ)**
 - Range: `0.9` a `0.99`
-- Padrão: `0.95`
+- Padrêo: `0.95`
 - **Trade-off**: Menor = menos variance, mais bias. Maior = mais variance, menos bias.
 
 #### Hiperparâmetros Críticos do SAC
 
 **Learning Rate**
 - Range: `1e-5` a `1e-3`
-- Padrão: `3e-4`
+- Padrêo: `3e-4`
 - **Dica**: SAC geralmente tolera LR maiores que PPO
 
 **Batch Size**
 - Range: `64` a `512`
-- Padrão: `256`
+- Padrêo: `256`
 - **Trade-off**: Maior = mais estável, mas mais lento
 
 **Buffer Size**
 - Range: `100k` a `10M`
-- Padrão: `1M`
+- Padrêo: `1M`
 - **Limite**: RAM disponível (1M steps ≈ 2-4 GB)
 
 **Tau (Soft Update)**
 - Range: `0.001` a `0.01`
-- Padrão: `0.005`
+- Padrêo: `0.005`
 - **Como ajustar**: Menor = mais estável, mas mais lento
 
 #### Grid Search Automatizado
@@ -923,7 +923,7 @@ for i in range(100):
     sac_rewards.append(mean_reward)
     print(f"SAC Step {i*10000}: {mean_reward}")
 
-# 3. Plotar comparação
+# 3. Plotar comparaçêo
 plt.figure(figsize=(10, 6))
 plt.plot(ppo_rewards, label='PPO', linewidth=2)
 plt.plot(sac_rewards, label='SAC', linewidth=2)
@@ -947,7 +947,7 @@ print(f"SAC converge em ~{len([r for r in sac_rewards if r > 0.8*max(sac_rewards
 
 ### Projeto 3: Custom Reward Function
 
-**Objetivo:** Criar função de recompensa customizada para tarefa específica.
+**Objetivo:** Criar funçêo de recompensa customizada para tarefa específica.
 
 **Tarefa:** Robô deve pegar um cubo e colocá-lo em uma caixa.
 
@@ -962,12 +962,12 @@ class PickAndPlaceEnv(gym.Env):
     def __init__(self):
         super().__init__()
 
-        # Estado: [posição_robô(3), vel_robô(3), posição_cubo(3), posição_alvo(3)]
+        # Estado: [posiçêo_robô(3), vel_robô(3), posiçêo_cubo(3), posiçêo_alvo(3)]
         self.observation_space = spaces.Box(
             low=-np.inf, high=np.inf, shape=(12,), dtype=np.float32
         )
 
-        # Ação: [delta_x, delta_y, delta_z, gripper_force]
+        # Açêo: [delta_x, delta_y, delta_z, gripper_force]
         self.action_space = spaces.Box(
             low=-1, high=1, shape=(4,), dtype=np.float32
         )
@@ -977,7 +977,7 @@ class PickAndPlaceEnv(gym.Env):
     def reset(self, seed=None):
         super().reset(seed=seed)
 
-        # Posição inicial aleatória
+        # Posiçêo inicial aleatória
         self.robot_pos = np.array([0.0, 0.0, 0.5])
         self.robot_vel = np.zeros(3)
         self.cube_pos = np.random.uniform([-0.3, -0.3, 0.0], [0.3, 0.3, 0.0])
@@ -1088,8 +1088,8 @@ tensorboard --logdir ./logs/
    - Deve aumentar consistentemente
    - Se oscila muito: reward shaping ruim ou lr muito alta
 
-2. **Episode Length Mean**: Duração dos episódios
-   - Se sempre max_steps: robô não está terminando tarefa
+2. **Episode Length Mean**: Duraçêo dos episódios
+   - Se sempre max_steps: robô nêo está terminando tarefa
    - Se muito curto: robô está falhando rápido
 
 3. **Policy Loss**: Loss do actor
@@ -1098,15 +1098,15 @@ tensorboard --logdir ./logs/
 
 4. **Value Loss**: Loss do critic
    - Deve diminuir
-   - Se muito alta: critic não consegue estimar valores
+   - Se muito alta: critic nêo consegue estimar valores
 
-5. **Explained Variance**: Quão bem critic prevê retornos
+5. **Explained Variance**: Quêo bem critic prevê retornos
    - Ideal: > 0.7
    - Baixa: critic ruim, vai prejudicar actor
 
 6. **Entropy**: Aleatoriedade da política
    - Deve diminuir gradualmente
-   - Se cai rápido demais: exploração insuficiente
+   - Se cai rápido demais: exploraçêo insuficiente
 
 **Exemplo de análise:**
 
@@ -1136,7 +1136,7 @@ plt.show()
 
 ## 🏆 Projeto Final
 
-### Sistema de Locomoção Bípede Avançado
+### Sistema de Locomoçêo Bípede Avançado
 
 **Objetivo:** Treinar um robô humanoide para:
 1. Andar para frente
@@ -1166,7 +1166,7 @@ def make_env():
 n_envs = 16
 env = SubprocVecEnv([make_env() for _ in range(n_envs)])
 
-# 2. Normalização de observações e recompensas
+# 2. Normalizaçêo de observações e recompensas
 env = VecNormalize(
     env,
     norm_obs=True,
@@ -1234,7 +1234,7 @@ for _ in range(5000):
 print("Treinamento completo!")
 ```
 
-**Critérios de avaliação:**
+**Critérios de avaliaçêo:**
 - [ ] Robô anda 10m sem cair
 - [ ] Velocidade média > 0.5 m/s
 - [ ] Mantém equilíbrio (corpo reto)
@@ -1275,7 +1275,7 @@ pip install optuna  # Hyperparameter tuning
 
 ---
 
-## ✅ Checklist de Conclusão
+## ✅ Checklist de Conclusêo
 
 - [ ] Entendo a diferença entre on-policy e off-policy
 - [ ] Implementei PPO do zero (ou com SB3)
@@ -1294,14 +1294,14 @@ pip install optuna  # Hyperparameter tuning
 
 Parabéns por dominar algoritmos avançados de RL! Agora você está pronto para:
 
-1. **Módulo 3.2**: Visão Computacional para Robótica
+1. **Módulo 3.2**: Visêo Computacional para Robótica
 2. **Módulo 3.3**: Large Behavior Models (LBMs)
 3. **Nível 4**: Aplicações Profissionais
 
-[→ Iniciar Módulo 3.2: Visão Computacional]({{ '/niveis/nivel-3/modulo-2' | relative_url }}){: .btn .btn-primary}
+[→ Iniciar Módulo 3.2: Visêo Computacional]({{ '/niveis/nivel-3/modulo-2' | relative_url }}){: .btn .btn-primary}
 
 ---
 
-**Última atualização:** 2025-10-29
+**Última atualizaçêo:** 2025-10-29
 **Autor:** Programa FTH
 **Licença:** MIT

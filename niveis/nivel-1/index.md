@@ -10,11 +10,11 @@ permalink: /niveis/nivel-1/
 
 ---
 
-## 📋 Visão Geral
+## 📋 Visêo Geral
 
-| Informação | Detalhes |
+| Informaçêo | Detalhes |
 |------------|----------|
-| **Duração estimada** | 12-15 horas |
+| **Duraçêo estimada** | 12-15 horas |
 | **Pré-requisitos** | Nenhum! |
 | **Custo** | ✅ Gratuito |
 | **Nível de dificuldade** | ⭐ Iniciante |
@@ -26,7 +26,7 @@ permalink: /niveis/nivel-1/
 
 Ao completar o Nível 1, você será capaz de:
 
-- ✅ Entender o que são robôs humanoides e como funcionam
+- ✅ Entender o que sêo robôs humanoides e como funcionam
 - ✅ Instalar e usar simuladores de robótica gratuitos
 - ✅ Fazer um robô andar e se movimentar
 - ✅ Programar comandos básicos sem escrever código
@@ -37,8 +37,8 @@ Ao completar o Nível 1, você será capaz de:
 
 ## 📚 Estrutura do Nível
 
-### Módulo 1.1: O que são Robôs Humanoides?
-**Duração:** 3-4 horas
+### Módulo 1.1: O que sêo Robôs Humanoides?
+**Duraçêo:** 3-4 horas
 
 Descubra o fascinante mundo dos robôs humanoides!
 
@@ -53,15 +53,15 @@ Descubra o fascinante mundo dos robôs humanoides!
 
 ---
 
-### Módulo 1.2: Primeiros Passos na Simulação
-**Duração:** 4-5 horas
+### Módulo 1.2: Primeiros Passos na Simulaçêo
+**Duraçêo:** 4-5 horas
 
-Coloque a mão na massa! Instale seu primeiro simulador e carregue um robô.
+Coloque a mêo na massa! Instale seu primeiro simulador e carregue um robô.
 
 **Conteúdo:**
 - Escolhendo seu simulador (Webots vs Isaac Sim)
-- Instalação passo a passo
-- Interface e navegação
+- Instalaçêo passo a passo
+- Interface e navegaçêo
 - Carregando o robô Bumi
 - Controles manuais básicos
 - Salvando e compartilhando suas simulações
@@ -70,16 +70,16 @@ Coloque a mão na massa! Instale seu primeiro simulador e carregue um robô.
 
 ---
 
-### Módulo 1.3: Programação Visual
-**Duração:** 5-6 horas
+### Módulo 1.3: Programaçêo Visual
+**Duraçêo:** 5-6 horas
 
 Programe seu robô sem escrever uma linha de código!
 
 **Conteúdo:**
-- Introdução à programação drag-and-drop
+- Introduçêo à programaçêo drag-and-drop
 - Blocos de movimento: andar, virar, parar
 - Blocos de sensores: câmera, equilíbrio, distância
-- Estruturas de controle: se/então, repetir
+- Estruturas de controle: se/entêo, repetir
 - Comandos de voz com IA
 - Debugging visual
 
@@ -103,7 +103,7 @@ Seu robô deve:
 ### Requisitos Avançados (Opcional)
 
 Para ir além:
-- ⭐ Seguir uma linha no chão
+- ⭐ Seguir uma linha no chêo
 - ⭐ Reconhecer objetos específicos (bola vermelha)
 - ⭐ Aceitar múltiplos comandos de voz
 - ⭐ Criar uma "dança" com movimentos coordenados
@@ -113,7 +113,7 @@ Para ir além:
 1. Exporte seu projeto do simulador
 2. Grave um vídeo de 2-3 minutos mostrando:
    - O robô cumprindo todos os requisitos mínimos
-   - Uma explicação sua sobre o que você aprendeu
+   - Uma explicaçêo sua sobre o que você aprendeu
    - Desafios que você enfrentou
 3. Envie via formulário
 
@@ -123,7 +123,7 @@ Para ir além:
 
 ## 📊 Progresso
 
-### Checklist de Conclusão
+### Checklist de Conclusêo
 
 - [ ] Assisti todos os vídeos do Módulo 1.1
 - [ ] Instalei um simulador no meu computador
@@ -132,7 +132,7 @@ Para ir além:
 - [ ] Fiz o robô andar sozinho
 - [ ] Implementei comandos de voz
 - [ ] Completei o projeto final
-- [ ] Entreguei o vídeo de demonstração
+- [ ] Entreguei o vídeo de demonstraçêo
 
 ---
 
@@ -149,7 +149,7 @@ Após completar todos os módulos e entregar o projeto final, você receberá:
 
 ## 💡 Dicas para Sucesso
 
-### Gestão de Tempo
+### Gestêo de Tempo
 
 - 📅 Reserve **2-3 horas por semana**
 - 🎯 Foque em completar um módulo por vez
@@ -159,7 +159,7 @@ Após completar todos os módulos e entregar o projeto final, você receberá:
 
 - 🎥 Assista os vídeos, mas **pratique você mesmo**
 - 🤝 Participe das discussões no Discord
-- 🐛 Não tenha medo de errar - debugging faz parte!
+- 🐛 Nêo tenha medo de errar - debugging faz parte!
 - 📝 Anote suas dúvidas e pergunte na comunidade
 
 ### Equipamento
@@ -173,19 +173,19 @@ Após completar todos os módulos e entregar o projeto final, você receberá:
 ## 🤔 Perguntas Frequentes
 
 **P: Nunca programei antes. Vou conseguir?**
-R: SIM! Este nível foi desenhado para quem nunca tocou em programação. Usamos blocos visuais, tipo Scratch.
+R: SIM! Este nível foi desenhado para quem nunca tocou em programaçêo. Usamos blocos visuais, tipo Scratch.
 
 **P: Quanto tempo leva para completar?**
 R: Em média 2-3 semanas, estudando 3-4 horas por semana. Mas você pode ir no seu ritmo!
 
 **P: Preciso comprar algum hardware?**
-R: NÃO! Tudo é feito em simulação. Seu computador de casa é suficiente.
+R: NêO! Tudo é feito em simulaçêo. Seu computador de casa é suficiente.
 
 **P: E se eu travar em algum exercício?**
 R: Temos 3 canais de suporte: Discord em tempo real, fórum, e vídeos de troubleshooting.
 
 **P: Posso pular para o Nível 2?**
-R: Não recomendamos. Cada nível constrói conhecimento do anterior. Mas se você já tem experiência, pode fazer uma avaliação diagnóstica.
+R: Nêo recomendamos. Cada nível constrói conhecimento do anterior. Mas se você já tem experiência, pode fazer uma avaliaçêo diagnóstica.
 
 [→ Ver mais perguntas]({{ '/faq' | relative_url }})
 
@@ -232,4 +232,4 @@ R: Não recomendamos. Cada nível constrói conhecimento do anterior. Mas se voc
 
 ---
 
-**Última atualização:** 2025-10-29
+**Última atualizaçêo:** 2025-10-29

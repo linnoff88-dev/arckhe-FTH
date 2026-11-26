@@ -1,20 +1,20 @@
 ---
 layout: page
-title: "Módulo 3.2: Visão Computacional Avançada"
+title: "Módulo 3.2: Visêo Computacional Avançada"
 permalink: /niveis/nivel-3/modulo-2/
 ---
 
-# 👁️ Módulo 3.2: Visão Computacional Avançada
+# 👁️ Módulo 3.2: Visêo Computacional Avançada
 
-**Dê olhos ao seu robô: percepção visual para robótica!**
+**Dê olhos ao seu robô: percepçêo visual para robótica!**
 
 ---
 
 ## 📋 Informações do Módulo
 
-| Informação | Detalhes |
+| Informaçêo | Detalhes |
 |------------|----------|
-| **Duração estimada** | 15-20 horas |
+| **Duraçêo estimada** | 15-20 horas |
 | **Nível** | Avançado |
 | **Pré-requisitos** | Python, RL básico, álgebra linear |
 | **Ferramentas** | OpenCV, PyTorch, YOLO, MediaPipe, ROS 2 |
@@ -26,42 +26,42 @@ permalink: /niveis/nivel-3/modulo-2/
 Ao completar este módulo, você será capaz de:
 
 - [ ] Processar imagens em tempo real para robótica
-- [ ] Implementar detecção de objetos com YOLO
-- [ ] Realizar segmentação semântica e de instâncias
+- [ ] Implementar detecçêo de objetos com YOLO
+- [ ] Realizar segmentaçêo semântica e de instâncias
 - [ ] Estimar poses humanas e de objetos
-- [ ] Integrar visão computacional com controle de robôs
-- [ ] Treinar modelos de visão personalizados
-- [ ] Lidar com o Sim2Real gap em visão
+- [ ] Integrar visêo computacional com controle de robôs
+- [ ] Treinar modelos de visêo personalizados
+- [ ] Lidar com o Sim2Real gap em visêo
 
 ---
 
 ## 📚 Conteúdo Teórico
 
-### 1. Fundamentos de Visão Computacional para Robótica
+### 1. Fundamentos de Visêo Computacional para Robótica
 
-#### Por que Visão é Crítica para Robôs?
+#### Por que Visêo é Crítica para Robôs?
 
 Robôs humanoides precisam **perceber o mundo** para:
-- 🎯 **Manipulação**: Pegar objetos desconhecidos
-- 🚶 **Navegação**: Evitar obstáculos dinâmicos
-- 🤝 **Interação**: Detectar pessoas e gestos
-- 🎭 **Imitação**: Aprender observando humanos
+- 🎯 **Manipulaçêo**: Pegar objetos desconhecidos
+- 🚶 **Navegaçêo**: Evitar obstáculos dinâmicos
+- 🤝 **Interaçêo**: Detectar pessoas e gestos
+- 🎭 **Imitaçêo**: Aprender observando humanos
 
-**Diferença: Visão para Robótica vs. Computer Vision tradicional**
+**Diferença: Visêo para Robótica vs. Computer Vision tradicional**
 
 | Aspecto | CV Tradicional | CV para Robótica |
 |---------|---------------|------------------|
 | **Latência** | Segundos OK | < 50ms crítico |
-| **Precisão** | 99%+ necessário | 90% + robustez OK |
-| **Ambiente** | Controlado | Iluminação variável |
+| **Precisêo** | 99%+ necessário | 90% + robustez OK |
+| **Ambiente** | Controlado | Iluminaçêo variável |
 | **Output** | Labels/bboxes | Coordenadas 3D |
-| **Integração** | Standalone | ROS 2 + controle |
+| **Integraçêo** | Standalone | ROS 2 + controle |
 
-#### Pipeline Clássico de Visão Robótica
+#### Pipeline Clássico de Visêo Robótica
 
 ```
-Câmera → Pré-processamento → Detecção/Segmentação →
-Transformação 3D → Planejamento → Controle
+Câmera → Pré-processamento → Detecçêo/Segmentaçêo →
+Transformaçêo 3D → Planejamento → Controle
 ```
 
 **Exemplo: Pegar uma caneca**
@@ -71,25 +71,25 @@ import cv2
 import numpy as np
 
 def robot_pick_pipeline(image, camera_intrinsics, robot):
-    """Pipeline completo de visão para manipulação"""
+    """Pipeline completo de visêo para manipulaçêo"""
 
     # 1. PRÉ-PROCESSAMENTO
     image_rgb = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
     image_normalized = image_rgb / 255.0
 
-    # 2. DETECÇÃO DE OBJETOS
+    # 2. DETECÇêO DE OBJETOS
     detections = detect_objects(image_normalized)  # YOLO
     mug_bbox = [d for d in detections if d['class'] == 'mug'][0]
 
-    # 3. SEGMENTAÇÃO (opcional, para grasp preciso)
+    # 3. SEGMENTAÇêO (opcional, para grasp preciso)
     mask = segment_object(image, mug_bbox)
 
-    # 4. ESTIMAÇÃO DE POSE 3D
+    # 4. ESTIMAÇêO DE POSE 3D
     depth_map = get_depth(image)  # De câmera RGB-D ou estéreo
     point_cloud = depth_to_pointcloud(depth_map, camera_intrinsics)
     mug_pose_3d = estimate_3d_pose(point_cloud, mask)
 
-    # 5. TRANSFORMAÇÃO PARA FRAME DO ROBÔ
+    # 5. TRANSFORMAÇêO PARA FRAME DO ROBÔ
     mug_pose_robot_frame = transform_camera_to_robot(
         mug_pose_3d,
         robot.camera_transform
@@ -98,7 +98,7 @@ def robot_pick_pipeline(image, camera_intrinsics, robot):
     # 6. PLANEJAMENTO DE GRASP
     grasp_pose = plan_grasp(mug_pose_robot_frame, mug_shape='cylinder')
 
-    # 7. EXECUÇÃO
+    # 7. EXECUÇêO
     robot.move_to(grasp_pose)
     robot.close_gripper()
 
@@ -109,7 +109,7 @@ def robot_pick_pipeline(image, camera_intrinsics, robot):
 
 ### 2. Processamento de Imagens Avançado
 
-#### Calibração de Câmera
+#### Calibraçêo de Câmera
 
 Antes de qualquer coisa, **calibre sua câmera** para ter métricas precisas.
 
@@ -120,7 +120,7 @@ import glob
 
 def calibrate_camera(images_path):
     """
-    Calibra câmera usando padrão de xadrez
+    Calibra câmera usando padrêo de xadrez
     """
     # Preparar pontos do mundo real (0,0,0), (1,0,0), ...
     pattern_size = (9, 6)  # Cantos internos do xadrez
@@ -134,7 +134,7 @@ def calibrate_camera(images_path):
     objpoints = []  # Pontos 3D no mundo real
     imgpoints = []  # Pontos 2D na imagem
 
-    # Processar imagens de calibração
+    # Processar imagens de calibraçêo
     images = glob.glob(f'{images_path}/*.jpg')
 
     for fname in images:
@@ -146,7 +146,7 @@ def calibrate_camera(images_path):
 
         if ret:
             objpoints.append(objp)
-            # Refinar localização dos cantos
+            # Refinar localizaçêo dos cantos
             corners_refined = cv2.cornerSubPix(
                 gray, corners, (11, 11), (-1, -1),
                 criteria=(cv2.TERM_CRITERIA_EPS + cv2.TERM_CRITERIA_MAX_ITER, 30, 0.001)
@@ -159,11 +159,11 @@ def calibrate_camera(images_path):
     )
 
     print(f"Matriz da câmera:\n{camera_matrix}")
-    print(f"Coeficientes de distorção:\n{dist_coeffs}")
+    print(f"Coeficientes de distorçêo:\n{dist_coeffs}")
 
     return camera_matrix, dist_coeffs
 
-# Usar calibração para undistort imagens
+# Usar calibraçêo para undistort imagens
 camera_matrix, dist_coeffs = calibrate_camera('./calibration_images/')
 
 def undistort_image(image, camera_matrix, dist_coeffs):
@@ -175,9 +175,9 @@ def undistort_image(image, camera_matrix, dist_coeffs):
     return undistorted
 ```
 
-#### Segmentação e Tracking
+#### Segmentaçêo e Tracking
 
-**Segmentação de cor (simples, mas efetivo):**
+**Segmentaçêo de cor (simples, mas efetivo):**
 
 ```python
 def segment_by_color(image, lower_hsv, upper_hsv):
@@ -263,7 +263,7 @@ def pixel_to_3d_point(u, v, depth, camera_matrix):
     cx = camera_matrix[0, 2]
     cy = camera_matrix[1, 2]
 
-    # Fórmula de projeção inversa
+    # Fórmula de projeçêo inversa
     x = (u - cx) * depth / fx
     y = (v - cy) * depth / fy
     z = depth
@@ -279,16 +279,16 @@ camera_matrix = np.array([
 
 # Objeto detectado no pixel (320, 240) com profundidade 1.5m
 point_3d = pixel_to_3d_point(320, 240, 1.5, camera_matrix)
-print(f"Posição 3D: {point_3d}")  # [0, 0, 1.5] (centro da imagem)
+print(f"Posiçêo 3D: {point_3d}")  # [0, 0, 1.5] (centro da imagem)
 ```
 
 ---
 
-### 3. Detecção de Objetos com YOLO
+### 3. Detecçêo de Objetos com YOLO
 
 #### O que é YOLO?
 
-**YOLO** (You Only Look Once) é a arquitetura state-of-the-art para detecção de objetos em tempo real.
+**YOLO** (You Only Look Once) é a arquitetura state-of-the-art para detecçêo de objetos em tempo real.
 
 **Vantagens para robótica:**
 - ⚡ **Rápido**: 30-60 FPS em GPU
@@ -296,9 +296,9 @@ print(f"Posição 3D: {point_3d}")  # [0, 0, 1.5] (centro da imagem)
 - 🔧 **Flexível**: Fácil de treinar em datasets customizados
 
 **Paper original:** [YOLOv1 (Redmon et al., 2016)](https://arxiv.org/abs/1506.02640)
-**Versão moderna:** [YOLOv8 (Ultralytics, 2023)](https://github.com/ultralytics/ultralytics)
+**Versêo moderna:** [YOLOv8 (Ultralytics, 2023)](https://github.com/ultralytics/ultralytics)
 
-#### Instalação e Uso Rápido
+#### Instalaçêo e Uso Rápido
 
 ```bash
 pip install ultralytics
@@ -311,7 +311,7 @@ import cv2
 # 1. Carregar modelo pré-treinado
 model = YOLO('yolov8n.pt')  # n=nano (rápido), s=small, m=medium, l=large
 
-# 2. Detecção em imagem
+# 2. Detecçêo em imagem
 image = cv2.imread('scene.jpg')
 results = model(image)
 
@@ -337,7 +337,7 @@ cv2.imshow('Detections', image)
 cv2.waitKey(0)
 ```
 
-#### Detecção em Tempo Real (Webcam/ROS)
+#### Detecçêo em Tempo Real (Webcam/ROS)
 
 ```python
 import cv2
@@ -399,7 +399,7 @@ dataset/
 ```
 (class_id, x_center, y_center, width, height) - normalizado [0-1]
 
-**2. Criar arquivo de configuração (data.yaml):**
+**2. Criar arquivo de configuraçêo (data.yaml):**
 
 ```yaml
 path: ./dataset
@@ -437,7 +437,7 @@ metrics = model.val()
 print(f"mAP50: {metrics.box.map50}")
 print(f"mAP50-95: {metrics.box.map}")
 
-# Exportar para produção
+# Exportar para produçêo
 model.export(format='onnx')  # Ou 'torchscript', 'tflite'
 ```
 
@@ -448,7 +448,7 @@ model = YOLO('robot_parts_detector/exp1/weights/best.pt')
 results = model('test_image.jpg')
 ```
 
-#### YOLO + Depth para Localização 3D
+#### YOLO + Depth para Localizaçêo 3D
 
 ```python
 import numpy as np
@@ -476,7 +476,7 @@ class ObjectLocalizer3D:
             u = int((x1 + x2) / 2)
             v = int((y1 + y2) / 2)
 
-            # Profundidade média na região
+            # Profundidade média na regiêo
             depth_roi = depth_image[int(y1):int(y2), int(x1):int(x2)]
             depth = np.median(depth_roi)
 
@@ -502,19 +502,19 @@ for obj in objects:
 
 ---
 
-### 4. Segmentação Semântica e de Instâncias
+### 4. Segmentaçêo Semântica e de Instâncias
 
-#### Diferença entre Segmentação
+#### Diferença entre Segmentaçêo
 
 - **Semântica**: Classifica cada pixel (ex: "pessoa", "cadeira")
 - **Instâncias**: Separa objetos individuais (ex: "pessoa 1", "pessoa 2")
 
-#### Segmentação com YOLOv8-seg
+#### Segmentaçêo com YOLOv8-seg
 
 ```python
 from ultralytics import YOLO
 
-# Modelo com segmentação
+# Modelo com segmentaçêo
 model = YOLO('yolov8n-seg.pt')
 
 # Inferência
@@ -522,7 +522,7 @@ results = model('image.jpg')
 
 # Acessar máscaras
 for result in results:
-    masks = result.masks  # Máscaras de segmentação
+    masks = result.masks  # Máscaras de segmentaçêo
     boxes = result.boxes
 
     for i, (mask, box) in enumerate(zip(masks.data, boxes)):
@@ -537,7 +537,7 @@ for result in results:
         cv2.imwrite(f'mask_{i}_{class_name}.png', mask_np * 255)
 ```
 
-#### Segmentação Avançada com Detectron2
+#### Segmentaçêo Avançada com Detectron2
 
 **Detectron2** (Facebook AI) oferece modelos state-of-the-art:
 
@@ -579,12 +579,12 @@ classes = instances.pred_classes
 scores = instances.scores
 ```
 
-#### Aplicação: Grasp Planning com Segmentação
+#### Aplicaçêo: Grasp Planning com Segmentaçêo
 
 ```python
 def plan_grasp_from_segmentation(rgb_image, depth_image, target_class='cup'):
     """
-    Usa segmentação para planejar grasp em objeto específico
+    Usa segmentaçêo para planejar grasp em objeto específico
     """
     # 1. Segmentar objetos
     outputs = predictor(rgb_image)
@@ -612,7 +612,7 @@ def plan_grasp_from_segmentation(rgb_image, depth_image, target_class='cup'):
     # 6. Converter para 3D
     grasp_point_3d = pixel_to_3d_point(centroid_x, centroid_y, depth, camera_matrix)
 
-    # 7. Estimar orientação (usando PCA nos pontos da máscara)
+    # 7. Estimar orientaçêo (usando PCA nos pontos da máscara)
     points_3d = []
     for y, x in zip(y_coords[::10], x_coords[::10]):  # Subsample
         d = depth_image[y, x]
@@ -637,7 +637,7 @@ def plan_grasp_from_segmentation(rgb_image, depth_image, target_class='cup'):
 
 ### 5. Pose Estimation (Humanos e Objetos)
 
-#### Estimação de Pose Humana com MediaPipe
+#### Estimaçêo de Pose Humana com MediaPipe
 
 **MediaPipe** (Google) oferece pose estimation em tempo real:
 
@@ -695,7 +695,7 @@ cap.release()
 cv2.destroyAllWindows()
 ```
 
-#### Aplicação: Robô Imitando Gestos
+#### Aplicaçêo: Robô Imitando Gestos
 
 ```python
 class GestureImitator:
@@ -738,7 +738,7 @@ class GestureImitator:
 
 #### Pose Estimation de Objetos (6D Pose)
 
-Para manipulação robótica precisa, precisamos estimar **6DOF pose** (3D posição + 3D orientação):
+Para manipulaçêo robótica precisa, precisamos estimar **6DOF pose** (3D posiçêo + 3D orientaçêo):
 
 ```python
 # Usando PVNet ou similar (exemplo conceitual)
@@ -775,7 +775,7 @@ def estimate_6d_pose(rgb_image, object_model):
 
 ---
 
-### 6. Integração Visão + Reinforcement Learning
+### 6. Integraçêo Visêo + Reinforcement Learning
 
 #### Observações Visuais em RL
 
@@ -806,7 +806,7 @@ class CNNFeatureExtractor(BaseFeaturesExtractor):
             nn.Flatten(),
         )
 
-        # Calcular dimensão de saída
+        # Calcular dimensêo de saída
         with torch.no_grad():
             sample = torch.zeros(1, *observation_space.shape)
             n_flatten = self.cnn(sample).shape[1]
@@ -847,14 +847,14 @@ class VisualPickEnv(gym.Env):
     def __init__(self, render_mode='rgb_array'):
         super().__init__()
 
-        # Observação: imagem RGB 84x84x3
+        # Observaçêo: imagem RGB 84x84x3
         self.observation_space = spaces.Box(
             low=0, high=255,
             shape=(3, 84, 84),
             dtype=np.uint8
         )
 
-        # Ação: [dx, dy, dz, gripper]
+        # Açêo: [dx, dy, dz, gripper]
         self.action_space = spaces.Box(
             low=-1, high=1,
             shape=(4,),
@@ -862,14 +862,14 @@ class VisualPickEnv(gym.Env):
         )
 
     def reset(self, seed=None):
-        # Setup simulação
+        # Setup simulaçêo
         self.setup_scene()
         # Render primeira imagem
         obs = self.render_observation()
         return obs, {}
 
     def step(self, action):
-        # Executar ação
+        # Executar açêo
         self.apply_action(action)
         # Render nova imagem
         obs = self.render_observation()
@@ -893,9 +893,9 @@ class VisualPickEnv(gym.Env):
 
 #### Domain Randomization para Sim2Real
 
-**Problema**: Modelos treinados em simulação falham no mundo real.
+**Problema**: Modelos treinados em simulaçêo falham no mundo real.
 
-**Solução**: Randomizar aparência visual na simulação para forçar robustez.
+**Soluçêo**: Randomizar aparência visual na simulaçêo para forçar robustez.
 
 ```python
 import numpy as np
@@ -903,7 +903,7 @@ import cv2
 
 class DomainRandomization:
     """
-    Aplica randomização visual em imagens de treino
+    Aplica randomizaçêo visual em imagens de treino
     """
     def __init__(self):
         pass
@@ -956,7 +956,7 @@ class RandomizedVisualEnv(VisualPickEnv):
 
     def render_observation(self):
         image = super().render_observation()
-        # Aplicar randomização durante treino
+        # Aplicar randomizaçêo durante treino
         if self.training:
             image = self.randomizer.randomize(image)
         return image
@@ -964,9 +964,9 @@ class RandomizedVisualEnv(VisualPickEnv):
 
 ---
 
-### 7. Integração com ROS 2
+### 7. Integraçêo com ROS 2
 
-#### Nó ROS 2 para Detecção de Objetos
+#### Nó ROS 2 para Detecçêo de Objetos
 
 ```python
 import rclpy
@@ -1052,7 +1052,7 @@ class YOLODetectorNode(Node):
         # Publicar detecções
         self.detection_pub.publish(detections_msg)
 
-        # Publicar visualização
+        # Publicar visualizaçêo
         annotated = results[0].plot()
         viz_msg = self.bridge.cv2_to_imgmsg(annotated, encoding='bgr8')
         self.viz_pub.publish(viz_msg)
@@ -1072,9 +1072,9 @@ if __name__ == '__main__':
 
 ## 💻 Prática Hands-On
 
-### Projeto 1: Sistema de Detecção e Tracking
+### Projeto 1: Sistema de Detecçêo e Tracking
 
-**Objetivo:** Criar pipeline completo de detecção → tracking → localização 3D.
+**Objetivo:** Criar pipeline completo de detecçêo → tracking → localizaçêo 3D.
 
 ```python
 # visual_tracking_system.py
@@ -1096,7 +1096,7 @@ class VisualTrackingSystem:
                 break
 
             if self.tracker is None:
-                # Modo detecção
+                # Modo detecçêo
                 self.detect_and_select(frame)
             else:
                 # Modo tracking
@@ -1121,7 +1121,7 @@ class VisualTrackingSystem:
         cv2.imshow('Visual Tracking', annotated)
 
         # Usuário clica em objeto para trackar
-        # (implementar seleção por clique)
+        # (implementar seleçêo por clique)
 
     def track(self, frame):
         success, bbox = self.tracker.update(frame)
@@ -1136,11 +1136,11 @@ if __name__ == '__main__':
 
 ---
 
-### Projeto 2: Robô Pega Objeto Usando Visão
+### Projeto 2: Robô Pega Objeto Usando Visêo
 
-**Objetivo:** Usar YOLO + segmentação para pegar objeto específico.
+**Objetivo:** Usar YOLO + segmentaçêo para pegar objeto específico.
 
-[Código completo já fornecido nas seções anteriores - combinar detecção, segmentação e grasp planning]
+[Código completo já fornecido nas seções anteriores - combinar detecçêo, segmentaçêo e grasp planning]
 
 ---
 
@@ -1159,7 +1159,7 @@ pip install labelImg
 labelImg
 ```
 
-**Passo 2:** Treinar (ver código na seção YOLO)
+**Passo 2:** Treinar (ver código na seçêo YOLO)
 
 **Passo 3:** Avaliar
 
@@ -1179,9 +1179,9 @@ print(f"Recall: {metrics.box.mr:.3f}")
 
 ## 🏆 Projeto Final
 
-### Sistema de Manipulação Visual Completo
+### Sistema de Manipulaçêo Visual Completo
 
-**Objetivo:** Robô detecta, localiza, pega e coloca objetos usando apenas visão.
+**Objetivo:** Robô detecta, localiza, pega e coloca objetos usando apenas visêo.
 
 **Requisitos:**
 1. ✅ Detecta 3+ classes de objetos (YOLO custom)
@@ -1193,7 +1193,7 @@ print(f"Recall: {metrics.box.mr:.3f}")
 **Deliverables:**
 - Código completo no GitHub
 - Dataset de treinamento (se custom)
-- Vídeo de demonstração
+- Vídeo de demonstraçêo
 - Relatório técnico com métricas
 
 ---
@@ -1225,16 +1225,16 @@ pip install open3d  # Point cloud processing
 
 ---
 
-## ✅ Checklist de Conclusão
+## ✅ Checklist de Conclusêo
 
 - [ ] Calibrei uma câmera
-- [ ] Implementei detecção com YOLO
+- [ ] Implementei detecçêo com YOLO
 - [ ] Treinei um modelo custom
-- [ ] Realizei segmentação de instâncias
+- [ ] Realizei segmentaçêo de instâncias
 - [ ] Estimei poses humanas
-- [ ] Converti 2D → 3D com precisão
-- [ ] Integrei visão + RL
-- [ ] Criei nó ROS 2 de visão
+- [ ] Converti 2D → 3D com precisêo
+- [ ] Integrei visêo + RL
+- [ ] Criei nó ROS 2 de visêo
 - [ ] Completei projeto final
 - [ ] Publiquei código no GitHub
 
@@ -1242,7 +1242,7 @@ pip install open3d  # Point cloud processing
 
 ## 🚀 Próximos Passos
 
-Você dominou visão computacional para robótica! Próximo módulo:
+Você dominou visêo computacional para robótica! Próximo módulo:
 
 **Módulo 3.3**: Large Behavior Models (LBMs)
 
@@ -1250,6 +1250,6 @@ Você dominou visão computacional para robótica! Próximo módulo:
 
 ---
 
-**Última atualização:** 2025-10-29
+**Última atualizaçêo:** 2025-10-29
 **Autor:** Programa FTH
 **Licença:** MIT

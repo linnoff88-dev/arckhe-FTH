@@ -1,8 +1,8 @@
-# Configuração do Site FTH - Formação Tecnológica em Humanoides
+# Configuraçêo do Site FTH - Formaçêo Tecnológica em Humanoides
 # GitHub Pages com Jekyll
 
 # Informações do Site
-title: "FTH - Formação Tecnológica em Humanoides"
+title: "FTH - Formaçêo Tecnológica em Humanoides"
 description: "Do Zero ao Robô Autônomo: Aprenda robótica humanoide e IA de forma acessível e progressiva"
 baseurl: "/FTH"
 url: "https://linnoff88-dev.github.io"
@@ -42,7 +42,7 @@ exclude:
   - .bmad-core
   - Doc
 
-# Navegação
+# Navegaçêo
 header_pages:
   - niveis.md
   - trilhas.md

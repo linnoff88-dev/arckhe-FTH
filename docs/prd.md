@@ -1,23 +1,23 @@
 # Product Requirements Document (PRD)
-# Programa FTH - Formação Tecnológica em Humanoides
+# Programa FTH - Formaçêo Tecnológica em Humanoides
 
-**Versão:** 1.0
+**Versêo:** 1.0
 **Data:** 2025-10-29
 **Product Manager:** John
-**Status:** Draft → Aprovação
+**Status:** Draft → Aprovaçêo
 
 ---
 
 ## 1. Executive Summary
 
-### Visão
-Democratizar o acesso ao conhecimento em **robótica humanoide e inteligência artificial**, formando pessoas de diferentes níveis socioeconômicos para dominar o uso, programação e desenvolvimento de robôs humanoides, tanto em ambiente virtual quanto real.
+### Visêo
+Democratizar o acesso ao conhecimento em **robótica humanoide e inteligência artificial**, formando pessoas de diferentes níveis socioeconômicos para dominar o uso, programaçêo e desenvolvimento de robôs humanoides, tanto em ambiente virtual quanto real.
 
-### Missão
+### Missêo
 Criar um **ecossistema educacional sustentável** que:
 - Forma talentos em robótica e IA
 - Estimula empreendedorismo tecnológico
-- Integra robótica à educação em todos os níveis
+- Integra robótica à educaçêo em todos os níveis
 - Gera impacto social e econômico mensurável
 
 ### Proposta de Valor
@@ -35,17 +35,17 @@ Criar um **ecossistema educacional sustentável** que:
 5. **Ecossistema:** Parcerias com 20+ escolas/empresas no primeiro ano
 
 ### Objetivos Educacionais
-1. Taxa de conclusão > 70% (nível 1)
-2. Taxa de progressão entre níveis > 50%
-3. Satisfação do aluno (NPS) > 8.0
-4. Aplicação prática dos conhecimentos > 80%
+1. Taxa de conclusêo > 70% (nível 1)
+2. Taxa de progressêo entre níveis > 50%
+3. Satisfaçêo do aluno (NPS) > 8.0
+4. Aplicaçêo prática dos conhecimentos > 80%
 
 ### Métricas de Sucesso (KPIs)
 
 | Métrica | Meta Ano 1 | Meta Ano 2 |
 |---------|-----------|-----------|
 | Alunos matriculados | 1.500 | 5.000 |
-| Taxa de conclusão Nível 1 | 70% | 75% |
+| Taxa de conclusêo Nível 1 | 70% | 75% |
 | Projetos finais criados | 300 | 1.500 |
 | Startups/negócios gerados | 10 | 50 |
 | Parcerias institucionais | 20 | 100 |
@@ -61,9 +61,9 @@ Criar um **ecossistema educacional sustentável** que:
 - **Perfil:** 28 anos, professora do ensino fundamental
 - **Contexto:** Quer modernizar suas aulas, nunca programou
 - **Objetivo:** Entender como robôs funcionam para ensinar seus alunos
-- **Caminho:** Nível 1 (Explorador) → Trilha Educação
+- **Caminho:** Nível 1 (Explorador) → Trilha Educaçêo
 - **Barreira:** Medo de tecnologia, falta de tempo
-- **Motivação:** Engajar alunos com tecnologia prática
+- **Motivaçêo:** Engajar alunos com tecnologia prática
 
 #### Persona 2: **Pedro - O Maker**
 - **Perfil:** 19 anos, estudante de engenharia
@@ -71,7 +71,7 @@ Criar um **ecossistema educacional sustentável** que:
 - **Objetivo:** Criar robôs autônomos e participar de competições
 - **Caminho:** Nível 2 (Criador) → Nível 3 (Desenvolvedor)
 - **Barreira:** Custo de hardware, falta de mentoria
-- **Motivação:** Domínio técnico e portfólio profissional
+- **Motivaçêo:** Domínio técnico e portfólio profissional
 
 #### Persona 3: **Carlos - O Empreendedor**
 - **Perfil:** 35 anos, dono de pequena empresa de eventos
@@ -79,23 +79,23 @@ Criar um **ecossistema educacional sustentável** que:
 - **Objetivo:** Criar negócio de robôs recepcionistas/guias
 - **Caminho:** Nível 1 → Nível 4 (Profissional) → Trilha Empreendedora
 - **Barreira:** Investimento inicial, conhecimento técnico
-- **Motivação:** Oportunidade de negócio inovador
+- **Motivaçêo:** Oportunidade de negócio inovador
 
 #### Persona 4: **Ana - A Engenheira**
 - **Perfil:** 42 anos, engenheira mecatrônica
 - **Contexto:** Quer migrar para robótica com IA moderna
 - **Objetivo:** Desenvolver sistemas autônomos avançados
 - **Caminho:** Nível 3 (Desenvolvedor) → Trilha Tecnologia Avançada
-- **Barreira:** Atualização em RL e LBMs
-- **Motivação:** Relevância profissional e inovação
+- **Barreira:** Atualizaçêo em RL e LBMs
+- **Motivaçêo:** Relevância profissional e inovaçêo
 
-#### Persona 5: **João - O Jovem da Periferia**
+#### Persona 5: **Joêo - O Jovem da Periferia**
 - **Perfil:** 16 anos, estudante de escola pública
 - **Contexto:** Tem acesso limitado a tecnologia, é curioso
 - **Objetivo:** Descobrir uma carreira em tecnologia
 - **Caminho:** Nível 1 (Explorador) → Clube de Robótica → Trilha Social
 - **Barreira:** Acesso a computador/internet, falta de recursos
-- **Motivação:** Mudança de vida, oportunidade profissional
+- **Motivaçêo:** Mudança de vida, oportunidade profissional
 
 ---
 
@@ -104,22 +104,22 @@ Criar um **ecossistema educacional sustentável** que:
 ### Arquitetura do Curso
 
 ```
-FTH - Formação Tecnológica em Humanoides
+FTH - Formaçêo Tecnológica em Humanoides
 │
 ├── NÍVEL 1: Explorador (12-15h)
-│   ├── Módulo 1: O que são Robôs Humanoides?
-│   ├── Módulo 2: Primeiros Passos na Simulação
+│   ├── Módulo 1: O que sêo Robôs Humanoides?
+│   ├── Módulo 2: Primeiros Passos na Simulaçêo
 │   └── Projeto: Fazer o robô andar e responder voz
 │
 ├── NÍVEL 2: Criador (35-45h)
-│   ├── Módulo 3: Programação com Python e ROS 2
+│   ├── Módulo 3: Programaçêo com Python e ROS 2
 │   ├── Módulo 4: Sensores e Controle
-│   ├── Módulo 5: Introdução a Aprendizado por Reforço
+│   ├── Módulo 5: Introduçêo a Aprendizado por Reforço
 │   └── Projeto: Criar comportamento autônomo
 │
 ├── NÍVEL 3: Desenvolvedor (50-60h)
 │   ├── Módulo 6: Algoritmos de IA (PPO, SAC)
-│   ├── Módulo 7: Visão Computacional
+│   ├── Módulo 7: Visêo Computacional
 │   ├── Módulo 8: Large Behavior Models (LBMs)
 │   └── Projeto: Robô que aprende novas tarefas
 │
@@ -127,10 +127,10 @@ FTH - Formação Tecnológica em Humanoides
 │   ├── Módulo 9: Modelos de Negócio
 │   ├── Módulo 10: Sim-to-Real Transfer
 │   ├── Módulo 11: Protótipos e Aplicações
-│   └── Projeto: Startup ou Aplicação Real
+│   └── Projeto: Startup ou Aplicaçêo Real
 │
 └── TRILHAS TEMÁTICAS (transversais)
-    ├── Educação
+    ├── Educaçêo
     ├── Social
     ├── Empreendedorismo
     └── Tecnologia Avançada
@@ -143,11 +143,11 @@ FTH - Formação Tecnológica em Humanoides
 ### RF-001: Plataforma Web Educacional
 **Prioridade:** P0 (Crítico)
 
-**Descrição:** Site estático GitHub Pages com Jekyll para hospedar todo o conteúdo do curso.
+**Descriçêo:** Site estático GitHub Pages com Jekyll para hospedar todo o conteúdo do curso.
 
 **Requisitos:**
-- Homepage com apresentação do programa
-- Navegação clara entre níveis e módulos
+- Homepage com apresentaçêo do programa
+- Navegaçêo clara entre níveis e módulos
 - Páginas individuais para cada módulo com conteúdo estruturado
 - Sistema de trilhas temáticas
 - Página de recursos e ferramentas
@@ -165,7 +165,7 @@ FTH - Formação Tecnológica em Humanoides
 ### RF-002: Conteúdo Didático Estruturado
 **Prioridade:** P0 (Crítico)
 
-**Descrição:** Conteúdo pedagógico completo dos 4 níveis e trilhas.
+**Descriçêo:** Conteúdo pedagógico completo dos 4 níveis e trilhas.
 
 **Estrutura de Módulo:**
 ```markdown
@@ -176,7 +176,7 @@ FTH - Formação Tecnológica em Humanoides
 - [ ] Objetivo 2
 
 ## Conteúdo Teórico
-- Explicação conceitual
+- Explicaçêo conceitual
 - Exemplos práticos
 - Diagramas/ilustrações
 
@@ -186,7 +186,7 @@ FTH - Formação Tecnológica em Humanoides
 - Desafios
 
 ## Projeto/Exercício
-- Descrição do desafio
+- Descriçêo do desafio
 - Critérios de sucesso
 - Recursos adicionais
 
@@ -198,10 +198,10 @@ FTH - Formação Tecnológica em Humanoides
 
 ---
 
-### RF-003: Sistema de Progressão
+### RF-003: Sistema de Progressêo
 **Prioridade:** P1 (Alta)
 
-**Descrição:** Indicadores visuais de progressão e conclusão de módulos.
+**Descriçêo:** Indicadores visuais de progressêo e conclusêo de módulos.
 
 **Requisitos:**
 - Checkboxes para marcar módulos concluídos
@@ -214,7 +214,7 @@ FTH - Formação Tecnológica em Humanoides
 ### RF-004: Recursos e Ferramentas
 **Prioridade:** P0 (Crítico)
 
-**Descrição:** Página centralizada com todas as ferramentas necessárias.
+**Descriçêo:** Página centralizada com todas as ferramentas necessárias.
 
 **Ferramentas a Documentar:**
 - Simuladores: Isaac Sim, Gazebo, Webots, MuJoCo
@@ -225,8 +225,8 @@ FTH - Formação Tecnológica em Humanoides
 
 **Formato:**
 - Nome da ferramenta
-- Descrição e aplicação
-- Link para download/instalação
+- Descriçêo e aplicaçêo
+- Link para download/instalaçêo
 - Tutorial de setup
 - Quando usar no curso
 
@@ -235,7 +235,7 @@ FTH - Formação Tecnológica em Humanoides
 ### RF-005: Projetos Práticos
 **Prioridade:** P0 (Crítico)
 
-**Descrição:** Cada nível termina com um projeto prático tangível.
+**Descriçêo:** Cada nível termina com um projeto prático tangível.
 
 **Projetos:**
 1. **Nível 1:** Fazer robô andar e responder comandos de voz
@@ -244,10 +244,10 @@ FTH - Formação Tecnológica em Humanoides
 4. **Nível 4:** Protótipo aplicado (startup/escola/empresa)
 
 **Requisitos por Projeto:**
-- Descrição clara do objetivo
+- Descriçêo clara do objetivo
 - Instruções passo a passo
 - Código template (GitHub)
-- Critérios de avaliação
+- Critérios de avaliaçêo
 - Galeria de projetos da comunidade
 
 ---
@@ -255,11 +255,11 @@ FTH - Formação Tecnológica em Humanoides
 ### RF-006: Trilhas Temáticas
 **Prioridade:** P1 (Alta)
 
-**Descrição:** Caminhos personalizados de aplicação do conhecimento.
+**Descriçêo:** Caminhos personalizados de aplicaçêo do conhecimento.
 
 **Trilhas:**
 
-#### 🎓 Trilha Educação
+#### 🎓 Trilha Educaçêo
 - **Objetivo:** Usar robôs como ferramenta didática
 - **Público:** Professores, pedagogos, escolas
 - **Projeto Final:** Robô tutor para ensinar matemática/ciências
@@ -269,7 +269,7 @@ FTH - Formação Tecnológica em Humanoides
 - **Objetivo:** Levar conhecimento a comunidades
 - **Público:** ONGs, líderes comunitários, jovens
 - **Projeto Final:** Oficina de robótica para jovens de baixa renda
-- **Conteúdo Extra:** Acessibilidade, inclusão digital
+- **Conteúdo Extra:** Acessibilidade, inclusêo digital
 
 #### 💼 Trilha Empreendedorismo
 - **Objetivo:** Criar negócios com robôs
@@ -285,7 +285,7 @@ FTH - Formação Tecnológica em Humanoides
 
 ---
 
-## 6. Requisitos Não-Funcionais
+## 6. Requisitos Nêo-Funcionais
 
 ### RNF-001: Performance
 - Carregamento de página < 3 segundos
@@ -294,7 +294,7 @@ FTH - Formação Tecnológica em Humanoides
 
 ### RNF-002: Acessibilidade
 - WCAG 2.1 nível AA
-- Navegação por teclado
+- Navegaçêo por teclado
 - Screen reader friendly
 - Contraste adequado (mínimo 4.5:1)
 
@@ -306,8 +306,8 @@ FTH - Formação Tecnológica em Humanoides
 
 ### RNF-004: Analytics
 - Google Analytics para tracking de uso
-- Eventos personalizados (conclusão de módulos)
-- Heatmaps de navegação
+- Eventos personalizados (conclusêo de módulos)
+- Heatmaps de navegaçêo
 
 ### RNF-005: Manutenibilidade
 - Código bem documentado
@@ -328,7 +328,7 @@ FTH - Formação Tecnológica em Humanoides
 ### Hospedagem
 - **GitHub Pages** - Hosting gratuito
 - **GitHub Actions** - CI/CD automático
-- **Git** - Controle de versão
+- **Git** - Controle de versêo
 
 ### Tema/Design
 - Baseado no estilo FEP (https://linnoff88-dev.github.io/
@@ -339,20 +339,20 @@ FTH - Formação Tecnológica em Humanoides
 ### Ferramentas de Desenvolvimento
 - **VS Code** - Editor
 - **Git Bash / Terminal** - CLI
-- **Markdown Preview** - Visualização local
+- **Markdown Preview** - Visualizaçêo local
 
 ---
 
-## 8. Roadmap de Implementação
+## 8. Roadmap de Implementaçêo
 
-### Fase 1: Fundação (Semanas 1-2)
+### Fase 1: Fundaçêo (Semanas 1-2)
 **Objetivo:** Criar estrutura básica e conteúdo core
 
 **Entregas:**
 - ✅ Repositório GitHub FTH criado
 - ✅ GitHub Pages configurado
 - ✅ Homepage com hero section
-- ✅ Estrutura de navegação
+- ✅ Estrutura de navegaçêo
 - ✅ Conteúdo Nível 1 completo (3 módulos)
 - ✅ Página de recursos
 
@@ -361,14 +361,14 @@ FTH - Formação Tecnológica em Humanoides
 
 ---
 
-### Fase 2: Expansão (Semanas 3-4)
+### Fase 2: Expansêo (Semanas 3-4)
 **Objetivo:** Completar níveis 2 e 3
 
 **Entregas:**
 - ✅ Conteúdo Nível 2 completo (3 módulos)
 - ✅ Conteúdo Nível 3 completo (3 módulos)
 - ✅ Projetos práticos com código template
-- ✅ Sistema de progressão visual
+- ✅ Sistema de progressêo visual
 - ✅ Página "Sobre" e "FAQ"
 
 **Responsável:** Equipe Core + Instrutores
@@ -376,7 +376,7 @@ FTH - Formação Tecnológica em Humanoides
 
 ---
 
-### Fase 3: Profissionalização (Semanas 5-6)
+### Fase 3: Profissionalizaçêo (Semanas 5-6)
 **Objetivo:** Nível 4 e trilhas temáticas
 
 **Entregas:**
@@ -397,7 +397,7 @@ FTH - Formação Tecnológica em Humanoides
 **Entregas:**
 - ✅ SEO otimizado
 - ✅ Analytics configurado
-- ✅ Marketing e comunicação
+- ✅ Marketing e comunicaçêo
 - ✅ Primeira turma piloto (50 alunos)
 - ✅ Feedback loop implementado
 
@@ -411,9 +411,9 @@ FTH - Formação Tecnológica em Humanoides
 
 **Atividades:**
 - Análise de métricas semanalmente
-- Atualização de conteúdo
+- Atualizaçêo de conteúdo
 - Novos módulos e recursos
-- Parcerias e expansão
+- Parcerias e expansêo
 
 ---
 
@@ -423,16 +423,16 @@ FTH - Formação Tecnológica em Humanoides
 
 #### Modelo Freemium
 - **Gratuito:** Níveis 1 e 2 completos
-- **Pago:** Níveis 3 e 4 + Certificação + Mentoria
+- **Pago:** Níveis 3 e 4 + Certificaçêo + Mentoria
 
 #### Streams de Receita
 1. **Certificações:** R$ 97 por nível
 2. **Mentoria Premium:** R$ 297/mês (1h/semana)
 3. **Parcerias Corporativas:** R$ 5.000+ (licença institucional)
 4. **Hardware/Kits:** Venda de kits Noetix Bumi educacionais
-5. **Consultorias:** Implementação em escolas/empresas
+5. **Consultorias:** Implementaçêo em escolas/empresas
 
-#### Projeção Financeira (Ano 1)
+#### Projeçêo Financeira (Ano 1)
 
 | Fonte | Meta | Receita Estimada |
 |-------|------|------------------|
@@ -456,21 +456,21 @@ FTH - Formação Tecnológica em Humanoides
 
 ## 10. Riscos e Mitigações
 
-### Risco 1: Baixa taxa de conclusão
+### Risco 1: Baixa taxa de conclusêo
 **Probabilidade:** Alta | **Impacto:** Alto
 
-**Mitigação:**
-- Gamificação e badges de progresso
+**Mitigaçêo:**
+- Gamificaçêo e badges de progresso
 - Comunidade Discord ativa
 - Mentorias em grupo semanais
-- Checkpoints de motivação
+- Checkpoints de motivaçêo
 
 ---
 
 ### Risco 2: Complexidade técnica afasta iniciantes
 **Probabilidade:** Média | **Impacto:** Alto
 
-**Mitigação:**
+**Mitigaçêo:**
 - Nível 1 extremamente simplificado
 - Vídeos tutoriais passo a passo
 - Suporte via FAQ extensivo
@@ -481,8 +481,8 @@ FTH - Formação Tecnológica em Humanoides
 ### Risco 3: Falta de recursos/hardware
 **Probabilidade:** Alta | **Impacto:** Médio
 
-**Mitigação:**
-- Foco total em simulação (primeiros níveis)
+**Mitigaçêo:**
+- Foco total em simulaçêo (primeiros níveis)
 - Parcerias para acesso a labs
 - Programa de bolsas para hardware
 - Eventos presenciais em labs parceiros
@@ -492,11 +492,11 @@ FTH - Formação Tecnológica em Humanoides
 ### Risco 4: Concorrência de cursos gratuitos (Coursera, YouTube)
 **Probabilidade:** Alta | **Impacto:** Médio
 
-**Mitigação:**
+**Mitigaçêo:**
 - Diferencial: foco em humanoides (nicho)
 - Comunidade brasileira forte
 - Projetos práticos tangíveis
-- Certificação reconhecida
+- Certificaçêo reconhecida
 - Trilha de empreendedorismo única
 
 ---
@@ -504,8 +504,8 @@ FTH - Formação Tecnológica em Humanoides
 ### Risco 5: Conteúdo desatualizado rapidamente (IA evolui rápido)
 **Probabilidade:** Alta | **Impacto:** Médio
 
-**Mitigação:**
-- Revisão trimestral de conteúdo
+**Mitigaçêo:**
+- Revisêo trimestral de conteúdo
 - Módulos "News & Updates"
 - Comunidade contribui com atualizações
 - Parcerias com empresas (Noetix, Unitree)
@@ -518,16 +518,16 @@ FTH - Formação Tecnológica em Humanoides
 - **DAU (Daily Active Users):** > 100 em 3 meses
 - **Tempo médio no site:** > 15 minutos
 - **Taxa de retorno:** > 40% (usuários voltam)
-- **Páginas por sessão:** > 4
+- **Páginas por sessêo:** > 4
 
 ### Métricas Educacionais
-- **Taxa de conclusão Nível 1:** > 70%
-- **Taxa de progressão (N1→N2):** > 50%
+- **Taxa de conclusêo Nível 1:** > 70%
+- **Taxa de progressêo (N1→N2):** > 50%
 - **Projetos submetidos:** > 300 no ano 1
-- **Satisfação (NPS):** > 8.0
+- **Satisfaçêo (NPS):** > 8.0
 
 ### Métricas de Negócio
-- **Conversão Free→Paid:** > 10%
+- **Conversêo Free→Paid:** > 10%
 - **CAC (Customer Acquisition Cost):** < R$ 100
 - **LTV (Lifetime Value):** > R$ 500
 - **Churn rate:** < 15% mensal (mentorias)
@@ -552,7 +552,7 @@ FTH - Formação Tecnológica em Humanoides
 **Semana -3: Marketing Prep**
 - Criar landing page de waitlist
 - Anúncios em redes sociais
-- Artigos sobre democratização da robótica
+- Artigos sobre democratizaçêo da robótica
 - Parcerias com influencers tech
 
 **Semana -2: Press & Partnerships**
@@ -562,7 +562,7 @@ FTH - Formação Tecnológica em Humanoides
 
 **Semana -1: Final Polish**
 - Últimos ajustes baseados em beta
-- Preparação de email marketing
+- Preparaçêo de email marketing
 - FAQ atualizado
 - Suporte preparado
 
@@ -576,7 +576,7 @@ FTH - Formação Tecnológica em Humanoides
 - Posts em redes sociais
 - Evento online de lançamento
 
-**Semana 1: Ativação**
+**Semana 1: Ativaçêo**
 - Acompanhamento diário de métricas
 - Resposta rápida a bugs/issues
 - Engajamento em comunidade
@@ -586,7 +586,7 @@ FTH - Formação Tecnológica em Humanoides
 
 ### Pós-Lançamento (Primeiros 3 meses)
 
-**Mês 1: Estabilização**
+**Mês 1: Estabilizaçêo**
 - Daily stand-ups para resolver problemas
 - Coleta de feedback contínuo
 - Ajustes de conteúdo
@@ -599,10 +599,10 @@ FTH - Formação Tecnológica em Humanoides
 - Primeiro evento presencial
 
 **Mês 3: Escala**
-- Automação de processos
-- Expansão de equipe (se necessário)
-- Lançamento de nível 3 (se não incluído)
-- Preparação para trilhas temáticas
+- Automaçêo de processos
+- Expansêo de equipe (se necessário)
+- Lançamento de nível 3 (se nêo incluído)
+- Preparaçêo para trilhas temáticas
 
 ---
 
@@ -620,7 +620,7 @@ FTH - Formação Tecnológica em Humanoides
 
 ### Premissas
 - Público tem acesso básico à internet
-- Computadores modestos (4GB RAM) são suficientes para simulação inicial
+- Computadores modestos (4GB RAM) sêo suficientes para simulaçêo inicial
 - Comunidade brasileira de robótica engajada
 - Demanda por upskilling em IA/robótica continua alta
 
@@ -632,7 +632,7 @@ FTH - Formação Tecnológica em Humanoides
 - [ ] Criar repositório GitHub "FTH"
 - [ ] Configurar GitHub Pages
 - [ ] Implementar estrutura básica Jekyll
-- [ ] Criar homepage (hero + navegação)
+- [ ] Criar homepage (hero + navegaçêo)
 - [ ] Escrever conteúdo Módulo 1
 
 ### Curto Prazo (Próximas 2 semanas)
@@ -651,13 +651,13 @@ FTH - Formação Tecnológica em Humanoides
 
 ---
 
-## 15. Aprovação e Sign-off
+## 15. Aprovaçêo e Sign-off
 
 | Stakeholder | Role | Status | Data |
 |-------------|------|--------|------|
 | Você (Founder) | Product Owner | ⏳ Aguardando | - |
 | John (PM) | Product Manager | ✅ Aprovado | 2025-10-29 |
-| Equipe Dev | Implementação | ⏳ Aguardando PRD | - |
+| Equipe Dev | Implementaçêo | ⏳ Aguardando PRD | - |
 | Instrutores | Conteúdo | ⏳ Aguardando PRD | - |
 
 ---
@@ -674,13 +674,13 @@ FTH - Formação Tecnológica em Humanoides
 - **RL:** Reinforcement Learning (Aprendizado por Reforço)
 - **LBM:** Large Behavior Models (Modelos Comportamentais Grandes)
 - **ROS:** Robot Operating System
-- **Sim-to-Real:** Transferência de simulação para robô real
+- **Sim-to-Real:** Transferência de simulaçêo para robô real
 - **PPO:** Proximal Policy Optimization
 - **SAC:** Soft Actor-Critic
 
 ---
 
 **Documento criado por:** John - Product Manager
-**Para:** Programa FTH - Formação Tecnológica em Humanoides
-**Versão:** 1.0 - Draft Inicial
-**Última atualização:** 2025-10-29
+**Para:** Programa FTH - Formaçêo Tecnológica em Humanoides
+**Versêo:** 1.0 - Draft Inicial
+**Última atualizaçêo:** 2025-10-29

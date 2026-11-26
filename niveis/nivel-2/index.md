@@ -10,11 +10,11 @@ permalink: /niveis/nivel-2/
 
 ---
 
-## 📋 Visão Geral
+## 📋 Visêo Geral
 
-| Informação | Detalhes |
+| Informaçêo | Detalhes |
 |------------|----------|
-| **Duração estimada** | 35-45 horas |
+| **Duraçêo estimada** | 35-45 horas |
 | **Pré-requisitos** | Nível 1 concluído |
 | **Custo** | ✅ Gratuito |
 | **Nível de dificuldade** | ⭐⭐ Intermediário |
@@ -38,7 +38,7 @@ Ao completar o Nível 2, você será capaz de:
 ## 📚 Estrutura do Nível
 
 ### Módulo 2.1: Python para Robótica
-**Duração:** 10-12 horas
+**Duraçêo:** 10-12 horas
 
 **Conteúdo:**
 - Python do zero para robótica
@@ -48,17 +48,17 @@ Ao completar o Nível 2, você será capaz de:
 - Debugging e testes
 
 ### Módulo 2.2: ROS 2 Básico
-**Duração:** 12-15 horas
+**Duraçêo:** 12-15 horas
 
 **Conteúdo:**
 - O que é ROS 2 e por que usar
-- Instalação e configuração
+- Instalaçêo e configuraçêo
 - Nodes, topics, services
 - Publicar e subscrever mensagens
 - Criando pacotes ROS
 
 ### Módulo 2.3: Sensores e Controle + RL Introdutório
-**Duração:** 13-18 horas
+**Duraçêo:** 13-18 horas
 
 **Conteúdo:**
 - Tipos de sensores (câmera, IMU, LiDAR)
@@ -74,7 +74,7 @@ Ao completar o Nível 2, você será capaz de:
 **Objetivo:** Criar um robô que navega autonomamente e aprende com o ambiente.
 
 ### Requisitos
-1. ✅ Navegação autônoma em ambiente desconhecido
+1. ✅ Navegaçêo autônoma em ambiente desconhecido
 2. ✅ Desvio inteligente de obstáculos
 3. ✅ Uso de múltiplos sensores integrados
 4. ✅ Implementar RL para melhorar performance
@@ -90,4 +90,4 @@ Certificado Digital "Criador em Robótica Humanoide" + Acesso ao Nível 3
 
 [→ Começar Nível 2]({{ '/niveis/nivel-2/modulo-1' | relative_url }}){: .btn .btn-primary}
 
-**Última atualização:** 2025-10-29
+**Última atualizaçêo:** 2025-10-29

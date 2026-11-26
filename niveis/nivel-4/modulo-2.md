@@ -6,7 +6,7 @@ permalink: /niveis/nivel-4/modulo-2/
 
 # 🤖 Módulo 4.2: Sim-to-Real Transfer
 
-**Da simulação perfeita para o mundo caótico: domine a arte de transferir IA para robôs reais**
+**Da simulaçêo perfeita para o mundo caótico: domine a arte de transferir IA para robôs reais**
 
 ---
 
@@ -14,7 +14,7 @@ permalink: /niveis/nivel-4/modulo-2/
 
 | Atributo | Detalhes |
 |----------|----------|
-| **Duração estimada** | 10-15 horas |
+| **Duraçêo estimada** | 10-15 horas |
 | **Nível** | Profissional |
 | **Pré-requisitos** | Nível 3 + Módulo 4.1 |
 | **Tipo** | Técnico + Prático |
@@ -25,13 +25,13 @@ permalink: /niveis/nivel-4/modulo-2/
 
 Ao completar este módulo, você será capaz de:
 
-- ✅ Entender o "domain gap" entre simulação e realidade
+- ✅ Entender o "domain gap" entre simulaçêo e realidade
 - ✅ Aplicar técnicas de domain randomization
 - ✅ Realizar system identification de robôs reais
-- ✅ Fine-tunar políticas treinadas em simulação
+- ✅ Fine-tunar políticas treinadas em simulaçêo
 - ✅ Fazer deploy seguro de IA em hardware
 - ✅ Debugar e troubleshoot problemas de Sim2Real
-- ✅ Monitorar robôs em produção
+- ✅ Monitorar robôs em produçêo
 
 ---
 
@@ -57,21 +57,21 @@ Você treinou seu robô perfeitamente no Isaac Sim. Ele caminha, desvia de obst�
 
 #### 1.2 O "Domain Gap" (Lacuna de Domínio)
 
-**Diferenças entre Simulação e Realidade:**
+**Diferenças entre Simulaçêo e Realidade:**
 
-| Aspecto | Simulação | Realidade |
+| Aspecto | Simulaçêo | Realidade |
 |---------|-----------|-----------|
 | **Física** | Deterministíca, perfeita | Ruidosa, imperfeita |
 | **Sensores** | Zero ruído | Ruído, drift, falhas |
 | **Atuadores** | Resposta instantânea | Latência, backlash |
 | **Ambiente** | Controlado | Imprevisível |
-| **Computação** | Ilimitada | Limitada (bateria, CPU) |
+| **Computaçêo** | Ilimitada | Limitada (bateria, CPU) |
 | **Tempo** | Acelerável (10x) | Tempo real |
 
 **Exemplo concreto:**
 
 ```python
-# Simulação
+# Simulaçêo
 joint_position = robot.get_joint_position("left_knee")
 # Retorna: 1.5708 (sempre exato)
 
@@ -86,9 +86,9 @@ joint_position = robot.get_joint_position("left_knee")
 
 #### 1.3 Abordagens para Sim2Real
 
-**Abordagem 1: Simulação Ultra-Realista**
+**Abordagem 1: Simulaçêo Ultra-Realista**
 
-Fazer a simulação ser tão real quanto possível.
+Fazer a simulaçêo ser têo real quanto possível.
 
 **Prós:**
 - ✅ Transfere melhor
@@ -103,7 +103,7 @@ Fazer a simulação ser tão real quanto possível.
 
 **Abordagem 2: Domain Randomization**
 
-Tornar a simulação propositalmente DIVERSA e ruidosa.
+Tornar a simulaçêo propositalmente DIVERSA e ruidosa.
 
 **Prós:**
 - ✅ Política aprende a ser robusta
@@ -118,7 +118,7 @@ Tornar a simulação propositalmente DIVERSA e ruidosa.
 
 **Abordagem 3: Híbrido (Sim + Fine-tuning no Real)**
 
-Treina na simulação, ajusta com dados reais.
+Treina na simulaçêo, ajusta com dados reais.
 
 **Prós:**
 - ✅ Melhor de dois mundos
@@ -134,7 +134,7 @@ Treina na simulação, ajusta com dados reais.
 
 #### 2.1 Conceito
 
-**Ideia:** Se a política funciona em 1000 versões diferentes da simulação, ela funcionará na realidade (que é apenas "mais uma versão").
+**Ideia:** Se a política funciona em 1000 versões diferentes da simulaçêo, ela funcionará na realidade (que é apenas "mais uma versêo").
 
 **Parâmetros para Randomizar:**
 
@@ -143,12 +143,12 @@ Treina na simulação, ajusta com dados reais.
 # A cada episódio, variar:
 gravity = random.uniform(9.6, 10.0)  # Terra varia por altitude
 friction = random.uniform(0.3, 1.2)  # Piso liso vs áspero
-mass = random.uniform(0.9, 1.1) * nominal_mass  # Tolerância fabricação
+mass = random.uniform(0.9, 1.1) * nominal_mass  # Tolerância fabricaçêo
 ```
 
 **B) Visual**
 ```python
-# Câmera / Visão
+# Câmera / Visêo
 lighting = random.choice(['bright', 'dim', 'mixed'])
 camera_noise = add_gaussian_noise(image, std=random.uniform(0, 0.1))
 color_shift = random_hue_saturation(image)
@@ -169,14 +169,14 @@ encoder_dropout = (random.random() < 0.02)  # 2% de falha
 **D) Atuadores**
 ```python
 # Motores
-motor_force = command * random.uniform(0.95, 1.05)  # Variação
+motor_force = command * random.uniform(0.95, 1.05)  # Variaçêo
 motor_delay = random.uniform(10, 30)  # ms
 backlash = random.uniform(0, 2)  # graus de folga
 ```
 
 ---
 
-#### 2.2 Implementação no Isaac Sim
+#### 2.2 Implementaçêo no Isaac Sim
 
 **Código de exemplo:**
 
@@ -199,7 +199,7 @@ class DomainRandomizer:
             -9.81 * gravity_scale
         )
 
-        # 2. Fricção do chão (0.3 a 1.2)
+        # 2. Fricçêo do chêo (0.3 a 1.2)
         ground = self.world.scene.get_object("ground_plane")
         friction = np.random.uniform(0.3, 1.2)
         ground.get_applied_physics_material().set_static_friction(friction)
@@ -215,18 +215,18 @@ class DomainRandomizer:
     def randomize_visuals(self):
         """Randomiza aparência visual"""
 
-        # 1. Iluminação
+        # 1. Iluminaçêo
         lights = self.world.stage.GetPrimAtPath("/World/Lights")
         intensity = np.random.uniform(500, 3000)
         for light in lights.GetChildren():
             light.GetAttribute("intensity").Set(intensity)
 
-        # 2. Cor do chão
+        # 2. Cor do chêo
         ground = self.world.stage.GetPrimAtPath("/World/ground")
         color = np.random.uniform(0.2, 0.9, size=3)  # RGB
         ground.GetAttribute("color").Set(color)
 
-        # 3. Posição de objetos aleatórios (distratores)
+        # 3. Posiçêo de objetos aleatórios (distratores)
         for i in range(np.random.randint(0, 5)):
             pos = np.random.uniform(-2, 2, size=3)
             pos[2] = 0.5  # altura fixa
@@ -239,7 +239,7 @@ class DomainRandomizer:
         imu_noise = np.random.normal(0, 0.05, size=sensor_data['imu'].shape)
         sensor_data['imu'] += imu_noise
 
-        # 2. Encoders (posição das juntas)
+        # 2. Encoders (posiçêo das juntas)
         encoder_noise = np.random.normal(0, 0.01, size=sensor_data['joints'].shape)
         sensor_data['joints'] += encoder_noise
 
@@ -270,7 +270,7 @@ class DomainRandomizer:
         # 3. Saturation (motores têm limite)
         action = np.clip(action, -1.0, 1.0)
 
-        # 4. Dead zone (pequenos comandos são ignorados)
+        # 4. Dead zone (pequenos comandos sêo ignorados)
         action[np.abs(action) < 0.05] = 0
 
         return action
@@ -287,14 +287,14 @@ for episode in range(10000):
     world.reset()
 
     for step in range(1000):
-        # Observação com ruído
+        # Observaçêo com ruído
         obs = get_observations()
         obs = randomizer.randomize_sensors(obs)
 
-        # Ação da política
+        # Açêo da política
         action = policy.predict(obs)
 
-        # Ação com imperfeições
+        # Açêo com imperfeições
         action = randomizer.randomize_actuators(action)
 
         # Executa
@@ -303,36 +303,36 @@ for episode in range(10000):
 
 ---
 
-#### 2.3 Boas Práticas de Randomização
+#### 2.3 Boas Práticas de Randomizaçêo
 
 **1. Comece Simples, Aumente Gradualmente**
 
 ```python
-# Fase 1: Sem randomização (baseline)
+# Fase 1: Sem randomizaçêo (baseline)
 randomization_level = 0.0
 
-# Fase 2: Randomização leve
+# Fase 2: Randomizaçêo leve
 randomization_level = 0.3
 
-# Fase 3: Randomização agressiva
+# Fase 3: Randomizaçêo agressiva
 randomization_level = 1.0
 ```
 
 **2. Randomize o que Importa**
 
-Não randomize tudo cegamente. Foque nas diferenças reais.
+Nêo randomize tudo cegamente. Foque nas diferenças reais.
 
 **Exemplo:**
-- ✅ Randomizar fricção (pisos variam muito)
+- ✅ Randomizar fricçêo (pisos variam muito)
 - ✅ Randomizar latência (Wi-Fi varia)
 - ❌ Randomizar cores aleatoriamente (se seu robô sempre vai atuar em escritórios cinzas)
 
 **3. Valide com "Sanity Check"**
 
-Grave vídeos da simulação randomizada. Parecem plausíveis?
+Grave vídeos da simulaçêo randomizada. Parecem plausíveis?
 
 - ✅ Robô caminhando em pisos diferentes: OK
-- ❌ Robô flutuando porque gravidade ficou negativa: NÃO OK
+- ❌ Robô flutuando porque gravidade ficou negativa: NêO OK
 
 ---
 
@@ -343,8 +343,8 @@ Grave vídeos da simulação randomizada. Parecem plausíveis?
 **System Identification:** Processo de estimar os parâmetros reais do robô físico.
 
 **Por que fazer?**
-- Simulação usa parâmetros nominais (do manual)
-- Robô real tem variações de fabricação
+- Simulaçêo usa parâmetros nominais (do manual)
+- Robô real tem variações de fabricaçêo
 - Desgaste altera parâmetros ao longo do tempo
 
 **Parâmetros a Identificar:**
@@ -352,14 +352,14 @@ Grave vídeos da simulação randomizada. Parecem plausíveis?
 | Parâmetro | Nominal (Manual) | Real (Medido) |
 |-----------|------------------|---------------|
 | Massa total | 8.0 kg | 8.3 kg |
-| Fricção juntas | 0.01 Nm | 0.015 Nm |
+| Fricçêo juntas | 0.01 Nm | 0.015 Nm |
 | Inércia link | 0.05 kg·m² | 0.053 kg·m² |
 | Latência motores | 5 ms | 18 ms |
 | Constante motor | 0.05 Nm/A | 0.048 Nm/A |
 
 ---
 
-#### 3.2 Técnicas de Identificação
+#### 3.2 Técnicas de Identificaçêo
 
 **Método 1: Análise de Resposta ao Degrau**
 
@@ -376,7 +376,7 @@ def identify_motor_response(robot, joint_name):
     # 1. Aplicar comando step
     robot.set_joint_effort(joint_name, 1.0)  # 100% torque
 
-    # 2. Registrar posição ao longo do tempo
+    # 2. Registrar posiçêo ao longo do tempo
     positions = []
     times = []
 
@@ -407,30 +407,30 @@ def identify_motor_response(robot, joint_name):
     return K, tau
 ```
 
-**Interpretação:**
+**Interpretaçêo:**
 - `K` (ganho): Quanto o motor se move para comando máximo
-- `τ` (tau): Quão rápido responde (menor = mais rápido)
+- `τ` (tau): Quêo rápido responde (menor = mais rápido)
 
 ---
 
-**Método 2: System ID via Otimização**
+**Método 2: System ID via Otimizaçêo**
 
-Rode simulação com parâmetros variáveis até match com real.
+Rode simulaçêo com parâmetros variáveis até match com real.
 
 ```python
 def optimize_simulation_params(real_robot_data, sim_robot):
     """
-    Ajusta parâmetros da simulação para match com dados reais
+    Ajusta parâmetros da simulaçêo para match com dados reais
     """
     from scipy.optimize import minimize
 
     def loss_function(params):
         """
-        Roda simulação com params e calcula erro vs real
+        Roda simulaçêo com params e calcula erro vs real
         """
         mass, friction, inertia = params
 
-        # Atualizar simulação
+        # Atualizar simulaçêo
         sim_robot.set_mass(mass)
         sim_robot.set_friction(friction)
         sim_robot.set_inertia(inertia)
@@ -463,7 +463,7 @@ def optimize_simulation_params(real_robot_data, sim_robot):
 
 **Método 3: Gray-Box Identification com ML**
 
-Use rede neural para aprender resíduos (diferenças não modeladas).
+Use rede neural para aprender resíduos (diferenças nêo modeladas).
 
 ```python
 import torch
@@ -493,13 +493,13 @@ model = ResidualDynamicsModel(state_dim=18, action_dim=12)
 
 for epoch in range(100):
     for state, action, next_state in real_robot_dataset:
-        # Predição do modelo nominal (simulação)
+        # Prediçêo do modelo nominal (simulaçêo)
         nominal_next = simulate_step(state, action)
 
         # Residual real
         true_residual = next_state - nominal_next
 
-        # Predição do modelo ML
+        # Prediçêo do modelo ML
         pred_residual = model(state, action)
 
         # Loss
@@ -507,7 +507,7 @@ for epoch in range(100):
         loss.backward()
         optimizer.step()
 
-# Agora, durante simulação:
+# Agora, durante simulaçêo:
 # next_state = simulate_step(state, action) + model(state, action)
 ```
 
@@ -534,9 +534,9 @@ Hardware:
 - [ ] Área de 3m x 3m livre de obstáculos
 - [ ] Piso antiderrapante ou tapete
 - [ ] Almofadas/colchões ao redor (amortecer quedas)
-- [ ] Botão de emergência acessível (< 2m de distância)
-- [ ] Bateria carregada mas não ao máximo (80% ideal)
-- [ ] Inspeção visual: parafusos apertados, cabos firmes
+- [ ] Botêo de emergência acessível (< 2m de distância)
+- [ ] Bateria carregada mas nêo ao máximo (80% ideal)
+- [ ] Inspeçêo visual: parafusos apertados, cabos firmes
 
 Software:
 - [ ] Limites de torque configurados (50% do máximo)
@@ -547,7 +547,7 @@ Software:
 
 Equipe:
 - [ ] 2+ pessoas presentes (1 no computador, 1 pronta pra segurar robô)
-- [ ] Todos usam óculos de proteção
+- [ ] Todos usam óculos de proteçêo
 - [ ] Celular carregado (ligar pra suporte se necessário)
 - [ ] Plano de emergência definido
 ```
@@ -556,7 +556,7 @@ Equipe:
 
 #### 4.3 Estratégias de Fine-tuning Seguro
 
-**Estratégia 1: Inicialização Segura (Safe Exploration)**
+**Estratégia 1: Inicializaçêo Segura (Safe Exploration)**
 
 Comece de poses conservadoras, aumente risco gradualmente.
 
@@ -610,7 +610,7 @@ class HumanSupervisor:
 
         # 1. Vai cair?
         if abs(state['base_orientation_x']) > 0.3:  # > 17 graus
-            return True, "Inclinação excessiva"
+            return True, "Inclinaçêo excessiva"
 
         # 2. Torques muito altos?
         if any(state['joint_efforts'] > 20.0):  # Nm
@@ -623,8 +623,8 @@ class HumanSupervisor:
         return False, None
 
     def intervene(self):
-        """Para robô e registra intervenção"""
-        print("🚨 INTERVENÇÃO HUMANA!")
+        """Para robô e registra intervençêo"""
+        print("🚨 INTERVENÇêO HUMANA!")
         self.robot.emergency_stop()
         self.intervention_count += 1
 
@@ -636,8 +636,8 @@ class HumanSupervisor:
         input()
 
     def collect_correction(self):
-        """Registra correção humana como dado de treino"""
-        # Estado perigoso -> Ação humana (correção)
+        """Registra correçêo humana como dado de treino"""
+        # Estado perigoso -> Açêo humana (correçêo)
         # Isso vira dado de treino supervisionado
         return (state_before, human_action)
 
@@ -647,7 +647,7 @@ supervisor = HumanSupervisor(robot)
 while True:
     state = robot.get_state()
 
-    # Predição da política
+    # Prediçêo da política
     action = policy.predict(state)
 
     # Humano pode intervir
@@ -656,7 +656,7 @@ while True:
         supervisor.intervene()
         continue
 
-    # Executa ação
+    # Executa açêo
     robot.step(action)
 ```
 
@@ -667,16 +667,16 @@ while True:
 Treina em simulações cada vez mais realistas.
 
 ```python
-# Nível 0: Simulação limpa
+# Nível 0: Simulaçêo limpa
 train_policy(sim_clean, episodes=1000)
 
-# Nível 1: Simulação com leve randomização
+# Nível 1: Simulaçêo com leve randomizaçêo
 train_policy(sim_light_random, episodes=500, init_from_previous=True)
 
-# Nível 2: Simulação com randomização agressiva
+# Nível 2: Simulaçêo com randomizaçêo agressiva
 train_policy(sim_heavy_random, episodes=500, init_from_previous=True)
 
-# Nível 3: Simulação com parâmetros identificados do robô real
+# Nível 3: Simulaçêo com parâmetros identificados do robô real
 train_policy(sim_matched_to_real, episodes=200, init_from_previous=True)
 
 # Nível 4: Fine-tuning no robô real (poucos episódios!)
@@ -685,22 +685,22 @@ train_policy(real_robot, episodes=50, init_from_previous=True, safe_mode=True)
 
 ---
 
-### 5. Deployment em Produção
+### 5. Deployment em Produçêo
 
 #### 5.1 Arquitetura de Software
 
-**Stack típico para robô em produção:**
+**Stack típico para robô em produçêo:**
 
 ```
 ┌─────────────────────────────────────────┐
-│         APLICAÇÃO / UI                  │  ← Dashboard, API REST
+│         APLICAÇêO / UI                  │  ← Dashboard, API REST
 ├─────────────────────────────────────────┤
-│      ORQUESTRAÇÃO (ROS 2)              │  ← Nodes, topics, services
+│      ORQUESTRAÇêO (ROS 2)              │  ← Nodes, topics, services
 ├──────────────┬──────────────────────────┤
-│ PERCEPÇÃO   │  CONTROLE   │  NAVEGAÇÃO │
-│ (Visão, IA) │  (Motores)  │  (SLAM)    │
+│ PERCEPÇêO   │  CONTROLE   │  NAVEGAÇêO │
+│ (Visêo, IA) │  (Motores)  │  (SLAM)    │
 ├──────────────┴──────────────────────────┤
-│         MIDDLEWARE (DDS)                │  ← Comunicação entre nodes
+│         MIDDLEWARE (DDS)                │  ← Comunicaçêo entre nodes
 ├─────────────────────────────────────────┤
 │      DRIVERS DE HARDWARE                │  ← Interface com sensores/atuadores
 ├─────────────────────────────────────────┤
@@ -710,13 +710,13 @@ train_policy(real_robot, episodes=50, init_from_previous=True, safe_mode=True)
 
 ---
 
-#### 5.2 Containerização com Docker
+#### 5.2 Containerizaçêo com Docker
 
 **Por que usar Docker?**
 - ✅ Ambiente consistente (dev = prod)
-- ✅ Fácil atualização remota
+- ✅ Fácil atualizaçêo remota
 - ✅ Rollback rápido se algo quebrar
-- ✅ Isola dependências (não quebra sistema)
+- ✅ Isola dependências (nêo quebra sistema)
 
 **Dockerfile exemplo:**
 
@@ -741,7 +741,7 @@ RUN apt-get update && apt-get install -y \
 COPY requirements.txt /tmp/
 RUN pip3 install -r /tmp/requirements.txt
 
-# Copiar código da aplicação
+# Copiar código da aplicaçêo
 WORKDIR /app
 COPY src/ /app/src/
 COPY launch/ /app/launch/
@@ -894,7 +894,7 @@ class RobotMonitoring:
 
 **Desafio:** Como atualizar software em 100 robôs em campo?
 
-**Solução:**
+**Soluçêo:**
 
 ```python
 # Servidor central
@@ -904,7 +904,7 @@ class OTAManager:
 
     def push_update(self, version, target_robots='all'):
         """
-        Envia nova versão para robôs
+        Envia nova versêo para robôs
         """
         update_package = {
             'version': version,
@@ -974,7 +974,7 @@ class OTAManager:
 **Diagnóstico:**
 
 ```python
-# Verificar se simulação está muito otimista
+# Verificar se simulaçêo está muito otimista
 print("Centro de massa (sim):", sim_robot.center_of_mass)
 print("Centro de massa (real):", real_robot.center_of_mass)
 
@@ -984,7 +984,7 @@ print("Centro de massa (real):", real_robot.center_of_mass)
 **Soluções:**
 1. Refazer system identification (massa real pode estar errada)
 2. Aumentar domain randomization em massa e geometria
-3. Treinar política com "peso extra" na simulação
+3. Treinar política com "peso extra" na simulaçêo
 
 ---
 
@@ -1009,10 +1009,10 @@ def measure_latency(robot):
 
 **Soluções:**
 1. Se latência > 50ms: problema de rede ou CPU
-   - Usar conexão cabeada (não Wi-Fi)
-   - Rodar inferência on-device (não em servidor remoto)
+   - Usar conexêo cabeada (nêo Wi-Fi)
+   - Rodar inferência on-device (nêo em servidor remoto)
 2. Se latência variável: adicionar prediction buffer
-   - Prever ação para T+2 (compensa delay)
+   - Prever açêo para T+2 (compensa delay)
 
 ---
 
@@ -1081,12 +1081,12 @@ for episode in range(100):
 Você vai receber um "robô caixa-preta" (simulado). Seu trabalho:
 1. Aplicar comandos de teste
 2. Registrar respostas
-3. Estimar: ganho, constante de tempo, fricção
+3. Estimar: ganho, constante de tempo, fricçêo
 
 **Código starter fornecido:** `system_id_starter.py`
 
 **Critério de sucesso:**
-- Erro < 5% vs parâmetros reais (que serão revelados depois)
+- Erro < 5% vs parâmetros reais (que serêo revelados depois)
 
 📤 [Upload: Exercício 2](../projetos/ex2-upload)
 
@@ -1096,7 +1096,7 @@ Você vai receber um "robô caixa-preta" (simulado). Seu trabalho:
 
 **Tempo:** 120 minutos
 
-**Tarefa:** Criar Dockerfile para sua aplicação de controle.
+**Tarefa:** Criar Dockerfile para sua aplicaçêo de controle.
 
 **Requisitos:**
 - Base: ROS 2 Humble
@@ -1116,20 +1116,20 @@ Você vai receber um "robô caixa-preta" (simulado). Seu trabalho:
 
 ## 📊 Projeto do Módulo: Sim-to-Real Transfer Completo
 
-**Objetivo:** Transferir uma política de caminhada da simulação para um robô "real" (ou simulado com parâmetros realistas).
+**Objetivo:** Transferir uma política de caminhada da simulaçêo para um robô "real" (ou simulado com parâmetros realistas).
 
 ### Especificações
 
 **Parte 1: Treino com Domain Randomization**
-- Treinar política de caminhada em simulação limpa (baseline)
+- Treinar política de caminhada em simulaçêo limpa (baseline)
 - Adicionar domain randomization agressivo
 - Retreinar (pode usar transfer learning)
 - Comparar performance: com vs sem randomization
 
 **Parte 2: System Identification**
 - Identificar pelo menos 3 parâmetros do robô-alvo
-- Ajustar simulação para match
-- Treinar política na simulação ajustada
+- Ajustar simulaçêo para match
+- Treinar política na simulaçêo ajustada
 
 **Parte 3: Teste no Robô-Alvo**
 - Deploy cada política (baseline, randomized, finetuned)
@@ -1142,12 +1142,12 @@ Você vai receber um "robô caixa-preta" (simulado). Seu trabalho:
 - Vídeos das tentativas
 - Lições aprendidas
 
-### Critérios de Avaliação
+### Critérios de Avaliaçêo
 
-| Critério | Peso | Descrição |
+| Critério | Peso | Descriçêo |
 |----------|------|-----------|
-| Domain Randomization | 25% | Implementação completa e justificada |
-| System Identification | 20% | Precisão dos parâmetros identificados |
+| Domain Randomization | 25% | Implementaçêo completa e justificada |
+| System Identification | 20% | Precisêo dos parâmetros identificados |
 | Resultados experimentais | 30% | Taxa de sucesso, análise rigorosa |
 | Relatório | 25% | Clareza, insights, qualidade técnica |
 
@@ -1182,7 +1182,7 @@ Você vai receber um "robô caixa-preta" (simulado). Seu trabalho:
 
 🛠️ **Software:**
 - **ROS 2 Humble** - Middleware de robótica
-- **Docker + NVIDIA Container Toolkit** - Containerização com GPU
+- **Docker + NVIDIA Container Toolkit** - Containerizaçêo com GPU
 - **Prometheus + Grafana** - Monitoramento
 - **Weights & Biases** - Tracking de experimentos
 
@@ -1192,7 +1192,7 @@ Você vai receber um "robô caixa-preta" (simulado). Seu trabalho:
 
 ---
 
-## 🎯 Checklist de Conclusão
+## 🎯 Checklist de Conclusêo
 
 Antes de avançar para o Módulo 4.3, certifique-se:
 
@@ -1203,11 +1203,11 @@ Antes de avançar para o Módulo 4.3, certifique-se:
 - [ ] Entendo protocolo de segurança para teste em hardware
 - [ ] Concluí o projeto de Sim-to-Real Transfer
 - [ ] Li pelo menos 1 paper sobre Sim2Real
-- [ ] Testei fine-tuning (mesmo que em simulação)
+- [ ] Testei fine-tuning (mesmo que em simulaçêo)
 
 ---
 
-## 💬 Discussão e Comunidade
+## 💬 Discussêo e Comunidade
 
 **Participe das discussões:**
 
@@ -1233,15 +1233,15 @@ No Módulo 4.3, você vai aprender a criar protótipos completos e aplicações 
 
 **No Módulo 4.3 você vai aprender:**
 - Design de produto para robótica
-- Integração de sistemas complexos
-- Testes de campo e validação
-- Documentação profissional
-- Apresentação para stakeholders
+- Integraçêo de sistemas complexos
+- Testes de campo e validaçêo
+- Documentaçêo profissional
+- Apresentaçêo para stakeholders
 
 [→ Iniciar Módulo 4.3: Protótipos e Aplicações]({{ '/niveis/nivel-4/modulo-3' | relative_url }}){: .btn .btn-primary}
 
 ---
 
-**Última atualização:** 2025-10-29
+**Última atualizaçêo:** 2025-10-29
 **Autor:** Equipe FTH
 **Revisores:** 2 engenheiros de robótica + 1 especialista em Sim2Real (ex-Boston Dynamics)

@@ -12,11 +12,11 @@ permalink: /niveis/nivel-3/modulo-3/
 
 ## 📋 Informações do Módulo
 
-| Informação | Detalhes |
+| Informaçêo | Detalhes |
 |------------|----------|
-| **Duração estimada** | 20-25 horas |
+| **Duraçêo estimada** | 20-25 horas |
 | **Nível** | Avançado |
-| **Pré-requisitos** | RL, Visão Computacional, PyTorch |
+| **Pré-requisitos** | RL, Visêo Computacional, PyTorch |
 | **Ferramentas** | PyTorch, HuggingFace, OpenVLA, ROS 2 |
 
 ---
@@ -37,7 +37,7 @@ Ao completar este módulo, você será capaz de:
 
 ## 📚 Conteúdo Teórico
 
-### 1. O que são Large Behavior Models?
+### 1. O que sêo Large Behavior Models?
 
 #### Analogia: De LLMs para LBMs
 
@@ -56,26 +56,26 @@ Você conhece **Large Language Models** (GPT, Claude, etc.):
 **RL Tradicional:**
 ```
 Treinar política do zero para cada tarefa
-→ 10M steps de simulação por tarefa
-→ Não generaliza para novos objetos
+→ 10M steps de simulaçêo por tarefa
+→ Nêo generaliza para novos objetos
 ```
 
 **LBM:**
 ```
 Pré-treinar em 100k+ tarefas variadas
 → Fine-tune com 100-1000 demos na sua tarefa
-→ Generaliza para variações não vistas
+→ Generaliza para variações nêo vistas
 ```
 
 #### Arquitetura Conceitual
 
 ```
-Observação Visual → Vision Encoder (ViT) →
+Observaçêo Visual → Vision Encoder (ViT) →
                       Transformer Decoder →
                       Action Tokens → Ações do Robô
 ```
 
-**Comparação com LLMs:**
+**Comparaçêo com LLMs:**
 
 | Aspecto | LLM | LBM |
 |---------|-----|-----|
@@ -101,7 +101,7 @@ Observação Visual → Vision Encoder (ViT) →
 **Dataset:**
 - 130k demonstrações de robôs
 - 700+ tarefas em ambientes reais
-- Manipulação de ~5000 objetos
+- Manipulaçêo de ~5000 objetos
 
 **Resultado chave:**
 - 97% sucesso em tarefas vistas
@@ -120,7 +120,7 @@ def rt1_forward(image, instruction):
     # 2. Language encoding
     language_emb = language_encoder(instruction)  # (D,)
 
-    # 3. FiLM conditioning (modula visão com linguagem)
+    # 3. FiLM conditioning (modula visêo com linguagem)
     conditioned_features = film_layer(visual_features, language_emb)
 
     # 4. Transformer
@@ -138,11 +138,11 @@ def rt1_forward(image, instruction):
 
 **Paper:** [RT-2: Vision-Language-Action Models (2023)](https://arxiv.org/abs/2307.15818)
 
-**Inovação:** Usa Vision-Language Models (VLMs) pré-treinados como backbone.
+**Inovaçêo:** Usa Vision-Language Models (VLMs) pré-treinados como backbone.
 
 **Arquitetura:**
 - Backbone: PaLM-E ou PaLI (modelos VLM massivos)
-- Fine-tuning: Apenas cabeça de ação
+- Fine-tuning: Apenas cabeça de açêo
 - Parâmetros: 5B-55B
 
 **Resultado chave:**
@@ -167,7 +167,7 @@ def rt1_forward(image, instruction):
 - Fine-tuning eficiente com LoRA
 
 ```bash
-# Instalação
+# Instalaçêo
 pip install openvla
 ```
 
@@ -198,12 +198,12 @@ print(f"Predicted action: {action}")
 #### Outros Modelos Importantes
 
 **1. Octo (UC Berkeley)**
-- Modelo de difusão para ações
+- Modelo de difusêo para ações
 - 25M parâmetros
-- Especializado em manipulação fina
+- Especializado em manipulaçêo fina
 
 **2. Pi0 (Physical Intelligence)**
-- Multimodal (visão + tato + áudio)
+- Multimodal (visêo + tato + áudio)
 - 3B parâmetros
 - Maior performance em dextrous manipulation
 
@@ -213,7 +213,7 @@ print(f"Predicted action: {action}")
 
 ---
 
-### 3. Como LBMs São Treinados
+### 3. Como LBMs Sêo Treinados
 
 #### Etapa 1: Coleta de Dados em Escala
 
@@ -240,21 +240,21 @@ print(f"Predicted action: {action}")
 
 #### Etapa 2: Pré-Treinamento (Pretraining)
 
-**Objetivo:** Aprender representações gerais de manipulação.
+**Objetivo:** Aprender representações gerais de manipulaçêo.
 
 **Loss function:**
 ```python
 def behavior_cloning_loss(predicted_action, expert_action):
     """
-    Imitation learning: minimize diferença entre ação prevista e demonstração
+    Imitation learning: minimize diferença entre açêo prevista e demonstraçêo
     """
     return F.mse_loss(predicted_action, expert_action)
 
 def action_diffusion_loss(model, batch):
     """
-    Alternativa: modelar distribuição de ações com difusão
+    Alternativa: modelar distribuiçêo de ações com difusêo
     """
-    # Adiciona ruído à ação
+    # Adiciona ruído à açêo
     noise = torch.randn_like(batch['action'])
     t = torch.randint(0, num_diffusion_steps, (batch_size,))
     noisy_action = add_noise(batch['action'], noise, t)
@@ -327,7 +327,7 @@ lora_config = LoraConfig(
 model = OpenVLA.from_pretrained("openvla/openvla-7b")
 model = get_peft_model(model, lora_config)
 
-# Apenas ~1% dos parâmetros são treináveis!
+# Apenas ~1% dos parâmetros sêo treináveis!
 trainable_params = sum(p.numel() for p in model.parameters() if p.requires_grad)
 print(f"Trainable params: {trainable_params:,}")  # ~10M ao invés de 7B
 ```
@@ -401,11 +401,11 @@ for epoch in range(100):
         optimizer.step()
 ```
 
-**Problema do BC:** Distribution shift (vê estados na demo que nunca vê em execução).
+**Problema do BC:** Distribution shift (vê estados na demo que nunca vê em execuçêo).
 
 #### DAgger (Dataset Aggregation)
 
-**Solução:** Iterar entre coletar dados com política atual e re-treinar.
+**Soluçêo:** Iterar entre coletar dados com política atual e re-treinar.
 
 ```python
 def dagger(expert_policy, initial_dataset, env, num_iterations=10):
@@ -487,7 +487,7 @@ class BehaviorTransformer(nn.Module):
 
 #### Diffusion Policies
 
-**State-of-the-art:** Modelar distribuição de ações com difusão.
+**State-of-the-art:** Modelar distribuiçêo de ações com difusêo.
 
 **Vantagem:** Captura multi-modalidade (múltiplas formas corretas de fazer algo).
 
@@ -497,7 +497,7 @@ import torch.nn as nn
 
 class DiffusionPolicy(nn.Module):
     """
-    Usa difusão para gerar ações
+    Usa difusêo para gerar ações
     Baseado em: Diffusion Policy (Chi et al., 2023)
     """
     def __init__(self, obs_dim, action_dim, num_diffusion_steps=100):
@@ -531,14 +531,14 @@ class DiffusionPolicy(nn.Module):
         return self.unet(action, t, cond=obs)
 
     def sample(self, obs, num_samples=1):
-        """Gera ações por difusão reversa"""
+        """Gera ações por difusêo reversa"""
         device = obs.device
         batch_size = obs.shape[0]
 
         # Começar com ruído puro
         action = torch.randn(batch_size, num_samples, action_dim).to(device)
 
-        # Difusão reversa
+        # Difusêo reversa
         for t in reversed(range(self.num_steps)):
             t_batch = torch.full((batch_size,), t, device=device, dtype=torch.long)
 
@@ -566,7 +566,7 @@ class DiffusionPolicy(nn.Module):
 
 #### O que é Zero-Shot?
 
-**Definição:** Modelo executa tarefa nunca vista, sem fine-tuning.
+**Definiçêo:** Modelo executa tarefa nunca vista, sem fine-tuning.
 
 **Exemplo:**
 - Treinado: "Pick red cube", "Pick blue sphere"
@@ -579,7 +579,7 @@ class DiffusionPolicy(nn.Module):
 
 #### Few-Shot Learning
 
-**Definição:** Modelo se adapta com apenas 1-10 demonstrações.
+**Definiçêo:** Modelo se adapta com apenas 1-10 demonstrações.
 
 **Técnicas:**
 
@@ -588,7 +588,7 @@ class DiffusionPolicy(nn.Module):
 ```python
 def in_context_predict(model, demo_trajectories, query_observation):
     """
-    Modelo vê demonstrações como contexto e prevê ação
+    Modelo vê demonstrações como contexto e prevê açêo
     """
     # Concatenar demos + query
     context = []
@@ -596,10 +596,10 @@ def in_context_predict(model, demo_trajectories, query_observation):
         for obs, action in traj:
             context.append((obs, action))
 
-    context.append((query_observation, None))  # Sem ação
+    context.append((query_observation, None))  # Sem açêo
 
     # Forward pass
-    predicted_action = model(context)[-1]  # Última predição
+    predicted_action = model(context)[-1]  # Última prediçêo
 
     return predicted_action
 ```
@@ -639,11 +639,11 @@ def maml_few_shot(model, support_set, query_set, inner_lr=0.01, outer_lr=0.001):
         meta_optimizer.step()
 ```
 
-#### Avaliação de Generalização
+#### Avaliaçêo de Generalizaçêo
 
 **Métricas:**
 - **Success rate**: % de tarefas completadas
-- **Novel object success**: Sucesso em objetos não vistos
+- **Novel object success**: Sucesso em objetos nêo vistos
 - **Novel scene success**: Sucesso em ambientes novos
 - **Long-horizon success**: Sequências de múltiplas tarefas
 
@@ -677,7 +677,7 @@ def evaluate_generalization(model, test_envs):
 
 ---
 
-### 6. Implementação Prática com OpenVLA
+### 6. Implementaçêo Prática com OpenVLA
 
 #### Setup
 
@@ -714,7 +714,7 @@ with torch.no_grad():
         unnormalize=True  # Desnormaliza para unidades reais
     )
 
-# Ação formato: [x, y, z, roll, pitch, yaw, gripper]
+# Açêo formato: [x, y, z, roll, pitch, yaw, gripper]
 print(f"Predicted action: {action}")
 # Ex: [0.45, 0.12, 0.30, 0.0, 3.14, 0.0, 1.0]  # Gripper aberto
 ```
@@ -783,7 +783,7 @@ for epoch in range(num_epochs):
 model.save_pretrained("./my_finetuned_model/")
 ```
 
-#### Integração com ROS 2
+#### Integraçêo com ROS 2
 
 ```python
 import rclpy
@@ -867,18 +867,18 @@ def main():
 - Comparado: humanos aprendem com 1-10 demos
 
 **2. Robustez**
-- Falham em situações fora da distribuição
-- Sensíveis a mudanças de iluminação/câmera
+- Falham em situações fora da distribuiçêo
+- Sensíveis a mudanças de iluminaçêo/câmera
 - Podem gerar ações perigosas se incertos
 
 **3. Interpretabilidade**
 - "Black box" - difícil debugar
-- Não sabemos o que o modelo "pensa"
+- Nêo sabemos o que o modelo "pensa"
 - Viés do dataset se propaga
 
 **4. Latência**
-- Modelos grandes (7B params) são lentos
-- Inferência: 50-200ms por ação
+- Modelos grandes (7B params) sêo lentos
+- Inferência: 50-200ms por açêo
 - Trade-off tamanho vs. velocidade
 
 #### Considerações Éticas
@@ -913,10 +913,10 @@ def safe_action_wrapper(predicted_action, safety_bounds):
 
 LBMs aprendem vieses dos dados:
 - Se demos apenas com objetos de cozinha → pode falhar em ferramentas
-- Se demos apenas com mãos humanas brancas → pode não reconhecer outras etnias
+- Se demos apenas com mêos humanas brancas → pode nêo reconhecer outras etnias
 - Se demos com gênero específico → pode reforçar estereótipos
 
-**Mitigação:**
+**Mitigaçêo:**
 - Diversificar datasets de treino
 - Auditar performance em subgrupos
 - Transparência sobre limitações
@@ -931,7 +931,7 @@ class ExplainablePolicy:
         self.model = model
 
     def predict_with_explanation(self, obs, instruction):
-        # Ação prevista
+        # Açêo prevista
         action = self.model(obs, instruction)
 
         # Attention weights (quais partes da imagem influenciaram)
@@ -1045,12 +1045,12 @@ def evaluate_finetuned_model(model, env, num_episodes=10):
 
 ### Projeto 2: Zero-Shot Generalization Benchmark
 
-**Objetivo:** Testar generalização do modelo em objetos/tarefas novas.
+**Objetivo:** Testar generalizaçêo do modelo em objetos/tarefas novas.
 
 ```python
 def zero_shot_benchmark(model):
     """
-    Benchmark de generalização zero-shot
+    Benchmark de generalizaçêo zero-shot
     """
     test_scenarios = {
         'seen_object_seen_task': [
@@ -1133,13 +1133,13 @@ def train_multitask_lbm(model, task_datasets):
 
 ## 🏆 Projeto Final: Sistema LBM Completo
 
-**Objetivo:** Criar pipeline end-to-end de LBM para aplicação real.
+**Objetivo:** Criar pipeline end-to-end de LBM para aplicaçêo real.
 
 **Requisitos:**
 1. ✅ Fine-tune modelo pré-treinado (OpenVLA ou similar)
 2. ✅ Dataset de 100+ demonstrações em tarefa específica
 3. ✅ Zero-shot generalization para 3+ variações
-4. ✅ Integração com ROS 2
+4. ✅ Integraçêo com ROS 2
 5. ✅ Taxa de sucesso > 70% em ambiente de teste
 6. ✅ Análise de limitações e ética
 
@@ -1150,9 +1150,9 @@ def train_multitask_lbm(model, task_datasets):
   - Arquitetura do modelo
   - Processo de fine-tuning
   - Métricas de performance
-  - Análise de generalização
-  - Discussão ética
-- Vídeo de demonstração (3-5 min)
+  - Análise de generalizaçêo
+  - Discussêo ética
+- Vídeo de demonstraçêo (3-5 min)
 
 **Exemplo de estrutura:**
 
@@ -1214,7 +1214,7 @@ git clone https://github.com/real-stanford/diffusion_policy
 
 ---
 
-## ✅ Checklist de Conclusão
+## ✅ Checklist de Conclusêo
 
 - [ ] Entendo arquiteturas de transformers para robótica
 - [ ] Comparei RT-1, RT-2 e OpenVLA
@@ -1229,12 +1229,12 @@ git clone https://github.com/real-stanford/diffusion_policy
 
 ---
 
-## 🎓 Conclusão do Nível 3
+## 🎓 Conclusêo do Nível 3
 
 Parabéns por completar o Nível 3 - Desenvolvedor! Você agora domina:
 
 ✅ Algoritmos avançados de RL (PPO, SAC)
-✅ Visão computacional para robótica
+✅ Visêo computacional para robótica
 ✅ Large Behavior Models (LBMs)
 ✅ State-of-the-art em robótica e IA
 
@@ -1252,12 +1252,12 @@ Parabéns por completar o Nível 3 - Desenvolvedor! Você agora domina:
 1. **Pesquisa Acadêmica**: Papers, contribuições open-source
 2. **Indústria**: Robótica em empresas (Tesla, Figure, Physical Intelligence)
 3. **Startup**: Criar sua própria empresa de robótica
-4. **Educação**: Ensinar próxima geração de robóticos
+4. **Educaçêo**: Ensinar próxima geraçêo de robóticos
 
-**O futuro da robótica humanoide está em suas mãos!**
+**O futuro da robótica humanoide está em suas mêos!**
 
 ---
 
-**Última atualização:** 2025-10-29
+**Última atualizaçêo:** 2025-10-29
 **Autor:** Programa FTH
 **Licença:** MIT

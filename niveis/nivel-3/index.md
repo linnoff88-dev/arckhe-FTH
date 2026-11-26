@@ -10,11 +10,11 @@ permalink: /niveis/nivel-3/
 
 ---
 
-## 📋 Visão Geral
+## 📋 Visêo Geral
 
-| Informação | Detalhes |
+| Informaçêo | Detalhes |
 |------------|----------|
-| **Duração estimada** | 50-60 horas |
+| **Duraçêo estimada** | 50-60 horas |
 | **Pré-requisitos** | Nível 2 concluído |
 | **Custo** | 💰 PREMIUM |
 | **Nível de dificuldade** | ⭐⭐⭐ Avançado |
@@ -27,9 +27,9 @@ permalink: /niveis/nivel-3/
 Ao completar o Nível 3, você será capaz de:
 
 - ✅ Implementar algoritmos avançados de RL (PPO, SAC)
-- ✅ Trabalhar com Visão Computacional
+- ✅ Trabalhar com Visêo Computacional
 - ✅ Utilizar Large Behavior Models (LBMs)
-- ✅ Realizar simulação massiva
+- ✅ Realizar simulaçêo massiva
 - ✅ Criar sistemas autônomos complexos
 - ✅ Otimizar performance e escalabilidade
 
@@ -38,33 +38,33 @@ Ao completar o Nível 3, você será capaz de:
 ## 📚 Estrutura do Nível
 
 ### Módulo 3.1: Algoritmos de IA Avançados
-**Duração:** 18-20 horas
+**Duraçêo:** 18-20 horas
 
 **Conteúdo:**
 - PPO (Proximal Policy Optimization)
 - SAC (Soft Actor-Critic)
-- Implementação com Stable-Baselines3
+- Implementaçêo com Stable-Baselines3
 - Tuning de hiperparâmetros
 - Análise de performance
 
-### Módulo 3.2: Visão Computacional
-**Duração:** 16-18 horas
+### Módulo 3.2: Visêo Computacional
+**Duraçêo:** 16-18 horas
 
 **Conteúdo:**
 - OpenCV para robótica
-- Detecção de objetos (YOLO)
-- Segmentação de imagens
-- Tracking e percepção 3D
-- Integração com controle
+- Detecçêo de objetos (YOLO)
+- Segmentaçêo de imagens
+- Tracking e percepçêo 3D
+- Integraçêo com controle
 
 ### Módulo 3.3: Large Behavior Models (LBMs)
-**Duração:** 16-22 horas
+**Duraçêo:** 16-22 horas
 
 **Conteúdo:**
-- O que são LBMs
+- O que sêo LBMs
 - Treinar modelos comportamentais
 - Transfer learning
-- Simulação em larga escala
+- Simulaçêo em larga escala
 - Deploy em robôs reais
 
 ---
@@ -75,7 +75,7 @@ Ao completar o Nível 3, você será capaz de:
 
 ### Requisitos
 1. ✅ Implementar PPO ou SAC
-2. ✅ Visão computacional para percepção
+2. ✅ Visêo computacional para percepçêo
 3. ✅ Robô aprende 3+ tarefas diferentes
 4. ✅ Performance > 80% em benchmarks
 5. ✅ Código open-source no GitHub
@@ -90,4 +90,4 @@ Certificado Digital "Desenvolvedor em Robótica Humanoide" + Portfólio Técnico
 
 [→ Começar Nível 3]({{ '/niveis/nivel-3/modulo-1' | relative_url }}){: .btn .btn-premium}
 
-**Última atualização:** 2025-10-29
+**Última atualizaçêo:** 2025-10-29

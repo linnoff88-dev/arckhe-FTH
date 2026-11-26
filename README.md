@@ -1,4 +1,4 @@
-# FTH - FormaÃ§Ã£o TecnolÃ³gica em Humanoides
+# FTH - FormaêÂ§êÂ£o TecnolêÂ³gica em Humanoides
 
 <div align="center">
   <img src="capa/logo.svg" alt="Arckhé AI" height="48" />
@@ -6,67 +6,67 @@
 </div>
 
 
-ðŸ¤– **Do Zero ao RobÃ´ AutÃ´nomo**
+ê°Å¸Â¤â **Do Zero ao RobêÂ´ AutêÂ´nomo**
 
-Programa educacional completo de robÃ³tica humanoide e inteligÃªncia artificial, acessÃ­vel a todas as pessoas independente do background tecnolÃ³gico.
+Programa educacional completo de robêÂ³tica humanoide e inteligêÂªncia artificial, acessêÂ­vel a todas as pessoas independente do background tecnolêÂ³gico.
 
 ---
 
-## ðŸŒŸ Sobre o Projeto
+## ê°Å¸ÅÅ¸ Sobre o Projeto
 
-O **FTH** democratiza o acesso ao conhecimento em robÃ³tica humanoide e IA atravÃ©s de um programa estruturado em 4 nÃ­veis progressivos, desde o explorador iniciante atÃ© o profissional criador de startups.
+O **FTH** democratiza o acesso ao conhecimento em robêÂ³tica humanoide e IA atravêÂ©s de um programa estruturado em 4 nêÂ­veis progressivos, desde o explorador iniciante atêÂ© o profissional criador de startups.
 
 ### Links Importantes
 
-- ðŸŒ **Site:** [https://linnoff88-dev.github.io/
-- ðŸ“– **DocumentaÃ§Ã£o Completa:** [PRD](docs/prd.md)
-- ðŸ’¬ **Comunidade:** [Discord FTH](https://discord.gg/fth-brasil)
-- ðŸ“§ **Contato:** linnoff88-dev@gmail.com
+- ê°Å¸ÅÂ **Site:** [https://linnoff88-dev.github.io/
+- ê°Å¸ââ **DocumentaêÂ§êÂ£o Completa:** [PRD](docs/prd.md)
+- ê°Å¸âÂ¬ **Comunidade:** [Discord FTH](https://discord.gg/fth-brasil)
+- ê°Å¸âÂ§ **Contato:** linnoff88-dev@gmail.com
 
 ---
 
-## ðŸ“š Estrutura do Programa
+## ê°Å¸âÅ¡ Estrutura do Programa
 
-### ðŸŒŸ NÃ­vel 1: Explorador (12-15h) - GRATUITO
-- O que sÃ£o robÃ´s humanoides
+### ê°Å¸ÅÅ¸ NêÂ­vel 1: Explorador (12-15h) - GRATUITO
+- O que sêÂ£o robêÂ´s humanoides
 - Simuladores gratuitos
-- ProgramaÃ§Ã£o visual (drag-and-drop)
-- **Projeto:** RobÃ´ que anda e responde comandos de voz
+- ProgramaêÂ§êÂ£o visual (drag-and-drop)
+- **Projeto:** RobêÂ´ que anda e responde comandos de voz
 
-### âš¡ NÃ­vel 2: Criador (35-45h) - GRATUITO
-- Python para robÃ³tica
-- ROS 2 bÃ¡sico
+### ê¢Å¡Â¡ NêÂ­vel 2: Criador (35-45h) - GRATUITO
+- Python para robêÂ³tica
+- ROS 2 bêÂ¡sico
 - Sensores e controle
-- Aprendizado por ReforÃ§o introdutÃ³rio
-- **Projeto:** Comportamento autÃ´nomo
+- Aprendizado por ReforêÂ§o introdutêÂ³rio
+- **Projeto:** Comportamento autêÂ´nomo
 
-### ðŸ”¥ NÃ­vel 3: Desenvolvedor (50-60h) - PREMIUM
-- Algoritmos avanÃ§ados de RL (PPO, SAC)
-- VisÃ£o Computacional
+### ê°Å¸âÂ¥ NêÂ­vel 3: Desenvolvedor (50-60h) - PREMIUM
+- Algoritmos avanêÂ§ados de RL (PPO, SAC)
+- VisêÂ£o Computacional
 - Large Behavior Models (LBMs)
-- SimulaÃ§Ã£o massiva
+- SimulaêÂ§êÂ£o massiva
 - **Projeto:** Sistema inteligente completo
 
-### ðŸ‘‘ NÃ­vel 4: Profissional (30-40h) - PREMIUM
-- Modelos de negÃ³cio
+### ê°Å¸ââ NêÂ­vel 4: Profissional (30-40h) - PREMIUM
+- Modelos de negêÂ³cio
 - Sim-to-Real transfer
-- AplicaÃ§Ãµes comerciais
-- **Projeto:** Startup ou aplicaÃ§Ã£o real
+- AplicaêÂ§êÂµes comerciais
+- **Projeto:** Startup ou aplicaêÂ§êÂ£o real
 
 ---
 
-## ðŸŽ¯ Trilhas TemÃ¡ticas
+## ê°Å¸Å½Â¯ Trilhas TemêÂ¡ticas
 
-AlÃ©m dos nÃ­veis tÃ©cnicos, escolha sua trilha de aplicaÃ§Ã£o:
+AlêÂ©m dos nêÂ­veis têÂ©cnicos, escolha sua trilha de aplicaêÂ§êÂ£o:
 
-- ðŸŽ“ **EducaÃ§Ã£o** - RobÃ´s como ferramenta pedagÃ³gica
-- ðŸ¤ **Social** - Impacto em comunidades carentes
-- ðŸ’¼ **Empreendedorismo** - Criar negÃ³cios com robÃ³tica
-- ðŸ”¬ **Tecnologia AvanÃ§ada** - Pesquisa e desenvolvimento
+- ê°Å¸Å½â **EducaêÂ§êÂ£o** - RobêÂ´s como ferramenta pedagêÂ³gica
+- ê°Å¸Â¤Â **Social** - Impacto em comunidades carentes
+- ê°Å¸âÂ¼ **Empreendedorismo** - Criar negêÂ³cios com robêÂ³tica
+- ê°Å¸âÂ¬ **Tecnologia AvanêÂ§ada** - Pesquisa e desenvolvimento
 
 ---
 
-## ðŸ› ï¸ Ferramentas Utilizadas
+## ê°Å¸âºÂ ê¯Â¸Â Ferramentas Utilizadas
 
 - **Simuladores:** NVIDIA Isaac Sim, Webots, Gazebo, MuJoCo
 - **Linguagens:** Python, ROS 2
@@ -75,31 +75,31 @@ AlÃ©m dos nÃ­veis tÃ©cnicos, escolha sua trilha de aplicaÃ§Ã£o:
 
 ---
 
-## ðŸš€ Como ComeÃ§ar
+## ê°Å¸Å¡â¬ Como ComeêÂ§ar
 
 1. Acesse o site: [https://linnoff88-dev.github.io/
-2. Navegue atÃ© "NÃ­veis"
-3. Comece pelo **NÃ­vel 1 - Gratuito**
-4. Junte-se ao [Discord](https://discord.gg/fth-brasil) para tirar dÃºvidas
+2. Navegue atêÂ© "NêÂ­veis"
+3. Comece pelo **NêÂ­vel 1 - Gratuito**
+4. Junte-se ao [Discord](https://discord.gg/fth-brasil) para tirar dêÂºvidas
 
 ---
 
-## ðŸ’» Desenvolvimento Local (Contribuidores)
+## ê°Å¸âÂ» Desenvolvimento Local (Contribuidores)
 
-### PrÃ©-requisitos
+### PrêÂ©-requisitos
 
 - Ruby 2.7+
 - Jekyll 4.3+
 - Git
 
-### InstalaÃ§Ã£o
+### InstalaêÂ§êÂ£o
 
 ```bash
-# Clone o repositÃ³rio
+# Clone o repositêÂ³rio
 git clone https://github.com/linnoff88-dev/FTH.git
 cd FTH
 
-# Instale as dependÃªncias
+# Instale as dependêÂªncias
 bundle install
 
 # Execute localmente
@@ -112,76 +112,76 @@ bundle exec jekyll serve
 
 ```
 FTH/
-â”œâ”€â”€ _config.yml           # ConfiguraÃ§Ã£o Jekyll
-â”œâ”€â”€ index.md              # Homepage
-â”œâ”€â”€ niveis.md             # PÃ¡gina de nÃ­veis
-â”œâ”€â”€ trilhas.md            # Trilhas temÃ¡ticas
-â”œâ”€â”€ recursos.md           # Ferramentas e recursos
-â”œâ”€â”€ sobre.md              # Sobre o projeto
-â”œâ”€â”€ assets/
-â”‚   â””â”€â”€ css/
-â”‚       â””â”€â”€ style.scss    # Estilos customizados
-â”œâ”€â”€ niveis/
-â”‚   â”œâ”€â”€ nivel-1/          # ConteÃºdo NÃ­vel 1
-â”‚   â”œâ”€â”€ nivel-2/          # ConteÃºdo NÃ­vel 2
-â”‚   â”œâ”€â”€ nivel-3/          # ConteÃºdo NÃ­vel 3
-â”‚   â””â”€â”€ nivel-4/          # ConteÃºdo NÃ­vel 4
-â””â”€â”€ docs/
-    â””â”€â”€ prd.md            # Product Requirements Document
+ê¢âÅê¢ââ¬ê¢ââ¬ _config.yml           # ConfiguraêÂ§êÂ£o Jekyll
+ê¢âÅê¢ââ¬ê¢ââ¬ index.md              # Homepage
+ê¢âÅê¢ââ¬ê¢ââ¬ niveis.md             # PêÂ¡gina de nêÂ­veis
+ê¢âÅê¢ââ¬ê¢ââ¬ trilhas.md            # Trilhas temêÂ¡ticas
+ê¢âÅê¢ââ¬ê¢ââ¬ recursos.md           # Ferramentas e recursos
+ê¢âÅê¢ââ¬ê¢ââ¬ sobre.md              # Sobre o projeto
+ê¢âÅê¢ââ¬ê¢ââ¬ assets/
+ê¢ââ   ê¢ââê¢ââ¬ê¢ââ¬ css/
+ê¢ââ       ê¢ââê¢ââ¬ê¢ââ¬ style.scss    # Estilos customizados
+ê¢âÅê¢ââ¬ê¢ââ¬ niveis/
+ê¢ââ   ê¢âÅê¢ââ¬ê¢ââ¬ nivel-1/          # ConteêÂºdo NêÂ­vel 1
+ê¢ââ   ê¢âÅê¢ââ¬ê¢ââ¬ nivel-2/          # ConteêÂºdo NêÂ­vel 2
+ê¢ââ   ê¢âÅê¢ââ¬ê¢ââ¬ nivel-3/          # ConteêÂºdo NêÂ­vel 3
+ê¢ââ   ê¢ââê¢ââ¬ê¢ââ¬ nivel-4/          # ConteêÂºdo NêÂ­vel 4
+ê¢ââê¢ââ¬ê¢ââ¬ docs/
+    ê¢ââê¢ââ¬ê¢ââ¬ prd.md            # Product Requirements Document
 ```
 
 ---
 
-## ðŸ¤ Como Contribuir
+## ê°Å¸Â¤Â Como Contribuir
 
-ContribuiÃ§Ãµes sÃ£o muito bem-vindas!
+ContribuiêÂ§êÂµes sêÂ£o muito bem-vindas!
 
-### Tipos de ContribuiÃ§Ãµes
+### Tipos de ContribuiêÂ§êÂµes
 
-- ðŸ“ Melhorias no conteÃºdo dos mÃ³dulos
-- ðŸ› CorreÃ§Ãµes de bugs ou typos
-- ðŸ’¡ SugestÃµes de novos recursos
-- ðŸŽ¨ Melhorias no design
-- ðŸŒ TraduÃ§Ãµes
+- ê°Å¸âÂ Melhorias no conteêÂºdo dos mêÂ³dulos
+- ê°Å¸Ââº CorreêÂ§êÂµes de bugs ou typos
+- ê°Å¸âÂ¡ SugestêÂµes de novos recursos
+- ê°Å¸Å½Â¨ Melhorias no design
+- ê°Å¸ÅÂ TraduêÂ§êÂµes
 
 ### Processo
 
-1. Fork o repositÃ³rio
+1. Fork o repositêÂ³rio
 2. Crie uma branch: `git checkout -b feature/minha-contribuicao`
-3. FaÃ§a suas mudanÃ§as e commit: `git commit -m 'feat: adiciona nova funcionalidade'`
+3. FaêÂ§a suas mudanêÂ§as e commit: `git commit -m 'feat: adiciona nova funcionalidade'`
 4. Push para a branch: `git push origin feature/minha-contribuicao`
 5. Abra um Pull Request
 
 ---
 
-## ðŸ“Š Metas para 2026
+## ê°Å¸âÅ  Metas para 2026
 
-| MÃ©trica | Objetivo |
+| MêÂ©trica | Objetivo |
 |---------|----------|
 | Alunos a formar | 1.000+ |
 | Escolas parceiras | 20+ |
 | Startups a criar | 10+ |
-| Projetos comunitÃ¡rios | 10+ |
+| Projetos comunitêÂ¡rios | 10+ |
 
 ---
 
-## ðŸ“œ LicenÃ§a
+## ê°Å¸âÅ LicenêÂ§a
 
-Este projeto Ã© licenciado sob a [Creative Commons BY-NC-SA 4.0](LICENSE).
+Este projeto êÂ© licenciado sob a [Creative Commons BY-NC-SA 4.0](LICENSE).
 
-- âœ… VocÃª pode: Compartilhar e adaptar o material
-- âš ï¸ Sob as condiÃ§Ãµes: AtribuiÃ§Ã£o, NÃ£o-comercial, Compartilhamento igual
+- ê¢Åâ¦ VocêÂª pode: Compartilhar e adaptar o material
+- ê¢Å¡Â ê¯Â¸Â Sob as condiêÂ§êÂµes: AtribuiêÂ§êÂ£o, NêÂ£o-comercial, Compartilhamento igual
 
 ---
 
-## ðŸ‘¥ Equipe
+## ê°Å¸âÂ¥ Equipe
 
 **Fundador:** Dr. linnoff88-dev
 **Contato:** linnoff88-dev@gmail.com
 
 ---
 
-## ðŸ™ Agradecimentos
+## ê°Å¸â¢Â Agradecimentos
 
 - Noetix - Hardware educacional brasileiro
 - NVIDIA - Isaac Sim e suporte
@@ -190,21 +190,21 @@ Este projeto Ã© licenciado sob a [Creative Commons BY-NC-SA 4.0](LICENSE).
 
 ---
 
-## ðŸ“ž Contato e Suporte
+## ê°Å¸âÅ¾ Contato e Suporte
 
-- ðŸ“§ Email: linnoff88-dev@gmail.com
-- ðŸ’¬ Discord: [Comunidade FTH](https://discord.gg/fth-brasil)
-- ðŸ› Issues: [GitHub Issues](https://github.com/linnoff88-dev/FTH/issues)
-- ðŸŒ Site: [https://linnoff88-dev.github.io/
-
----
-
-**Feito com â¤ï¸ para democratizar a robÃ³tica no Brasil**
+- ê°Å¸âÂ§ Email: linnoff88-dev@gmail.com
+- ê°Å¸âÂ¬ Discord: [Comunidade FTH](https://discord.gg/fth-brasil)
+- ê°Å¸Ââº Issues: [GitHub Issues](https://github.com/linnoff88-dev/FTH/issues)
+- ê°Å¸ÅÂ Site: [https://linnoff88-dev.github.io/
 
 ---
 
-**Ãšltima atualizaÃ§Ã£o:** 2025-10-29
-**VersÃ£o:** 1.0.0
+**Feito com ê¢ÂÂ¤ê¯Â¸Â para democratizar a robêÂ³tica no Brasil**
+
+---
+
+**êÅ¡ltima atualizaêÂ§êÂ£o:** 2025-10-29
+**VersêÂ£o:** 1.0.0
 
 ---
 

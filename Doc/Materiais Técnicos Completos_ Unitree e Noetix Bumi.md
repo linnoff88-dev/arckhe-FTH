@@ -2,13 +2,13 @@
 
 **Documento Técnico para Pesquisadores em Robótica e Humanoides**  
 **Data**: 28 de Outubro de 2025  
-**Classificação**: Material Técnico Avançado
+**Classificaçêo**: Material Técnico Avançado
 
 ---
 
 ## Sumário Executivo
 
-Este documento compila todos os materiais técnicos disponíveis recentemente sobre os robôs humanoides **Unitree** (G1, H1, H1-2, R1) e **Noetix Bumi**, incluindo especificações técnicas, SDKs, datasets públicos, tutoriais práticos e conteúdo para treinamento e utilização.
+Este documento compila todos os materiais técnicos disponíveis recentemente sobre os robôs humanoides **Unitree** (G1, H1, H1-2, R1) e **Noetix Bumi**, incluindo especificações técnicas, SDKs, datasets públicos, tutoriais práticos e conteúdo para treinamento e utilizaçêo.
 
 ---
 
@@ -18,16 +18,16 @@ Este documento compila todos os materiais técnicos disponíveis recentemente so
 
 #### 📦 Repositórios Principais
 
-| Repositório | Stars | Descrição | Última Atualização |
+| Repositório | Stars | Descriçêo | Última Atualizaçêo |
 |-------------|-------|-----------|-------------------|
 | **unitree_rl_gym** | 2.5k | RL training com Isaac Gym (Go2, H1, G1) | Ativo |
 | **unitree_rl_lab** | 390 | RL com IsaacLab (sucessor do Isaac Gym) | 28/Out/2025 |
-| **xr_teleoperate** | 1.1k | Teleoperação com Apple Vision Pro/PICO 4 | 28/Out/2025 |
+| **xr_teleoperate** | 1.1k | Teleoperaçêo com Apple Vision Pro/PICO 4 | 28/Out/2025 |
 | **unitree_sdk2** | 688 | SDK oficial C++ (Go2, B2, H1, G1) | 14/Out/2025 |
 | **unitree_sdk2_python** | 442 | Interface Python para SDK2 | 13/Out/2025 |
-| **unitree_mujoco** | 629 | Simulação MuJoCo com sim-to-real | 24/Out/2025 |
-| **unitree_IL_lerobot** | 446 | Framework LeRobot para mãos destras G1 | 13/Out/2025 |
-| **unitree_sim_isaaclab** | 223 | Ambiente de simulação Isaac Lab | 9/Out/2025 |
+| **unitree_mujoco** | 629 | Simulaçêo MuJoCo com sim-to-real | 24/Out/2025 |
+| **unitree_IL_lerobot** | 446 | Framework LeRobot para mêos destras G1 | 13/Out/2025 |
+| **unitree_sim_isaaclab** | 223 | Ambiente de simulaçêo Isaac Lab | 9/Out/2025 |
 | **unifolm-world-model-action** | 660 | Modelo de mundo multi-embodiment | Ativo |
 
 **URL Base**: https://github.com/unitreerobotics
@@ -39,31 +39,31 @@ Este documento compila todos os materiais técnicos disponíveis recentemente so
 #### 🤖 Unitree G1
 
 **Versões Disponíveis**:
-- **G1 Standard**: 23 DoF (sem mãos destras)
-- **G1 EDU**: 23-43 DoF (com opção de mãos destras)
+- **G1 Standard**: 23 DoF (sem mêos destras)
+- **G1 EDU**: 23-43 DoF (com opçêo de mêos destras)
 
 **Especificações Mecânicas**:
 - **Altura**: 1320mm (em pé)
 - **Largura**: 450mm
 - **Profundidade**: 200mm
-- **Peso**: ~35kg (varia com configuração)
+- **Peso**: ~35kg (varia com configuraçêo)
 - **Alcance dos Braços**: ~0.45m cada braço
 
 **Graus de Liberdade (DoF)**:
 - **Corpo Base**: 23 DoF
   - Pernas: 12 DoF (6 por perna)
   - Braços: 12 DoF (6 por braço)
-  - Cintura: 3 DoF (rotação Z ±155°)
+  - Cintura: 3 DoF (rotaçêo Z ±155°)
   - Joelhos: 0-165°
   - Quadril: P ±154°
 
-- **Com Mãos Dex3-1** (3 dedos): +20 DoF → Total 43 DoF
+- **Com Mêos Dex3-1** (3 dedos): +20 DoF → Total 43 DoF
   - Polegar: 3 DoF ativos
   - Indicador: 2 DoF
   - Médio: 2 DoF
-  - Sistema de controle híbrido força-posição
+  - Sistema de controle híbrido força-posiçêo
 
-- **Com Mãos Dex1-1** (gripper): +2 DoF → Total 25 DoF
+- **Com Mêos Dex1-1** (gripper): +2 DoF → Total 25 DoF
 
 **Sensores**:
 - **Câmeras**:
@@ -73,7 +73,7 @@ Este documento compila todos os materiais técnicos disponíveis recentemente so
 - **Sensores de Força/Torque**: Nas juntas principais
 - **LiDAR 3D** (opcional): Unitree L1 4D LiDAR
 
-**Computação**:
+**Computaçêo**:
 - **Motion Control Unit**: Controle de baixo nível (500Hz-1kHz)
 - **Development Computing Unit**: 
   - CPU: 8-core high-performance
@@ -82,7 +82,7 @@ Este documento compila todos os materiais técnicos disponíveis recentemente so
   - Storage: 256GB+ NVMe
 
 **Bateria**:
-- **Tensão**: 48V
+- **Tensêo**: 48V
 - **Capacidade**: ~3.5Ah
 - **Autonomia**: 2h (uso típico)
 - **Tempo de Carga**: ~2h
@@ -98,32 +98,32 @@ Este documento compila todos os materiais técnicos disponíveis recentemente so
 - **Peso**: ~70kg
 - **DoF**: 
   - H1: Corpo completo com braços de 4 DoF
-  - H1-2: Versão aprimorada com mais capacidades
+  - H1-2: Versêo aprimorada com mais capacidades
 - **Sensores**: 
   - LiDAR 3D 360°
   - Câmeras de profundidade
 - **Velocidade Máxima**: 2.0 m/s (caminhada)
-- **Preço**: Não comercial (pesquisa)
+- **Preço**: Nêo comercial (pesquisa)
 
 #### 🤖 Unitree R1
 
 **Especificações**:
 - **Preço**: ~$5.900 USD (modelo mais acessível)
-- **DoF**: Configuração simplificada
+- **DoF**: Configuraçêo simplificada
 - **Rede Neural**: Helix (pré-treinada)
-- **Foco**: Educação e pesquisa de baixo custo
+- **Foco**: Educaçêo e pesquisa de baixo custo
 - **Características**:
   - Interfaces de controle totalmente abertas
-  - Suporte para plataformas de simulação mainstream
+  - Suporte para plataformas de simulaçêo mainstream
   - Algoritmos podem ser transferidos sem modificações
 
 ---
 
 ### 1.3 SDKs e Ferramentas de Desenvolvimento
 
-#### 📚 Unitree SDK2 (Versão Atual)
+#### 📚 Unitree SDK2 (Versêo Atual)
 
-**Instalação**:
+**Instalaçêo**:
 ```bash
 # C++ SDK
 git clone https://github.com/unitreerobotics/unitree_sdk2.git
@@ -140,7 +140,7 @@ pip install -e .
 ```
 
 **Arquitetura**:
-- **Baseado em CycloneDDS**: Comunicação de baixa latência
+- **Baseado em CycloneDDS**: Comunicaçêo de baixa latência
 - **Request-Response Pattern**: Para comandos síncronos
 - **Publish-Subscribe Pattern**: Para streaming de dados
 
@@ -156,7 +156,7 @@ cmd_publisher = ChannelPublisher("rt/lowcmd", LowCmd_)
 cmd = LowCmd_()
 
 # Configurar motor (exemplo: torque mode)
-cmd.motor_cmd[0].q = 0      # Posição alvo (rad)
+cmd.motor_cmd[0].q = 0      # Posiçêo alvo (rad)
 cmd.motor_cmd[0].dq = 0     # Velocidade alvo (rad/s)
 cmd.motor_cmd[0].tau = 10.0 # Torque (N.m)
 cmd.motor_cmd[0].kp = 0     # Ganho proporcional (0 para torque puro)
@@ -170,15 +170,15 @@ cmd_publisher.write(cmd)
 ```python
 from unitree_sdk2py.go2.sport.sport_client import SportClient
 
-# Criar cliente de esporte (locomoção)
+# Criar cliente de esporte (locomoçêo)
 client = SportClient()
 client.Init()
 
-# Comandos de locomoção
+# Comandos de locomoçêo
 client.Move(vx=0.3, vy=0.0, vyaw=0.0)  # Andar para frente
 client.StandUp()                        # Levantar
 client.StandDown()                      # Sentar
-client.RecoveryStand()                  # Recuperação de queda
+client.RecoveryStand()                  # Recuperaçêo de queda
 ```
 
 **3. Leitura de Estado**
@@ -202,7 +202,7 @@ state_subscriber = ChannelSubscriber("rt/lowstate", LowState_)
 state_subscriber.Init(state_callback, 10)
 ```
 
-**Documentação Oficial**: https://support.unitree.com/home/en/G1_developer
+**Documentaçêo Oficial**: https://support.unitree.com/home/en/G1_developer
 
 ---
 
@@ -210,24 +210,24 @@ state_subscriber.Init(state_callback, 10)
 
 #### 🗂️ Datasets Disponíveis no HuggingFace
 
-A Unitree disponibilizou múltiplos datasets públicos no formato **LeRobot v2.0** para treinamento de políticas de manipulação.
+A Unitree disponibilizou múltiplos datasets públicos no formato **LeRobot v2.0** para treinamento de políticas de manipulaçêo.
 
 **URL Base**: https://huggingface.co/unitreerobotics
 
-| Dataset | Descrição | Episódios | Frames | Tamanho | Tarefa |
+| Dataset | Descriçêo | Episódios | Frames | Tamanho | Tarefa |
 |---------|-----------|-----------|--------|---------|--------|
-| **G1_Dex3_BlockStacking_Dataset** | Empilhar blocos coloridos | 301 | 281k | 63.2 MB | Manipulação bimanual |
-| **G1_Dex3_ToastedBread_Dataset** | Torrar pão | 350+ | 390k+ | 50+ MB | Manipulação sequencial |
-| **G1_Dex3_ObjectPlacement_Dataset** | Colocar objetos em locais | 300+ | 280k+ | 60+ MB | Precisão de colocação |
-| **G1_Dex3_CameraPackaging_Dataset** | Embalar câmera em case | 350+ | 390k+ | 50+ MB | Manipulação fina |
+| **G1_Dex3_BlockStacking_Dataset** | Empilhar blocos coloridos | 301 | 281k | 63.2 MB | Manipulaçêo bimanual |
+| **G1_Dex3_ToastedBread_Dataset** | Torrar pêo | 350+ | 390k+ | 50+ MB | Manipulaçêo sequencial |
+| **G1_Dex3_ObjectPlacement_Dataset** | Colocar objetos em locais | 300+ | 280k+ | 60+ MB | Precisêo de colocaçêo |
+| **G1_Dex3_CameraPackaging_Dataset** | Embalar câmera em case | 350+ | 390k+ | 50+ MB | Manipulaçêo fina |
 | **G1_Dex3_Pouring_Dataset** | Despejar líquidos | 300+ | 280k+ | 55+ MB | Controle de força |
-| **G1_Dex1_MountCamera_Dataset** | Montar câmera com gripper | 351 | 390k | 50 MB | Manipulação com gripper |
-| **G1_DualArm_Grasping_Dataset** | Preensão bimanual | 300+ | 270k+ | 58+ MB | Coordenação bimanual |
+| **G1_Dex1_MountCamera_Dataset** | Montar câmera com gripper | 351 | 390k | 50 MB | Manipulaçêo com gripper |
+| **G1_DualArm_Grasping_Dataset** | Preensêo bimanual | 300+ | 270k+ | 58+ MB | Coordenaçêo bimanual |
 
 **Formato dos Datasets**:
 - **Formato**: LeRobot v2.0 (Parquet + MP4)
 - **Frequência**: 30 Hz
-- **Resolução de Vídeo**: 640x480
+- **Resoluçêo de Vídeo**: 640x480
 - **Câmeras**: Pulso (monocular) + Cabeça (binocular)
 - **Licença**: Apache 2.0
 
@@ -267,7 +267,7 @@ for step_idx in range(from_idx, to_idx):
     image = step["observation.images.wrist_left"]
 ```
 
-**Visualização**:
+**Visualizaçêo**:
 ```bash
 cd lerobot
 python src/lerobot/scripts/visualize_dataset.py \
@@ -281,7 +281,7 @@ python src/lerobot/scripts/visualize_dataset.py \
 
 #### 🧠 unitree_rl_gym (Isaac Gym)
 
-**Instalação**:
+**Instalaçêo**:
 ```bash
 # 1. Instalar Isaac Gym (pré-requisito)
 # Baixar de: https://developer.nvidia.com/isaac-gym
@@ -294,7 +294,7 @@ cd unitree_rl_gym
 pip install -e .
 ```
 
-**Treinamento de Locomoção (G1)**:
+**Treinamento de Locomoçêo (G1)**:
 ```bash
 # Treinar política de caminhada
 cd unitree_rl_gym
@@ -305,7 +305,7 @@ python legged_gym/scripts/play.py --task=g1 \
     --checkpoint=logs/g1/exported/policies/policy_1.pt
 ```
 
-**Configuração Personalizada**:
+**Configuraçêo Personalizada**:
 ```python
 # legged_gym/envs/g1/g1_config.py
 from legged_gym.envs.base.legged_robot_config import LeggedRobotCfg
@@ -313,7 +313,7 @@ from legged_gym.envs.base.legged_robot_config import LeggedRobotCfg
 class G1Cfg(LeggedRobotCfg):
     class env(LeggedRobotCfg.env):
         num_envs = 4096
-        num_observations = 235  # propriocepção + heightmap
+        num_observations = 235  # propriocepçêo + heightmap
         num_actions = 23        # torques para 23 juntas
     
     class terrain(LeggedRobotCfg.terrain):
@@ -333,7 +333,7 @@ class G1Cfg(LeggedRobotCfg):
 
 #### 🧠 unitree_rl_lab (IsaacLab - Novo!)
 
-**Instalação**:
+**Instalaçêo**:
 ```bash
 # 1. Instalar Isaac Lab
 git clone https://github.com/isaac-sim/IsaacLab.git
@@ -348,13 +348,13 @@ pip install -e .
 
 **Vantagens sobre Isaac Gym**:
 - Suporte a Isaac Sim completo (física mais precisa)
-- Integração com NVIDIA Omniverse
-- Melhor visualização e debugging
+- Integraçêo com NVIDIA Omniverse
+- Melhor visualizaçêo e debugging
 - Suporte a sensores realistas (câmeras, LiDAR)
 
 #### 🧠 unitree_IL_lerobot (Imitation Learning)
 
-**Instalação**:
+**Instalaçêo**:
 ```bash
 git clone --recurse-submodules https://github.com/unitreerobotics/unitree_IL_lerobot.git
 cd unitree_IL_lerobot
@@ -405,7 +405,7 @@ python unitree_lerobot/eval_robot/eval_g1.py \
 
 ---
 
-### 1.6 Teleoperação e Coleta de Dados
+### 1.6 Teleoperaçêo e Coleta de Dados
 
 #### 📡 xr_teleoperate (Apple Vision Pro / PICO 4)
 
@@ -416,14 +416,14 @@ python unitree_lerobot/eval_robot/eval_g1.py \
 - PICO 4 Ultra
 - Outros headsets XR compatíveis
 
-**Instalação**:
+**Instalaçêo**:
 ```bash
 git clone https://github.com/unitreerobotics/xr_teleoperate.git
 cd xr_teleoperate
 pip install -r requirements.txt
 ```
 
-**Configuração**:
+**Configuraçêo**:
 ```bash
 # 1. Configurar rede (robô e headset na mesma rede)
 # 2. Iniciar servidor no robô
@@ -434,7 +434,7 @@ python server/main.py --robot_ip=192.168.1.100
 
 **Coleta de Dados**:
 ```bash
-# Iniciar gravação
+# Iniciar gravaçêo
 python collect_data.py \
     --task_name=my_task \
     --save_dir=$HOME/datasets/my_task \
@@ -463,9 +463,9 @@ datasets/
 **Vantagens**:
 - Custo muito menor que Apple Vision Pro
 - Captura de movimento de corpo inteiro
-- Rastreamento de mãos
+- Rastreamento de mêos
 
-**Instalação**:
+**Instalaçêo**:
 ```bash
 git clone https://github.com/unitreerobotics/kinect_teleoperate.git
 cd kinect_teleoperate
@@ -489,7 +489,7 @@ pip install -r requirements.txt
 - Interface C++ e Python
 - Sim-to-real implementations
 
-**Instalação**:
+**Instalaçêo**:
 ```bash
 git clone https://github.com/unitreerobotics/unitree_mujoco.git
 cd unitree_mujoco
@@ -512,16 +512,16 @@ import mujoco.viewer
 model = mujoco.MjModel.from_xml_path("unitree_mujoco/models/g1/g1.xml")
 data = mujoco.MjData(model)
 
-# Simulação
+# Simulaçêo
 with mujoco.viewer.launch_passive(model, data) as viewer:
     while viewer.is_running():
         # Aplicar controle
         data.ctrl[:] = 0  # Comandos de torque
         
-        # Step de simulação
+        # Step de simulaçêo
         mujoco.mj_step(model, data)
         
-        # Atualizar visualização
+        # Atualizar visualizaçêo
         viewer.sync()
 ```
 
@@ -531,11 +531,11 @@ with mujoco.viewer.launch_passive(model, data) as viewer:
 
 **Características**:
 - Baseado em Isaac Lab (NVIDIA)
-- Simulação fotorrealística
+- Simulaçêo fotorrealística
 - Suporte a múltiplas tarefas
-- Coleta de dados, playback e validação
+- Coleta de dados, playback e validaçêo
 
-**Instalação**:
+**Instalaçêo**:
 ```bash
 # 1. Instalar Isaac Lab
 git clone https://github.com/isaac-sim/IsaacLab.git
@@ -550,7 +550,7 @@ pip install -e .
 
 **Executar Tarefa**:
 ```bash
-# Treinar manipulação de objetos
+# Treinar manipulaçêo de objetos
 python scripts/train.py --task=UnitreeG1Manipulation
 
 # Visualizar
@@ -560,11 +560,11 @@ python scripts/play.py --task=UnitreeG1Manipulation \
 
 ---
 
-### 1.8 Tutoriais e Documentação
+### 1.8 Tutoriais e Documentaçêo
 
-#### 📖 Documentação Oficial
+#### 📖 Documentaçêo Oficial
 
-**Centro de Documentação Unitree**: https://support.unitree.com/home/en
+**Centro de Documentaçêo Unitree**: https://support.unitree.com/home/en
 
 **Guias Principais**:
 1. **G1 SDK Development Guide**: https://support.unitree.com/home/en/G1_developer
@@ -578,7 +578,7 @@ python scripts/play.py --task=UnitreeG1Manipulation \
 **Conteúdo**:
 - G1 Overview e especificações
 - G1-Edu Overview
-- Mãos destras (Dex3-1, Dex5-1)
+- Mêos destras (Dex3-1, Dex5-1)
 - Radar e FOV de câmeras
 - Interface elétrica
 - Computador de bordo
@@ -587,13 +587,13 @@ python scripts/play.py --task=UnitreeG1Manipulation \
 - Apps móveis
 - Desempacotamento e setup inicial
 - Carregamento
-- Operação (Firmware V1.0.2 e V1.0.4)
+- Operaçêo (Firmware V1.0.2 e V1.0.4)
 
 **Robostore - G1 Startup Guide**: https://robostore.com/blogs/news/unitree-g1-startup-guide
 
 **Conteúdo**:
-- Configuração de rede passo-a-passo
-- Calibração do robô
+- Configuraçêo de rede passo-a-passo
+- Calibraçêo do robô
 - Controle de movimento
 - Tutoriais em vídeo
 
@@ -603,8 +603,8 @@ python scripts/play.py --task=UnitreeG1Manipulation \
 https://www.youtube.com/playlist?list=PLUZOCha5G72apYRFWvUpbi44AUM8S73ll
 
 **Conteúdo**:
-- Instalação de software
-- Configuração de hardware
+- Instalaçêo de software
+- Configuraçêo de hardware
 - Primeiros passos
 - Treinamento de políticas
 
@@ -616,7 +616,7 @@ https://www.youtube.com/playlist?list=PLUZOCha5G72apYRFWvUpbi44AUM8S73ll
 
 **Repositório HuggingFace**: https://huggingface.co/unitreerobotics/UnifoLM-WMA-0-Base
 
-**Descrição**:
+**Descriçêo**:
 - Arquitetura world-model-action de código aberto
 - Multi-embodiment (funciona em múltiplos robôs)
 - Aprendizado de propósito geral
@@ -653,19 +653,19 @@ outputs = model(**inputs)
 
 **Graus de Liberdade**:
 - **DoF Total**: Mínimo 21 DoF
-- **Distribuição**: Não divulgado oficialmente
+- **Distribuiçêo**: Nêo divulgado oficialmente
 
 **Bateria e Autonomia**:
-- **Tensão**: 48V
+- **Tensêo**: 48V
 - **Capacidade**: >3.5 Ah
 - **Autonomia**: 1-2 horas por carga
-- **Tempo de Carga**: Não divulgado
+- **Tempo de Carga**: Nêo divulgado
 
 **Capacidades**:
 - Caminhada bípede
 - Corrida
 - Dança
-- Interação por voz
+- Interaçêo por voz
 - Resposta a comandos
 
 **Preço**:
@@ -678,17 +678,17 @@ outputs = model(**inputs)
 
 ---
 
-### 2.2 Interface de Programação
+### 2.2 Interface de Programaçêo
 
 #### 💻 Drag-and-Drop Graphical Programming
 
 **Características**:
-- **Interface Visual**: Programação baseada em blocos (estilo Scratch)
+- **Interface Visual**: Programaçêo baseada em blocos (estilo Scratch)
 - **Público-alvo**: Iniciantes, estudantes, educadores
 - **Funcionalidades**:
   - Criar sequências de atividades
   - Programar movimentos e comportamentos
-  - Integração com comandos de voz
+  - Integraçêo com comandos de voz
 
 **Exemplo Conceitual** (baseado em informações disponíveis):
 ```
@@ -700,7 +700,7 @@ outputs = model(**inputs)
   ↓
 [Aguardar 5 segundos]
   ↓
-[Voltar para Posição Inicial]
+[Voltar para Posiçêo Inicial]
   ↓
 [Fim]
 ```
@@ -709,8 +709,8 @@ outputs = model(**inputs)
 
 **Características**:
 - **APIs Abertas**: Permite que desenvolvedores construam aplicações personalizadas
-- **Integração com Ecossistema**: JD.com Joy Inside 2.0
-- **Linguagens Suportadas**: Não divulgado oficialmente (provavelmente Python, JavaScript)
+- **Integraçêo com Ecossistema**: JD.com Joy Inside 2.0
+- **Linguagens Suportadas**: Nêo divulgado oficialmente (provavelmente Python, JavaScript)
 
 **Conceito de API** (especulativo baseado em padrões da indústria):
 ```python
@@ -737,11 +737,11 @@ robot.disconnect()
 
 ---
 
-### 2.3 Integração com Ecossistema JD.com
+### 2.3 Integraçêo com Ecossistema JD.com
 
 #### 🌐 Joy Inside 2.0
 
-**Descrição**:
+**Descriçêo**:
 - Plataforma de ecossistema da JD.com para robótica
 - Promove uso como plataforma para programadores e educadores
 - Comunidade de desenvolvedores
@@ -750,16 +750,16 @@ robot.disconnect()
 - Marketplace de aplicações para Bumi
 - Compartilhamento de programas e comportamentos
 - Tutoriais e recursos educacionais
-- Integração com serviços JD.com (e-commerce, logística)
+- Integraçêo com serviços JD.com (e-commerce, logística)
 
 ---
 
 ### 2.4 Casos de Uso
 
-#### 🎓 Educação
+#### 🎓 Educaçêo
 
 **Aplicações**:
-- **Ensino de Programação**: Interface drag-and-drop para crianças
+- **Ensino de Programaçêo**: Interface drag-and-drop para crianças
 - **STEM Education**: Robótica, física, matemática
 - **Demonstrações em Sala de Aula**: Tamanho compacto (94cm) ideal para classrooms
 
@@ -771,9 +771,9 @@ robot.disconnect()
 #### 🏠 Uso Doméstico
 
 **Aplicações**:
-- **Entretenimento**: Dança, interação, jogos
+- **Entretenimento**: Dança, interaçêo, jogos
 - **Assistente Doméstico**: Comandos de voz, tarefas simples
-- **Companhia**: Interação social, especialmente para crianças
+- **Companhia**: Interaçêo social, especialmente para crianças
 
 **Vantagens**:
 - Preço comparável a um iPhone flagship
@@ -785,11 +785,11 @@ robot.disconnect()
 **Aplicações**:
 - **Prototipagem de Algoritmos**: Plataforma de baixo custo
 - **Testes de IA**: APIs abertas para desenvolvimento
-- **Educação em Robótica**: Ferramenta de aprendizado para universidades
+- **Educaçêo em Robótica**: Ferramenta de aprendizado para universidades
 
 ---
 
-### 2.5 Comparação: Bumi vs. Unitree vs. Outros
+### 2.5 Comparaçêo: Bumi vs. Unitree vs. Outros
 
 | Característica | Noetix Bumi | Unitree G1 | Unitree R1 | Tesla Optimus |
 |----------------|-------------|------------|------------|---------------|
@@ -798,9 +798,9 @@ robot.disconnect()
 | **Peso** | 12 kg | ~35 kg | ~25 kg | ~73 kg |
 | **DoF** | 21+ | 23-43 | ~20 | 28 |
 | **Autonomia** | 1-2h | 2h | 2h | 2h (est.) |
-| **Público-alvo** | Educação/Família | Pesquisa/Indústria | Educação/Pesquisa | Indústria |
-| **Programação** | Drag-drop + API | SDK C++/Python | SDK + Helix | Proprietário |
-| **Disponibilidade** | Comercial | Comercial | Comercial | Não comercial |
+| **Público-alvo** | Educaçêo/Família | Pesquisa/Indústria | Educaçêo/Pesquisa | Indústria |
+| **Programaçêo** | Drag-drop + API | SDK C++/Python | SDK + Helix | Proprietário |
+| **Disponibilidade** | Comercial | Comercial | Comercial | Nêo comercial |
 
 ---
 
@@ -809,34 +809,34 @@ robot.disconnect()
 #### ⚠️ Limitações Conhecidas
 
 **Capacidades Físicas**:
-- **Carga Útil**: Não divulgada (provavelmente limitada devido ao tamanho)
-- **Velocidade**: Não divulgada
-- **Precisão**: Não divulgada (provavelmente menor que robôs industriais)
+- **Carga Útil**: Nêo divulgada (provavelmente limitada devido ao tamanho)
+- **Velocidade**: Nêo divulgada
+- **Precisêo**: Nêo divulgada (provavelmente menor que robôs industriais)
 
-**Documentação**:
-- **SDK**: Não disponível publicamente ainda
+**Documentaçêo**:
+- **SDK**: Nêo disponível publicamente ainda
 - **Tutoriais**: Limitados no lançamento
-- **Comunidade**: Ainda em formação
+- **Comunidade**: Ainda em formaçêo
 
 **Casos de Uso**:
-- **Trabalho Braçal**: Não adequado (tamanho e força limitados)
-- **Manufatura**: Não adequado
-- **Foco**: Educação, entretenimento, pesquisa básica
+- **Trabalho Braçal**: Nêo adequado (tamanho e força limitados)
+- **Manufatura**: Nêo adequado
+- **Foco**: Educaçêo, entretenimento, pesquisa básica
 
 #### ✅ Vantagens Competitivas
 
 **Preço Disruptivo**:
 - Primeiro humanoide comercial abaixo de $1.500
-- Democratização da robótica humanoide
+- Democratizaçêo da robótica humanoide
 - Acesso para escolas e famílias
 
 **Facilidade de Uso**:
 - Interface drag-and-drop para iniciantes
 - APIs abertas para desenvolvedores avançados
-- Integração com ecossistema estabelecido (JD.com)
+- Integraçêo com ecossistema estabelecido (JD.com)
 
 **Design Apropriado**:
-- Tamanho ideal para educação
+- Tamanho ideal para educaçêo
 - Evita "uncanny valley"
 - Portátil e seguro para crianças
 
@@ -854,21 +854,21 @@ robot.disconnect()
 - Executar primeiros comandos
 
 **Atividades**:
-1. Ler documentação oficial do G1
+1. Ler documentaçêo oficial do G1
 2. Instalar unitree_sdk2_python
 3. Conectar ao robô via rede
 4. Executar comandos básicos (stand up, sit down)
 5. Ler estado do robô (juntas, IMU)
 
 **Recursos**:
-- Documentação: https://support.unitree.com/home/en/G1_developer
+- Documentaçêo: https://support.unitree.com/home/en/G1_developer
 - Tutorial: https://www.docs.quadruped.de/projects/g1/html/index.html
 
-#### 📅 Semana 3-4: Simulação
+#### 📅 Semana 3-4: Simulaçêo
 
 **Objetivos**:
 - Configurar simulador
-- Treinar primeira política de locomoção
+- Treinar primeira política de locomoçêo
 - Entender sim-to-real gap
 
 **Atividades**:
@@ -882,20 +882,20 @@ robot.disconnect()
 - Repositório: https://github.com/unitreerobotics/unitree_rl_gym
 - Repositório: https://github.com/unitreerobotics/unitree_mujoco
 
-#### 📅 Semana 5-8: Coleta de Dados e Imitação
+#### 📅 Semana 5-8: Coleta de Dados e Imitaçêo
 
 **Objetivos**:
-- Configurar sistema de teleoperação
+- Configurar sistema de teleoperaçêo
 - Coletar dataset próprio
-- Treinar política por imitação
+- Treinar política por imitaçêo
 
 **Atividades**:
 1. Configurar xr_teleoperate ou kinect_teleoperate
-2. Definir tarefa de manipulação simples
+2. Definir tarefa de manipulaçêo simples
 3. Coletar 50-100 demonstrações
 4. Converter dados para formato LeRobot
 5. Treinar política ACT ou Diffusion
-6. Testar em simulação e hardware
+6. Testar em simulaçêo e hardware
 
 **Recursos**:
 - Repositório: https://github.com/unitreerobotics/xr_teleoperate
@@ -905,14 +905,14 @@ robot.disconnect()
 #### 📅 Semana 9-12: Projeto Avançado
 
 **Objetivos**:
-- Desenvolver aplicação completa
-- Integrar locomoção + manipulação
+- Desenvolver aplicaçêo completa
+- Integrar locomoçêo + manipulaçêo
 - Deploy em hardware real
 
 **Atividades**:
 1. Definir tarefa complexa (ex: pegar objeto de prateleira)
-2. Treinar política de locomoção para navegação
-3. Treinar política de manipulação para preensão
+2. Treinar política de locomoçêo para navegaçêo
+3. Treinar política de manipulaçêo para preensêo
 4. Integrar políticas com coordenador de alto nível
 5. Testar extensivamente em hardware
 6. Documentar e compartilhar resultados
@@ -921,7 +921,7 @@ robot.disconnect()
 
 ### 3.2 Roteiro de Aprendizado para Noetix Bumi
 
-#### 📅 Semana 1: Familiarização
+#### 📅 Semana 1: Familiarizaçêo
 
 **Objetivos**:
 - Desempacotar e configurar Bumi
@@ -939,7 +939,7 @@ robot.disconnect()
 - Manual do usuário (quando disponível)
 - Tutoriais oficiais Noetix
 
-#### 📅 Semana 2-4: Programação Básica
+#### 📅 Semana 2-4: Programaçêo Básica
 
 **Objetivos**:
 - Dominar interface drag-and-drop
@@ -956,22 +956,22 @@ robot.disconnect()
 - Plataforma Joy Inside 2.0
 - Comunidade de desenvolvedores
 
-#### 📅 Semana 5-8: Programação Avançada (APIs)
+#### 📅 Semana 5-8: Programaçêo Avançada (APIs)
 
 **Objetivos**:
 - Aprender a usar APIs abertas
-- Desenvolver aplicação personalizada
+- Desenvolver aplicaçêo personalizada
 - Integrar com serviços externos
 
 **Atividades**:
-1. Estudar documentação de API (quando disponível)
+1. Estudar documentaçêo de API (quando disponível)
 2. Escrever primeiro script Python para controlar Bumi
-3. Criar aplicação de assistente pessoal
+3. Criar aplicaçêo de assistente pessoal
 4. Integrar com APIs externas (clima, notícias)
-5. Publicar aplicação no ecossistema
+5. Publicar aplicaçêo no ecossistema
 
 **Recursos**:
-- Documentação de API Noetix (aguardando lançamento)
+- Documentaçêo de API Noetix (aguardando lançamento)
 - Exemplos da comunidade
 
 ---
@@ -987,7 +987,7 @@ robot.disconnect()
 
 **Noetix**:
 - JD.com Joy Inside 2.0: (aguardando lançamento)
-- Comunidade de desenvolvedores: (em formação)
+- Comunidade de desenvolvedores: (em formaçêo)
 
 ### 4.2 Papers e Publicações
 
@@ -1015,7 +1015,7 @@ robot.disconnect()
 
 ### 4.4 Ferramentas e Bibliotecas
 
-**Simulação**:
+**Simulaçêo**:
 - Isaac Gym: https://developer.nvidia.com/isaac-gym
 - Isaac Lab: https://github.com/isaac-sim/IsaacLab
 - MuJoCo: https://mujoco.org
@@ -1027,14 +1027,14 @@ robot.disconnect()
 - LeRobot: https://github.com/huggingface/lerobot
 - Stable-Baselines3: https://github.com/DLR-RM/stable-baselines3
 
-**Visão Computacional**:
+**Visêo Computacional**:
 - OpenCV: https://opencv.org
 - MediaPipe: https://mediapipe.dev
 - SAM (Segment Anything): https://github.com/facebookresearch/segment-anything
 
 ---
 
-## Conclusão
+## Conclusêo
 
 Este documento compilou todos os materiais técnicos disponíveis recentemente sobre **Unitree** (G1, H1, R1) e **Noetix Bumi**, incluindo:
 
@@ -1043,13 +1043,13 @@ Este documento compilou todos os materiais técnicos disponíveis recentemente s
 ✅ **SDKs** (C++ e Python) com exemplos de código  
 ✅ **7+ datasets públicos** no HuggingFace (>2M frames)  
 ✅ **Frameworks de treinamento** (RL, IL, World Models)  
-✅ **Sistemas de teleoperação** (XR, Kinect)  
+✅ **Sistemas de teleoperaçêo** (XR, Kinect)  
 ✅ **Simuladores** (Isaac Gym, Isaac Lab, MuJoCo)  
-✅ **Tutoriais práticos** e documentação oficial  
+✅ **Tutoriais práticos** e documentaçêo oficial  
 ✅ **Informações completas sobre Noetix Bumi**  
 ✅ **Roteiros de aprendizado** estruturados  
 
-**Para Pesquisadores**: Este material fornece tudo o que é necessário para iniciar pesquisa avançada em robótica humanoide, desde configuração básica até treinamento de políticas de ponta.
+**Para Pesquisadores**: Este material fornece tudo o que é necessário para iniciar pesquisa avançada em robótica humanoide, desde configuraçêo básica até treinamento de políticas de ponta.
 
 **Para Desenvolvedores**: Os SDKs, APIs e datasets permitem desenvolvimento rápido de aplicações práticas em robótica.
 
@@ -1064,6 +1064,6 @@ Este documento compilou todos os materiais técnicos disponíveis recentemente s
 3. Unitree Documentation: https://support.unitree.com
 4. Unitree HuggingFace: https://huggingface.co/unitreerobotics
 5. Noetix Robotics: (informações de múltiplas fontes de notícias)
-6. JD.com Joy Inside 2.0: (aguardando documentação oficial)
+6. JD.com Joy Inside 2.0: (aguardando documentaçêo oficial)
 
-**Última Atualização**: 28 de Outubro de 2025
+**Última Atualizaçêo**: 28 de Outubro de 2025

@@ -1,6 +1,6 @@
 ---
 layout: home
-title: FTH - Formação Tecnológica em Humanoides
+title: FTH - Formaçêo Tecnológica em Humanoides
 ---
 
 <div class="hero-section">
@@ -50,7 +50,7 @@ title: FTH - Formação Tecnológica em Humanoides
 
   <div class="benefit-card">
     <div class="benefit-icon">🚀</div>
-    <h3>Certificação</h3>
+    <h3>Certificaçêo</h3>
     <p>Certificados reconhecidos ao completar cada nível</p>
   </div>
 </div>
@@ -72,7 +72,7 @@ title: FTH - Formação Tecnológica em Humanoides
     <span class="nivel-duracao">12-15 horas</span>
     <p class="nivel-descricao">Desperte sua curiosidade! Entenda o que é um robô humanoide e faça-o andar e responder comandos de voz.</p>
     <ul class="nivel-topicos">
-      <li>✓ O que são robôs humanoides?</li>
+      <li>✓ O que sêo robôs humanoides?</li>
       <li>✓ Simuladores gratuitos</li>
       <li>✓ Primeiros comandos</li>
       <li>✓ Projeto: Robô que anda e fala</li>
@@ -111,7 +111,7 @@ title: FTH - Formação Tecnológica em Humanoides
     <p class="nivel-descricao">Domine Inteligência Artificial. Ensine robôs a aprenderem novas tarefas sozinhos com RL e LBMs.</p>
     <ul class="nivel-topicos">
       <li>✓ Aprendizado por Reforço (PPO, SAC)</li>
-      <li>✓ Visão Computacional</li>
+      <li>✓ Visêo Computacional</li>
       <li>✓ Large Behavior Models</li>
       <li>✓ Projeto: Robô que aprende sozinho</li>
     </ul>
@@ -132,7 +132,7 @@ title: FTH - Formação Tecnológica em Humanoides
       <li>✓ Modelos de negócio</li>
       <li>✓ Sim-to-Real transfer</li>
       <li>✓ Aplicações comerciais</li>
-      <li>✓ Projeto: Startup ou solução real</li>
+      <li>✓ Projeto: Startup ou soluçêo real</li>
     </ul>
     <a href="{{ '/niveis/nivel-4' | relative_url }}" class="btn btn-nivel">Explorar Nível 4 →</a>
   </div>
@@ -149,7 +149,7 @@ Além dos níveis técnicos, você pode seguir uma **trilha temática** de acord
 
   <div class="trilha-card">
     <div class="trilha-icon">🎓</div>
-    <h3>Educação</h3>
+    <h3>Educaçêo</h3>
     <p>Use robôs como ferramenta didática em escolas</p>
     <a href="{{ '/trilhas/educacao' | relative_url }}">Ver trilha →</a>
   </div>
@@ -218,16 +218,16 @@ Além dos níveis técnicos, você pode seguir uma **trilha temática** de acord
 
   <div class="testimonial">
     <p class="testimonial-text"><strong>Nosso objetivo:</strong> Professores descobrindo que podem programar robôs e transformar suas aulas com tecnologia prática.</p>
-    <p class="testimonial-author">🎓 Trilha Educação</p>
+    <p class="testimonial-author">🎓 Trilha Educaçêo</p>
   </div>
 
   <div class="testimonial">
-    <p class="testimonial-text"><strong>Nossa visão:</strong> Empreendedores criando startups de robótica e gerando oportunidades reais de negócio.</p>
+    <p class="testimonial-text"><strong>Nossa visêo:</strong> Empreendedores criando startups de robótica e gerando oportunidades reais de negócio.</p>
     <p class="testimonial-author">💼 Trilha Empreendedorismo</p>
   </div>
 
   <div class="testimonial">
-    <p class="testimonial-text"><strong>Nossa missão:</strong> Pessoas saindo do zero e alcançando carreiras em IA e robótica, mudando suas vidas.</p>
+    <p class="testimonial-text"><strong>Nossa missêo:</strong> Pessoas saindo do zero e alcançando carreiras em IA e robótica, mudando suas vidas.</p>
     <p class="testimonial-author">🚀 Todas as Trilhas</p>
   </div>
 

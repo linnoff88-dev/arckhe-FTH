@@ -1,4 +1,4 @@
-// FTH - Formação Tecnológica em Humanoides
+// FTH - Formaçêo Tecnológica em Humanoides
 // Main JavaScript File
 
 // Navigation Menu Toggle (Mobile)

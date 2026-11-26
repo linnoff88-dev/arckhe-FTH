@@ -2,21 +2,21 @@
 
 # quero aprender a treinar robos humanoides, me liste os link q posos aprendre  e os link das plataformas q posso aprender, e tambem as q sao opensource
 
-Aqui estão recursos, plataformas e links para aprender a treinar robôs humanoides—including plataformas abertas (opensource) de destaque—com opções para aprendizado autodidata, simulação, robótica educacional e pesquisa avançada.[^1][^2][^3][^4][^5]
+Aqui estêo recursos, plataformas e links para aprender a treinar robôs humanoides—including plataformas abertas (opensource) de destaque—com opções para aprendizado autodidata, simulaçêo, robótica educacional e pesquisa avançada.[^1][^2][^3][^4][^5]
 
 ***
 
 ### Plataformas Open Source e Frameworks
 
-- **Robot Operating System (ROS)**: Principal framework open source para robótica; possui vasta documentação, exemplos e suporte para robôs humanoides.
+- **Robot Operating System (ROS)**: Principal framework open source para robótica; possui vasta documentaçêo, exemplos e suporte para robôs humanoides.
     - Link: [https://www.ros.org](https://www.ros.org) / [Open Robotics](https://www.openrobotics.org)[^3][^4]
 - **Gazebo (Ignition Gazebo)**: Simulador físico open source, integrado ao ROS, ideal para testar e treinar robôs humanoides virtualmente.
     - Link: [https://gazebosim.org](https://gazebosim.org) / [Gazebo by Open Robotics](https://www.openrobotics.org)[^4][^3]
-- **Poppy Project**: Projeto open source focado em robôs humanoides modulares e educacionais, programação em Python, integração com ROS e OpenCV.
+- **Poppy Project**: Projeto open source focado em robôs humanoides modulares e educacionais, programaçêo em Python, integraçêo com ROS e OpenCV.
     - Link: [https://www.poppy-project.org](https://www.poppy-project.org)[^3]
-- **NVIDIA Isaac Lab \& Isaac Sim**: Frameworks open source para simulação, aprendizado reforçado, treino de políticas de movimento e geração de dados sintéticos para robôs humanoides.
+- **NVIDIA Isaac Lab \& Isaac Sim**: Frameworks open source para simulaçêo, aprendizado reforçado, treino de políticas de movimento e geraçêo de dados sintéticos para robôs humanoides.
     - Link: [https://www.nvidia.com/pt-br/use-cases/humanoid-robots/](https://www.nvidia.com/pt-br/use-cases/humanoid-robots/) / [Isaac Lab](https://github.com/NVIDIA-Omniverse/IsaacLab) / [Isaac Sim](https://developer.nvidia.com/isaac-sim)[^2][^5]
-- **XTRON ROBAN**: Projeto de robô bípede open source, integração com ROS, Python, OpenCV e TensorFlow para aplicações educacionais e industriais.
+- **XTRON ROBAN**: Projeto de robô bípede open source, integraçêo com ROS, Python, OpenCV e TensorFlow para aplicações educacionais e industriais.
     - Link: [https://robotibilidade.wordpress.com/2025/02/10/robo-humanoide-roban/](https://robotibilidade.wordpress.com/2025/02/10/robo-humanoide-roban/)[^1]
 
 ***
@@ -29,14 +29,14 @@ Aqui estão recursos, plataformas e links para aprender a treinar robôs humanoi
     - Link: [https://developer.nvidia.com/isaac-sim](https://developer.nvidia.com/isaac-sim)[^7][^5]
 - **Cursos e tutoriais de ROS**:
     - [Tutorial Start ROS (Em Português)](http://wiki.ros.org/pt_br/Tutorials)[^4]
-    - [The Construct - Academy (cursos de simulação ROS com humanoides)](https://www.theconstructsim.com)[^4]
+    - [The Construct - Academy (cursos de simulaçêo ROS com humanoides)](https://www.theconstructsim.com)[^4]
 
 ***
 
 ### Artigos e Conteúdo para Aprender
 
 - Como robôs aprendem com vídeos de humanos:
-    - [Tecmundo: Robôs estão aprendendo tarefas humanas ao assistirem vídeos](https://www.tecmundo.com.br/ciencia/265496-robos-aprendendo-tarefas-humanas-assistirem-videos-veja.htm)[^8]
+    - [Tecmundo: Robôs estêo aprendendo tarefas humanas ao assistirem vídeos](https://www.tecmundo.com.br/ciencia/265496-robos-aprendendo-tarefas-humanas-assistirem-videos-veja.htm)[^8]
 - Aprendizado por reforço e feedback humano:
     - [Exemplo com HiL-SERL da Berkeley](https://pplware.sapo.pt/inteligencia-artificial/com-feedback-humano-robos-com-ia-podem-aprender-melhor-e-mais-rapido/)[^9]
 
@@ -48,7 +48,7 @@ Aqui estão recursos, plataformas e links para aprender a treinar robôs humanoi
 
 ***
 
-Estude a base com ROS e Gazebo (ambos abertos) para simulações, depois avance para plataformas como NVIDIA Isaac Lab/Sim para aprendizado de políticas e Poppy/XTRON para montagem e teste. Todas essas iniciativas e comunidades mantêm documentação, exemplos, tutoriais e discussão ativa para novos desenvolvedores e pesquisadores em robótica humanoide.[^5][^1][^3][^4]
+Estude a base com ROS e Gazebo (ambos abertos) para simulações, depois avance para plataformas como NVIDIA Isaac Lab/Sim para aprendizado de políticas e Poppy/XTRON para montagem e teste. Todas essas iniciativas e comunidades mantêm documentaçêo, exemplos, tutoriais e discussêo ativa para novos desenvolvedores e pesquisadores em robótica humanoide.[^5][^1][^3][^4]
 
 <div align="center">⁂</div>
 

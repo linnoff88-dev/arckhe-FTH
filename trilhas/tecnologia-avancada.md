@@ -17,7 +17,7 @@ Dominar o estado da arte em robótica humanoide e IA, contribuindo com pesquisa 
 - Engenheiros e desenvolvedores
 - Pesquisadores e acadêmicos
 - Profissionais de IA/ML
-- Cientistas da computação
+- Cientistas da computaçêo
 - Tech leads e architects
 
 ---
@@ -28,9 +28,9 @@ Dominar o estado da arte em robótica humanoide e IA, contribuindo com pesquisa 
 
 Opções avançadas:
 - Robô que aprende múltiplas tarefas
-- Sistema de percepção multimodal
+- Sistema de percepçêo multimodal
 - Algoritmos de RL inovadores
-- Contribuição open-source relevante
+- Contribuiçêo open-source relevante
 - Paper científico
 
 ---
@@ -40,14 +40,14 @@ Opções avançadas:
 ### Estado da Arte
 - Papers recentes (2024-2026)
 - Benchmarks e métricas
-- Reprodução de experimentos
+- Reproduçêo de experimentos
 - Análise crítica
 
 ### Pesquisa e Desenvolvimento
 - Metodologia científica
-- Experimentação rigorosa
-- Publicação de resultados
-- Colaboração acadêmica
+- Experimentaçêo rigorosa
+- Publicaçêo de resultados
+- Colaboraçêo acadêmica
 
 ### Tecnologias Emergentes
 - Novos frameworks

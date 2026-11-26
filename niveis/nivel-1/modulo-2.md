@@ -1,12 +1,12 @@
 ---
 layout: page
-title: "Módulo 1.2: Primeiros Passos na Simulação"
+title: "Módulo 1.2: Primeiros Passos na Simulaçêo"
 permalink: /niveis/nivel-1/modulo-2/
 ---
 
-# 🎯 Módulo 1.2: Primeiros Passos na Simulação
+# 🎯 Módulo 1.2: Primeiros Passos na Simulaçêo
 
-**Duração estimada:** 4-5 horas
+**Duraçêo estimada:** 4-5 horas
 **Pré-requisitos:** Módulo 1.1 concluído
 **Nível de dificuldade:** ⭐⭐ Fácil (mas requer paciência!)
 
@@ -30,14 +30,14 @@ Ao completar este módulo, você será capaz de:
 
 **Analogia:** Pense em um simulador de robôs como um videogame, mas ao invés de jogar, você está **programando** os personagens!
 
-**Definição:**
+**Definiçêo:**
 > Um simulador de robótica é um software que cria um mundo virtual 3D onde você pode:
 > - Colocar robôs e objetos
 > - Simular física real (gravidade, colisões, atrito)
 > - Testar programas sem gastar dinheiro com hardware
 > - Errar sem medo de quebrar nada!
 
-**Por que simulação é tão importante?**
+**Por que simulaçêo é têo importante?**
 - 💰 **Economia**: Robô real custa R$ 10.000+, simulador é grátis
 - ⚡ **Velocidade**: Testa 1000 cenários em minutos
 - 🔒 **Segurança**: Sem risco de acidentes
@@ -57,13 +57,13 @@ Existem vários simuladores excelentes. Vamos comparar os 3 melhores para inicia
 - ✅ Funciona em Windows, Mac e Linux
 - ✅ Requisitos modestos (4GB RAM)
 - ✅ Vem com 20+ robôs prontos (incluindo NAO e Bumi)
-- ✅ Programação visual disponível
+- ✅ Programaçêo visual disponível
 
 **Requisitos mínimos:**
 - Sistema: Windows 10/11, macOS 10.15+, ou Ubuntu 20.04+
 - RAM: 4GB (recomendado 8GB)
 - Espaço: 2GB
-- GPU: Não necessária (mas ajuda)
+- GPU: Nêo necessária (mas ajuda)
 
 **Site oficial:** [cyberbotics.com](https://cyberbotics.com)
 
@@ -73,12 +73,12 @@ Existem vários simuladores excelentes. Vamos comparar os 3 melhores para inicia
 
 **Vantagens:**
 - Gráficos fotorrealistas (usa NVIDIA RTX)
-- Integração com IA moderna (PyTorch, TensorFlow)
+- Integraçêo com IA moderna (PyTorch, TensorFlow)
 - Usado por empresas como Tesla e Boston Dynamics
 
 **Desvantagens:**
 - ❌ Requer GPU NVIDIA (RTX 2060 ou melhor)
-- ❌ Instalação mais complexa
+- ❌ Instalaçêo mais complexa
 - ❌ Interface avançada (pode intimidar iniciantes)
 
 **Quando usar:** A partir do Nível 2, se você tiver hardware potente.
@@ -88,7 +88,7 @@ Existem vários simuladores excelentes. Vamos comparar os 3 melhores para inicia
 #### 🥉 **Gazebo** (Para entusiastas de Linux)
 
 **Vantagens:**
-- Integração nativa com ROS 2
+- Integraçêo nativa com ROS 2
 - Muito usado em pesquisa acadêmica
 - Comunidade enorme
 
@@ -101,7 +101,7 @@ Existem vários simuladores excelentes. Vamos comparar os 3 melhores para inicia
 
 ---
 
-### 📊 Comparação Rápida
+### 📊 Comparaçêo Rápida
 
 | Critério | Webots | Isaac Sim | Gazebo |
 |----------|--------|-----------|--------|
@@ -109,9 +109,9 @@ Existem vários simuladores excelentes. Vamos comparar os 3 melhores para inicia
 | **Requisitos** | Baixos | Altos | Médios |
 | **Grátis?** | ✅ Sim | ✅ Sim | ✅ Sim |
 | **Melhor para iniciantes** | ✅ | ❌ | ⚠️ |
-| **Documentação PT-BR** | ⚠️ Parcial | ❌ Inglês | ⚠️ Parcial |
+| **Documentaçêo PT-BR** | ⚠️ Parcial | ❌ Inglês | ⚠️ Parcial |
 
-**Nossa recomendação:** Comece com **Webots**. Você sempre pode testar outros depois!
+**Nossa recomendaçêo:** Comece com **Webots**. Você sempre pode testar outros depois!
 
 ---
 
@@ -132,13 +132,13 @@ Existem vários simuladores excelentes. Vamos comparar os 3 melhores para inicia
 
 ---
 
-#### Passo 2: Instalação (Windows)
+#### Passo 2: Instalaçêo (Windows)
 
 1. Abra o arquivo `.exe` baixado
 2. Clique em **"Next"** na tela de boas-vindas
 3. Aceite a licença (MIT License - open source!)
 4. **IMPORTANTE:** Deixe marcado **"Add to PATH"** ✅
-5. Escolha a pasta de instalação (recomendo deixar padrão: `C:\Program Files\Webots`)
+5. Escolha a pasta de instalaçêo (recomendo deixar padrêo: `C:\Program Files\Webots`)
 6. Clique em **"Install"**
 7. Aguarde 5-10 minutos
 8. Clique em **"Finish"**
@@ -147,7 +147,7 @@ Existem vários simuladores excelentes. Vamos comparar os 3 melhores para inicia
 
 ---
 
-#### Passo 2B: Instalação (macOS)
+#### Passo 2B: Instalaçêo (macOS)
 
 1. Abra o arquivo `.dmg`
 2. Arraste o ícone do Webots para a pasta **Applications**
@@ -158,12 +158,12 @@ Existem vários simuladores excelentes. Vamos comparar os 3 melhores para inicia
 
 ---
 
-#### Passo 2C: Instalação (Linux/Ubuntu)
+#### Passo 2C: Instalaçêo (Linux/Ubuntu)
 
 Abra o terminal e execute:
 
 ```bash
-# Baixar o arquivo .deb (substitua X.X.X pela versão)
+# Baixar o arquivo .deb (substitua X.X.X pela versêo)
 wget https://github.com/cyberbotics/webots/releases/download/R2023b/webots_2023b_amd64.deb
 
 # Instalar
@@ -181,7 +181,7 @@ sudo apt install -y libglu1-mesa libxkbcommon-x11-0
 
 ---
 
-#### Passo 3: Primeira Execução
+#### Passo 3: Primeira Execuçêo
 
 1. Abra o Webots (ícone na área de trabalho ou menu iniciar)
 2. **Janela de boas-vindas apareceu?** Parabéns! ✅
@@ -235,23 +235,23 @@ sudo apt install -y libglu1-mesa libxkbcommon-x11-0
 
 **Centro - Viewport 3D:**
 - Aqui você vê o mundo simulado
-- **Rotacionar câmera:** Clique e arraste com botão direito
+- **Rotacionar câmera:** Clique e arraste com botêo direito
 - **Mover câmera:** Shift + Clique e arraste
 - **Zoom:** Scroll do mouse
 
 **À direita - Console:**
 - Mostra mensagens do sistema
-- Aqui aparecerão erros (se houver)
+- Aqui aparecerêo erros (se houver)
 
 ---
 
-#### Passo 3: Controles da Simulação
+#### Passo 3: Controles da Simulaçêo
 
 Na parte superior da janela, você verá estes botões:
 
-| Botão | Função | Atalho |
+| Botêo | Funçêo | Atalho |
 |-------|--------|--------|
-| ▶️ | **Play** - Inicia a simulação | Ctrl+R |
+| ▶️ | **Play** - Inicia a simulaçêo | Ctrl+R |
 | ⏸️ | **Pause** - Pausa | Ctrl+. |
 | ⏹️ | **Stop** - Para e reseta | Ctrl+E |
 | ⏩ | **Fast Forward** - Acelera tempo | Ctrl+4 |
@@ -260,16 +260,16 @@ Na parte superior da janela, você verá estes botões:
 
 ---
 
-#### Passo 4: Primeira Simulação
+#### Passo 4: Primeira Simulaçêo
 
-1. Clique no botão **▶️ (Play)**
+1. Clique no botêo **▶️ (Play)**
 2. Observe o NAO **mantendo equilíbrio** (ele balança levemente!)
 3. Olhe no canto superior esquerdo do Viewport: você verá o tempo passando
-   - `Time: 0:05` = 5 segundos de simulação
+   - `Time: 0:05` = 5 segundos de simulaçêo
 4. Clique em **⏹️ (Stop)** após 10 segundos
 
 **O que aconteceu?**
-Mesmo "parado", o robô está **ativamente controlando** seus motores para não cair! É como você em pé - parece que não faz nada, mas seus músculos estão trabalhando constantemente.
+Mesmo "parado", o robô está **ativamente controlando** seus motores para nêo cair! É como você em pé - parece que nêo faz nada, mas seus músculos estêo trabalhando constantemente.
 
 ---
 
@@ -277,24 +277,24 @@ Mesmo "parado", o robô está **ativamente controlando** seus motores para não 
 
 Agora vamos fazer o NAO se movimentar!
 
-#### Opção 1: Teclado (Modo Deus 😎)
+#### Opçêo 1: Teclado (Modo Deus 😎)
 
-1. No Scene Tree, clique com botão direito em **"NAO"**
+1. No Scene Tree, clique com botêo direito em **"NAO"**
 2. Selecione **"Move Viewpoint to Object"**
-3. Inicie a simulação (▶️)
+3. Inicie a simulaçêo (▶️)
 4. Use as setas do teclado:
    - **↑** : Anda para frente
    - **↓** : Anda para trás
    - **←** : Vira à esquerda
    - **→** : Vira à direita
 
-**ATENÇÃO:** Nem todos os robôs vêm com controle de teclado pré-configurado! Este é um recurso especial do exemplo.
+**ATENÇêO:** Nem todos os robôs vêm com controle de teclado pré-configurado! Este é um recurso especial do exemplo.
 
 ---
 
-#### Opção 2: Console Python (Modo Programador)
+#### Opçêo 2: Console Python (Modo Programador)
 
-1. Pare a simulação se estiver rodando
+1. Pare a simulaçêo se estiver rodando
 2. No menu, vá em **Tools > Python Console**
 3. Uma nova janela abrirá
 4. Digite este comando e pressione Enter:
@@ -319,13 +319,13 @@ print("Braços levantados!")
 **Resultado:** O NAO levanta os braços! 🙌
 
 **O que você acabou de fazer?**
-Você escreveu seu primeiro código que **controla um robô**! Mesmo que não entenda 100% agora, você vai aprender tudo no próximo módulo.
+Você escreveu seu primeiro código que **controla um robô**! Mesmo que nêo entenda 100% agora, você vai aprender tudo no próximo módulo.
 
 ---
 
 ### 📁 Exercício 4: Salvando Seu Trabalho
 
-#### Salvar uma Simulação
+#### Salvar uma Simulaçêo
 
 1. Faça algumas mudanças (mova objetos, posicione o robô)
 2. Vá em **File > Save World As...**
@@ -333,22 +333,22 @@ Você escreveu seu primeiro código que **controla um robô**! Mesmo que não en
 4. Dê um nome: `minha_primeira_simulacao.wbt`
 5. Clique em **"Save"**
 
-**Dica:** Arquivos `.wbt` são como "saves" de videogame. Você pode abrir depois e continuar de onde parou!
+**Dica:** Arquivos `.wbt` sêo como "saves" de videogame. Você pode abrir depois e continuar de onde parou!
 
 ---
 
 #### Exportar para Compartilhar
 
-Quer mostrar sua simulação para amigos?
+Quer mostrar sua simulaçêo para amigos?
 
-1. Com a simulação rodando, clique em **🎬 (Record)**
+1. Com a simulaçêo rodando, clique em **🎬 (Record)**
 2. Escolha **"Record Video"**
 3. Configure:
    - **Resolution:** 1280x720 (HD)
    - **Quality:** 90%
    - **Duration:** 30 seconds
 4. Clique em **"Start Recording"**
-5. A simulação roda automaticamente e grava
+5. A simulaçêo roda automaticamente e grava
 6. Vídeo salvo em: `Webots/projects/[seu_projeto]/videos/`
 
 **Agora você pode postar no YouTube, Instagram ou Discord!** 🎥
@@ -401,13 +401,13 @@ Caminho: projects/robots/robotis/darwin-op/worlds/soccer.wbt
 Caminho: projects/robots/softbank/nao/worlds/nao_robocup.wbt
 ```
 
-- Versão do NAO para competições
+- Versêo do NAO para competições
 - Veja ele jogando sozinho!
 - Observe a estratégia de IA
 
 ---
 
-**DESAFIO:** Abra cada um desses robôs, rode a simulação por 30 segundos, e anote:
+**DESAFIO:** Abra cada um desses robôs, rode a simulaçêo por 30 segundos, e anote:
 - Quantas pernas/rodas ele tem?
 - Ele se movimenta sozinho ou precisa de comando?
 - Que tipo de sensor você acha que ele usa?
@@ -428,13 +428,13 @@ Você verá uma tela cinza vazia.
 
 ---
 
-#### Passo 2: Adicionar o Chão
+#### Passo 2: Adicionar o Chêo
 
-1. Clique no botão **"+"** no topo da Scene Tree
+1. Clique no botêo **"+"** no topo da Scene Tree
 2. Selecione **PROTO nodes (Webots) > Objects > Floors > Floor**
 3. Clique em **"Add"**
 
-Agora você tem um chão verde!
+Agora você tem um chêo verde!
 
 ---
 
@@ -444,7 +444,7 @@ Agora você tem um chão verde!
 2. Navegue: **PROTO nodes (Webots) > Robots > Nao > Nao**
 3. Clique em **"Add"**
 4. No campo **"translation"**, coloque: `0 0.35 0`
-   - (Isso coloca o NAO 35cm acima do chão para ele não "atravessar")
+   - (Isso coloca o NAO 35cm acima do chêo para ele nêo "atravessar")
 
 ---
 
@@ -452,16 +452,16 @@ Agora você tem um chão verde!
 
 1. Clique no **"+"**
 2. Selecione **PROTO nodes (Webots) > Objects > Obstacles > WoodenBox**
-3. Coloque na posição: `1 0.05 0`
+3. Coloque na posiçêo: `1 0.05 0`
    - (1 metro à frente do robô)
 
 ---
 
-#### Passo 5: Iluminação
+#### Passo 5: Iluminaçêo
 
 1. Clique no **"+"**
 2. Selecione **Base nodes > DirectionalLight**
-3. Deixe os valores padrão
+3. Deixe os valores padrêo
 
 ---
 
@@ -471,7 +471,7 @@ Agora você tem um chão verde!
 2. Clique em **▶️ Play**
 3. O NAO deve aparecer em pé, com a caixa à frente dele
 
-**Parabéns!** Você criou seu primeiro ambiente de simulação do zero! 🎉
+**Parabéns!** Você criou seu primeiro ambiente de simulaçêo do zero! 🎉
 
 ---
 
@@ -483,16 +483,16 @@ Agora você tem um chão verde!
 
 **Requisitos:**
 
-1. **Chão:** Floor (pode adicionar textura de grama)
-2. **Robô:** NAO na posição inicial (0, 0.35, 0)
+1. **Chêo:** Floor (pode adicionar textura de grama)
+2. **Robô:** NAO na posiçêo inicial (0, 0.35, 0)
 3. **Obstáculos:** Pelo menos 3 caixas (WoodenBox) em posições diferentes
 4. **Bola:** Adicione uma bola (Ball PROTO) à frente do robô
-5. **Iluminação:** 1 DirectionalLight
+5. **Iluminaçêo:** 1 DirectionalLight
 6. **Paredes (opcional):** Crie paredes com WoodenBox para delimitar a arena
 
 **Critérios de Sucesso:**
-- [ ] Simulação inicia sem erros
-- [ ] Robô está posicionado corretamente (não afunda no chão)
+- [ ] Simulaçêo inicia sem erros
+- [ ] Robô está posicionado corretamente (nêo afunda no chêo)
 - [ ] Todos os objetos visíveis
 - [ ] Gravou um vídeo de 30 segundos navegando no ambiente
 - [ ] Salvou o arquivo `.wbt` com nome descritivo
@@ -503,7 +503,7 @@ Agora você tem um chão verde!
 
 ## 📚 Recursos Adicionais
 
-### 📖 Documentação Oficial
+### 📖 Documentaçêo Oficial
 
 - **[Webots User Guide](https://cyberbotics.com/doc/guide/index)** - Manual completo (inglês)
 - **[Webots Reference Manual](https://cyberbotics.com/doc/reference/index)** - Referência de todos os nós
@@ -513,7 +513,7 @@ Agora você tem um chão verde!
 
 - **[Webots in 10 Minutes](https://youtube.com)** - Overview rápido
 - **[How to Create a Simple Robot](https://youtube.com)** - Passo a passo
-- **[Webots vs Gazebo - Which One?](https://youtube.com)** - Comparação
+- **[Webots vs Gazebo - Which One?](https://youtube.com)** - Comparaçêo
 
 ### 🔗 Comunidade
 
@@ -531,33 +531,33 @@ Agora você tem um chão verde!
 
 ## 🐛 Troubleshooting (Problemas Comuns)
 
-### Problema 1: Webots não abre
+### Problema 1: Webots nêo abre
 
 **Windows:**
 ```
 Erro: "VCRUNTIME140.dll not found"
 ```
-**Solução:**
+**Soluçêo:**
 - Instale o Microsoft Visual C++ Redistributable
 - [Download aqui](https://aka.ms/vs/17/release/vc_redist.x64.exe)
 
 ---
 
-### Problema 2: Robô atravessa o chão
+### Problema 2: Robô atravessa o chêo
 
 **Sintoma:** NAO afunda e desaparece.
 
-**Causa:** Posição inicial muito baixa.
+**Causa:** Posiçêo inicial muito baixa.
 
-**Solução:**
+**Soluçêo:**
 1. Selecione o robô na Scene Tree
 2. No campo **"translation"**, mude o segundo número (Y) para `0.35` ou maior
 
 ---
 
-### Problema 3: Simulação muito lenta (FPS baixo)
+### Problema 3: Simulaçêo muito lenta (FPS baixo)
 
-**Sintomas:** Simulação roda a 0.5x ou menos.
+**Sintomas:** Simulaçêo roda a 0.5x ou menos.
 
 **Soluções:**
 
@@ -571,21 +571,21 @@ Erro: "VCRUNTIME140.dll not found"
 
 3. **Fechar outros programas:**
    - Chrome com 50 abas come RAM! 😅
-   - Feche o que não está usando
+   - Feche o que nêo está usando
 
 ---
 
-### Problema 4: Controle de teclado não funciona
+### Problema 4: Controle de teclado nêo funciona
 
 **Causa:** Nem todos os exemplos têm controle de teclado programado.
 
-**Solução temporária:**
+**Soluçêo temporária:**
 - Use os exemplos recomendados neste módulo (NAO, Spot)
 - No próximo módulo, você aprenderá a programar controles personalizados!
 
 ---
 
-## ✅ Checklist de Conclusão
+## ✅ Checklist de Conclusêo
 
 Antes de seguir para o Módulo 1.3:
 
@@ -593,14 +593,14 @@ Antes de seguir para o Módulo 1.3:
 - [ ] Abri e rodei pelo menos 3 exemplos de robôs diferentes
 - [ ] Entendi os controles básicos (Play, Pause, Stop)
 - [ ] Sei navegar pela interface (Scene Tree, Viewport, Console)
-- [ ] Criei um mundo do zero com chão + robô + obstáculo
+- [ ] Criei um mundo do zero com chêo + robô + obstáculo
 - [ ] Salvei um arquivo `.wbt` personalizado
-- [ ] Gravei um vídeo de simulação
+- [ ] Gravei um vídeo de simulaçêo
 - [ ] Completei o Desafio do Módulo (arena de testes)
 - [ ] Consigo reabrir meus projetos salvos
 - [ ] Estou confortável explorando a interface sozinho
 
-**Tempo médio de conclusão:** 4h15min
+**Tempo médio de conclusêo:** 4h15min
 
 ---
 
@@ -611,25 +611,25 @@ Você agora tem um **laboratório de robótica virtual** funcionando no seu comp
 **O que você conquistou:**
 - ✅ Instalou e configurou ferramentas profissionais
 - ✅ Carregou e controlou robôs humanoides reais (virtuais)
-- ✅ Criou seus primeiros ambientes de simulação
+- ✅ Criou seus primeiros ambientes de simulaçêo
 - ✅ Explorou múltiplos tipos de robôs
 
 **Estatísticas:**
 - **Valor economizado:** R$ 50.000+ (custo de um robô NAO real)
-- **Potencial de experimentação:** ILIMITADO
+- **Potencial de experimentaçêo:** ILIMITADO
 - **Riscos de acidentes:** ZERO 🎉
 
-**Próximo passo:** No Módulo 1.3, você vai aprender **programação visual** para fazer o robô executar tarefas complexas sem escrever código! Prepare-se para o drag-and-drop. 🚀
+**Próximo passo:** No Módulo 1.3, você vai aprender **programaçêo visual** para fazer o robô executar tarefas complexas sem escrever código! Prepare-se para o drag-and-drop. 🚀
 
 ---
 
-**Próximo:** [Módulo 1.3 - Programação Visual]({{ '/niveis/nivel-1/modulo-3' | relative_url }}){: .btn .btn-primary}
+**Próximo:** [Módulo 1.3 - Programaçêo Visual]({{ '/niveis/nivel-1/modulo-3' | relative_url }}){: .btn .btn-primary}
 
-**Anterior:** [Módulo 1.1 - O que são Robôs Humanoides?]({{ '/niveis/nivel-1/modulo-1' | relative_url }}){: .btn .btn-secondary}
+**Anterior:** [Módulo 1.1 - O que sêo Robôs Humanoides?]({{ '/niveis/nivel-1/modulo-1' | relative_url }}){: .btn .btn-secondary}
 
 ---
 
-**Última atualização:** 2025-10-29
-**Tempo médio de conclusão:** 4h20min
-**Taxa de satisfação:** ⭐⭐⭐⭐⭐ (4.7/5.0)
-**Dica de quem já fez:** "Não pule os exercícios! Colocar a mão na massa faz TODA a diferença." - Maria, SP
+**Última atualizaçêo:** 2025-10-29
+**Tempo médio de conclusêo:** 4h20min
+**Taxa de satisfaçêo:** ⭐⭐⭐⭐⭐ (4.7/5.0)
+**Dica de quem já fez:** "Nêo pule os exercícios! Colocar a mêo na massa faz TODA a diferença." - Maria, SP

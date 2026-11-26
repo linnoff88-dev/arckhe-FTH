@@ -1,12 +1,12 @@
 ---
 layout: page
-title: "Módulo 1.3: Programação Visual"
+title: "Módulo 1.3: Programaçêo Visual"
 permalink: /niveis/nivel-1/modulo-3/
 ---
 
-# 🎯 Módulo 1.3: Programação Visual
+# 🎯 Módulo 1.3: Programaçêo Visual
 
-**Duração estimada:** 5-6 horas
+**Duraçêo estimada:** 5-6 horas
 **Pré-requisitos:** Módulos 1.1 e 1.2 concluídos
 **Nível de dificuldade:** ⭐⭐ Fácil/Médio
 
@@ -15,7 +15,7 @@ permalink: /niveis/nivel-1/modulo-3/
 ## 📋 Objetivos de Aprendizado
 
 Ao completar este módulo, você será capaz de:
-- [ ] Entender o conceito de programação visual (drag-and-drop)
+- [ ] Entender o conceito de programaçêo visual (drag-and-drop)
 - [ ] Criar sequências de movimentos para o robô
 - [ ] Usar blocos de sensores para tomar decisões
 - [ ] Implementar estruturas de controle (if/else, loops)
@@ -27,7 +27,7 @@ Ao completar este módulo, você será capaz de:
 
 ## 📚 Conteúdo Teórico
 
-### 1. O Que é Programação Visual?
+### 1. O Que é Programaçêo Visual?
 
 **Analogia:** Pense em programar como montar LEGO. Ao invés de escrever texto complexo, você **encaixa blocos visuais** que representam ações!
 
@@ -38,7 +38,7 @@ Ao completar este módulo, você será capaz de:
 
 ```
 ┌────────────────────────────────────────┐
-│  PROGRAMAÇÃO TRADICIONAL (texto):     │
+│  PROGRAMAÇêO TRADICIONAL (texto):     │
 │                                        │
 │  if sensor.distance < 0.5:             │
 │      robot.stop()                      │
@@ -50,7 +50,7 @@ Ao completar este módulo, você será capaz de:
          VS
 
 ┌────────────────────────────────────────┐
-│  PROGRAMAÇÃO VISUAL (blocos):          │
+│  PROGRAMAÇêO VISUAL (blocos):          │
 │                                        │
 │  ╔════════════════════════════╗        │
 │  ║ SE [distância] < 0.5m      ║        │
@@ -62,7 +62,7 @@ Ao completar este módulo, você será capaz de:
 │  ║   │ Virar 90°   │          ║        │
 │  ║   └─────────────┘          ║        │
 │  ╠════════════════════════════╣        │
-│  ║ SENÃO                      ║        │
+│  ║ SENêO                      ║        │
 │  ╠════════════════════════════╣        │
 │  ║   ┌─────────────┐          ║        │
 │  ║   │ Andar frente│          ║        │
@@ -71,33 +71,33 @@ Ao completar este módulo, você será capaz de:
 └────────────────────────────────────────┘
 ```
 
-**Vantagens da programação visual:**
+**Vantagens da programaçêo visual:**
 - ✅ **Intuitivo:** Você VÊ a lógica
-- ✅ **Sem erros de sintaxe:** Não esquece ponto-e-vírgula
+- ✅ **Sem erros de sintaxe:** Nêo esquece ponto-e-vírgula
 - ✅ **Rápido para prototipar:** Teste ideias em minutos
 - ✅ **Aprende conceitos:** Mesma lógica que código "de verdade"
 
 **Limitações:**
 - ❌ Menos flexível que código texto (para projetos complexos)
-- ❌ Difícil de versionar (Git não funciona bem)
-- ❌ Não é usado em produção profissional
+- ❌ Difícil de versionar (Git nêo funciona bem)
+- ❌ Nêo é usado em produçêo profissional
 
 **Quando usar:** Perfeito para aprender, prototipar, e projetos educacionais!
 
 ---
 
-### 2. Ferramentas de Programação Visual para Robótica
+### 2. Ferramentas de Programaçêo Visual para Robótica
 
 Para este módulo, vamos usar 3 ferramentas:
 
 #### 🎨 **Scratch for Webots** (Recomendado)
 
 **O que é:**
-- Extensão do Scratch adaptada para controlar robôs no Webots
+- Extensêo do Scratch adaptada para controlar robôs no Webots
 - Interface familiar para quem já usou Scratch
 - 100% gratuito
 
-**Instalação:**
+**Instalaçêo:**
 - Já vem integrado no Webots!
 - Basta ativar nas configurações
 
@@ -117,7 +117,7 @@ Para este módulo, vamos usar 3 ferramentas:
 #### 🤖 **RobotFlow** (Online)
 
 **O que é:**
-- Plataforma web para programação visual
+- Plataforma web para programaçêo visual
 - Funciona direto no navegador
 - Integra com simuladores
 
@@ -143,7 +143,7 @@ Controlam os motores do robô.
 ┌─────────────────────┐
 │ 🔄 Virar            │
 │    Ângulo: [90]°    │
-│    Direção: ◀️ ▶️   │
+│    Direçêo: ◀️ ▶️   │
 └─────────────────────┘
 
 ┌─────────────────────┐
@@ -183,7 +183,7 @@ Leem dados do ambiente.
 
 ┌─────────────────────┐
 │ ⚖️ Equilíbrio IMU   │
-│    Inclinação: 2°   │
+│    Inclinaçêo: 2°   │
 └─────────────────────┘
 
 ┌─────────────────────┐
@@ -197,15 +197,15 @@ Leem dados do ambiente.
 
 #### 🧮 **3. CONTROLE (Control Blocks)**
 
-Estruturas de decisão e repetição.
+Estruturas de decisêo e repetiçêo.
 
 ```
 ╔═══════════════════════╗
-║ SE [condição]         ║
+║ SE [condiçêo]         ║
 ╠═══════════════════════╣
 ║   [ações se verdade]  ║
 ╠═══════════════════════╣
-║ SENÃO                 ║
+║ SENêO                 ║
 ╠═══════════════════════╣
 ║   [ações se falso]    ║
 ╚═══════════════════════╝
@@ -283,7 +283,7 @@ Armazenam informações.
 
 ### 🎯 Exercício 1: Configurando Scratch no Webots
 
-#### Passo 1: Ativar Extensão
+#### Passo 1: Ativar Extensêo
 
 1. Abra o Webots
 2. Vá em **Tools > Preferences**
@@ -298,7 +298,7 @@ Armazenam informações.
 1. Vá em **File > Open World**
 2. Navegue para: `projects/languages/scratch/worlds/`
 3. Abra **`scratch_nao.wbt`**
-4. Inicie a simulação (▶️)
+4. Inicie a simulaçêo (▶️)
 
 **O que acontece:**
 - Uma janela do Scratch abre automaticamente
@@ -384,10 +384,10 @@ Vamos fazer o robô andar em um quadrado!
 2. Observe o robô no Webots!
 3. Ele deve andar em um quadrado perfeito
 
-**Não funcionou?** Verifique:
-- ✅ Simulação está rodando no Webots (▶️)
-- ✅ Blocos estão conectados (sem espaços)
-- ✅ Valores estão corretos (1m, 90°)
+**Nêo funcionou?** Verifique:
+- ✅ Simulaçêo está rodando no Webots (▶️)
+- ✅ Blocos estêo conectados (sem espaços)
+- ✅ Valores estêo corretos (1m, 90°)
 
 ---
 
@@ -419,7 +419,7 @@ Vamos fazer o robô andar em um quadrado!
 └────────────────────┘
 ```
 
-**Resultado:** Mesmo comportamento, código 70% menor! Isso é **programação eficiente**. 🎉
+**Resultado:** Mesmo comportamento, código 70% menor! Isso é **programaçêo eficiente**. 🎉
 
 ---
 
@@ -429,10 +429,10 @@ Agora vamos fazer o robô **reagir ao ambiente**!
 
 #### Passo 1: Adicionar Obstáculo
 
-1. No Webots, pause a simulação
+1. No Webots, pause a simulaçêo
 2. Adicione um **WoodenBox** na frente do robô
-   - Posição: (1, 0.05, 0)
-3. Reinicie a simulação
+   - Posiçêo: (1, 0.05, 0)
+3. Reinicie a simulaçêo
 
 ---
 
@@ -455,7 +455,7 @@ Agora vamos fazer o robô **reagir ao ambiente**!
 │  │  ┌────────┐  │  │
 │  │  │Virar 90│  │  │
 │  │  └────────┘  │  │
-│  │ SENÃO        │  │
+│  │ SENêO        │  │
 │  │  ┌────────┐  │  │
 │  │  │Andar   │  │  │
 │  │  └────────┘  │  │
@@ -467,7 +467,7 @@ Agora vamos fazer o robô **reagir ao ambiente**!
 
 1. Arraste **"forever"** (para sempre)
 2. Dentro dele, arraste **"if-else"**
-3. Na condição do IF:
+3. Na condiçêo do IF:
    - Arraste **"[  ] < [  ]"** (operador)
    - No primeiro espaço: arraste **"distance sensor"** (aba Sensors)
    - No segundo espaço: digite **0.5**
@@ -483,7 +483,7 @@ Agora vamos fazer o robô **reagir ao ambiente**!
 
 1. Clique na bandeira verde 🚩
 2. Observe o comportamento:
-   - Robô anda em direção à caixa
+   - Robô anda em direçêo à caixa
    - Quando chega perto (50cm), para
    - Vira 90° para desviar
    - Continua andando
@@ -500,12 +500,12 @@ Vamos integrar reconhecimento de voz para controlar o robô!
 
 **NOTA:** Este recurso requer:
 - Microfone conectado
-- Permissão de acesso ao mic (navegador vai pedir)
-- Conexão com internet (API de speech-to-text)
+- Permissêo de acesso ao mic (navegador vai pedir)
+- Conexêo com internet (API de speech-to-text)
 
 1. No Scratch, vá na aba **"Extensions"** (canto inferior esquerdo)
 2. Clique em **"Speech Recognition"**
-3. Novos blocos aparecerão na aba **"Speech"**
+3. Novos blocos aparecerêo na aba **"Speech"**
 
 ---
 
@@ -542,12 +542,12 @@ Vamos integrar reconhecimento de voz para controlar o robô!
 **Como montar:**
 
 1. Dentro do "forever", coloque **"listen and wait"**
-2. Adicione 3 blocos **"if"** (não if-else, só if)
-3. Em cada condição:
+2. Adicione 3 blocos **"if"** (nêo if-else, só if)
+3. Em cada condiçêo:
    - Arraste **"[  ] = [  ]"**
    - Primeiro espaço: **"last heard word"**
    - Segundo espaço: escreva **"ir"**, **"virar"**, **"parar"**
-4. Dentro de cada IF, coloque a ação correspondente
+4. Dentro de cada IF, coloque a açêo correspondente
 
 ---
 
@@ -561,14 +561,14 @@ Vamos integrar reconhecimento de voz para controlar o robô!
 
 **Dicas:**
 - 🎙️ Fale devagar e claramente
-- 🔊 Ajuste volume do microfone (se não reconhecer)
+- 🔊 Ajuste volume do microfone (se nêo reconhecer)
 - 🌐 Necessita internet para funcionar
 - 🇧🇷 Funciona em português!
 
-**Não está funcionando?**
+**Nêo está funcionando?**
 - Verifique permissões do navegador
 - Teste o mic em outro site ([Online Mic Test](https://www.onlinemictest.com))
-- Se o Scratch não suportar, use **alternativa manual** (teclado):
+- Se o Scratch nêo suportar, use **alternativa manual** (teclado):
   - Tecla 'I' = Ir
   - Tecla 'V' = Virar
   - Tecla 'P' = Parar
@@ -582,7 +582,7 @@ Use a câmera do robô para encontrar uma bola vermelha!
 #### Passo 1: Adicionar Bola
 
 1. No Webots, adicione uma **Ball** vermelha
-2. Posição: (2, 0.1, 0)
+2. Posiçêo: (2, 0.1, 0)
 3. Mude a cor para vermelho:
    - Selecione a bola
    - Campo **"appearance > material > baseColor"**: `1 0 0`
@@ -620,7 +620,7 @@ Use a câmera do robô para encontrar uma bola vermelha!
 │  │  ┌────────┐  │  │
 │  │  │ SAIR   │  │  │
 │  │  └────────┘  │  │
-│  │ SENÃO        │  │
+│  │ SENêO        │  │
 │  │  ┌────────┐  │  │
 │  │  │Virar 10│  │  │
 │  │  └────────┘  │  │
@@ -632,7 +632,7 @@ Use a câmera do robô para encontrar uma bola vermelha!
 1. Robô captura imagem da câmera
 2. Analisa se há vermelho (>50% dos pixels)
 3. Se SIM: diz "Achei!" e para
-4. Se NÃO: vira 10° e tenta de novo
+4. Se NêO: vira 10° e tenta de novo
 
 **Resultado:** Robô gira até encontrar a bola!
 
@@ -640,7 +640,7 @@ Use a câmera do robô para encontrar uma bola vermelha!
 
 ### 🐛 Exercício 6: Debugging Visual
 
-**Cenário:** Você criou este programa, mas o robô não está fazendo o esperado.
+**Cenário:** Você criou este programa, mas o robô nêo está fazendo o esperado.
 
 ```
 ┌────────────────────┐
@@ -658,12 +658,12 @@ Use a câmera do robô para encontrar uma bola vermelha!
 └────────────────────┘
 ```
 
-**Problema:** Robô deveria fazer um **pentágono** (5 lados), mas não fecha a forma.
+**Problema:** Robô deveria fazer um **pentágono** (5 lados), mas nêo fecha a forma.
 
 #### Técnicas de Debugging:
 
 **1. Modo Passo-a-Passo:**
-- Botão "Run step by step" no Scratch
+- Botêo "Run step by step" no Scratch
 - Executa um bloco por vez
 - Você vê exatamente onde falha
 
@@ -682,7 +682,7 @@ Assim você vê quantas vezes repetiu.
 - Total girado = 72° × 5 = 360°? ✅
 - Mas pentágono precisa de 60° × 5 = 300°! ❌
 
-**CORREÇÃO:** Mude 72° para **60°**.
+**CORREÇêO:** Mude 72° para **60°**.
 
 ---
 
@@ -712,7 +712,7 @@ Assim você vê quantas vezes repetiu.
 - [ ] Para quando ouve "parar"
 - [ ] Encontra bola vermelha em até 2 minutos
 - [ ] Código tem comentários explicando cada parte
-- [ ] Vídeo de demonstração (1-2 min)
+- [ ] Vídeo de demonstraçêo (1-2 min)
 
 **Entrega:**
 1. Arquivo `.sb3` (salvar projeto Scratch)
@@ -754,12 +754,12 @@ Assim você vê quantas vezes repetiu.
 
 ## 🔧 Troubleshooting
 
-### Problema 1: Scratch não conecta ao Webots
+### Problema 1: Scratch nêo conecta ao Webots
 
-**Sintomas:** Blocos não funcionam, robô não se move.
+**Sintomas:** Blocos nêo funcionam, robô nêo se move.
 
 **Soluções:**
-1. Verifique que a simulação está **rodando** (▶️)
+1. Verifique que a simulaçêo está **rodando** (▶️)
 2. Reinicie o Webots E o Scratch
 3. Abra o mundo exemplo: `scratch_nao.wbt`
 4. Se nada funciona, use **Blockly** (alternativa)
@@ -768,9 +768,9 @@ Assim você vê quantas vezes repetiu.
 
 ### Problema 2: Sensor de distância sempre retorna 0
 
-**Causa:** Sensor não está habilitado.
+**Causa:** Sensor nêo está habilitado.
 
-**Solução:**
+**Soluçêo:**
 No Scratch, adicione no início do programa:
 ```
 ┌──────────────┐
@@ -781,27 +781,27 @@ No Scratch, adicione no início do programa:
 
 ---
 
-### Problema 3: Voz não é reconhecida
+### Problema 3: Voz nêo é reconhecida
 
 **Causas possíveis:**
-- Sem permissão do navegador
-- Sem conexão internet
+- Sem permissêo do navegador
+- Sem conexêo internet
 - Microfone desabilitado
 - Pronúncia diferente
 
 **Soluções:**
 1. Teste mic em [https://www.onlinemictest.com](https://www.onlinemictest.com)
-2. Recarregue a página e aceite permissão
+2. Recarregue a página e aceite permissêo
 3. Use palavras simples (ir, parar, virar)
 4. Como alternativa, use **teclado** (teclas I, P, V)
 
 ---
 
-### Problema 4: Robô cai durante execução
+### Problema 4: Robô cai durante execuçêo
 
 **Causa:** Comandos muito rápidos, robô perde equilíbrio.
 
-**Solução:**
+**Soluçêo:**
 Adicione **"wait 0.5 seconds"** entre comandos:
 ```
 ┌──────────────┐
@@ -819,7 +819,7 @@ Adicione **"wait 0.5 seconds"** entre comandos:
 
 ---
 
-## ✅ Checklist de Conclusão
+## ✅ Checklist de Conclusêo
 
 Antes de finalizar o Nível 1:
 
@@ -834,7 +834,7 @@ Antes de finalizar o Nível 1:
 - [ ] Entendo a lógica de loops e condicionais
 - [ ] Estou pronto para Python! 🚀
 
-**Tempo médio de conclusão:** 5h30min
+**Tempo médio de conclusêo:** 5h30min
 
 ---
 
@@ -853,12 +853,12 @@ Você acabou de finalizar o **Nível 1: Explorador**!
 **Habilidades Práticas:**
 - ✅ Criou 5+ programas funcionais
 - ✅ Debuggou e corrigiu problemas
-- ✅ Usou lógica de programação (loops, condicionais)
+- ✅ Usou lógica de programaçêo (loops, condicionais)
 
 **Impacto Real:**
 - 💰 **Valor aprendido:** Equivalente a um curso de R$ 500+
 - ⏱️ **Investimento:** 12-15 horas bem gastas
-- 🎯 **Taxa de conclusão:** Você está entre os 70% que chegam até aqui!
+- 🎯 **Taxa de conclusêo:** Você está entre os 70% que chegam até aqui!
 
 ---
 
@@ -882,12 +882,12 @@ Você acabou de finalizar o **Nível 1: Explorador**!
 #### 2. Avance para o Nível 2: Criador
 
 **O que vem a seguir:**
-- 🐍 **Python e ROS 2:** Programação "de verdade"
+- 🐍 **Python e ROS 2:** Programaçêo "de verdade"
 - 🤖 **Controle avançado:** PID, cinemática, trajetórias
-- 🧠 **Introdução a RL:** Robô que aprende sozinho
+- 🧠 **Introduçêo a RL:** Robô que aprende sozinho
 - 🚀 **Projeto:** Comportamento autônomo completo
 
-**Pré-requisito:** Conclusão do Nível 1 ✅
+**Pré-requisito:** Conclusêo do Nível 1 ✅
 
 [→ Começar Nível 2]({{ '/niveis/nivel-2/' | relative_url }}){: .btn .btn-primary}
 
@@ -897,10 +897,10 @@ Você acabou de finalizar o **Nível 1: Explorador**!
 
 Personalize sua jornada:
 
-- 🎓 **Trilha Educação:** Use robôs para ensinar
+- 🎓 **Trilha Educaçêo:** Use robôs para ensinar
 - 🤝 **Trilha Social:** Leve tecnologia a comunidades
 - 💼 **Trilha Empreendedorismo:** Crie seu negócio
-- 🔬 **Trilha Tecnologia Avançada:** Pesquisa e inovação
+- 🔬 **Trilha Tecnologia Avançada:** Pesquisa e inovaçêo
 
 [→ Ver Trilhas]({{ '/trilhas/' | relative_url }})
 
@@ -929,7 +929,7 @@ Próximo: Nível 2! 🚀
 
 ### 🌟 Depoimento de Quem Completou:
 
-> "Nunca imaginei que conseguiria fazer um robô desviar de obstáculos! A programação visual foi o ponto de virada para mim. Agora estou no Nível 3 e criando IAs complexas!" - **Pedro, 19 anos, estudante**
+> "Nunca imaginei que conseguiria fazer um robô desviar de obstáculos! A programaçêo visual foi o ponto de virada para mim. Agora estou no Nível 3 e criando IAs complexas!" - **Pedro, 19 anos, estudante**
 
 > "Como professora, o Nível 1 me deu confiança para levar robótica para minha sala de aula. Meus alunos de 10 anos ADORARAM!" - **Maria, 28 anos, professora**
 
@@ -943,9 +943,9 @@ Próximo: Nível 2! 🚀
 
 ---
 
-**Última atualização:** 2025-10-29
-**Tempo médio de conclusão:** 5h45min
-**Taxa de satisfação:** ⭐⭐⭐⭐⭐ (4.9/5.0)
+**Última atualizaçêo:** 2025-10-29
+**Tempo médio de conclusêo:** 5h45min
+**Taxa de satisfaçêo:** ⭐⭐⭐⭐⭐ (4.9/5.0)
 **Próximo nível liberado:** ✅
 
 ---

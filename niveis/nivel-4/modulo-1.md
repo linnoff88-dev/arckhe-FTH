@@ -14,7 +14,7 @@ permalink: /niveis/nivel-4/modulo-1/
 
 | Atributo | Detalhes |
 |----------|----------|
-| **Duração estimada** | 10-12 horas |
+| **Duraçêo estimada** | 10-12 horas |
 | **Nível** | Profissional |
 | **Pré-requisitos** | Nível 3 completo |
 | **Tipo** | Empreendedorismo + Estratégia |
@@ -41,50 +41,50 @@ Ao completar este módulo, você será capaz de:
 
 #### 1.1 Panorama Global
 
-O mercado de robôs humanoides está em explosão:
+O mercado de robôs humanoides está em explosêo:
 
 **Dados de Mercado (2026):**
 - 📊 Mercado global: **$5.2 bilhões** (crescimento 28% a.a.)
-- 🏢 Principais setores: Educação (32%), Serviços (28%), Saúde (18%), Manufatura (12%)
+- 🏢 Principais setores: Educaçêo (32%), Serviços (28%), Saúde (18%), Manufatura (12%)
 - 🌎 Geografias líderes: China (40%), EUA (25%), Europa (20%), Ásia (15%)
 - 💰 Investimento VC em startups: **$1.8 bi** só em 2025
 
 **Tendências Principais:**
-1. **Humanização de Serviços** - Robôs recepcionistas, guias, atendentes
-2. **Educação Personalizada** - Tutores robóticos adaptativos
-3. **Assistência Médica** - Companhia para idosos, reabilitação
+1. **Humanizaçêo de Serviços** - Robôs recepcionistas, guias, atendentes
+2. **Educaçêo Personalizada** - Tutores robóticos adaptativos
+3. **Assistência Médica** - Companhia para idosos, reabilitaçêo
 4. **Eventos e Marketing** - Brand ambassadors, promotores
 
 #### 1.2 Oportunidades no Brasil
 
 **Nichos Promissores:**
 
-🏫 **Educação**
+🏫 **Educaçêo**
 - Mercado: 180.000 escolas no Brasil
 - Problema: Falta de professores em STEM
-- Solução: Robôs tutores em matemática/ciências
+- Soluçêo: Robôs tutores em matemática/ciências
 - Modelo: B2B (venda/aluguel para escolas)
 - Ticket: R$ 1.500-3.000/mês por escola
 
 🏨 **Hospitalidade & Eventos**
 - Mercado: 12.000 hotéis + 50.000 eventos/ano
 - Problema: Custo alto de recepcionistas, experiência genérica
-- Solução: Recepcionistas robóticos multilíngues
+- Soluçêo: Recepcionistas robóticos multilíngues
 - Modelo: Aluguel por evento + SaaS
 - Ticket: R$ 5.000/evento ou R$ 8.000/mês
 
 🏥 **Saúde & Bem-Estar**
 - Mercado: 3.5 milhões de idosos sozinhos
-- Problema: Solidão, falta de monitoramento
-- Solução: Companheiros robóticos com IA
+- Problema: Solidêo, falta de monitoramento
+- Soluçêo: Companheiros robóticos com IA
 - Modelo: B2C + Parcerias com planos de saúde
 - Ticket: R$ 400-800/mês (assinatura)
 
 🏪 **Varejo & Shopping**
 - Mercado: 600 shoppings + 1M lojas
 - Problema: Atendimento inconsistente, filas
-- Solução: Assistentes de vendas robóticos
-- Modelo: B2B - venda + manutenção
+- Soluçêo: Assistentes de vendas robóticos
+- Modelo: B2B - venda + manutençêo
 - Ticket: R$ 15.000 equipamento + R$ 2.000/mês
 
 ---
@@ -105,9 +105,9 @@ O BMC tradicional precisa de adaptações para robótica:
 │              │              │              │               │
 │ - Fabricante │ - Deploy     │ - Automation │ - Suporte 24/7│
 │   hardware   │ - Treinamento│ - Experience │ - Onboarding  │
-│ - Provedor   │   modelos IA │ - Cost saving│ - Manutenção  │
-│   cloud      │ - Manutenção │ - Engagement │               │
-│ - Integrador │ - Atualização│              │               │
+│ - Provedor   │   modelos IA │ - Cost saving│ - Manutençêo  │
+│   cloud      │ - Manutençêo │ - Engagement │               │
+│ - Integrador │ - Atualizaçêo│              │               │
 │              │   software   │              │               │
 ├──────────────┤              ├──────────────┤  SEGMENTOS    │
 │              │              │              │   CLIENTES    │
@@ -127,7 +127,7 @@ O BMC tradicional precisa de adaptações para robótica:
 ├─────────────────────────────────────────────────────────────┤
 │                    FONTES DE RECEITA                        │
 │ - Venda equipamento | Assinatura SaaS | Serviços          │
-│ - Manutenção | Treinamento | Licenciamento                │
+│ - Manutençêo | Treinamento | Licenciamento                │
 └─────────────────────────────────────────────────────────────┘
 ```
 
@@ -140,9 +140,9 @@ Startup que oferece robôs tutores para escolas particulares.
 **BMC Detalhado:**
 
 **🎯 Proposta de Valor**
-- Redução de 30% no custo de aulas de reforço
-- Personalização 1:1 impossível com professores
-- Gamificação aumenta engajamento em 85%
+- Reduçêo de 30% no custo de aulas de reforço
+- Personalizaçêo 1:1 impossível com professores
+- Gamificaçêo aumenta engajamento em 85%
 - Relatórios detalhados de progresso para pais
 
 **👥 Segmento de Clientes**
@@ -157,13 +157,13 @@ Startup que oferece robôs tutores para escolas particulares.
 4. **Setup e Treinamento:** R$ 5.000 (one-time)
 
 **📊 Estrutura de Custos**
-- Robô Bumi: R$ 12.000 (depreciação 3 anos)
+- Robô Bumi: R$ 12.000 (depreciaçêo 3 anos)
 - Cloud AI (AWS): R$ 800/mês por robô
 - Desenvolvimento: 3 devs x R$ 8.000 = R$ 24.000/mês
 - Marketing: R$ 10.000/mês
 - Operacional: R$ 6.000/mês
 
-**Resultado:** Break-even com 25 escolas clientes (8 meses de operação)
+**Resultado:** Break-even com 25 escolas clientes (8 meses de operaçêo)
 
 ---
 
@@ -179,12 +179,12 @@ Startup que oferece robôs tutores para escolas particulares.
 
 **Exemplo:** Venda de robô recepcionista completo
 
-**Precificação:**
+**Precificaçêo:**
 ```
 Robô Unitree R1: R$ 35.000 (custo)
 + Software proprietário: R$ 15.000
 + Margem (40%): R$ 20.000
-+ Instalação/treinamento: R$ 8.000
++ Instalaçêo/treinamento: R$ 8.000
 ─────────────────────────────────────
 PREÇO FINAL: R$ 78.000
 ```
@@ -196,7 +196,7 @@ PREÇO FINAL: R$ 78.000
 
 **Contras:**
 - ❌ Barreira de entrada alta (preço)
-- ❌ Receita não recorrente
+- ❌ Receita nêo recorrente
 - ❌ Difícil escalar rapidamente
 
 ---
@@ -206,14 +206,14 @@ PREÇO FINAL: R$ 78.000
 **Características:**
 - Cliente aluga por assinatura
 - Receita recorrente mensal
-- Inclui manutenção e atualizações
+- Inclui manutençêo e atualizações
 - Menor barreira de entrada
 
 **Exemplo:** Aluguel mensal de robô guia
 
-**Precificação:**
+**Precificaçêo:**
 ```
-Custo mensal do robô: R$ 1.500 (depreciação + manutenção)
+Custo mensal do robô: R$ 1.500 (depreciaçêo + manutençêo)
 + Cloud e IA: R$ 600
 + Suporte: R$ 400
 + Margem (50%): R$ 1.250
@@ -225,7 +225,7 @@ Contrato mínimo: 12 meses
 **Prós:**
 - ✅ Entrada acessível (vs compra)
 - ✅ Receita previsível (MRR)
-- ✅ Relação contínua com cliente
+- ✅ Relaçêo contínua com cliente
 - ✅ Upgrade fácil de hardware/software
 
 **Contras:**
@@ -245,7 +245,7 @@ Contrato mínimo: 12 meses
 
 **Exemplo:** SDK de IA para robôs humanoides
 
-**Precificação:**
+**Precificaçêo:**
 ```
 Tier 1 - Hobby: Grátis (uso pessoal)
 Tier 2 - Startup: R$ 500/mês (até 10 robôs)
@@ -256,12 +256,12 @@ Tier 4 - Enterprise: R$ 15.000/mês (ilimitado)
 **Prós:**
 - ✅ Escala sem limite
 - ✅ Custo marginal baixo
-- ✅ Atualização contínua via cloud
-- ✅ Integração com qualquer hardware
+- ✅ Atualizaçêo contínua via cloud
+- ✅ Integraçêo com qualquer hardware
 
 **Contras:**
-- ❌ Competição com open-source
-- ❌ Requer diferenciação clara
+- ❌ Competiçêo com open-source
+- ❌ Requer diferenciaçêo clara
 - ❌ Pirataria e compliance
 
 ---
@@ -270,16 +270,16 @@ Tier 4 - Enterprise: R$ 15.000/mês (ilimitado)
 
 **Características:**
 - Conecta desenvolvedores e clientes
-- Cobra comissão ou taxa de plataforma
+- Cobra comissêo ou taxa de plataforma
 - Efeito de rede (quanto mais usuários, mais valor)
 
 **Exemplo:** "RobotHub" - App Store para robôs
 
-**Precificação:**
+**Precificaçêo:**
 ```
 Desenvolvedores:
 - Listagem grátis
-- 30% de comissão sobre vendas
+- 30% de comissêo sobre vendas
 
 Clientes:
 - Conta grátis
@@ -288,18 +288,18 @@ Clientes:
 ```
 
 **Prós:**
-- ✅ Não precisa criar todo conteúdo
+- ✅ Nêo precisa criar todo conteúdo
 - ✅ Escala com comunidade
 - ✅ Múltiplos streams de receita
 
 **Contras:**
 - ❌ Difícil atingir massa crítica inicial
 - ❌ Qualidade variável do conteúdo
-- ❌ Competição de plataformas grandes
+- ❌ Competiçêo de plataformas grandes
 
 ---
 
-### 4. Validação de Mercado e MVP
+### 4. Validaçêo de Mercado e MVP
 
 #### 4.1 Metodologia Lean Startup para Robótica
 
@@ -312,14 +312,14 @@ Clientes:
    ↓
 2. MVP (Produto Mínimo Viável)
    ↓
-   Versão 1: Robô em 1 escola, apenas adição/subtração
+   Versêo 1: Robô em 1 escola, apenas adiçêo/subtraçêo
    ↓
 3. MÉTRICAS
    ↓
    - Engajamento alunos (usa 3x/semana?)
    - NPS professores (> 8?)
    - Melhoria notas (> 15%?)
-   - Renovação contrato (após 3 meses?)
+   - Renovaçêo contrato (após 3 meses?)
    ↓
 4. APRENDER
    ↓
@@ -331,14 +331,14 @@ Clientes:
 **MVP 1: Wizard of Oz**
 - Robô "fake" controlado por humano remotamente
 - Cliente acha que é IA, mas é teleoperado
-- **Valida:** Se cliente vê valor na função
+- **Valida:** Se cliente vê valor na funçêo
 - **Exemplo:** Recepcionista robótico na verdade é operador remoto
 
-**MVP 2: Simulação/Vídeo Demo**
-- Apenas apresentação visual
+**MVP 2: Simulaçêo/Vídeo Demo**
+- Apenas apresentaçêo visual
 - Sem robô físico
 - **Valida:** Se conceito ressoa com cliente
-- **Exemplo:** Vídeo 3D mostrando robô em ação
+- **Exemplo:** Vídeo 3D mostrando robô em açêo
 
 **MVP 3: Protótipo Funcional Limitado**
 - Robô real, mas com funcionalidades reduzidas
@@ -347,12 +347,12 @@ Clientes:
 
 **MVP 4: Serviço Manual + Robô**
 - Híbrido humano-robô
-- **Valida:** Disposição a pagar + margem de lucro
-- **Exemplo:** Recepção com robô + humano de backup
+- **Valida:** Disposiçêo a pagar + margem de lucro
+- **Exemplo:** Recepçêo com robô + humano de backup
 
-#### 4.3 Framework de Validação
+#### 4.3 Framework de Validaçêo
 
-**Checklist de Validação:**
+**Checklist de Validaçêo:**
 
 ```markdown
 ## Cliente
@@ -363,19 +363,19 @@ Clientes:
 ## Problema
 - [ ] Problema custa > R$ 10.000/ano ao cliente
 - [ ] Cliente tentou 2+ soluções alternativas
-- [ ] Solução atual é "intolerável"
+- [ ] Soluçêo atual é "intolerável"
 
-## Solução
+## Soluçêo
 - [ ] 10+ clientes viram demo e elogiaram
-- [ ] 3+ clientes assinaram LOI (carta de intenção)
+- [ ] 3+ clientes assinaram LOI (carta de intençêo)
 - [ ] 1+ cliente pagou antecipado
 
 ## Modelo de Negócio
-- [ ] CAC (custo aquisição) < 1/3 do LTV
+- [ ] CAC (custo aquisiçêo) < 1/3 do LTV
 - [ ] Payback < 12 meses
 - [ ] Margem bruta > 60%
 
-## Competição
+## Competiçêo
 - [ ] Diferencial claro vs alternativas
 - [ ] Barreira de entrada (técnica ou rede)
 - [ ] Defensibilidade (IP, dados, marca)
@@ -383,9 +383,9 @@ Clientes:
 
 ---
 
-### 5. Precificação Estratégica
+### 5. Precificaçêo Estratégica
 
-#### 5.1 Modelos de Precificação
+#### 5.1 Modelos de Precificaçêo
 
 **A) Cost-Plus (Custo + Margem)**
 
@@ -421,7 +421,7 @@ Preço justo: 30-50% da economia = R$ 27.000 - R$ 45.000/ano
 
 ---
 
-**C) Competitive (Baseado em Competição)**
+**C) Competitive (Baseado em Competiçêo)**
 
 ```
 Concorrente A: R$ 60.000
@@ -429,7 +429,7 @@ Concorrente B: R$ 85.000
 Média mercado: R$ 72.500
 
 Estratégias:
-- Penetração: R$ 55.000 (abaixo do mercado)
+- Penetraçêo: R$ 55.000 (abaixo do mercado)
 - Premium: R$ 95.000 (superior + justificativa)
 ```
 
@@ -452,7 +452,7 @@ PRO (R$ 500/mês):
 
 ENTERPRISE (R$ 5.000/mês):
 - Ilimitado
-- Customização
+- Customizaçêo
 - Suporte prioritário
 - SLA 99.9%
 ```
@@ -493,18 +493,18 @@ ENTERPRISE (R$ 5.000/mês):
 
 ---
 
-### 6. Pitch e Captação de Recursos
+### 6. Pitch e Captaçêo de Recursos
 
 #### 6.1 Estrutura do Pitch Perfeito (10 minutos)
 
 **Slide 1: Problema (1 min)**
 ```
 "3.5 milhões de idosos no Brasil vivem sozinhos.
-70% sofrem de solidão crônica.
-Isso aumenta risco de depressão em 40% e custos de saúde em R$ 15 bi/ano."
+70% sofrem de solidêo crônica.
+Isso aumenta risco de depressêo em 40% e custos de saúde em R$ 15 bi/ano."
 ```
 
-**Slide 2: Solução (1 min)**
+**Slide 2: Soluçêo (1 min)**
 ```
 "Apresentamos o CareBot: companheiro robótico com IA que:
 - Conversa naturalmente 24/7
@@ -514,7 +514,7 @@ Isso aumenta risco de depressão em 40% e custos de saúde em R$ 15 bi/ano."
 ```
 
 **Slide 3: Produto/Demo (2 min)**
-- Vídeo de 60 segundos do robô em ação
+- Vídeo de 60 segundos do robô em açêo
 - 3 screenshots do app
 - 1 depoimento de cliente beta
 
@@ -533,7 +533,7 @@ LTV: R$ 18.000 (30 meses)
 LTV/CAC: 15x
 ```
 
-**Slide 6: Tração (1 min)**
+**Slide 6: Traçêo (1 min)**
 ```
 - 5 clientes pagantes (MRR: R$ 3.000)
 - 120 leads qualificados
@@ -541,7 +541,7 @@ LTV/CAC: 15x
 - NPS: 9.2
 ```
 
-**Slide 7: Competição (1 min)**
+**Slide 7: Competiçêo (1 min)**
 ```
 Matrix 2x2:
 Eixo X: Preço (baixo → alto)
@@ -582,13 +582,13 @@ Em troca de 15% equity (valuation: R$ 10M)"
 - Ticket: R$ 50k - R$ 500k
 - Equity: 5-15%
 - Fase: Pré-seed, Seed
-- Focam em: Equipe, visão, paixão
+- Focam em: Equipe, visêo, paixêo
 
 **2. Venture Capital (VC)**
 - Ticket: R$ 1M - R$ 50M+
 - Equity: 15-30%
 - Fase: Seed, Series A, B, C
-- Focam em: Tração, escalabilidade, mercado
+- Focam em: Traçêo, escalabilidade, mercado
 
 **3. Aceleradoras**
 - Ticket: R$ 100k - R$ 500k + mentoria
@@ -598,17 +598,17 @@ Em troca de 15% equity (valuation: R$ 10M)"
 
 **4. Grants e Editais**
 - Ticket: R$ 50k - R$ 2M
-- Equity: 0% (não-dilutivo!)
+- Equity: 0% (nêo-dilutivo!)
 - Exemplos: FAPESP, FINEP, BNDES, EMBRAPII
-- Focam em: Inovação, impacto social, tecnologia nacional
+- Focam em: Inovaçêo, impacto social, tecnologia nacional
 
 ---
 
-#### 6.3 Preparação para Due Diligence
+#### 6.3 Preparaçêo para Due Diligence
 
 **Investidor vai pedir:**
 
-**Documentação Legal**
+**Documentaçêo Legal**
 - [ ] CNPJ e contrato social
 - [ ] Cap table (quem é dono do quê)
 - [ ] Contratos com cofundadores
@@ -626,7 +626,7 @@ Em troca de 15% equity (valuation: R$ 10M)"
 - [ ] Código (acesso GitHub)
 - [ ] Testes e métricas de performance
 
-**Mercado/Tração**
+**Mercado/Traçêo**
 - [ ] Contratos assinados
 - [ ] Pipeline de vendas
 - [ ] Métricas de uso (se SaaS)
@@ -644,7 +644,7 @@ Focar profundamente em um setor antes de expandir.
 
 **Exemplo:**
 ```
-Ano 1: Apenas hospitais de reabilitação (50 no Brasil)
+Ano 1: Apenas hospitais de reabilitaçêo (50 no Brasil)
 Ano 2: Expandir para clínicas de fisioterapia (500+)
 Ano 3: Qualquer hospital (5.000+)
 ```
@@ -682,7 +682,7 @@ Ir ao mercado via parceiros estabelecidos.
 ```
 Parceria com rede de escolas (500 unidades)
 → Eles vendem seu robô como "diferencial"
-→ Você dá comissão de 20%
+→ Você dá comissêo de 20%
 ```
 
 **Vantagens:**
@@ -692,7 +692,7 @@ Parceria com rede de escolas (500 unidades)
 
 ---
 
-#### 7.2 Canais de Aquisição
+#### 7.2 Canais de Aquisiçêo
 
 **Para B2B:**
 
@@ -700,19 +700,19 @@ Parceria com rede de escolas (500 unidades)
    - LinkedIn Sales Navigator
    - Cold email sequences
    - Televendas qualificado
-   - Taxa conversão: 2-5%
+   - Taxa conversêo: 2-5%
 
 2. **Inbound Marketing**
    - Blog técnico (SEO)
    - Webinars educacionais
    - Whitepapers e ebooks
-   - Taxa conversão: 8-12%
+   - Taxa conversêo: 8-12%
 
 3. **Eventos e Feiras**
-   - Bett Brasil (educação)
+   - Bett Brasil (educaçêo)
    - Hospitalar (saúde)
    - ABF Franchising Expo
-   - Taxa conversão: 15-25%
+   - Taxa conversêo: 15-25%
 
 **Para B2C:**
 
@@ -752,10 +752,10 @@ Parceria com rede de escolas (500 unidades)
 
 2. Use o template fornecido (baixar abaixo)
 
-3. Preencha cada seção com dados realistas:
+3. Preencha cada seçêo com dados realistas:
    - Pesquise preços de competidores
    - Calcule custos aproximados
-   - Defina segmento específico (não "escolas", mas "escolas particulares de SP com 500+ alunos")
+   - Defina segmento específico (nêo "escolas", mas "escolas particulares de SP com 500+ alunos")
 
 4. Valide com 3 pessoas do mercado-alvo
 
@@ -777,7 +777,7 @@ Você quer alugar robôs recepcionistas para hotéis.
 **Dados:**
 - Robô Bumi: R$ 15.000 (deprecia em 3 anos)
 - Software/IA: R$ 800/mês por robô
-- Manutenção: R$ 300/mês por robô
+- Manutençêo: R$ 300/mês por robô
 - Aluguel cobrado: R$ 3.500/mês
 - Taxa de churn (cancelamento): 15% ao ano
 
@@ -795,14 +795,14 @@ Você quer alugar robôs recepcionistas para hotéis.
 
 ### Exercício 3: Pitch de 3 Minutos
 
-**Tempo:** 120 minutos (preparação) + 3 min (apresentação)
+**Tempo:** 120 minutos (preparaçêo) + 3 min (apresentaçêo)
 
 **Tarefa:** Crie e apresente um pitch do seu negócio.
 
 **Requisitos:**
 - Máximo 5 slides
 - Máximo 3 minutos
-- Cubra: Problema, Solução, Mercado, Modelo, Pedido
+- Cubra: Problema, Soluçêo, Mercado, Modelo, Pedido
 
 **Estrutura sugerida:**
 
@@ -811,7 +811,7 @@ Slide 1: Problema (30s)
 - 1 estatística impactante
 - 1 história pessoal
 
-Slide 2: Solução (45s)
+Slide 2: Soluçêo (45s)
 - Foto/vídeo do robô
 - 3 benefícios claros
 
@@ -819,7 +819,7 @@ Slide 3: Mercado (45s)
 - TAM/SAM/SOM
 - Por que agora?
 
-Slide 4: Tração (30s)
+Slide 4: Traçêo (30s)
 - 3 números que impressionam
 - 1 depoimento
 
@@ -850,7 +850,7 @@ Slide 5: Pedido (30s)
 
 ```
 1. CONTEXTO (2 min)
-   - Qual seu cargo/função?
+   - Qual seu cargo/funçêo?
    - Descreva um dia típico de trabalho.
 
 2. PROBLEMA (5 min)
@@ -859,14 +859,14 @@ Slide 5: Pedido (30s)
    - Já tentou resolver de outras formas? O que aconteceu?
    - Quanto isso custa (tempo/dinheiro) por mês?
 
-3. SOLUÇÃO (3 min)
+3. SOLUÇêO (3 min)
    - [Mostrar demo do robô]
    - O que achou?
-   - Resolveria seu problema? Por quê / Por quê não?
+   - Resolveria seu problema? Por quê / Por quê nêo?
    - O que está faltando?
 
 4. COMPRA (3 min)
-   - Numa escala 0-10, quão provável você compraria isso?
+   - Numa escala 0-10, quêo provável você compraria isso?
    - Quanto estaria disposto a pagar?
    - O que precisaria acontecer para você assinar hoje?
    - Conhece mais 3 pessoas que eu deveria conversar?
@@ -901,24 +901,24 @@ Slide 5: Pedido (30s)
 
 **Estrutura obrigatória:**
 
-1. **Visão Geral** (1 parágrafo)
+1. **Visêo Geral** (1 parágrafo)
    - Resumo do negócio em 3-4 frases
 
 2. **Problema e Oportunidade** (1 parágrafo)
    - Dor específica do cliente
    - Tamanho de mercado
 
-3. **Solução** (1 parágrafo + imagem)
+3. **Soluçêo** (1 parágrafo + imagem)
    - Seu robô/serviço
    - Diferencial competitivo
 
 4. **Modelo de Negócio** (bullets)
    - Como ganha dinheiro
-   - Precificação
-   - Projeção Ano 1
+   - Precificaçêo
+   - Projeçêo Ano 1
 
-5. **Tração** (bullets)
-   - Dados de validação (entrevistas, LOIs, clientes)
+5. **Traçêo** (bullets)
+   - Dados de validaçêo (entrevistas, LOIs, clientes)
    - Parcerias
    - Prêmios/reconhecimentos
 
@@ -931,15 +931,15 @@ Slide 5: Pedido (30s)
    - Para quê vai usar
    - Milestones que vai atingir
 
-### Critérios de Avaliação
+### Critérios de Avaliaçêo
 
-| Critério | Peso | Descrição |
+| Critério | Peso | Descriçêo |
 |----------|------|-----------|
 | Clareza do problema | 20% | Problema é específico, urgente e quantificado? |
-| Viabilidade da solução | 25% | Solução é tecnicamente factível e diferenciada? |
+| Viabilidade da soluçêo | 25% | Soluçêo é tecnicamente factível e diferenciada? |
 | Modelo de negócio | 20% | Economia faz sentido? Margem saudável? |
-| Evidências de validação | 20% | Tem dados reais de clientes/mercado? |
-| Qualidade de apresentação | 15% | Visual profissional, sem erros, conciso? |
+| Evidências de validaçêo | 20% | Tem dados reais de clientes/mercado? |
+| Qualidade de apresentaçêo | 15% | Visual profissional, sem erros, conciso? |
 
 ### Entrega
 
@@ -998,24 +998,24 @@ Slide 5: Pedido (30s)
 1. **Pollux** (Curitiba)
    - O quê: Robôs autônomos para varejo
    - Modelo: RaaS + SaaS analytics
-   - Tração: 15 redes varejistas, R$ 3M ARR
+   - Traçêo: 15 redes varejistas, R$ 3M ARR
    - [Ver case completo](../casos/pollux)
 
-2. **RobotCare** (São Paulo) [Fictício para exemplo]
+2. **RobotCare** (Sêo Paulo) [Fictício para exemplo]
    - O quê: Robôs de telepresença para hospitais
    - Modelo: Venda + assinatura software
-   - Tração: 8 hospitais, partnership com Fleury
+   - Traçêo: 8 hospitais, partnership com Fleury
    - [Ver case completo](../casos/robotcare)
 
 3. **Noetix** (Manaus)
    - O quê: Robô humanoide Bumi
    - Modelo: Venda hardware + SDK
-   - Tração: 200+ unidades vendidas, presente em 12 países
+   - Traçêo: 200+ unidades vendidas, presente em 12 países
    - [Ver case completo](../casos/noetix)
 
 ---
 
-## 🎯 Checklist de Conclusão
+## 🎯 Checklist de Conclusêo
 
 Antes de avançar para o Módulo 4.2, certifique-se:
 
@@ -1031,19 +1031,19 @@ Antes de avançar para o Módulo 4.2, certifique-se:
 
 ---
 
-## 💬 Discussão e Comunidade
+## 💬 Discussêo e Comunidade
 
 **Participe das discussões:**
 
 💭 **Fórum do Módulo:**
 - Compartilhe seu BMC e receba feedback
 - Vote nos melhores pitches dos colegas
-- Tire dúvidas sobre precificação
+- Tire dúvidas sobre precificaçêo
 
 🎤 **Live Semanal (Quinta 20h):**
 - Q&A com empreendedores de robótica
 - Review coletivo de pitches
-- Sessão "Office Hours"
+- Sessêo "Office Hours"
 
 🤝 **Networking:**
 - Encontre cofundadores no canal #procura-time
@@ -1058,19 +1058,19 @@ Antes de avançar para o Módulo 4.2, certifique-se:
 
 **Parabéns por completar o Módulo 4.1!**
 
-Agora que você tem um modelo de negócio validado, é hora de aprender a tirar seu robô da simulação e colocá-lo no mundo real.
+Agora que você tem um modelo de negócio validado, é hora de aprender a tirar seu robô da simulaçêo e colocá-lo no mundo real.
 
 **No Módulo 4.2 você vai aprender:**
 - Técnicas de Sim-to-Real Transfer
 - Domain Randomization
 - System Identification
-- Calibração e fine-tuning em hardware
-- Deployment em produção
+- Calibraçêo e fine-tuning em hardware
+- Deployment em produçêo
 
 [→ Iniciar Módulo 4.2: Sim-to-Real Transfer]({{ '/niveis/nivel-4/modulo-2' | relative_url }}){: .btn .btn-primary}
 
 ---
 
-**Última atualização:** 2025-10-29
+**Última atualizaçêo:** 2025-10-29
 **Autor:** Equipe FTH
 **Revisores:** 3 empreendedores de robótica + 2 investidores

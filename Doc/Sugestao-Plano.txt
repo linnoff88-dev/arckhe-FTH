@@ -1,16 +1,16 @@
 
 
-# **PLANO DE INSTRUÇÃO GERAL – PROGRAMA DE FORMAÇÃO EM ROBÔS HUMANOIDES E INTELIGÊNCIA ARTIFICIAL**
+# **PLANO DE INSTRUÇêO GERAL – PROGRAMA DE FORMAÇêO EM ROBÔS HUMANOIDES E INTELIGÊNCIA ARTIFICIAL**
 
-## **1. VISÃO GERAL**
+## **1. VISêO GERAL**
 
-O programa visa formar **pessoas de diferentes níveis socioeconômicos e de conhecimento** — desde iniciantes até engenheiros — para dominar o uso, a programação e o desenvolvimento de **robôs humanoides com IA**, tanto no ambiente virtual (simulado) quanto no real.
+O programa visa formar **pessoas de diferentes níveis socioeconômicos e de conhecimento** — desde iniciantes até engenheiros — para dominar o uso, a programaçêo e o desenvolvimento de **robôs humanoides com IA**, tanto no ambiente virtual (simulado) quanto no real.
 
-Além da formação técnica, o curso desperta **visão empreendedora e social**, mostrando como os robôs podem:
+Além da formaçêo técnica, o curso desperta **visêo empreendedora e social**, mostrando como os robôs podem:
 
 * Criar **novos modelos de negócio**,
 * **Aumentar a eficiência de pequenas empresas**,
-* E transformar **a educação em um campo prático e motivador para novas gerações**.
+* E transformar **a educaçêo em um campo prático e motivador para novas gerações**.
 
 ---
 
@@ -18,7 +18,7 @@ Além da formação técnica, o curso desperta **visão empreendedora e social**
 
 1. Democratizar o acesso ao aprendizado em robótica e IA.
 2. Formar talentos capazes de **criar, treinar e aplicar robôs humanoides**.
-3. Integrar robótica à educação básica, técnica e superior.
+3. Integrar robótica à educaçêo básica, técnica e superior.
 4. Estimular o **empreendedorismo tecnológico e social**.
 5. Criar um **ecossistema colaborativo** entre escolas, empresas, universidades e governos.
 
@@ -46,20 +46,20 @@ Além da formação técnica, o curso desperta **visão empreendedora e social**
 * O que é um robô humanoide (com vídeos de Atlas, Tesla Optimus e Bumi).
 * Conceitos simples: sensores, equilíbrio, IA e aprendizado.
 * Uso de simuladores gratuitos (Isaac Sim, Gazebo, Webots).
-* Introdução à programação “arrastar e soltar” com o **Noetix Bumi Virtual**.
+* Introduçêo à programaçêo “arrastar e soltar” com o **Noetix Bumi Virtual**.
   **Resultado:** o aluno faz o robô andar e responder comandos de voz.
 
 ---
 
-### **Nível 2 – Criador (Prática e Construção de Lógica)**
+### **Nível 2 – Criador (Prática e Construçêo de Lógica)**
 
 **Objetivo:** Aplicar conceitos e desenvolver raciocínio lógico e técnico.
 **Conteúdo:**
 
-* Introdução ao ROS 2 e Python para robótica.
+* Introduçêo ao ROS 2 e Python para robótica.
 * Controle de sensores e atuadores simulados.
-* Conceito de **função de recompensa** e aprendizado por reforço.
-* Desafios práticos: equilíbrio, caminhada e manipulação de objetos.
+* Conceito de **funçêo de recompensa** e aprendizado por reforço.
+* Desafios práticos: equilíbrio, caminhada e manipulaçêo de objetos.
   **Resultado:** o aluno cria o primeiro comportamento autônomo do robô.
 
 ---
@@ -69,10 +69,10 @@ Além da formação técnica, o curso desperta **visão empreendedora e social**
 **Objetivo:** Entender e aplicar técnicas de aprendizado de máquina e IA.
 **Conteúdo:**
 
-* Algoritmos PPO, SAC e aprendizado por imitação.
-* Simulação massiva e transferência “sim-to-real”.
-* Integração com visão computacional (OpenCV, sensores RGB).
-* Introdução aos **Large Behavior Models (LBMs)** para robótica.
+* Algoritmos PPO, SAC e aprendizado por imitaçêo.
+* Simulaçêo massiva e transferência “sim-to-real”.
+* Integraçêo com visêo computacional (OpenCV, sensores RGB).
+* Introduçêo aos **Large Behavior Models (LBMs)** para robótica.
   **Resultado:** o robô aprende sozinho novas tarefas e reage a estímulos reais.
 
 ---
@@ -82,24 +82,24 @@ Além da formação técnica, o curso desperta **visão empreendedora e social**
 **Objetivo:** Transformar o conhecimento técnico em oportunidades econômicas e sociais.
 **Conteúdo:**
 
-* Modelos de negócios baseados em robôs (educação, marketing, saúde, eventos).
+* Modelos de negócios baseados em robôs (educaçêo, marketing, saúde, eventos).
 * Como montar uma startup de robótica com baixo investimento.
-* Uso de robôs humanoides como **assistentes de vendas, recepção e treinamento**.
+* Uso de robôs humanoides como **assistentes de vendas, recepçêo e treinamento**.
 * Desenvolvimento de protótipos educacionais e sociais.
-  **Resultado:** criação de um **projeto real aplicável**, pronto para o mercado.
+  **Resultado:** criaçêo de um **projeto real aplicável**, pronto para o mercado.
 
 ---
 
 ## **5. TRILHAS TEMÁTICAS**
 
-Cada aluno escolhe sua trilha de aplicação dentro do mesmo programa:
+Cada aluno escolhe sua trilha de aplicaçêo dentro do mesmo programa:
 
 | Trilha                  | Objetivo                                       | Exemplo de Projeto Final                              |
 | ----------------------- | ---------------------------------------------- | ----------------------------------------------------- |
-| **Educação**            | Usar robôs como ferramenta didática em escolas | Criar um robô tutor para ensinar matemática básica    |
-| **Social**              | Levar conhecimento a comunidades carentes      | Oficinas de simulação com jovens de baixa renda       |
+| **Educaçêo**            | Usar robôs como ferramenta didática em escolas | Criar um robô tutor para ensinar matemática básica    |
+| **Social**              | Levar conhecimento a comunidades carentes      | Oficinas de simulaçêo com jovens de baixa renda       |
 | **Empreendedorismo**    | Criar produtos e serviços com robôs            | Robô recepcionista para lojas locais                  |
-| **Tecnologia Avançada** | Pesquisar IA e controle autônomo               | Treinar robôs para navegação e manipulação de objetos |
+| **Tecnologia Avançada** | Pesquisar IA e controle autônomo               | Treinar robôs para navegaçêo e manipulaçêo de objetos |
 
 ---
 
@@ -112,20 +112,20 @@ Cada aluno escolhe sua trilha de aplicação dentro do mesmo programa:
 
 ---
 
-## **7. VISÃO PARA ESCOLAS**
+## **7. VISêO PARA ESCOLAS**
 
 1. **Robô como laboratório didático:**
-   O robô humanoide torna-se uma extensão da sala de aula — ensina lógica, física e programação de forma interativa.
+   O robô humanoide torna-se uma extensêo da sala de aula — ensina lógica, física e programaçêo de forma interativa.
 2. **Projetos interdisciplinares:**
    Combina matemática, design, biologia e tecnologia em projetos reais.
-3. **Formação de engenheiros e técnicos:**
-   O curso cria uma base sólida para jovens seguirem carreiras em IA, mecatrônica e automação.
+3. **Formaçêo de engenheiros e técnicos:**
+   O curso cria uma base sólida para jovens seguirem carreiras em IA, mecatrônica e automaçêo.
 4. **Clube de Robótica Comunitário:**
    Estudantes de escolas públicas podem usar simuladores gratuitos e competir em desafios locais.
 
 ---
 
-## **8. VISÃO PARA EMPREENDEDORES**
+## **8. VISêO PARA EMPREENDEDORES**
 
 1. **Robôs como ferramenta de negócio:**
 
@@ -135,14 +135,14 @@ Cada aluno escolhe sua trilha de aplicação dentro do mesmo programa:
 
 2. **Modelos de serviço com IA:**
 
-   * Robôs autônomos de demonstração ou atendimento.
-   * Plataformas de treinamento remoto com simulação.
-   * Franquias locais de ensino e manutenção de robôs.
+   * Robôs autônomos de demonstraçêo ou atendimento.
+   * Plataformas de treinamento remoto com simulaçêo.
+   * Franquias locais de ensino e manutençêo de robôs.
 
 3. **Oportunidades futuras:**
 
    * Desenvolvimento de agentes IA embarcados (serviços cognitivos).
-   * Personalização de robôs com “personalidades” e vozes locais.
+   * Personalizaçêo de robôs com “personalidades” e vozes locais.
    * Parcerias com universidades e governos para programas educacionais.
 
 ---
@@ -150,10 +150,10 @@ Cada aluno escolhe sua trilha de aplicação dentro do mesmo programa:
 ## **9. METODOLOGIA DE ENSINO**
 
 * **Aprender fazendo:** cada módulo termina com um robô executando algo tangível.
-* **Gamificação:** progresso por conquistas e desafios cooperativos.
-* **Educação adaptativa:** o sistema ajusta a dificuldade conforme o aluno.
+* **Gamificaçêo:** progresso por conquistas e desafios cooperativos.
+* **Educaçêo adaptativa:** o sistema ajusta a dificuldade conforme o aluno.
 * **Mentoria cruzada:** alunos avançados ajudam iniciantes.
-* **Educação aberta:** aulas híbridas (presencial + online) com simuladores gratuitos.
+* **Educaçêo aberta:** aulas híbridas (presencial + online) com simuladores gratuitos.
 
 ---
 
@@ -161,17 +161,17 @@ Cada aluno escolhe sua trilha de aplicação dentro do mesmo programa:
 
 | Impacto         | Resultado esperado                                         |
 | --------------- | ---------------------------------------------------------- |
-| **Social**      | Inclusão tecnológica e novas oportunidades de carreira     |
-| **Educacional** | Geração de futuros engenheiros e inovadores                |
-| **Econômico**   | Criação de startups locais de robótica e IA                |
-| **Cultural**    | A popularização da robótica como linguagem do futuro       |
+| **Social**      | Inclusêo tecnológica e novas oportunidades de carreira     |
+| **Educacional** | Geraçêo de futuros engenheiros e inovadores                |
+| **Econômico**   | Criaçêo de startups locais de robótica e IA                |
+| **Cultural**    | A popularizaçêo da robótica como linguagem do futuro       |
 | **Tecnológico** | Desenvolvimento de robôs nacionais e soluções sustentáveis |
 
 ---
 
-## **11. CONCLUSÃO**
+## **11. CONCLUSêO**
 
-Este programa cria um **modelo sustentável de formação em robótica humanoide**, unindo **educação, tecnologia e empreendedorismo**.
+Este programa cria um **modelo sustentável de formaçêo em robótica humanoide**, unindo **educaçêo, tecnologia e empreendedorismo**.
 Com ele, **pessoas sem recursos podem começar do zero**, enquanto **profissionais e empresas podem inovar e prosperar** no novo mercado da robótica com IA.
 
-A longo prazo, o impacto é **formar gerações de criadores, engenheiros e empreendedores** capazes de desenvolver **robôs que sirvam à sociedade e transformem o futuro do trabalho e da educação.**
+A longo prazo, o impacto é **formar gerações de criadores, engenheiros e empreendedores** capazes de desenvolver **robôs que sirvam à sociedade e transformem o futuro do trabalho e da educaçêo.**

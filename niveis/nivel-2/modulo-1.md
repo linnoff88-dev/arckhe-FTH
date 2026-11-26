@@ -1,12 +1,12 @@
 ---
 layout: page
-title: "Módulo 2.1: Programação com Python e ROS 2"
+title: "Módulo 2.1: Programaçêo com Python e ROS 2"
 permalink: /niveis/nivel-2/modulo-1/
 ---
 
-# Módulo 2.1: Programação com Python e ROS 2
+# Módulo 2.1: Programaçêo com Python e ROS 2
 
-**Duração estimada:** 12-15 horas
+**Duraçêo estimada:** 12-15 horas
 **Nível:** Intermediário
 **Pré-requisito:** Nível 1 concluído
 
@@ -35,16 +35,16 @@ Python é a linguagem dominante em robótica e IA por várias razões:
 - **Sintaxe simples:** Fácil de ler e escrever
 - **Bibliotecas poderosas:** NumPy, OpenCV, TensorFlow, PyTorch
 - **Comunidade ativa:** Muitos exemplos e suporte
-- **Integração:** ROS 2, simuladores, frameworks de IA
+- **Integraçêo:** ROS 2, simuladores, frameworks de IA
 
-### 1.2 Instalação do Ambiente Python
+### 1.2 Instalaçêo do Ambiente Python
 
 #### Windows
 
 ```bash
 # 1. Baixe Python 3.10+ em python.org
-# 2. Durante instalação, marque "Add Python to PATH"
-# 3. Verifique instalação
+# 2. Durante instalaçêo, marque "Add Python to PATH"
+# 3. Verifique instalaçêo
 python --version
 pip --version
 
@@ -81,7 +81,7 @@ source robo_env/bin/activate
 pip install numpy matplotlib scipy
 ```
 
-### 1.3 Python Básico - Revisão Rápida
+### 1.3 Python Básico - Revisêo Rápida
 
 #### Variáveis e Tipos
 
@@ -131,7 +131,7 @@ distancia = calcular_distancia(0, 0, 3, 4)
 print(f"Distância: {distancia}m")  # Output: 5.0m
 ```
 
-#### Classes - Programação Orientada a Objetos
+#### Classes - Programaçêo Orientada a Objetos
 
 ```python
 class RoboHumanoide:
@@ -160,9 +160,9 @@ class RoboHumanoide:
         print(f"{self.nome} andando a {velocidade}m/s")
 
     def mover_para(self, x, y, z):
-        """Move robô para posição específica"""
+        """Move robô para posiçêo específica"""
         self.posicao = [x, y, z]
-        print(f"{self.nome} moveu para posição {self.posicao}")
+        print(f"{self.nome} moveu para posiçêo {self.posicao}")
 
     def status(self):
         """Retorna status atual do robô"""
@@ -187,14 +187,14 @@ print(bumi.status())
 import numpy as np
 
 # Arrays - estruturas eficientes para cálculos
-posicao = np.array([1.0, 2.0, 0.5])  # Posição 3D
+posicao = np.array([1.0, 2.0, 0.5])  # Posiçêo 3D
 velocidade = np.array([0.5, 0.0, 0.0])  # Velocidade em x
 
 # Operações vetoriais
 nova_posicao = posicao + velocidade * 1.0  # dt = 1 segundo
-print(f"Nova posição: {nova_posicao}")
+print(f"Nova posiçêo: {nova_posicao}")
 
-# Matrizes de rotação
+# Matrizes de rotaçêo
 angulo = np.radians(45)  # 45 graus em radianos
 matriz_rotacao = np.array([
     [np.cos(angulo), -np.sin(angulo), 0],
@@ -204,7 +204,7 @@ matriz_rotacao = np.array([
 
 # Rotacionar vetor
 vetor_original = np.array([1, 0, 0])
-vetor_rotacionado = matriz_rotacao @ vetor_original  # @ = multiplicação matricial
+vetor_rotacionado = matriz_rotacao @ vetor_original  # @ = multiplicaçêo matricial
 print(f"Vetor rotacionado: {vetor_rotacionado}")
 
 # Funções úteis
@@ -278,7 +278,7 @@ sim.girar_e_caminhar(90, 5)    # Gira 90° e dá 5 passos
 sim.girar_e_caminhar(0, 5)     # Volta para frente, 5 passos
 sim.plotar_trajetoria()
 
-print(f"Posição final: {sim.posicao}")
+print(f"Posiçêo final: {sim.posicao}")
 ```
 
 **Desafio:** Modifique o código para fazer o robô andar em um quadrado perfeito!
@@ -309,11 +309,11 @@ ROS 2 (Robot Operating System 2) é um framework para desenvolvimento de softwar
 ```
 
 - **Node:** Processo independente (ex: controle de perna, processamento de câmera)
-- **Topic:** Canal de comunicação unidirecional (ex: velocidade do robô)
-- **Message:** Dados trafegados (ex: velocidade, imagem, posição)
-- **Service:** Requisição/resposta síncrona (ex: "ligue o motor")
+- **Topic:** Canal de comunicaçêo unidirecional (ex: velocidade do robô)
+- **Message:** Dados trafegados (ex: velocidade, imagem, posiçêo)
+- **Service:** Requisiçêo/resposta síncrona (ex: "ligue o motor")
 
-### 2.2 Instalação ROS 2 Humble
+### 2.2 Instalaçêo ROS 2 Humble
 
 #### Ubuntu 22.04 (recomendado)
 
@@ -338,7 +338,7 @@ sudo apt install ros-humble-desktop python3-colcon-common-extensions
 echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc
 source ~/.bashrc
 
-# 5. Verificar instalação
+# 5. Verificar instalaçêo
 ros2 --help
 ```
 
@@ -383,7 +383,7 @@ class PrimeiroNode(Node):
         self.get_logger().info('Primeiro Node inicializado!')
 
     def timer_callback(self):
-        """Função chamada periodicamente pelo timer"""
+        """Funçêo chamada periodicamente pelo timer"""
         self.contador += 1
         self.get_logger().info(f'Olá do ROS 2! Contador: {self.contador}')
 
@@ -462,12 +462,12 @@ class RoboPublisher(Node):
 
         # Define velocidades
         msg.linear.x = self.velocidade_linear  # Frente/trás
-        msg.linear.y = 0.0                     # Esquerda/direita (robô humanoide não usa)
+        msg.linear.y = 0.0                     # Esquerda/direita (robô humanoide nêo usa)
         msg.linear.z = 0.0                     # Cima/baixo
 
         msg.angular.x = 0.0
         msg.angular.y = 0.0
-        msg.angular.z = self.velocidade_angular  # Rotação
+        msg.angular.z = self.velocidade_angular  # Rotaçêo
 
         self.publisher.publish(msg)
         self.get_logger().info(f'Publicado: linear={msg.linear.x:.2f}, angular={msg.angular.z:.2f}')
@@ -641,9 +641,9 @@ if __name__ == '__main__':
 
 ---
 
-## Parte 3: Integração ROS 2 + Webots (3-4h)
+## Parte 3: Integraçêo ROS 2 + Webots (3-4h)
 
-### 3.1 Instalação Webots com ROS 2
+### 3.1 Instalaçêo Webots com ROS 2
 
 ```bash
 # Instalar Webots
@@ -868,7 +868,7 @@ if __name__ == '__main__':
 
 ## Recursos Adicionais
 
-### Documentação
+### Documentaçêo
 - [ROS 2 Humble Docs](https://docs.ros.org/en/humble/)
 - [Webots ROS 2 Interface](https://github.com/cyberbotics/webots_ros2)
 - [Python Official Docs](https://docs.python.org/3/)
@@ -888,20 +888,20 @@ if __name__ == '__main__':
 ### Erro: "colcon: command not found"
 
 ```bash
-# Solução
+# Soluçêo
 sudo apt install python3-colcon-common-extensions
 ```
 
 ### Erro: "Package not found" ao fazer colcon build
 
 ```bash
-# Solução: limpar workspace e rebuildar
+# Soluçêo: limpar workspace e rebuildar
 cd ~/ros2_ws
 rm -rf build install log
 colcon build
 ```
 
-### Erro: Topic não aparece com `ros2 topic list`
+### Erro: Topic nêo aparece com `ros2 topic list`
 
 ```bash
 # Verificar se node está rodando
@@ -911,20 +911,20 @@ ros2 node list
 echo $ROS_DOMAIN_ID
 ```
 
-### Erro: "LIDAR não retorna dados"
+### Erro: "LIDAR nêo retorna dados"
 
 Verifique se o sensor está habilitado no mundo Webots e se o topic name está correto.
 
 ---
 
-## Checklist de Conclusão
+## Checklist de Conclusêo
 
 - [ ] Ambiente Python configurado com virtualenv
 - [ ] ROS 2 Humble instalado e funcionando
 - [ ] Primeiro node ROS 2 criado e executado
 - [ ] Publisher de velocidade implementado
 - [ ] Subscriber de sensor implementado
-- [ ] Integração Webots + ROS 2 funcionando
+- [ ] Integraçêo Webots + ROS 2 funcionando
 - [ ] Mini-projeto "Seguidor de Parede" concluído
 - [ ] Código versionado no GitHub
 
@@ -944,4 +944,4 @@ No **Módulo 2.2: Sensores e Controle**, você vai:
 
 **Dúvidas?** Participe da [comunidade FTH no Discord](https://discord.gg/fth-brasil) ou abra uma issue no [GitHub](https://github.com/linnoff88-dev/FTH/issues).
 
-**Última atualização:** 2025-10-29
+**Última atualizaçêo:** 2025-10-29

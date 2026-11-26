@@ -8,7 +8,7 @@ permalink: /trilhas/social/
 
 ## 🎯 Objetivo
 
-Democratizar o acesso à robótica em comunidades carentes, criando oportunidades de transformação social através da tecnologia.
+Democratizar o acesso à robótica em comunidades carentes, criando oportunidades de transformaçêo social através da tecnologia.
 
 ---
 
@@ -30,26 +30,26 @@ Um programa completo incluindo:
 - Currículo adaptado para jovens
 - Materiais de baixo custo
 - Parcerias locais
-- Medição de impacto social
+- Mediçêo de impacto social
 
 ---
 
 ## 📚 Conteúdo Exclusivo da Trilha
 
 ### Impacto Social
-- Metodologias de transformação social
-- Medição de impacto
-- Storytelling para captação
+- Metodologias de transformaçêo social
+- Mediçêo de impacto
+- Storytelling para captaçêo
 
-### Inclusão Digital
+### Inclusêo Digital
 - Acesso à tecnologia
 - Literacia digital
-- Superação de barreiras
+- Superaçêo de barreiras
 
 ### Sustentabilidade
 - Modelos autossustentáveis
 - Parcerias e patrocínios
-- Gestão de projetos sociais
+- Gestêo de projetos sociais
 
 ---
 

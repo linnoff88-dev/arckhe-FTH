@@ -17,8 +17,8 @@ Transformar conhecimento em robótica em oportunidades de negócio, criando star
 - Empreendedores
 - Donos de pequenas empresas
 - Investidores em tecnologia
-- Profissionais buscando transição de carreira
-- Estudantes com visão de negócio
+- Profissionais buscando transiçêo de carreira
+- Estudantes com visêo de negócio
 
 ---
 
@@ -30,7 +30,7 @@ Opções de negócio:
 - Robôs recepcionistas para empresas
 - Assistentes para varejo
 - Entretenimento e eventos
-- Educação e treinamento
+- Educaçêo e treinamento
 - Serviços de consultoria
 
 ---
@@ -40,16 +40,16 @@ Opções de negócio:
 ### Modelos de Negócio
 - Business Model Canvas
 - Análise de mercado
-- Precificação e receita
+- Precificaçêo e receita
 - Escalabilidade
 
-### Captação e Pitch
+### Captaçêo e Pitch
 - Pitch deck profissional
-- Apresentação para investidores
+- Apresentaçêo para investidores
 - Due diligence
 - Networking estratégico
 
-### MVP e Validação
+### MVP e Validaçêo
 - Desenvolvimento ágil
 - Testes com clientes
 - Pivot strategies

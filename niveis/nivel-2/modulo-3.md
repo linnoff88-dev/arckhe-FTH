@@ -1,12 +1,12 @@
 ---
 layout: page
-title: "Módulo 2.3: Introdução a Aprendizado por Reforço"
+title: "Módulo 2.3: Introduçêo a Aprendizado por Reforço"
 permalink: /niveis/nivel-2/modulo-3/
 ---
 
-# Módulo 2.3: Introdução a Aprendizado por Reforço
+# Módulo 2.3: Introduçêo a Aprendizado por Reforço
 
-**Duração estimada:** 13-18 horas
+**Duraçêo estimada:** 13-18 horas
 **Nível:** Intermediário
 **Pré-requisito:** Módulos 2.1 e 2.2 concluídos
 
@@ -22,7 +22,7 @@ Ao final deste módulo, você será capaz de:
 - [ ] Criar ambientes Gym personalizados
 - [ ] Treinar robôs usando algoritmo PPO
 - [ ] Avaliar e visualizar curvas de aprendizado
-- [ ] Testar modelos treinados em simulação
+- [ ] Testar modelos treinados em simulaçêo
 - [ ] Entender limitações e desafios do RL
 
 ---
@@ -33,7 +33,7 @@ Ao final deste módulo, você será capaz de:
 
 Imagine aprender a andar de bicicleta:
 
-- Você **tenta** pedalar (ação)
+- Você **tenta** pedalar (açêo)
 - Você **cai** ou **fica equilibrado** (feedback do ambiente)
 - Você **ajusta** seu comportamento baseado no resultado
 - Você **repete** até aprender
@@ -54,7 +54,7 @@ Isso é **Aprendizado por Reforço (RL)**!
            │       │   Estado    │       │
            │       └─────────────┘       │
            │       │                     │
-           │       │   Ação              │
+           │       │   Açêo              │
            │       └──────►              │
            │                             │
            │       ◄──────               │
@@ -71,19 +71,19 @@ O "aprendiz" que toma decisões (o robô humanoide).
 O mundo onde o agente atua (simulador, mundo real).
 
 #### 3. Estado (State)
-Informação atual do ambiente. Exemplos:
-- Posição do robô: `[x=0.5, y=1.2, z=0.0]`
+Informaçêo atual do ambiente. Exemplos:
+- Posiçêo do robô: `[x=0.5, y=1.2, z=0.0]`
 - Velocidade: `[vx=0.3, vy=0.0]`
-- Orientação: `[roll=0, pitch=5°, yaw=90°]`
+- Orientaçêo: `[roll=0, pitch=5°, yaw=90°]`
 - Leituras de sensores: `[lidar=[0.8, 1.2, ...], camera=[pixels]]`
 
-#### 4. Ação (Action)
-Decisão que o agente toma. Exemplos:
+#### 4. Açêo (Action)
+Decisêo que o agente toma. Exemplos:
 - **Discreta:** "Andar frente", "Girar esquerda", "Parar"
 - **Contínua:** Velocidade linear = 0.5 m/s, Angular = 0.2 rad/s
 
 #### 5. Recompensa (Reward)
-Feedback numérico que diz se ação foi boa ou ruim.
+Feedback numérico que diz se açêo foi boa ou ruim.
 
 Exemplos:
 ```python
@@ -117,8 +117,8 @@ acao = rede_neural.prever(estado)
 |----------------|----|-----------------------------|----------------------|
 | **Dados** | Aprende por tentativa | Precisa de dataset rotulado | Precisa de modelo matemático |
 | **Feedback** | Recompensa (tarde) | Labels (imediato) | Erro de controle |
-| **Exploração** | Explora novas ações | Não explora | Não explora |
-| **Adaptação** | Adapta-se a mudanças | Fixo após treino | Fixo (tunning manual) |
+| **Exploraçêo** | Explora novas ações | Nêo explora | Nêo explora |
+| **Adaptaçêo** | Adapta-se a mudanças | Fixo após treino | Fixo (tunning manual) |
 | **Exemplo** | Robô aprende a andar | Classificar imagens | PID controller |
 
 ### 1.4 Algoritmos de RL
@@ -126,7 +126,7 @@ acao = rede_neural.prever(estado)
 Existem dezenas de algoritmos. Os principais para robótica:
 
 #### Q-Learning (clássico)
-- Aprende valor de cada ação em cada estado
+- Aprende valor de cada açêo em cada estado
 - Funciona bem em ambientes simples
 - Difícil escalar para robôs complexos
 
@@ -156,22 +156,22 @@ Treinar robô para alcançar objetivo:
 EPISÓDIO 1 (robô novato)
 ─────────────────────────
 t=0:  Estado: [x=0, y=0, meta=[x=5, y=0]]
-      Ação: andar_frente (velocidade aleatória)
-      Recompensa: +0.1 (moveu na direção certa)
+      Açêo: andar_frente (velocidade aleatória)
+      Recompensa: +0.1 (moveu na direçêo certa)
 
 t=1:  Estado: [x=0.2, y=0]
-      Ação: girar_esquerda (exploração)
-      Recompensa: -0.1 (moveu na direção errada)
+      Açêo: girar_esquerda (exploraçêo)
+      Recompensa: -0.1 (moveu na direçêo errada)
 
 t=2:  Estado: [x=0.2, y=0.1]
-      Ação: andar_frente
+      Açêo: andar_frente
       Recompensa: +0.1
 
 ...
 
 t=50: Estado: [x=2.3, y=1.5]
-      Ação: parar (não chegou)
-      Recompensa: -5.0 (não alcançou meta)
+      Açêo: parar (nêo chegou)
+      Recompensa: -5.0 (nêo alcançou meta)
 
 RECOMPENSA TOTAL: -10.3
 ─────────────────────────
@@ -179,17 +179,17 @@ RECOMPENSA TOTAL: -10.3
 EPISÓDIO 100 (robô aprendeu!)
 ─────────────────────────
 t=0:  Estado: [x=0, y=0, meta=[x=5, y=0]]
-      Ação: andar_frente (rede neural decidiu)
+      Açêo: andar_frente (rede neural decidiu)
       Recompensa: +0.5
 
 t=1:  Estado: [x=0.8, y=0]
-      Ação: andar_frente
+      Açêo: andar_frente
       Recompensa: +0.5
 
 ...
 
 t=10: Estado: [x=5.0, y=0.0]
-      Ação: parar (chegou!)
+      Açêo: parar (chegou!)
       Recompensa: +100.0 (ALCANÇOU META!)
 
 RECOMPENSA TOTAL: +150.0
@@ -198,7 +198,7 @@ RECOMPENSA TOTAL: +150.0
 
 ---
 
-## Parte 2: Instalação e Setup (1-2h)
+## Parte 2: Instalaçêo e Setup (1-2h)
 
 ### 2.1 Instalando Stable-Baselines3
 
@@ -215,7 +215,7 @@ pip install stable-baselines3[extra]
 pip install gymnasium
 pip install tensorboard
 
-# Para visualização
+# Para visualizaçêo
 pip install matplotlib
 ```
 
@@ -278,10 +278,10 @@ model = PPO(
 # 3. Treinar
 model.fit(total_timesteps=10000)
 
-# 4. Prever ação
+# 4. Prever açêo
 action, _states = model.predict(obs, deterministic=True)
 
-# 5. Executar ação no ambiente
+# 5. Executar açêo no ambiente
 obs, reward, terminated, truncated, info = env.step(action)
 ```
 
@@ -340,7 +340,7 @@ class MeuAmbiente(gym.Env):
         )
 
         # Define espaço de observações
-        # Exemplo: posição x, y, ângulo
+        # Exemplo: posiçêo x, y, ângulo
         self.observation_space = spaces.Box(
             low=np.array([-10, -10, -np.pi]),
             high=np.array([10, 10, np.pi]),
@@ -364,10 +364,10 @@ class MeuAmbiente(gym.Env):
 
     def step(self, action):
         """
-        Executa ação e retorna resultado
+        Executa açêo e retorna resultado
 
         Args:
-            action: Ação a ser executada
+            action: Açêo a ser executada
 
         Returns:
             observation: Novo estado
@@ -376,7 +376,7 @@ class MeuAmbiente(gym.Env):
             truncated: Se episódio foi truncado (timeout)
             info: Dict com informações extras
         """
-        # Executa ação (simula movimento)
+        # Executa açêo (simula movimento)
         vel_linear = action[0]
         vel_angular = action[1]
 
@@ -427,12 +427,12 @@ class RoboAlcancaObjetivo(gym.Env):
     """
     Ambiente: Robô 2D precisa alcançar objetivo
 
-    Observação:
-        - Posição robô [x, y]
-        - Posição objetivo [goal_x, goal_y]
+    Observaçêo:
+        - Posiçêo robô [x, y]
+        - Posiçêo objetivo [goal_x, goal_y]
         - Distância até objetivo
 
-    Ação:
+    Açêo:
         - Velocidade linear [-1, 1]
         - Velocidade angular [-1, 1]
 
@@ -479,7 +479,7 @@ class RoboAlcancaObjetivo(gym.Env):
     def reset(self, seed=None, options=None):
         super().reset(seed=seed)
 
-        # Posição inicial aleatória
+        # Posiçêo inicial aleatória
         self.pos = np.random.uniform(-2, 2, size=2)
         self.theta = np.random.uniform(-np.pi, np.pi)
 
@@ -491,7 +491,7 @@ class RoboAlcancaObjetivo(gym.Env):
         return self._get_obs(), {}
 
     def _get_obs(self):
-        """Retorna observação atual"""
+        """Retorna observaçêo atual"""
         return np.array([
             self.pos[0],
             self.pos[1],
@@ -505,7 +505,7 @@ class RoboAlcancaObjetivo(gym.Env):
         vel_linear = action[0] * 0.5  # Max 0.5 m/s
         vel_angular = action[1] * 1.0  # Max 1.0 rad/s
 
-        # Atualiza posição (cinemática diferencial)
+        # Atualiza posiçêo (cinemática diferencial)
         dt = 0.1
         self.pos[0] += vel_linear * np.cos(self.theta) * dt
         self.pos[1] += vel_linear * np.sin(self.theta) * dt
@@ -552,7 +552,7 @@ class RoboAlcancaObjetivo(gym.Env):
             # Desenha robô
             self.ax.plot(self.pos[0], self.pos[1], 'bo', markersize=10, label='Robô')
 
-            # Desenha direção
+            # Desenha direçêo
             dx = 0.3 * np.cos(self.theta)
             dy = 0.3 * np.sin(self.theta)
             self.ax.arrow(self.pos[0], self.pos[1], dx, dy, head_width=0.2, color='b')
@@ -649,7 +649,7 @@ Durante o treinamento, monitore:
 │           Timesteps                 │
 └─────────────────────────────────────┘
 
-Interpretação:
+Interpretaçêo:
 - Subindo: Aprendendo ✅
 - Platô: Convergiu ✅
 - Descendo: Problema ❌
@@ -753,7 +753,7 @@ def comparar_desempenho():
         obs, info = env.reset()
         recompensa_total = 0
         for _ in range(200):
-            action = env.action_space.sample()  # Ação aleatória
+            action = env.action_space.sample()  # Açêo aleatória
             obs, reward, terminated, truncated, info = env.step(action)
             recompensa_total += reward
             if terminated or truncated:
@@ -786,7 +786,7 @@ comparar_desempenho()
 
 ---
 
-## Parte 5: Integração com ROS 2 e Simulador (3-4h)
+## Parte 5: Integraçêo com ROS 2 e Simulador (3-4h)
 
 ### 5.1 Ambiente Gym com ROS 2
 
@@ -822,7 +822,7 @@ class RoboROS2Env(gym.Env, Node):
             dtype=np.float32
         )
 
-        # Observação: [dist_frente, dist_esq, dist_dir, vel_x, vel_angular]
+        # Observaçêo: [dist_frente, dist_esq, dist_dir, vel_x, vel_angular]
         self.observation_space = spaces.Box(
             low=np.array([0, 0, 0, -2, -2]),
             high=np.array([10, 10, 10, 2, 2]),
@@ -870,7 +870,7 @@ class RoboROS2Env(gym.Env, Node):
         return self._get_obs(), {}
 
     def _get_obs(self):
-        """Retorna observação atual"""
+        """Retorna observaçêo atual"""
         return np.array([
             self.dist_frente,
             self.dist_esq,
@@ -880,7 +880,7 @@ class RoboROS2Env(gym.Env, Node):
         ], dtype=np.float32)
 
     def step(self, action):
-        # Publica ação
+        # Publica açêo
         msg = Twist()
         msg.linear.x = float(action[0]) * 0.5  # Max 0.5 m/s
         msg.angular.z = float(action[1]) * 1.0  # Max 1.0 rad/s
@@ -930,10 +930,10 @@ model.fit(total_timesteps=50000)
 model.save("ppo_robo_ros2")
 ```
 
-**ATENÇÃO:** Treinar com robô real é **LENTO** e pode **danificar hardware**. Sempre:
-1. Treine primeiro em simulação
+**ATENÇêO:** Treinar com robô real é **LENTO** e pode **danificar hardware**. Sempre:
+1. Treine primeiro em simulaçêo
 2. Teste em ambiente seguro
-3. Tenha botão de emergência
+3. Tenha botêo de emergência
 
 ---
 
@@ -947,7 +947,7 @@ model = PPO(
     env,
 
     # Taxa de aprendizado
-    learning_rate=3e-4,  # Padrão. Reduza se instável (1e-4), aumente se lento (1e-3)
+    learning_rate=3e-4,  # Padrêo. Reduza se instável (1e-4), aumente se lento (1e-3)
 
     # Quantos steps coletar antes de atualizar
     n_steps=2048,  # Maior = mais estável, mas mais lento
@@ -956,7 +956,7 @@ model = PPO(
     batch_size=64,  # Múltiplo de n_steps. Maior = mais estável
 
     # Quantas épocas treinar com dados coletados
-    n_epochs=10,  # Padrão. Mais épocas = mais treino por dados
+    n_epochs=10,  # Padrêo. Mais épocas = mais treino por dados
 
     # Discount factor (quanto valoriza recompensas futuras)
     gamma=0.99,  # 0.9-0.999. Maior = valoriza mais o futuro
@@ -964,8 +964,8 @@ model = PPO(
     # Generalized Advantage Estimation
     gae_lambda=0.95,  # 0.9-0.99. Controla viés vs variância
 
-    # Clip range para atualização de política
-    clip_range=0.2,  # Padrão. Previne mudanças drásticas
+    # Clip range para atualizaçêo de política
+    clip_range=0.2,  # Padrêo. Previne mudanças drásticas
 
     verbose=1
 )
@@ -973,12 +973,12 @@ model = PPO(
 
 ### 6.2 Problemas Comuns
 
-#### Problema 1: Recompensa não sobe
+#### Problema 1: Recompensa nêo sobe
 
 **Causas:**
 - Recompensas mal projetadas
 - Learning rate muito alto
-- Ações não têm efeito real no ambiente
+- Ações nêo têm efeito real no ambiente
 
 **Soluções:**
 ```python
@@ -998,7 +998,7 @@ model = PPO("MlpPolicy", env, learning_rate=1e-4)
 
 **Soluções:**
 ```python
-# 1. Aumente paralelização
+# 1. Aumente paralelizaçêo
 from stable_baselines3.common.vec_env import SubprocVecEnv
 
 # Cria 4 ambientes em paralelo
@@ -1049,7 +1049,7 @@ model.fit(total_timesteps=100000, callback=checkpoint_callback)
    reward = 1.0
    ```
 
-2. **Use recompensas densas, não esparsas**
+2. **Use recompensas densas, nêo esparsas**
    ```python
    # RUIM (esparsa): Só recompensa no final
    reward = 100 if alcançou_objetivo else 0
@@ -1083,13 +1083,13 @@ model.fit(total_timesteps=100000, callback=checkpoint_callback)
 **Objetivo:** Criar ambiente e treinar robô para:
 1. Navegar em ambiente com obstáculos
 2. Alcançar objetivo o mais rápido possível
-3. Não colidir
+3. Nêo colidir
 
 **Checklist:**
 - [ ] Criar ambiente Gym com obstáculos
-- [ ] Definir observações (LIDAR + posição + objetivo)
+- [ ] Definir observações (LIDAR + posiçêo + objetivo)
 - [ ] Definir ações (velocidades)
-- [ ] Projetar função de recompensa
+- [ ] Projetar funçêo de recompensa
 - [ ] Treinar com PPO por 200k timesteps
 - [ ] Avaliar desempenho
 - [ ] Visualizar trajetórias
@@ -1100,7 +1100,7 @@ model.fit(total_timesteps=100000, callback=checkpoint_callback)
 
 ## Recursos Adicionais
 
-### Documentação
+### Documentaçêo
 - [Stable-Baselines3 Docs](https://stable-baselines3.readthedocs.io/)
 - [Gymnasium Docs](https://gymnasium.farama.org/)
 - [Spinning Up in Deep RL (OpenAI)](https://spinningup.openai.com/)
@@ -1125,7 +1125,7 @@ Ignore - é só um aviso. Ou use `dtype=np.float32` explicitamente.
 
 Você está tentando usar espaço de ações discreto com algoritmo que requer contínuo. Use DQN para discreto ou Box action_space para PPO.
 
-### Treinamento não converge
+### Treinamento nêo converge
 
 1. Simplifique ambiente (menos observações, menos ações)
 2. Verifique se recompensas fazem sentido
@@ -1134,7 +1134,7 @@ Você está tentando usar espaço de ações discreto com algoritmo que requer c
 
 ---
 
-## Checklist de Conclusão
+## Checklist de Conclusêo
 
 - [ ] Compreender conceitos de RL (agente, ambiente, recompensa)
 - [ ] Instalar Stable-Baselines3
@@ -1161,7 +1161,7 @@ Você agora sabe:
 
 No **Nível 3: Desenvolvedor**, você vai:
 - Algoritmos avançados (SAC, TD3)
-- Visão computacional profunda
+- Visêo computacional profunda
 - Large Behavior Models (LBMs)
 - Sim-to-Real transfer
 
@@ -1182,4 +1182,4 @@ Ao concluir todos os módulos e o projeto final, você receberá:
 
 **Dúvidas?** Participe da [comunidade FTH no Discord](https://discord.gg/fth-brasil) ou abra uma issue no [GitHub](https://github.com/linnoff88-dev/FTH/issues).
 
-**Última atualização:** 2025-10-29
+**Última atualizaçêo:** 2025-10-29

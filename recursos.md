@@ -20,7 +20,7 @@ Tudo que você precisa para começar sua jornada em robótica humanoide e IA, **
 - **Custo:** Gratuito (requer cadastro NVIDIA)
 - **Requisitos:** GPU NVIDIA (GTX 1060+), 8GB RAM
 - 📥 [Download Isaac Sim](https://developer.nvidia.com/isaac-sim)
-- 📖 [Tutorial de Instalação]({{ '/tutoriais/isaac-sim-setup' | relative_url }})
+- 📖 [Tutorial de Instalaçêo]({{ '/tutoriais/isaac-sim-setup' | relative_url }})
 
 #### Webots
 - **O que é:** Simulador open-source leve e versátil
@@ -28,11 +28,11 @@ Tudo que você precisa para começar sua jornada em robótica humanoide e IA, **
 - **Custo:** Totalmente gratuito
 - **Requisitos:** 4GB RAM, qualquer GPU básica
 - 📥 [Download Webots](https://cyberbotics.com)
-- 📖 [Tutorial de Instalação]({{ '/tutoriais/webots-setup' | relative_url }})
+- 📖 [Tutorial de Instalaçêo]({{ '/tutoriais/webots-setup' | relative_url }})
 
 #### Gazebo Classic
-- **O que é:** Simulador padrão da comunidade ROS
-- **Quando usar:** Integração com ROS 2 e projetos comunitários
+- **O que é:** Simulador padrêo da comunidade ROS
+- **Quando usar:** Integraçêo com ROS 2 e projetos comunitários
 - **Custo:** Gratuito
 - **Requisitos:** Linux preferível, 8GB RAM
 - 📥 [Download Gazebo](https://gazebosim.org)
@@ -51,7 +51,7 @@ Tudo que você precisa para começar sua jornada em robótica humanoide e IA, **
 ### Python e Bibliotecas
 
 #### Python 3.10+
-- **Instalação:** [python.org/downloads](https://python.org/downloads)
+- **Instalaçêo:** [python.org/downloads](https://python.org/downloads)
 - **Pacotes essenciais:**
 ```bash
 pip install numpy scipy matplotlib
@@ -60,14 +60,14 @@ pip install rospy
 ```
 
 #### ROS 2 (Robot Operating System)
-- **O que é:** Framework padrão para programação de robôs
-- **Versão recomendada:** ROS 2 Humble (LTS)
+- **O que é:** Framework padrêo para programaçêo de robôs
+- **Versêo recomendada:** ROS 2 Humble (LTS)
 - **Sistema:** Ubuntu 22.04 (ou WSL no Windows)
-- 📥 [Instalação ROS 2](https://docs.ros.org/en/humble/Installation.html)
+- 📥 [Instalaçêo ROS 2](https://docs.ros.org/en/humble/Installation.html)
 - 📖 [Tutorial FTH de ROS 2]({{ '/tutoriais/ros2-basico' | relative_url }})
 
 #### Jupyter Notebooks
-- **Para quê:** Experimentação e aprendizado interativo
+- **Para quê:** Experimentaçêo e aprendizado interativo
 ```bash
 pip install jupyter notebook
 ```
@@ -93,28 +93,28 @@ pip install stable-baselines3[extra]
 ```
 
 #### Gymnasium
-- **O que é:** API padrão para ambientes de RL (sucessor do OpenAI Gym)
+- **O que é:** API padrêo para ambientes de RL (sucessor do OpenAI Gym)
 ```bash
 pip install gymnasium
 ```
 
-### Visão Computacional
+### Visêo Computacional
 
 #### OpenCV
-- **Instalação:**
+- **Instalaçêo:**
 ```bash
 pip install opencv-python opencv-contrib-python
 ```
-- 📖 [Tutorial de Visão para Robôs]({{ '/tutoriais/visao-computacional' | relative_url }})
+- 📖 [Tutorial de Visêo para Robôs]({{ '/tutoriais/visao-computacional' | relative_url }})
 
 #### YOLO v8
-- **Para quê:** Detecção de objetos em tempo real
+- **Para quê:** Detecçêo de objetos em tempo real
 ```bash
 pip install ultralytics
 ```
 
 #### RoboFlow
-- **O que é:** Plataforma para criar datasets de visão
+- **O que é:** Plataforma para criar datasets de visêo
 - **Custo:** Gratuito para projetos pequenos
 - 📥 [roboflow.com](https://roboflow.com)
 
@@ -153,7 +153,7 @@ pip install ultralytics
 
 ## 📚 Materiais de Estudo
 
-### Documentação Oficial
+### Documentaçêo Oficial
 
 - 📖 [ROS 2 Documentation](https://docs.ros.org)
 - 📖 [PyTorch Tutorials](https://pytorch.org/tutorials)
@@ -177,7 +177,7 @@ pip install ultralytics
 
 ### YouTube
 
-- 🎬 **Boston Dynamics** - Robôs em ação
+- 🎬 **Boston Dynamics** - Robôs em açêo
 - 🎬 **Two Minute Papers** - Papers de IA explicados
 - 🎬 **Lex Fridman** - Entrevistas com pesquisadores
 - 🎬 **The Construct** - Tutoriais de ROS
@@ -206,12 +206,12 @@ pip install ultralytics
 ### Datasets de Movimento Humanoide
 
 - **CMU Motion Capture Database** - Movimentos humanos capturados
-- **HumanML3D** - Dados de locomoção e gestos
+- **HumanML3D** - Dados de locomoçêo e gestos
 - **AMASS** - Archive of Motion Capture as Surface Shapes
 
 ### Benchmarks de RL
 
-- **MuJoCo Humanoid-v4** - Locomoção bípede
+- **MuJoCo Humanoid-v4** - Locomoçêo bípede
 - **PyBullet Humanoid** - Open-source alternativo
 - **Isaac Gym Humanoid** - GPU-acelerado
 
@@ -233,13 +233,13 @@ pip install ultralytics
 #### PyCharm
 - **Por quê:** IDE completa para Python
 - 📥 [Download PyCharm](https://jetbrains.com/pycharm)
-- **Versão:** Community (gratuita) é suficiente
+- **Versêo:** Community (gratuita) é suficiente
 
 ### Terminal e Bash
 
 #### Windows
 - **WSL 2** (Windows Subsystem for Linux) - Essencial para ROS 2
-- 📖 [Tutorial de Instalação WSL]({{ '/tutoriais/wsl-setup' | relative_url }})
+- 📖 [Tutorial de Instalaçêo WSL]({{ '/tutoriais/wsl-setup' | relative_url }})
 
 #### Linux
 - Ubuntu 22.04 LTS (recomendado)
@@ -311,7 +311,7 @@ pip install ultralytics
 ## 🆘 Suporte e Ajuda
 
 ### FAQ Técnico
-- 🔧 [Problemas Comuns de Instalação]({{ '/faq-tecnico' | relative_url }})
+- 🔧 [Problemas Comuns de Instalaçêo]({{ '/faq-tecnico' | relative_url }})
 - 🔧 [Erros de Simulador]({{ '/faq-simuladores' | relative_url }})
 - 🔧 [Dúvidas de ROS 2]({{ '/faq-ros' | relative_url }})
 
@@ -348,12 +348,12 @@ pip install ultralytics
 
 Esta página é atualizada **mensalmente** com novos recursos, ferramentas e recomendações da comunidade.
 
-**Última atualização:** 2025-10-29
+**Última atualizaçêo:** 2025-10-29
 
 ---
 
 <div class="cta-section">
   <h2>Pronto para Começar?</h2>
-  <p>Agora que você conhece as ferramentas, é hora de colocar a mão na massa!</p>
+  <p>Agora que você conhece as ferramentas, é hora de colocar a mêo na massa!</p>
   <a href="{{ '/niveis/nivel-1' | relative_url }}" class="btn btn-large btn-primary">Iniciar Nível 1 →</a>
 </div>
