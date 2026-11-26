@@ -266,6 +266,6 @@ Nêo precisa escolher trilha imediatamente! Comece pelo **Nível 1** e ao longo 
 
 ## 📧 Dúvidas sobre as Trilhas?
 
-Entre em contato: **inematds@gmail.com**
+Entre em contato: **linnoff88-dev@gmail.com**
 
 Ou acesse nosso [FAQ completo]({{ '/faq' | relative_url }})
